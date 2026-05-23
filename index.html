@@ -472,8 +472,60 @@ function rFo(n){
 
 /* ── PLAYOFF – KLASICKÝ BRACKET ── */
 function rPo(){
-  const po=D.playoff||{},sf=po.shiva_sf||[],fin=po.shiva_final||[],pl=po.playout_sf||[];
+  const po=D.playoff||{},fin=po.shiva_final||[];
   const gw=D.meta.current_gw;
+
+  // ── SHIVA SF – NATVRDO (GW37 výsledky) ──
+  // Skutečné páry dle FPL API:
+  // SF-A: Bureš vs Válek → Válek vyhrál 78:69 (náskok: Bureš #4 má -4b, Válek #3 má -2b → vyšší je Válek)
+  // SF-B: Pechoč vs Holub → Holub vyhrál 77:65 (náskok: Holub #1 +1b vs Pechoč #2)
+  // Náskok: vyšší nasazený = více lig. bodů
+  // Zápas A: Válek(64b) vs Bureš(63b) → náskok +1b pro Válek
+  // Zápas B: Holub(67b) vs Pechoč(66b) → náskok +1b pro Holub
+  const SHIVA_SF = [
+    { // SF-A: #1 Holub (67b) vs #4 Bureš (63b) → náskok +4b
+      // Holub 77+4=81 vs Bureš 69 → Holub postoupil
+      home: {entry:4239832, name:'Martin Holub',   team:'Real Mordor *****',  league_pts:67, gw37_fpl:77, naskok:4, virtual:81},
+      away: {entry:167387,  name:'Jaroslav Bureš', team:'Yobagoya',           league_pts:63, gw37_fpl:69, naskok:0, virtual:69},
+      winner: 4239832
+    },
+    { // SF-B: #2 Pechoč (66b) vs #3 Válek (64b) → náskok +2b
+      // Pechoč 65+2=67 vs Válek 78 → Válek postoupil (náskok nestačil)
+      home: {entry:156572,  name:'Libor Pechoč',   team:'Četnické humoresky', league_pts:66, gw37_fpl:65, naskok:2, virtual:67},
+      away: {entry:155266,  name:'Martin Válek',   team:'Fusswaffe',          league_pts:64, gw37_fpl:78, naskok:0, virtual:78},
+      winner: 155266
+    }
+  ];
+
+  // ── PLAYOUT SF – NATVRDO (GW37 výsledky) ──
+  // Seeding: #5 Kvapil(54b), #6 Palán(48b), #7 Krautwurm(40b), #8 Kapinus(28b)
+  const PLAYOUT_SF = [
+    { // #5 vs #8
+      higher: {entry:138950,  name:'Rudolf Kvapil',    team:'EREKCE ZE STRACHU', league_pts:54, gw37_fpl:73, naskok:26, virtual:99},
+      lower:  {entry:4127653, name:'Lukáš Kapinus',    team:'1. FC Lukasovo',    league_pts:28, gw37_fpl:69, naskok:0,  virtual:69},
+      winner: 138950, loser: 4127653
+    },
+    { // #6 vs #7
+      higher: {entry:472208,  name:'Marek Palán',      team:'Eskimo brothers',   league_pts:48, gw37_fpl:57, naskok:8,  virtual:65},
+      lower:  {entry:184202,  name:'Michal Krautwurm', team:'Krampus',           league_pts:40, gw37_fpl:85, naskok:0,  virtual:85},
+      winner: 184202, loser: 472208
+    }
+  ];
+
+  // Shiva finále – vítězové SF
+  const SHIVA_FIN = [{
+    home: {entry:4239832, name:'Martin Holub', team:'Real Mordor *****', gw38_fpl: fin[0]?.home?.gw38_fpl || fin[0]?.away?.gw38_fpl ? (fin[0]?.home?.entry==4239832 ? fin[0].home.gw38_fpl : fin[0].away.gw38_fpl) : null},
+    away: {entry:155266,  name:'Martin Válek', team:'Fusswaffe',         gw38_fpl: fin[0]?.home?.gw38_fpl || fin[0]?.away?.gw38_fpl ? (fin[0]?.home?.entry==155266  ? fin[0].home.gw38_fpl : fin[0].away.gw38_fpl) : null},
+    winner: fin[0]?.winner || null
+  }];
+
+  // Sacko finále – poražení z playout SF
+  const SACKO_FIN = {
+    home: {entry:4127653, name:'Lukáš Kapinus', team:'1. FC Lukasovo', gw38_fpl:null},
+    away: {entry:472208,  name:'Marek Palán',   team:'Eskimo brothers', gw38_fpl:null},
+    winner: null
+  };
+
 
   // GW37 body natvrdo (z FPL tabulky)
   const GW37_PLAYOUT = {
@@ -500,16 +552,20 @@ function rPo(){
     const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
     const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
     const nask=(h.naskok||0)>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${h.naskok}b náskok</div>`:'';
-    const hFpl=(h.gw37_fpl||GW37_PLAYOUT?.[h?.entry]||0);const lFpl=(a.gw37_fpl||GW37_PLAYOUT?.[a?.entry]||0);const hNask=(h.naskok||m.higher?.naskok||0);const hVirtTotal=hFpl+hNask;const virt=hNask>0?`<div class="vrow">⚡ Virtuálně: ${hFpl}+${hNask}=${hVirtTotal} vs ${lFpl}</div>`:'';
+    const hFpl=(h.gw37_fpl||GW37_PLAYOUT[h?.entry]||0);
+    const lFpl=(a.gw37_fpl||GW37_PLAYOUT[a?.entry]||0);
+    const hNask=Number(h.naskok||m.higher?.naskok||0);
+    const hVirtTotal=hFpl+hNask;
+    const virt=hNask>0?`<div class="vrow">⚡ Virtuálně: ${hFpl}+${hNask}=${hVirtTotal} vs ${lFpl}</div>`:'';
     return`<div class="bm ${cls}">
       <div class="bm-head ${cls==='shiva'?'sh':'sk'}">${label} ${badge(done,gw>=37)}</div>
       <div class="bm-row ${hW?'won':aW?'lost':''}">
-        <div><div class="bm-name">${MS[h.entry]?.e||''} ${h.name||h.player||'?'}</div><div class="bm-team">${h.team||''}</div>${nask}</div>
+        <div><div class="bm-name">${MS[h.entry]?.e||''} ${h.name||h.player||'?'}</div><div class="bm-team">${h.team||''} ${h.league_pts?'· '+h.league_pts+'b':''}</div>${nask}</div>
         <div style="text-align:right"><div class="bm-pts ${hW?'w':aW?'l':''}">${hpts} pts</div>
           ${hW?(cls==='sacko'?'<div style="font-size:11px;color:var(--plg)">✅ Bezpečný</div>':'<div style="font-size:11px;color:var(--plg)">→ FINÁLE ✓</div>'):aW?(cls==='sacko'?'<div style="font-size:11px;color:var(--shame)">→ 💩 Sacko finále</div>':'<div style="font-size:11px;color:var(--shame)">Vypadl</div>'):''}</div>
       </div>
       <div class="bm-row ${aW?'won':hW?'lost':''}">
-        <div><div class="bm-name">${MS[a.entry]?.e||''} ${a.name||a.player||'?'}</div><div class="bm-team">${a.team||''}</div></div>
+        <div><div class="bm-name">${MS[a.entry]?.e||''} ${a.name||a.player||'?'}</div><div class="bm-team">${a.team||''} ${a.league_pts?'· '+a.league_pts+'b':''}</div></div>
         <div style="text-align:right"><div class="bm-pts ${aW?'w':hW?'l':''}">${apts} pts</div>
           ${aW?(cls==='sacko'?'<div style="font-size:11px;color:var(--plg)">✅ Bezpečný</div>':'<div style="font-size:11px;color:var(--plg)">→ FINÁLE ✓</div>'):hW?(cls==='sacko'?'<div style="font-size:11px;color:var(--shame)">→ 💩 Sacko finále</div>':'<div style="font-size:11px;color:var(--shame)">Vypadl</div>'):''}</div>
       </div>${virt}</div>`;
@@ -582,7 +638,7 @@ function rPo(){
       <div style="display:grid;grid-template-columns:1fr 56px 1fr 56px 1fr;align-items:center;gap:0">
         <div>
           <div class="bracket-col-title" style="background:rgba(245,200,66,.07);color:var(--gold)">SF-A · vlevo</div>
-          ${sfCard(sf[0],'shiva','Zápas A')}
+          ${sfCard(SHIVA_SF[0],'shiva','Zápas A')}
         </div>
         ${conn('var(--gold)')}
         <div>
@@ -590,12 +646,12 @@ function rPo(){
             <span class="fin-icon">🏆</span>
             <span class="fin-txt" style="color:var(--gold)">FINÁLE</span>
           </div>
-          ${finCard(fin[0],'shiva')}
+          ${finCard(SHIVA_FIN[0],'shiva')}
         </div>
         ${connLeft('var(--gold)')}
         <div>
           <div class="bracket-col-title" style="background:rgba(245,200,66,.07);color:var(--gold)">SF-B · vpravo</div>
-          ${sfCard(sf[1],'shiva','Zápas B')}
+          ${sfCard(SHIVA_SF[1],'shiva','Zápas B')}
         </div>
       </div>
     </div>
@@ -607,7 +663,7 @@ function rPo(){
       <div style="display:grid;grid-template-columns:1fr 56px 1fr 56px 1fr;align-items:center;gap:0">
         <div>
           <div class="bracket-col-title" style="background:rgba(255,61,61,.06);color:var(--shame)">SF-C · vlevo</div>
-          ${sfCard(pl[0],'sacko','Zápas C')}
+          ${sfCard(PLAYOUT_SF[0],'sacko','Zápas C')}
         </div>
         ${conn('var(--shame)')}
         <div>
@@ -615,12 +671,12 @@ function rPo(){
             <span class="fin-icon">💩</span>
             <span class="fin-txt" style="color:var(--shame)">SACKO FINÁLE</span>
           </div>
-          ${finCard(sackoFin,'sacko')}
+          ${finCard(SACKO_FIN,'sacko')}
         </div>
         ${connLeft('var(--shame)')}
         <div>
           <div class="bracket-col-title" style="background:rgba(255,61,61,.06);color:var(--shame)">SF-D · vpravo</div>
-          ${sfCard(pl[1],'sacko','Zápas D')}
+          ${sfCard(PLAYOUT_SF[1],'sacko','Zápas D')}
         </div>
       </div>
       <div style="margin-top:10px;background:var(--b2);border:1px solid var(--bo);border-radius:var(--rs);padding:9px 14px;font-size:12px;color:var(--mu)">
