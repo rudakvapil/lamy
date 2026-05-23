@@ -491,11 +491,12 @@ function rPo(){
 
   function sfCard(m,cls,label){
     if(!m)return`<div class="bm ${cls}" style="padding:14px;text-align:center;opacity:.4;font-size:13px;color:var(--mu)">Čeká se…</div>`;
-    const we=m.winner,h=m.home||m.higher,a=m.away||m.lower;
+    const we=m.winner;
+    let h=m.home||m.higher,a=m.away||m.lower;
     if(!h||!a)return'';
-    // Použij plné jméno z MS pokud API vrátilo zkrácené
-    if(h.entry&&MS[h.entry]?.e) h={...h,name:D?.standings?.find(p=>p.entry==h.entry)?.name||h.name,team:D?.standings?.find(p=>p.entry==h.entry)?.team||h.team};
-    if(a.entry&&MS[a.entry]?.e) a={...a,name:D?.standings?.find(p=>p.entry==a.entry)?.name||a.name,team:D?.standings?.find(p=>p.entry==a.entry)?.team||a.team};
+    // Použij plné jméno z standings pokud API vrátilo zkrácené
+    if(h.entry&&D?.standings){const sh=D.standings.find(p=>p.entry==h.entry);if(sh)h={...h,name:sh.name,team:sh.team};}
+    if(a.entry&&D?.standings){const sa=D.standings.find(p=>p.entry==a.entry);if(sa)a={...a,name:sa.name,team:sa.team};};
     const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
     const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
     const nask=(h.naskok||0)>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${h.naskok}b náskok</div>`:'';
