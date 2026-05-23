@@ -467,6 +467,18 @@ function rPo(){
   const po=D.playoff||{},sf=po.shiva_sf||[],fin=po.shiva_final||[],pl=po.playout_sf||[];
   const gw=D.meta.current_gw;
 
+  // GW37 body natvrdo (z FPL tabulky)
+  const GW37_PLAYOUT = {
+    138950:  73,  // Kvapil – EREKCE ZE STRACHU
+    472208:  57,  // Palán – Eskimo brothers
+    184202:  85,  // Krautwurm – Krampus
+    4127653: 69,  // Kapinus – 1. FC Lukasovo
+    4239832: 77,  // Holub – Real Mordor
+    156572:  65,  // Pechoč – Četnické humoresky
+    155266:  78,  // Válek – Fusswaffe
+    167387:  69,  // Bureš – Yobagoya
+  };
+
   function badge(done,live){return done?'<span class="tbadge done">✅</span>':live?'<span class="tbadge lv">🔴 LIVE</span>':'<span class="tbadge tbd">⏳</span>';}
 
   function sfCard(m,cls,label){
@@ -536,17 +548,7 @@ function rPo(){
     return loserEntry==m.higher?.entry ? m.higher : m.lower;
   }).filter(Boolean);
 
-  // GW37 body natvrdo (z FPL tabulky)
-  const GW37_PLAYOUT = {
-    138950:  73,  // Kvapil – EREKCE ZE STRACHU
-    472208:  57,  // Palán – Eskimo brothers
-    184202:  85,  // Krautwurm – Krampus
-    4127653: 69,  // Kapinus – 1. FC Lukasovo
-    4239832: 77,  // Holub – Real Mordor
-    156572:  65,  // Pechoč – Četnické humoresky
-    155266:  78,  // Válek – Fusswaffe
-    167387:  69,  // Bureš – Yobagoya
-  };
+
 
   // Oprav gw37_fpl v playout SF pokud chybí
   pl.forEach(m=>{
