@@ -476,7 +476,7 @@ function rPo(){
     const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
     const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
     const nask=m.higher?.naskok>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${m.higher.naskok}b náskok</div>`:'';
-    const virt=m.higher?.naskok>0?`<div class="vrow">⚡ Virtuálně: ${m.higher.gw37_fpl||GW37_PLAYOUT?.[m.higher.entry]||0}+${m.higher.naskok}=<strong>${m.higher.virtual}</strong> vs ${m.lower?.virtual||m.lower?.gw37_fpl||GW37_PLAYOUT?.[m.lower?.entry]||0}</div>`:'';
+    const hFpl=(h.gw37_fpl||GW37_PLAYOUT?.[h?.entry]||0);const lFpl=(a.gw37_fpl||GW37_PLAYOUT?.[a?.entry]||0);const hNask=(h.naskok||m.higher?.naskok||0);const hVirtTotal=hFpl+hNask;const virt=hNask>0?`<div class="vrow">⚡ Virtuálně: ${hFpl}+${hNask}=${hVirtTotal} vs ${lFpl}</div>`:'';
     return`<div class="bm ${cls}">
       <div class="bm-head ${cls==='shiva'?'sh':'sk'}">${label} ${badge(done,gw>=37)}</div>
       <div class="bm-row ${hW?'won':aW?'lost':''}">
@@ -535,10 +535,14 @@ function rPo(){
 
   // GW37 body natvrdo (z FPL tabulky)
   const GW37_PLAYOUT = {
-    138950: 73,  // Kvapil – EREKCE ZE STRACHU
-    472208: 57,  // Palán – Eskimo brothers
-    184202: 85,  // Krautwurm – Krampus
-    4127653: 69, // Kapinus – 1. FC Lukasovo
+    138950:  73,  // Kvapil – EREKCE ZE STRACHU
+    472208:  57,  // Palán – Eskimo brothers
+    184202:  85,  // Krautwurm – Krampus
+    4127653: 69,  // Kapinus – 1. FC Lukasovo
+    4239832: 77,  // Holub – Real Mordor
+    156572:  65,  // Pechoč – Četnické humoresky
+    155266:  78,  // Válek – Fusswaffe
+    167387:  69,  // Bureš – Yobagoya
   };
 
   // Oprav gw37_fpl v playout SF pokud chybí
