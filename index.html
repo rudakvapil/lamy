@@ -476,7 +476,7 @@ function rPo(){
     const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
     const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
     const nask=m.higher?.naskok>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${m.higher.naskok}b náskok</div>`:'';
-    const virt=m.higher?.naskok>0?`<div class="vrow">⚡ ${m.higher.virtual} vs ${m.lower?.virtual}</div>`:'';
+    const virt=m.higher?.naskok>0?`<div class="vrow">⚡ Virtuálně: ${m.higher.gw37_fpl||GW37_PLAYOUT?.[m.higher.entry]||0}+${m.higher.naskok}=<strong>${m.higher.virtual}</strong> vs ${m.lower?.virtual||m.lower?.gw37_fpl||GW37_PLAYOUT?.[m.lower?.entry]||0}</div>`:'';
     return`<div class="bm ${cls}">
       <div class="bm-head ${cls==='shiva'?'sh':'sk'}">${label} ${badge(done,gw>=37)}</div>
       <div class="bm-row ${hW?'won':aW?'lost':''}">
