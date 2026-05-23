@@ -473,9 +473,12 @@ function rPo(){
     if(!m)return`<div class="bm ${cls}" style="padding:14px;text-align:center;opacity:.4;font-size:13px;color:var(--mu)">Čeká se…</div>`;
     const we=m.winner,h=m.home||m.higher,a=m.away||m.lower;
     if(!h||!a)return'';
+    // Použij plné jméno z MS pokud API vrátilo zkrácené
+    if(h.entry&&MS[h.entry]?.e) h={...h,name:D?.standings?.find(p=>p.entry==h.entry)?.name||h.name,team:D?.standings?.find(p=>p.entry==h.entry)?.team||h.team};
+    if(a.entry&&MS[a.entry]?.e) a={...a,name:D?.standings?.find(p=>p.entry==a.entry)?.name||a.name,team:D?.standings?.find(p=>p.entry==a.entry)?.team||a.team};
     const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
     const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
-    const nask=m.higher?.naskok>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${m.higher.naskok}b náskok</div>`:'';
+    const nask=(h.naskok||0)>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${h.naskok}b náskok</div>`:'';
     const hFpl=(h.gw37_fpl||GW37_PLAYOUT?.[h?.entry]||0);const lFpl=(a.gw37_fpl||GW37_PLAYOUT?.[a?.entry]||0);const hNask=(h.naskok||m.higher?.naskok||0);const hVirtTotal=hFpl+hNask;const virt=hNask>0?`<div class="vrow">⚡ Virtuálně: ${hFpl}+${hNask}=${hVirtTotal} vs ${lFpl}</div>`:'';
     return`<div class="bm ${cls}">
       <div class="bm-head ${cls==='shiva'?'sh':'sk'}">${label} ${badge(done,gw>=37)}</div>
@@ -564,7 +567,7 @@ function rPo(){
     <div class="ibox">✅ <strong>GW37 SF odehráno</strong> · ${gw>=38?'🔴 <strong>GW38 LIVE</strong>':'⏳ GW38 čeká'} · Playout počítáme manuálně s virtuálním náskokem.</div>
 
     <div class="bracket-section">
-      <div class="bracket-label" style="color:var(--gold)">🏆 Shiva Bracket</div>
+      <div class="bracket-label" style="color:var(--gold)">🏆 Shiva Bowl</div>
       <div style="display:grid;grid-template-columns:1fr 56px 1fr 56px 1fr;align-items:center;gap:0">
         <div>
           <div class="bracket-col-title" style="background:rgba(245,200,66,.07);color:var(--gold)">SF-A · vlevo</div>
@@ -589,7 +592,7 @@ function rPo(){
     <div class="sdiv"></div>
 
     <div class="bracket-section">
-      <div class="bracket-label" style="color:var(--shame)">💩 Sacko Playout Bracket</div>
+      <div class="bracket-label" style="color:var(--shame)">💩 Sacko Bowl</div>
       <div style="display:grid;grid-template-columns:1fr 56px 1fr 56px 1fr;align-items:center;gap:0">
         <div>
           <div class="bracket-col-title" style="background:rgba(255,61,61,.06);color:var(--shame)">SF-C · vlevo</div>
