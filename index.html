@@ -514,7 +514,9 @@ function renderManagers(){
   // Build panels
   const panels = s.map((p,i)=>{
     const info = PLAYERS_STATIC[p.entry]||{short:'??',emoji:'❓',caption:'',strengths:[],weaknesses:[]};
-    const epicks = picks[p.entry] || picks[String(p.entry)] || {};
+    // Nový formát: picks_stats.per_manager[entry]
+    const pm = (DATA.picks_stats||{}).per_manager || {};
+    const epicks_new = pm[p.entry] || pm[String(p.entry)] || null;
     const results = (p.results||[]).filter(r=>r.gw<=36).sort((a,b)=>a.gw-b.gw);
 
     // GW chart bars
@@ -523,24 +525,18 @@ function renderManagers(){
       return `<div class="gw-bar ${r.result}" style="height:${h}px" title="GW${r.gw}: ${r.fpl} pts (${r.result})"></div>`;
     }).join('');
 
-    // Captain stats from picks
-    const capCounts = {};
-    let totalChips = {bboost:0, triple:0, freehit:0};
+    // Captain stats – z nového formátu picks_stats
+    let topCaps = [];
     let chipGws = [];
-    Object.entries(epicks).forEach(([gw, gwData])=>{
-      if(parseInt(gw)>36) return;
-      const cn = gwData.captain_name || gwData.captain;
-      if(cn) capCounts[cn] = (capCounts[cn]||0)+1;
-      if(gwData.active_chip){
-        const chip = gwData.active_chip;
-        if(chip==='bboost'||chip==='bench_boost') totalChips.bboost++;
-        else if(chip==='3xc'||chip==='triple_captain') totalChips.triple++;
-        else if(chip==='freehit'||chip==='free_hit') totalChips.freehit++;
+    if(epicks_new) {
+      // Nový formát má top_captains jako pole [{name, times}]
+      topCaps = (epicks_new.top_captains||[]).slice(0,5).map(c=>([c.name, c.times]));
+      // Chipy jako objekt {gw: chip_name}
+      Object.entries(epicks_new.chips||{}).forEach(([gw, chip])=>{
         chipGws.push({gw:parseInt(gw), chip});
-      }
-    });
-
-    const topCaps = Object.entries(capCounts).sort((a,b)=>b[1]-a[1]).slice(0,5);
+      });
+    }
+    chipGws.sort((a,b)=>a.gw-b.gw);
     const maxCapCount = topCaps[0]?.[1]||1;
 
     const capBars = topCaps.map(([name,cnt])=>`
@@ -643,33 +639,27 @@ function renderStats(){
   const rec = DATA.records;
   const h2h = DATA.h2h;
   const ser = DATA.series;
-  const picks = DATA.picks || {};
 
   const gw = Math.min(DATA.meta.current_gw||36, 36);
 
-  // Celkové picks statistiky
-  const capCounts = {}; // kapitán → počet
-  const playerApps = {}; // hráč → počet startů
-  let chipStats = {bboost:0, triple:0, freehit:0, wc:0};
+  // Nový formát: picks_stats.top_captains_liga + per_manager
+  const ps = DATA.picks_stats || {};
+  const topCapsLiga = ps.top_captains_liga || [];
+  const topPlayersLiga = ps.top_players_liga || [];
+  const perManager = ps.per_manager || {};
 
-  Object.values(picks).forEach(managerPicks=>{
-    Object.entries(managerPicks).forEach(([gw, gwData])=>{
-      if(parseInt(gw)>36) return;
-      // Kapitáni
-      const cn = gwData.captain_name || gwData.captain;
-      if(cn) capCounts[cn] = (capCounts[cn]||0)+1;
-      // Chipy
-      if(gwData.active_chip){
-        const c = gwData.active_chip;
-        if(c.includes('boost')) chipStats.bboost++;
-        else if(c.includes('3x')||c.includes('triple')) chipStats.triple++;
-        else if(c.includes('free')) chipStats.freehit++;
-        else chipStats.wc++;
-      }
+  // Chip statistiky ze per_manager
+  let chipStats = {bboost:0, triple:0, freehit:0, wc:0};
+  Object.values(perManager).forEach(pm=>{
+    Object.values(pm.chips||{}).forEach(chip=>{
+      if(chip==='bboost'||chip==='bench_boost') chipStats.bboost++;
+      else if(chip==='3xc'||chip==='triple_captain') chipStats.triple++;
+      else if(chip==='freehit'||chip==='free_hit') chipStats.freehit++;
+      else chipStats.wc++;
     });
   });
 
-  const topCaps = Object.entries(capCounts).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const topCaps = topCapsLiga.map(c=>[c.name, c.times]);
 
   const top10rows = (rec?.top10||[]).map((s,i)=>`<tr>
     <td style="font-family:'DM Mono',monospace;color:var(--muted)">${i+1}</td>
