@@ -474,7 +474,7 @@ function rPo(){
     const we=m.winner,h=m.home||m.higher,a=m.away||m.lower;
     if(!h||!a)return'';
     const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
-    const hpts=h.gw37_fpl??h.gw38_fpl??'—',apts=a.gw37_fpl??a.gw38_fpl??'—';
+    const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
     const nask=m.higher?.naskok>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${m.higher.naskok}b náskok</div>`:'';
     const virt=m.higher?.naskok>0?`<div class="vrow">⚡ ${m.higher.virtual} vs ${m.lower?.virtual}</div>`:'';
     return`<div class="bm ${cls}">
@@ -525,11 +525,30 @@ function rPo(){
     <div class="bconn-line" style="background:linear-gradient(180deg,${col}15,${col}60)"></div>
   </div>`;}
 
-  // loser je entry ID – najdi správný objekt (higher nebo lower)
+  // Playout SF – losers jdou do Sacko finále
+  // Zápas C: Kvapil(73+26=99) vs Kapinus(69) → Kapinus prohrál → Sacko finále
+  // Zápas D: Palán(57+8=65) vs Krautwurm(85) → Palán prohrál → Sacko finále
   const losers=pl.map(m=>{
     const loserEntry=m.loser;
     return loserEntry==m.higher?.entry ? m.higher : m.lower;
   }).filter(Boolean);
+
+  // GW37 body natvrdo (z FPL tabulky)
+  const GW37_PLAYOUT = {
+    138950: 73,  // Kvapil – EREKCE ZE STRACHU
+    472208: 57,  // Palán – Eskimo brothers
+    184202: 85,  // Krautwurm – Krampus
+    4127653: 69, // Kapinus – 1. FC Lukasovo
+  };
+
+  // Oprav gw37_fpl v playout SF pokud chybí
+  pl.forEach(m=>{
+    if(!m.higher.gw37_fpl) m.higher.gw37_fpl = GW37_PLAYOUT[m.higher.entry]||0;
+    if(!m.lower.gw37_fpl)  m.lower.gw37_fpl  = GW37_PLAYOUT[m.lower.entry]||0;
+    if(!m.higher.virtual)  m.higher.virtual   = m.higher.gw37_fpl + (m.higher.naskok||0);
+    if(!m.lower.virtual)   m.lower.virtual    = m.lower.gw37_fpl;
+  });
+
   const sackoFin={
     home: losers[0] ? {entry:losers[0].entry, name:losers[0].name, team:losers[0].team, gw38_fpl:null} : null,
     away: losers[1] ? {entry:losers[1].entry, name:losers[1].name, team:losers[1].team, gw38_fpl:null} : null,
