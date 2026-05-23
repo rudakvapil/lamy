@@ -398,9 +398,17 @@ async function load(){
   }catch(e){$('ust').textContent='⚠ Chyba načítání dat';console.error(e);}
 }
 function render(id){
-  if(id==='st')rSt();if(id==='fo')rFo();if(id==='po')rPo();if(id==='lv')rLv();
-  if(id==='aw')rAw();if(id==='du')rDu();if(id==='ss')rSs();if(id==='mg')rMg();
-  if(id==='ca')rCa();if(id==='pr')rPr();
+  try{
+    if(id==='st')rSt();if(id==='fo')rFo();if(id==='po')rPo();if(id==='lv')rLv();
+    if(id==='aw')rAw();if(id==='du')rDu();if(id==='ss')rSs();if(id==='mg')rMg();
+    if(id==='ca')rCa();if(id==='pr')rPr();
+  }catch(e){
+    $('s-'+id).innerHTML=`<div style="padding:24px;color:var(--shame);font-family:var(--fm);font-size:13px">
+      <strong>Chyba renderování:</strong><br>${e.message}<br><br>
+      <small style="color:var(--mu)">${e.stack?.split('\n').slice(0,4).join('<br>')}</small>
+    </div>`;
+    console.error('render('+id+') chyba:',e);
+  }
 }
 
 /* ── STANDINGS ── */
