@@ -11,7 +11,7 @@ from collections import defaultdict
 
 # ─── KONFIGURACE ─────────────────────────────────────────────────────────────
 LEAGUE_ID      = 83735
-CURRENT_SEASON = "2024/25"
+CURRENT_SEASON = "2025/26"
 REGULAR_GWS    = 36   # základní část GW1–36
 
 MANAGERS = {
