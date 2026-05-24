@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-05-24T13:05:37.662073+00:00",
-    "current_gw": 37,
+    "updated_at": "2026-05-24T14:55:19.011463+00:00",
+    "current_gw": 38,
     "season": "2024/25",
     "league_id": 83735,
     "total_matches": 147
@@ -2196,22 +2196,22 @@
       {
         "id": 430,
         "name": "Haaland",
-        "appearances": 220
+        "appearances": 225
       },
       {
         "id": 82,
         "name": "Semenyo",
-        "appearances": 162
+        "appearances": 163
       },
       {
         "id": 5,
         "name": "Gabriel",
-        "appearances": 128
+        "appearances": 134
       },
       {
         "id": 136,
         "name": "Thiago",
-        "appearances": 117
+        "appearances": 123
       },
       {
         "id": 119,
@@ -2221,27 +2221,27 @@
       {
         "id": 249,
         "name": "João Pedro",
-        "appearances": 100
+        "appearances": 101
       },
       {
         "id": 449,
         "name": "B.Fernandes",
-        "appearances": 90
+        "appearances": 97
       },
       {
         "id": 1,
         "name": "Raya",
-        "appearances": 83
+        "appearances": 88
+      },
+      {
+        "id": 16,
+        "name": "Saka",
+        "appearances": 82
       },
       {
         "id": 47,
         "name": "Rogers",
         "appearances": 78
-      },
-      {
-        "id": 16,
-        "name": "Saka",
-        "appearances": 77
       },
       {
         "id": 220,
@@ -2261,12 +2261,12 @@
       {
         "id": 411,
         "name": "O'Reilly",
-        "appearances": 65
+        "appearances": 69
       },
       {
         "id": 329,
         "name": "Wilson",
-        "appearances": 65
+        "appearances": 67
       },
       {
         "id": 8,
@@ -2274,19 +2274,19 @@
         "appearances": 63
       },
       {
+        "id": 21,
+        "name": "Rice",
+        "appearances": 59
+      },
+      {
         "id": 575,
         "name": "Van de Ven",
         "appearances": 58
       },
       {
-        "id": 21,
-        "name": "Rice",
-        "appearances": 58
-      },
-      {
         "id": 373,
         "name": "Virgil",
-        "appearances": 55
+        "appearances": 57
       },
       {
         "id": 661,
@@ -2298,12 +2298,12 @@
       {
         "id": 430,
         "name": "Haaland",
-        "times": 175
+        "times": 179
       },
       {
         "id": 449,
         "name": "B.Fernandes",
-        "times": 24
+        "times": 25
       },
       {
         "id": 381,
@@ -2313,7 +2313,7 @@
       {
         "id": 16,
         "name": "Saka",
-        "times": 12
+        "times": 14
       },
       {
         "id": 249,
@@ -2352,17 +2352,17 @@
           {
             "id": 430,
             "name": "Haaland",
-            "gws": 31
+            "gws": 32
           },
           {
             "id": 1,
             "name": "Raya",
-            "gws": 29
+            "gws": 30
           },
           {
             "id": 5,
             "name": "Gabriel",
-            "gws": 26
+            "gws": 27
           },
           {
             "id": 249,
@@ -2387,7 +2387,7 @@
           {
             "id": 449,
             "name": "B.Fernandes",
-            "gws": 15
+            "gws": 16
           },
           {
             "id": 119,
@@ -2429,7 +2429,7 @@
           {
             "id": 430,
             "name": "Haaland",
-            "times": 22
+            "times": 23
           },
           {
             "id": 449,
@@ -2458,7 +2458,8 @@
           "18": "3xc",
           "34": "freehit",
           "36": "wildcard",
-          "37": "bboost"
+          "37": "bboost",
+          "38": "3xc"
         },
         "gw_points": {
           "1": 51,
@@ -2497,7 +2498,8 @@
           "34": 76,
           "35": 59,
           "36": 71,
-          "37": 77
+          "37": 77,
+          "38": 0
         },
         "cap_history": [
           {
@@ -2721,6 +2723,12 @@
             "player_id": 449,
             "player": "B.Fernandes",
             "gw_total": 77
+          },
+          {
+            "gw": 38,
+            "player_id": 430,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -2728,8 +2736,8 @@
           95
         ],
         "worst_gw": [
-          12,
-          29
+          38,
+          0
         ]
       },
       "156572": {
@@ -2737,31 +2745,31 @@
           {
             "id": 1,
             "name": "Raya",
-            "gws": 34
+            "gws": 35
           },
           {
             "id": 430,
             "name": "Haaland",
-            "gws": 27
+            "gws": 28
           },
           {
             "id": 136,
             "name": "Thiago",
-            "gws": 21
+            "gws": 22
           },
           {
             "id": 449,
             "name": "B.Fernandes",
-            "gws": 17
-          },
-          {
-            "id": 82,
-            "name": "Semenyo",
-            "gws": 17
+            "gws": 18
           },
           {
             "id": 5,
             "name": "Gabriel",
+            "gws": 18
+          },
+          {
+            "id": 82,
+            "name": "Semenyo",
             "gws": 17
           },
           {
@@ -2782,7 +2790,7 @@
           {
             "id": 21,
             "name": "Rice",
-            "gws": 15
+            "gws": 16
           },
           {
             "id": 74,
@@ -2814,7 +2822,7 @@
           {
             "id": 430,
             "name": "Haaland",
-            "times": 22
+            "times": 23
           },
           {
             "id": 449,
@@ -2844,7 +2852,8 @@
           "16": "bboost",
           "20": "wildcard",
           "33": "freehit",
-          "37": "3xc"
+          "37": "3xc",
+          "38": "bboost"
         },
         "gw_points": {
           "1": 56,
@@ -2883,7 +2892,8 @@
           "34": 51,
           "35": 46,
           "36": 70,
-          "37": 65
+          "37": 65,
+          "38": 0
         },
         "cap_history": [
           {
@@ -3107,6 +3117,12 @@
             "player_id": 449,
             "player": "B.Fernandes",
             "gw_total": 65
+          },
+          {
+            "gw": 38,
+            "player_id": 430,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -3114,8 +3130,8 @@
           118
         ],
         "worst_gw": [
-          12,
-          38
+          38,
+          0
         ]
       },
       "155266": {
@@ -3128,7 +3144,7 @@
           {
             "id": 136,
             "name": "Thiago",
-            "gws": 27
+            "gws": 28
           },
           {
             "id": 220,
@@ -3141,13 +3157,13 @@
             "gws": 21
           },
           {
-            "id": 8,
-            "name": "J.Timber",
-            "gws": 20
-          },
-          {
             "id": 5,
             "name": "Gabriel",
+            "gws": 21
+          },
+          {
+            "id": 8,
+            "name": "J.Timber",
             "gws": 20
           },
           {
@@ -3158,7 +3174,7 @@
           {
             "id": 449,
             "name": "B.Fernandes",
-            "gws": 16
+            "gws": 17
           },
           {
             "id": 411,
@@ -3178,12 +3194,12 @@
           {
             "id": 329,
             "name": "Wilson",
-            "gws": 13
+            "gws": 14
           },
           {
             "id": 249,
             "name": "João Pedro",
-            "gws": 12
+            "gws": 13
           },
           {
             "id": 47,
@@ -3203,13 +3219,13 @@
             "times": 24
           },
           {
-            "id": 381,
-            "name": "M.Salah",
-            "times": 4
-          },
-          {
             "id": 449,
             "name": "B.Fernandes",
+            "times": 5
+          },
+          {
+            "id": 381,
+            "name": "M.Salah",
             "times": 4
           },
           {
@@ -3230,7 +3246,8 @@
           "19": "freehit",
           "32": "wildcard",
           "34": "freehit",
-          "37": "bboost"
+          "37": "bboost",
+          "38": "3xc"
         },
         "gw_points": {
           "1": 51,
@@ -3269,7 +3286,8 @@
           "34": 57,
           "35": 57,
           "36": 69,
-          "37": 78
+          "37": 78,
+          "38": 0
         },
         "cap_history": [
           {
@@ -3493,6 +3511,12 @@
             "player_id": 16,
             "player": "Saka",
             "gw_total": 78
+          },
+          {
+            "gw": 38,
+            "player_id": 449,
+            "player": "B.Fernandes",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -3500,8 +3524,8 @@
           98
         ],
         "worst_gw": [
-          12,
-          34
+          38,
+          0
         ]
       },
       "167387": {
@@ -3509,7 +3533,7 @@
           {
             "id": 430,
             "name": "Haaland",
-            "gws": 28
+            "gws": 29
           },
           {
             "id": 5,
@@ -3524,7 +3548,7 @@
           {
             "id": 16,
             "name": "Saka",
-            "gws": 18
+            "gws": 19
           },
           {
             "id": 249,
@@ -3559,7 +3583,7 @@
           {
             "id": 449,
             "name": "B.Fernandes",
-            "gws": 11
+            "gws": 12
           },
           {
             "id": 237,
@@ -3586,7 +3610,7 @@
           {
             "id": 430,
             "name": "Haaland",
-            "times": 23
+            "times": 24
           },
           {
             "id": 381,
@@ -3616,7 +3640,8 @@
           "19": "freehit",
           "31": "freehit",
           "36": "wildcard",
-          "37": "bboost"
+          "37": "bboost",
+          "38": "3xc"
         },
         "gw_points": {
           "1": 44,
@@ -3655,7 +3680,8 @@
           "34": 13,
           "35": 55,
           "36": 65,
-          "37": 69
+          "37": 69,
+          "38": 0
         },
         "cap_history": [
           {
@@ -3879,6 +3905,12 @@
             "player_id": 449,
             "player": "B.Fernandes",
             "gw_total": 69
+          },
+          {
+            "gw": 38,
+            "player_id": 430,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -3886,8 +3918,8 @@
           97
         ],
         "worst_gw": [
-          34,
-          13
+          38,
+          0
         ]
       },
       "138950": {
@@ -3895,7 +3927,12 @@
           {
             "id": 430,
             "name": "Haaland",
-            "gws": 26
+            "gws": 27
+          },
+          {
+            "id": 449,
+            "name": "B.Fernandes",
+            "gws": 17
           },
           {
             "id": 661,
@@ -3903,18 +3940,13 @@
             "gws": 17
           },
           {
-            "id": 449,
-            "name": "B.Fernandes",
-            "gws": 16
+            "id": 5,
+            "name": "Gabriel",
+            "gws": 17
           },
           {
             "id": 82,
             "name": "Semenyo",
-            "gws": 16
-          },
-          {
-            "id": 5,
-            "name": "Gabriel",
             "gws": 16
           },
           {
@@ -3930,27 +3962,27 @@
           {
             "id": 136,
             "name": "Thiago",
-            "gws": 13
+            "gws": 14
           },
           {
             "id": 1,
             "name": "Raya",
-            "gws": 13
+            "gws": 14
           },
           {
             "id": 407,
             "name": "Matheus N.",
-            "gws": 13
+            "gws": 14
           },
           {
             "id": 329,
             "name": "Wilson",
-            "gws": 13
+            "gws": 14
           },
           {
             "id": 260,
             "name": "Guéhi",
-            "gws": 11
+            "gws": 12
           },
           {
             "id": 427,
@@ -3972,7 +4004,7 @@
           {
             "id": 430,
             "name": "Haaland",
-            "times": 23
+            "times": 24
           },
           {
             "id": 381,
@@ -4041,7 +4073,8 @@
           "34": 45,
           "35": 60,
           "36": 75,
-          "37": 73
+          "37": 73,
+          "38": 0
         },
         "cap_history": [
           {
@@ -4265,6 +4298,12 @@
             "player_id": 430,
             "player": "Haaland",
             "gw_total": 73
+          },
+          {
+            "gw": 38,
+            "player_id": 430,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -4272,8 +4311,8 @@
           103
         ],
         "worst_gw": [
-          6,
-          28
+          38,
+          0
         ]
       },
       "472208": {
@@ -4291,7 +4330,7 @@
           {
             "id": 624,
             "name": "Bowen",
-            "gws": 21
+            "gws": 22
           },
           {
             "id": 450,
@@ -4299,14 +4338,14 @@
             "gws": 18
           },
           {
-            "id": 47,
-            "name": "Rogers",
+            "id": 242,
+            "name": "Dewsbury-Hall",
             "gws": 17
           },
           {
-            "id": 242,
-            "name": "Dewsbury-Hall",
-            "gws": 16
+            "id": 47,
+            "name": "Rogers",
+            "gws": 17
           },
           {
             "id": 714,
@@ -4314,13 +4353,13 @@
             "gws": 16
           },
           {
-            "id": 119,
-            "name": "Mbeumo",
-            "gws": 14
-          },
-          {
             "id": 260,
             "name": "Guéhi",
+            "gws": 15
+          },
+          {
+            "id": 119,
+            "name": "Mbeumo",
             "gws": 14
           },
           {
@@ -4388,7 +4427,8 @@
           "19": "wildcard",
           "31": "freehit",
           "34": "wildcard",
-          "37": "bboost"
+          "37": "bboost",
+          "38": "3xc"
         },
         "gw_points": {
           "1": 62,
@@ -4427,7 +4467,8 @@
           "34": 61,
           "35": 39,
           "36": 70,
-          "37": 57
+          "37": 57,
+          "38": 0
         },
         "cap_history": [
           {
@@ -4651,6 +4692,12 @@
             "player_id": 16,
             "player": "Saka",
             "gw_total": 57
+          },
+          {
+            "gw": 38,
+            "player_id": 597,
+            "player": "Richarlison",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -4658,8 +4705,8 @@
           96
         ],
         "worst_gw": [
-          2,
-          23
+          38,
+          0
         ]
       },
       "184202": {
@@ -4667,7 +4714,7 @@
           {
             "id": 430,
             "name": "Haaland",
-            "gws": 30
+            "gws": 31
           },
           {
             "id": 82,
@@ -4680,13 +4727,13 @@
             "gws": 22
           },
           {
-            "id": 72,
-            "name": "Senesi",
-            "gws": 19
-          },
-          {
             "id": 5,
             "name": "Gabriel",
+            "gws": 20
+          },
+          {
+            "id": 72,
+            "name": "Senesi",
             "gws": 19
           },
           {
@@ -4710,18 +4757,23 @@
             "gws": 14
           },
           {
+            "id": 450,
+            "name": "Cunha",
+            "gws": 14
+          },
+          {
             "id": 21,
             "name": "Rice",
             "gws": 14
           },
           {
-            "id": 450,
-            "name": "Cunha",
+            "id": 666,
+            "name": "Gyökeres",
             "gws": 13
           },
           {
-            "id": 666,
-            "name": "Gyökeres",
+            "id": 16,
+            "name": "Saka",
             "gws": 12
           },
           {
@@ -4733,11 +4785,6 @@
             "id": 8,
             "name": "J.Timber",
             "gws": 12
-          },
-          {
-            "id": 16,
-            "name": "Saka",
-            "gws": 11
           }
         ],
         "top_captains": [
@@ -4749,7 +4796,7 @@
           {
             "id": 16,
             "name": "Saka",
-            "times": 2
+            "times": 3
           },
           {
             "id": 249,
@@ -4812,7 +4859,8 @@
           "34": 12,
           "35": 58,
           "36": 63,
-          "37": 85
+          "37": 85,
+          "38": 0
         },
         "cap_history": [
           {
@@ -5036,6 +5084,12 @@
             "player_id": 16,
             "player": "Saka",
             "gw_total": 85
+          },
+          {
+            "gw": 38,
+            "player_id": 16,
+            "player": "Saka",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -5043,8 +5097,8 @@
           87
         ],
         "worst_gw": [
-          34,
-          12
+          38,
+          0
         ]
       },
       "4127653": {
@@ -5055,19 +5109,19 @@
             "gws": 26
           },
           {
+            "id": 82,
+            "name": "Semenyo",
+            "gws": 23
+          },
+          {
             "id": 119,
             "name": "Mbeumo",
             "gws": 22
           },
           {
-            "id": 82,
-            "name": "Semenyo",
-            "gws": 22
-          },
-          {
             "id": 136,
             "name": "Thiago",
-            "gws": 21
+            "gws": 22
           },
           {
             "id": 241,
@@ -5082,7 +5136,7 @@
           {
             "id": 16,
             "name": "Saka",
-            "gws": 13
+            "gws": 14
           },
           {
             "id": 575,
@@ -5112,16 +5166,16 @@
           {
             "id": 470,
             "name": "Dúbravka",
-            "gws": 9
-          },
-          {
-            "id": 414,
-            "name": "Foden",
-            "gws": 9
+            "gws": 10
           },
           {
             "id": 449,
             "name": "B.Fernandes",
+            "gws": 10
+          },
+          {
+            "id": 414,
+            "name": "Foden",
             "gws": 9
           }
         ],
@@ -5134,7 +5188,7 @@
           {
             "id": 16,
             "name": "Saka",
-            "times": 4
+            "times": 5
           },
           {
             "id": 119,
@@ -5159,7 +5213,8 @@
           "17": "3xc",
           "34": "freehit",
           "35": "wildcard",
-          "37": "3xc"
+          "37": "3xc",
+          "38": "bboost"
         },
         "gw_points": {
           "1": 43,
@@ -5198,7 +5253,8 @@
           "34": 46,
           "35": 57,
           "36": 73,
-          "37": 69
+          "37": 69,
+          "38": 0
         },
         "cap_history": [
           {
@@ -5422,6 +5478,12 @@
             "player_id": 16,
             "player": "Saka",
             "gw_total": 69
+          },
+          {
+            "gw": 38,
+            "player_id": 16,
+            "player": "Saka",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -5429,8 +5491,8 @@
           116
         ],
         "worst_gw": [
-          19,
-          27
+          38,
+          0
         ]
       }
     }
