@@ -158,7 +158,8 @@ tr.z3 td:first-child{border-left:3px solid var(--shame)}
 .mhead{padding:22px 20px;display:flex;gap:18px;align-items:flex-start;border-bottom:1px solid var(--bo);position:relative;overflow:hidden;background:linear-gradient(135deg,var(--plp) 0%,var(--b3) 100%)}
 [data-theme="light"] .mhead{background:linear-gradient(135deg,var(--plp) 0%,var(--b4) 100%)}
 .mhead::after{content:'⚽';position:absolute;right:16px;bottom:8px;font-size:78px;opacity:.05;line-height:1}
-.mav{flex-shrink:0;width:86px;height:86px;border-radius:14px;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-size:50px;border:2px solid rgba(0,255,133,.3);z-index:1}
+.mav{flex-shrink:0;width:96px;height:96px;border-radius:14px;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-size:50px;border:2px solid rgba(0,255,133,.3);z-index:1;overflow:hidden}
+.mav img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
 .mname{font-family:var(--fh);font-size:27px;letter-spacing:1px;color:#fff;margin-bottom:1px}
 .mteam{font-size:12px;color:rgba(255,255,255,.45);margin-bottom:8px}
 .mbio{font-size:12px;color:rgba(255,255,255,.52);font-style:italic;line-height:1.5;max-width:480px;margin-bottom:9px}
@@ -857,7 +858,14 @@ function rSs(){
 function rMg(){
   const s=D.standings||[];
   const mxP=Math.max(...s.flatMap(p=>(p.results||[]).filter(r=>r.gw<=36).map(r=>r.fpl)),1);
-  const tabs=s.map((p,i)=>`<button class="mtab ${i===0?'active':''}" onclick="swM(${p.entry},this)">${MS[p.entry]?.e||'👤'} ${p.name.split(' ')[1]||p.name}</button>`).join('');
+  const PHOTOS={'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'};
+  const tabs=s.map((p,i)=>{
+    const ph=PHOTOS[String(p.entry)];
+    const av=ph
+      ? `<img src="images/${ph}.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;object-position:center top;vertical-align:middle;margin-right:4px" onerror="this.style.display='none'">`
+      : `${MS[p.entry]?.e||'👤'} `;
+    return `<button class="mtab ${i===0?'active':''}" onclick="swM(${p.entry},this)">${av}${p.name.split(' ')[1]||p.name}</button>`;
+  }).join('');
   const panels=s.map((p,i)=>{
     const info=MS[p.entry]||{},m=pm(p.entry);
     const res=(p.results||[]).filter(r=>r.gw<=36).sort((a,b)=>a.gw-b.gw);
@@ -880,7 +888,12 @@ function rMg(){
     return`<div class="mpanel ${i===0?'active':''}" id="mp-${p.entry}">
       <div class="mcard">
         <div class="mhead">
-          <div class="mav">${info.e||'👤'}</div>
+          <div class="mav">
+            <img src="images/${['4239832','156572','155266','167387','138950','472208','184202','4127653'].includes(String(p.entry)) ? {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry] : ''}.jpg"
+              onerror="this.style.display='none';this.nextSibling.style.display='flex'"
+              alt="${p.name}" style="width:100%;height:100%;object-fit:cover;object-position:center top">
+            <span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:48px">${info.e||'👤'}</span>
+          </div>
           <div style="flex:1;position:relative;z-index:1">
             <div class="mname">${p.name}</div><div class="mteam">🎽 ${p.team}</div>
             <div class="mbio">"${info.cap||''}"</div>
