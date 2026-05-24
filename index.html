@@ -341,7 +341,7 @@ tr.z3 td:first-child{border-left:3px solid var(--shame)}
   <span class="hcorner tl">🦙</span><span class="hcorner tr">⚽</span>
   <span class="hcorner bl">🏆</span><span class="hcorner br">💩</span>
   <div class="hi">
-    <div class="eyebrow"><span class="ld"></span>Liga #83735 · <span id="hse">2024/25</span> · Sezóna 13</div>
+    <div class="eyebrow"><span class="ld"></span>Liga #83735 · <span id="hse">2025/26</span> · Sezóna 13</div>
     <h1><span class="g">FANTASY</span> LAMY<br><span class="p">Z</span> PANAMY</h1>
     <div class="hs">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League Fantasy · GW <span id="hgw">?</span></div>
     <div class="kpis">
@@ -451,7 +451,7 @@ function rPs(){
   const sackoSafe   = s.find(p=>p.entry==472208)||{name:'Marek Palán',team:'Eskimo brothers'};
 
   $('s-ps').innerHTML=`
-    <div class="st"><span class="a">🎊 Poseason</span> 2024/25<span class="d">Závěrečné výsledky sezóny</span></div>
+    <div class="st"><span class="a">🎊 Poseason</span> 2025/26<span class="d">Závěrečné výsledky sezóny</span></div>
 
     <!-- SHIVA WINNER -->
     <div class="poseason" style="margin-bottom:24px">
@@ -508,7 +508,7 @@ function rPs(){
           <div class="loser-name">LUKÁŠ KAPINUS</div>
           <div style="font-size:13px;color:rgba(255,255,255,.4);letter-spacing:1px;margin-bottom:12px">1. FC Lukasovo</div>
           <div style="display:inline-block;background:rgba(255,61,61,.12);border:2px solid var(--shame);border-radius:30px;padding:6px 20px;font-family:var(--fh);font-size:18px;color:var(--shame);letter-spacing:1px;margin-bottom:16px">
-            💩 SACKO TROFEJ 2024/25
+            💩 SACKO TROFEJ 2025/26
           </div>
           <!-- Dramatický výsledek -->
           <div style="background:rgba(0,0,0,.3);border-radius:12px;padding:16px;margin:16px 0">
@@ -561,7 +561,7 @@ function rPs(){
 
     <!-- CELKOVÝ PŘEHLED SEZÓNY -->
     <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:20px;box-shadow:var(--sh)">
-      <div class="sub">🏅 Sezóna 2024/25 – celkový přehled</div>
+      <div class="sub">🏅 Sezóna 2025/26 – celkový přehled</div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
         ${(()=>{
           // Finální pořadí:
@@ -979,7 +979,7 @@ function rAw(){
     {emoji:'👑',title:'Král základní části',cls:'gold',winner:s[0]?.name||'?',detail:(s[0]?.pts||'?')+' ligových bodů',desc:'Dominoval celou základní část'},
     {emoji:'📊',title:'FPL bodový magnát',cls:'green',winner:(()=>{const t=s.reduce((b,p)=>p.fpl_total>b.fpl_total?p:b,s[0]||{});return t?.name||'?';})(),detail:fm(s.reduce((b,p)=>p.fpl_total>b.fpl_total?p:b,s[0]||{})?.fpl_total||0)+' FPL bodů',desc:'Nejvíce PL bodů v celé lize'},
   ];
-  $('s-aw').innerHTML=`<div class="st"><span class="a">🎖️ Tituly</span> sezóny 2024/25<span class="d">automaticky vypočítané</span></div>
+  $('s-aw').innerHTML=`<div class="st"><span class="a">🎖️ Tituly</span> sezóny 2025/26<span class="d">automaticky vypočítané</span></div>
     <div class="awards-grid">${awards.map(a=>`<div class="ac ${a.cls}"><span class="ac-emoji">${a.emoji}</span><div class="ac-title">${a.title}</div><div class="ac-winner">${a.winner}</div><div class="ac-detail">${a.detail}</div><div class="ac-desc">${a.desc}</div></div>`).join('')}</div>`;
 }
 
@@ -1155,7 +1155,7 @@ function rMg(){
       </div>
     </div>`;
   }).join('');
-  $('s-mg').innerHTML=`<div class="st"><span class="a">👤 Manažerské</span> profily<span class="d">statistiky & karikatury</span></div>
+  $('s-mg').innerHTML=`<div class="st"><span class="a">👤 Manažerské</span> profily</div>
     <div class="mtabs">${tabs}</div>${panels}`;
 }
 function swM(e,btn){document.querySelectorAll('.mtab').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.mpanel').forEach(p=>p.classList.remove('active'));btn.classList.add('active');document.getElementById(`mp-${e}`)?.classList.add('active');}
@@ -1182,7 +1182,7 @@ function rCa(){
       </div>
     </div>`;
   }).join('');
-  $('s-ca').innerHTML=`<div class="st"><span class="a">📅 Kariéra</span> hráčů<span class="d">2013–2025 · 12 sezón</span></div>
+  $('s-ca').innerHTML=`<div class="st"><span class="a">📅 Kariéra</span> hráčů<span class="d">2013–2026 · 13 sezón</span></div>
     <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:18px;box-shadow:var(--sh)">
       <div style="display:flex;gap:14px;font-size:12px;color:var(--mu);margin-bottom:16px;flex-wrap:wrap">
         <span>🏆 Shiva – vítěz sezóny</span><span>💩 Sacko – poražený sezóny</span><span style="opacity:.5">⬜ Ani jedno</span>
