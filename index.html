@@ -376,11 +376,11 @@ const MS={
   138950:{e:'😤',cap:'EREKCE ZE STRACHU – psychologická zbraň v názvu. Bench Boost GW37 na 73 bodů zachránil záda od Sacka.',shiva:1,sacko:0,str:['1× Shiva, 0× Sacko','Psycho warfare 10/10'],wk:['Mid-table konzistence'],q:'"Název říká vše."'},
   472208:{e:'🧊',cap:'Eskimo brothers sdílejí všechno – i smůlu. 2× Shiva, ale GW38 Sacko finále čeká s otevřenou náručí.',shiva:2,sacko:1,str:['2× Shiva v historii'],wk:['Sacko finále GW38','H2H vs Holub 0:5'],q:'"Brothers share everything."'},
   184202:{e:'🎄',cap:'Krampus přichází v červenci. GW34 na 12 bodů – historické dno. Ale GW37 Bench Boost 85 pts ho zachránil. 3× Sacko champion.',shiva:0,sacko:3,str:['Přežil playout SF (85pts)'],wk:['3× Sacko 🤡','GW34: 12 pts (rekord dna)'],q:'"Sacko je moje životní mise."'},
-  4127653:{e:'🎰',cap:'Las Vegas: GW17 = 116 pts (rekord ligy!). Zbytek sezóny: průměr 47 pts. 9W-26L – historický antirekord. Sacko finále čeká.',shiva:1,sacko:0,str:['116 pts GW17 🤯 (rekord)','1× Shiva (2018/19)'],wk:['9W-26L antirekord','Sacko finále GW38'],q:'"GW17 byl zlom. Bohužel špatným směrem."'},
+  4127653:{e:'🎰',cap:'Las Vegas: GW17 = 116 pts (rekord ligy!). Zbytek sezóny: průměr 47 pts. 9W-26L – historický antirekord. Sacko finále čeká.',shiva:1,sacko:0,str:['116 pts GW17 🤯 (rekord)','1× Shiva (2018/19)'],wk:['9W-26L antirekord','💩 1× Sacko (2025/26)'],q:'"GW17 byl zlom. Bohužel špatným směrem."'},
 };
 const HOF=[
   {n:'Martin Holub',    s:6, k:1},
-  {n:'Marek Palán',     s:3, k:1},
+  {n:'Marek Palán',     s:2, k:1},
   {n:'Jaroslav Bureš',  s:2, k:0},
   {n:'Rudolf Kvapil',   s:1, k:0},
   {n:'Martin Válek',    s:1, k:1},
@@ -390,19 +390,19 @@ const HOF=[
   {n:'Vojtěch Raiman',  s:0, k:4},
 ];
 const HIST=[
-  {n:1, s:'2013/2014',sh:'Martin Holub',   sa:'Michal Krautwurm'},
-  {n:2, s:'2014/2015',sh:'Rudolf Kvapil',  sa:'Vojtěch Raiman'},
-  {n:3, s:'2015/2016',sh:'Martin Válek',   sa:'Vojtěch Raiman'},
-  {n:4, s:'2016/2017',sh:'Martin Holub',   sa:'Vojtěch Raiman'},
-  {n:5, s:'2017/2018',sh:'Martin Holub',   sa:'Vojtěch Raiman'},
-  {n:6, s:'2018/2019',sh:'Lukáš Kapinus',  sa:'Libor Pechoč'},
-  {n:7, s:'2019/2020',sh:'Jaroslav Bureš', sa:'Martin Válek'},
-  {n:8, s:'2020/2021',sh:'Martin Holub',   sa:'Marek Palán'},
-  {n:9, s:'2021/2022',sh:'Jaroslav Bureš', sa:'Michal Krautwurm'},
-  {n:10,s:'2022/2023',sh:'Marek Palán',    sa:'Martin Holub'},
-  {n:11,s:'2023/2024',sh:'Martin Holub',   sa:'Michal Krautwurm'},
-  {n:12,s:'2024/2025',sh:'Marek Palán',    sa:'Libor Pechoč'},
-  {n:13,s:'2025/2026',sh:'???',            sa:'???',cur:true},
+  {n:1, s:'2013/2014',sh:'Martin Holub',    sa:'Michal Krautwurm'},
+  {n:2, s:'2014/2015',sh:'Rudolf Kvapil',   sa:'Vojtěch Raiman'},
+  {n:3, s:'2015/2016',sh:'Martin Válek',    sa:'Vojtěch Raiman'},
+  {n:4, s:'2016/2017',sh:'Martin Holub',    sa:'Vojtěch Raiman'},
+  {n:5, s:'2017/2018',sh:'Martin Holub',    sa:'Vojtěch Raiman'},
+  {n:6, s:'2018/2019',sh:'Lukáš Kapinus',   sa:'Libor Pechoč'},
+  {n:7, s:'2019/2020',sh:'Jaroslav Bureš',  sa:'Martin Válek'},
+  {n:8, s:'2020/2021',sh:'Martin Holub',    sa:'Marek Palán'},
+  {n:9, s:'2021/2022',sh:'Jaroslav Bureš',  sa:'Michal Krautwurm'},
+  {n:10,s:'2022/2023',sh:'Marek Palán',     sa:'Martin Holub'},
+  {n:11,s:'2023/2024',sh:'Martin Holub',    sa:'Michal Krautwurm'},
+  {n:12,s:'2024/2025',sh:'Marek Palán',     sa:'Libor Pechoč'},
+  {n:13,s:'2025/2026',sh:'Martin Holub',    sa:'Lukáš Kapinus'},
 ];
 const CL={'bboost':'Bench Boost','bench_boost':'Bench Boost','3xc':'Triple Captain','triple_captain':'Triple Captain','freehit':'Free Hit','free_hit':'Free Hit','wildcard':'Wildcard'};
 const CC={'bboost':'bb','bench_boost':'bb','3xc':'tc','triple_captain':'tc','freehit':'fh','free_hit':'fh','wildcard':'wc'};
@@ -458,7 +458,7 @@ function rPs(){
       <div class="shiva-winner-header">
         <div style="position:relative;z-index:1">
           <div style="font-size:40px;margin-bottom:12px;animation:float 2s ease-in-out infinite">🏆</div>
-          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px">⚜️ SHIVA CHAMPION 2024/25 ⚜️</div>
+          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px">⚜️ SHIVA CHAMPION 2025/26 ⚜️</div>
           <img src="images/holub.jpg" class="winner-photo" onclick="openLightbox('images/holub.jpg','Martin Holub')" style="cursor:pointer" alt="Martin Holub">
           <div class="winner-name">MARTIN HOLUB</div>
           <div class="winner-team">Real Mordor *****</div>
@@ -503,7 +503,7 @@ function rPs(){
       <div class="sacko-loser-header">
         <div style="position:relative;z-index:1">
           <div style="font-size:40px;margin-bottom:12px">💩</div>
-          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,61,61,.5);margin-bottom:16px">🤡 SACKO 2024/25 🤡</div>
+          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,61,61,.5);margin-bottom:16px">🤡 SACKO 2025/26 🤡</div>
           <img src="images/kapinus.jpg" class="loser-photo" onclick="openLightbox('images/kapinus.jpg','Lukáš Kapinus – 💩 SACKO')" style="cursor:pointer" alt="Lukáš Kapinus">
           <div class="loser-name">LUKÁŠ KAPINUS</div>
           <div style="font-size:13px;color:rgba(255,255,255,.4);letter-spacing:1px;margin-bottom:12px">1. FC Lukasovo</div>
@@ -554,7 +554,7 @@ function rPs(){
         <div style="margin-top:16px;padding:14px;background:rgba(255,61,61,.05);border-radius:var(--rs);border:1px solid rgba(255,61,61,.15);text-align:center">
           <div style="font-size:12px;color:var(--mu);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Celková bilance Sacko</div>
           <div style="font-family:var(--fh);font-size:22px;color:var(--shame)">1× Sacko trofej</div>
-          <div style="font-size:12px;color:rgba(255,61,61,.4);margin-top:4px">první v kariéře · 2024/25</div>
+          <div style="font-size:12px;color:rgba(255,61,61,.4);margin-top:4px">první v kariéře · 2025/26</div>
         </div>
       </div>
     </div>
@@ -1260,21 +1260,21 @@ function renderHoF(){
     return`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td><td style="font-weight:600">${p.n}</td><td style="color:var(--gold);font-family:var(--fm)">${p.s?p.s+'× 🏆':'–'}</td><td style="color:var(--shame);font-family:var(--fm)">${p.k?p.k+'× 💩':'–'}</td><td><span style="font-family:var(--fm);font-size:16px;font-weight:700;color:${c}">${sc>0?'+':''}${sc}</span></td></tr>`;}).join('');
   $('s-hf').innerHTML=`<div class="st"><span class="a">🏅 Hall of Fame</span> &amp; Shame</div>
     <div class="hg">
-      <div class="hc hcs"><div class="ht g">🏆 Síň slávy</div>
+      <div class="hc hcs"><div class="ht g">🏆 Síň slávy – Shiva</div>
         <div class="hr"><span class="hrk">👑</span><span class="hpl">Martin Holub</span><span class="hct g">6×</span></div>
-        <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Marek Palán</span><span class="hct g">3×</span></div>
-        <div class="hr"><span class="hrk" style="color:var(--mu)">3.</span><span class="hpl">Jaroslav Bureš</span><span class="hct g">2×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Marek Palán</span><span class="hct g">2×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Jaroslav Bureš</span><span class="hct g">2×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Rudolf Kvapil</span><span class="hct g">1×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Martin Válek</span><span class="hct g">1×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Lukáš Kapinus</span><span class="hct g">1×</span></div>
       </div>
-      <div class="hc hck"><div class="ht s">💩 Zeď hanby</div>
+      <div class="hc hck"><div class="ht s">💩 Zeď hanby – Sacko</div>
         <div class="hr"><span class="hrk">🤡</span><span class="hpl">Vojtěch Raiman</span><span class="hct s">4×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Michal Krautwurm</span><span class="hct s">3×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">3.</span><span class="hpl">Libor Pechoč</span><span class="hct s">2×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Lukáš Kapinus</span><span class="hct s">1×</span></div>
-        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Marek Palán</span><span class="hct s">1×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Martin Válek</span><span class="hct s">1×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Marek Palán</span><span class="hct s">1×</span></div>
         <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Martin Holub</span><span class="hct s">1×</span></div>
       </div>
     </div>
