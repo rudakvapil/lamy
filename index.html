@@ -563,21 +563,28 @@ function rPs(){
     <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:20px;box-shadow:var(--sh)">
       <div class="sub">🏅 Sezóna 2024/25 – celkový přehled</div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
-        ${s.map((p,i)=>{
-          const ph=PHOTOS[String(p.entry)];
-          const medals=['👑','🥈','🥉','4.','5.','6.','7.','💩'];
-          const isSacko=p.entry==4127653;
-          const isShiva=p.entry==4239832;
-          return`<div style="background:var(--b3);border-radius:var(--rs);padding:14px;text-align:center;border:1px solid ${isShiva?'var(--gold)':isSacko?'var(--shame)':'var(--bo)'};position:relative;overflow:hidden">
-            ${ph?`<img src="images/${ph}.jpg" onclick="openLightbox('images/${ph}.jpg','${p.name}')" style="width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid ${isShiva?'var(--gold)':isSacko?'var(--shame)':'var(--bo)'};margin-bottom:8px;cursor:pointer;display:block;margin-left:auto;margin-right:auto">`:'<div style="font-size:36px;margin-bottom:8px">'+( {4239832:'👑',156572:'🕵️',155266:'⚔️',167387:'🧘',138950:'😤',472208:'🧊',184202:'🎄',4127653:'🎰'}[p.entry]||'👤')+'</div>'}
-            <div style="font-size:14px;font-weight:700;margin-bottom:2px">${p.name.split(' ')[1]||p.name}</div>
-            <div style="font-size:10px;color:var(--mu);margin-bottom:8px">${p.team}</div>
-            <div style="font-family:var(--fh);font-size:22px;color:${isShiva?'var(--gold)':isSacko?'var(--shame)':'var(--tx)'}">${medals[i]}</div>
-            <div style="font-size:12px;color:var(--mu);margin-top:4px">${p.pts}b · ${p.w}V ${p.l}P</div>
-            ${isShiva?'<div style="font-size:11px;color:var(--gold);margin-top:4px;font-weight:700">🏆 SHIVA CHAMPION</div>':''}
-            ${isSacko?'<div style="font-size:11px;color:var(--shame);margin-top:4px;font-weight:700">💩 SACKO</div>':''}
-          </div>`;
-        }).join('')}
+        ${(()=>{
+          // Finální pořadí:
+          // 1. Shiva vítěz, 2. Finalista Shiva, 3-4. SF poražení, 5-6. Playout SF vítězové, 7. Zachráněný Sacko fin, 8. Sacko
+          const ORDER = [4239832, 155266, 167387, 156572, 138950, 184202, 472208, 4127653];
+          const MEDALS = ['👑','🥈','🥉','4.','5.','6.','7.','💩'];
+          const LABELS = ['🏆 Shiva Champion','Finalista Shiva','Vypadl v SF','Vypadl v SF','Bezpečný – playout SF','Bezpečný – playout SF','Zachráněn – Sacko finále','💩 Sacko'];
+          const COLORS = ['var(--gold)','var(--silver)','var(--tx)','var(--tx)','var(--tx)','var(--tx)','var(--mu)','var(--shame)'];
+          const BORDERS = ['var(--gold)','var(--silver)','var(--bo)','var(--bo)','var(--bo)','var(--bo)','var(--bo)','var(--shame)'];
+          return ORDER.map((entry,i)=>{
+            const p=s.find(x=>x.entry==entry)||{name:'?',team:'?',pts:0,w:0,l:0};
+            const ph=PHOTOS[String(entry)];
+            const emoji={4239832:'👑',156572:'🕵️',155266:'⚔️',167387:'🧘',138950:'😤',472208:'🧊',184202:'🎄',4127653:'🎰'}[entry]||'👤';
+            return`<div style="background:var(--b3);border-radius:var(--rs);padding:14px;text-align:center;border:1px solid ${BORDERS[i]};position:relative">
+              ${ph?`<img src="images/${ph}.jpg" onclick="openLightbox('images/${ph}.jpg','${p.name}')" style="width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid ${BORDERS[i]};margin-bottom:8px;cursor:pointer;display:block;margin-left:auto;margin-right:auto">`:`<div style="font-size:36px;margin-bottom:8px">${emoji}</div>`}
+              <div style="font-size:14px;font-weight:700;margin-bottom:2px">${p.name?.split(' ')[1]||p.name}</div>
+              <div style="font-size:10px;color:var(--mu);margin-bottom:8px">${p.team}</div>
+              <div style="font-family:var(--fh);font-size:24px;color:${COLORS[i]}">${MEDALS[i]}</div>
+              <div style="font-size:11px;color:${COLORS[i]};margin-top:3px;font-weight:600">${LABELS[i]}</div>
+              <div style="font-size:11px;color:var(--mu);margin-top:4px">${p.pts}b · ${p.w}V ${p.l}P</div>
+            </div>`;
+          }).join('');
+        })()}
       </div>
     </div>`;
 }
@@ -1283,15 +1290,15 @@ function renderHoF(){
 }
 
 function renderHist(){
-  $('s-hi').innerHTML=`<div class="st"><span class="a">📚 Archiv</span> sezón<span class="d">2013/14 – 2024/25</span></div>
-    <div class="tw"><table><thead><tr><th>#</th><th>📅 Sezóna</th><th>🏆 Shiva</th><th>💩 Sacko</th></tr></thead>
+  $('s-hi').innerHTML=`<div class="st"><span class="a">📚 Archiv</span> sezón<span class="d">2013/14 – 2025/26 · 13 sezón</span></div>
+    <div class="tw"><table><thead><tr><th>#</th><th>📅 Sezóna</th><th>🏆 Shiva – Vítěz</th><th>💩 Sacko – Poražený</th></tr></thead>
     <tbody>${[...HIST].reverse().map(h=>`<tr ${h.cur?'style="background:rgba(0,255,133,.04)"':''}>
       <td style="font-family:var(--fm);font-size:11px;color:var(--mu)">${h.n}</td>
       <td style="${h.cur?'color:var(--plg);font-weight:700':'font-weight:500'}">${h.s}${h.cur?' <span class="live-pill">LIVE</span>':''}</td>
       <td style="${!h.cur?'color:var(--gold);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sh}</td>
       <td style="${!h.cur?'color:var(--shame);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sa}</td>
-    </tr>`).join('')}</tbody></table></div>`;
-}
+    </tr>`).join('')}</tbody></table></div>
+    <div class="ibox" style="margin-top:14px">📋 <strong>Finální pořadí sezóny:</strong> 1. Shiva vítěz · 2. Shiva finalista · 3–4. SF poražení · 5–6. Playout SF vítězové · 7. Zachráněn · 8. 💩 Sacko</div>`;}
 
 function renderRules(){
   $('s-ru').innerHTML=`<div class="st"><span class="a">📋 Pravidla</span> ligy<span class="d">Liga #83735</span></div>
