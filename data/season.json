@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-24T22:10:38.035417+00:00",
+    "updated_at": "2026-05-24T22:16:44.327933+00:00",
     "current_gw": 38,
     "season": "2024/25",
     "league_id": 83735,
@@ -5682,7 +5682,7 @@
       "web_name": "Mosquera",
       "team": 1,
       "element_type": 2,
-      "total_points": 38
+      "total_points": 40
     },
     "666": {
       "web_name": "Gyökeres",
@@ -7380,7 +7380,7 @@
       "web_name": "Chadi Riad",
       "team": 8,
       "element_type": 2,
-      "total_points": 18
+      "total_points": 20
     },
     "263": {
       "web_name": "Clyne",
