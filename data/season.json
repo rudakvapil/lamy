@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-24T22:46:12.385953+00:00",
+    "updated_at": "2026-05-24T23:48:34.114309+00:00",
     "current_gw": 38,
     "season": "2025/26",
     "league_id": 83735,
@@ -5604,7 +5604,7 @@
       "web_name": "Martinelli",
       "team": 1,
       "element_type": 3,
-      "total_points": 56
+      "total_points": 57
     },
     "20": {
       "web_name": "Trossard",
@@ -6324,7 +6324,7 @@
       "web_name": "Truffert",
       "team": 4,
       "element_type": 2,
-      "total_points": 166
+      "total_points": 165
     },
     "75": {
       "web_name": "Akinmboni",
@@ -7182,7 +7182,7 @@
       "web_name": "Palmer",
       "team": 7,
       "element_type": 3,
-      "total_points": 115
+      "total_points": 114
     },
     "236": {
       "web_name": "Neto",
@@ -7500,7 +7500,7 @@
       "web_name": "Mateta",
       "team": 8,
       "element_type": 4,
-      "total_points": 115
+      "total_points": 114
     },
     "284": {
       "web_name": "Nketiah",
@@ -8700,7 +8700,7 @@
       "web_name": "Mbeumo",
       "team": 14,
       "element_type": 3,
-      "total_points": 147
+      "total_points": 148
     },
     "431": {
       "web_name": "Bayindir",
@@ -9474,7 +9474,7 @@
       "web_name": "Hume",
       "team": 17,
       "element_type": 2,
-      "total_points": 111
+      "total_points": 110
     },
     "533": {
       "web_name": "Alese",
@@ -9564,7 +9564,7 @@
       "web_name": "E.Le Fée",
       "team": 17,
       "element_type": 3,
-      "total_points": 146
+      "total_points": 147
     },
     "548": {
       "web_name": "Mundle",
@@ -10488,7 +10488,7 @@
       "web_name": "Mané",
       "team": 20,
       "element_type": 4,
-      "total_points": 75
+      "total_points": 74
     },
     "766": {
       "web_name": "Olagunju",
