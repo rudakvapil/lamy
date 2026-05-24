@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-24T21:06:17.991660+00:00",
+    "updated_at": "2026-05-24T21:38:47.450140+00:00",
     "current_gw": 38,
     "season": "2024/25",
     "league_id": 83735,
@@ -2129,13 +2129,13 @@
           "entry": 4239832,
           "name": "Martin Holub",
           "team": "Real Mordor *****",
-          "gw38_fpl": 0
+          "gw38_fpl": 85
         },
         "away": {
           "entry": 155266,
           "name": "Martin Valek",
           "team": "Fusswaffe",
-          "gw38_fpl": 0
+          "gw38_fpl": 72
         },
         "winner": null
       }
@@ -2196,7 +2196,7 @@
       {
         "id": 430,
         "name": "Haaland",
-        "appearances": 225
+        "appearances": 224
       },
       {
         "id": 82,
@@ -2211,7 +2211,7 @@
       {
         "id": 136,
         "name": "Thiago",
-        "appearances": 123
+        "appearances": 124
       },
       {
         "id": 119,
@@ -2231,12 +2231,12 @@
       {
         "id": 1,
         "name": "Raya",
-        "appearances": 88
+        "appearances": 85
       },
       {
         "id": 16,
         "name": "Saka",
-        "appearances": 82
+        "appearances": 79
       },
       {
         "id": 47,
@@ -2259,14 +2259,14 @@
         "appearances": 70
       },
       {
-        "id": 411,
-        "name": "O'Reilly",
-        "appearances": 69
-      },
-      {
         "id": 329,
         "name": "Wilson",
-        "appearances": 67
+        "appearances": 68
+      },
+      {
+        "id": 411,
+        "name": "O'Reilly",
+        "appearances": 65
       },
       {
         "id": 8,
@@ -2274,13 +2274,13 @@
         "appearances": 63
       },
       {
-        "id": 21,
-        "name": "Rice",
-        "appearances": 59
-      },
-      {
         "id": 575,
         "name": "Van de Ven",
+        "appearances": 58
+      },
+      {
+        "id": 21,
+        "name": "Rice",
         "appearances": 58
       },
       {
@@ -2352,12 +2352,12 @@
           {
             "id": 430,
             "name": "Haaland",
-            "gws": 32
+            "gws": 31
           },
           {
             "id": 1,
             "name": "Raya",
-            "gws": 30
+            "gws": 29
           },
           {
             "id": 5,
@@ -2499,7 +2499,7 @@
           "35": 59,
           "36": 71,
           "37": 77,
-          "38": 0
+          "38": 85
         },
         "cap_history": [
           {
@@ -2728,7 +2728,7 @@
             "gw": 38,
             "player_id": 430,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 85
           }
         ],
         "best_gw": [
@@ -2736,8 +2736,8 @@
           95
         ],
         "worst_gw": [
-          38,
-          0
+          12,
+          29
         ]
       },
       "156572": {
@@ -2790,7 +2790,7 @@
           {
             "id": 21,
             "name": "Rice",
-            "gws": 16
+            "gws": 15
           },
           {
             "id": 74,
@@ -2893,7 +2893,7 @@
           "35": 46,
           "36": 70,
           "37": 65,
-          "38": 0
+          "38": 58
         },
         "cap_history": [
           {
@@ -3122,7 +3122,7 @@
             "gw": 38,
             "player_id": 430,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 58
           }
         ],
         "best_gw": [
@@ -3130,8 +3130,8 @@
           118
         ],
         "worst_gw": [
-          38,
-          0
+          12,
+          38
         ]
       },
       "155266": {
@@ -3287,7 +3287,7 @@
           "35": 57,
           "36": 69,
           "37": 78,
-          "38": 0
+          "38": 76
         },
         "cap_history": [
           {
@@ -3516,7 +3516,7 @@
             "gw": 38,
             "player_id": 449,
             "player": "B.Fernandes",
-            "gw_total": 0
+            "gw_total": 76
           }
         ],
         "best_gw": [
@@ -3524,8 +3524,8 @@
           98
         ],
         "worst_gw": [
-          38,
-          0
+          12,
+          34
         ]
       },
       "167387": {
@@ -3548,7 +3548,7 @@
           {
             "id": 16,
             "name": "Saka",
-            "gws": 19
+            "gws": 18
           },
           {
             "id": 249,
@@ -3561,13 +3561,13 @@
             "gws": 17
           },
           {
-            "id": 8,
-            "name": "J.Timber",
-            "gws": 14
-          },
-          {
             "id": 136,
             "name": "Thiago",
+            "gws": 15
+          },
+          {
+            "id": 8,
+            "name": "J.Timber",
             "gws": 14
           },
           {
@@ -3681,7 +3681,7 @@
           "35": 55,
           "36": 65,
           "37": 69,
-          "38": 0
+          "38": 62
         },
         "cap_history": [
           {
@@ -3910,7 +3910,7 @@
             "gw": 38,
             "player_id": 430,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 62
           }
         ],
         "best_gw": [
@@ -3918,8 +3918,8 @@
           97
         ],
         "worst_gw": [
-          38,
-          0
+          34,
+          13
         ]
       },
       "138950": {
@@ -3970,19 +3970,19 @@
             "gws": 14
           },
           {
-            "id": 407,
-            "name": "Matheus N.",
-            "gws": 14
-          },
-          {
             "id": 329,
             "name": "Wilson",
             "gws": 14
           },
           {
+            "id": 407,
+            "name": "Matheus N.",
+            "gws": 13
+          },
+          {
             "id": 260,
             "name": "Guéhi",
-            "gws": 12
+            "gws": 11
           },
           {
             "id": 427,
@@ -4074,7 +4074,7 @@
           "35": 60,
           "36": 75,
           "37": 73,
-          "38": 0
+          "38": 26
         },
         "cap_history": [
           {
@@ -4303,7 +4303,7 @@
             "gw": 38,
             "player_id": 430,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 26
           }
         ],
         "best_gw": [
@@ -4312,7 +4312,7 @@
         ],
         "worst_gw": [
           38,
-          0
+          26
         ]
       },
       "472208": {
@@ -4353,13 +4353,13 @@
             "gws": 16
           },
           {
-            "id": 260,
-            "name": "Guéhi",
-            "gws": 15
-          },
-          {
             "id": 119,
             "name": "Mbeumo",
+            "gws": 14
+          },
+          {
+            "id": 260,
+            "name": "Guéhi",
             "gws": 14
           },
           {
@@ -4468,7 +4468,7 @@
           "35": 39,
           "36": 70,
           "37": 57,
-          "38": 0
+          "38": 56
         },
         "cap_history": [
           {
@@ -4697,7 +4697,7 @@
             "gw": 38,
             "player_id": 597,
             "player": "Richarlison",
-            "gw_total": 0
+            "gw_total": 56
           }
         ],
         "best_gw": [
@@ -4705,8 +4705,8 @@
           96
         ],
         "worst_gw": [
-          38,
-          0
+          2,
+          23
         ]
       },
       "184202": {
@@ -4757,11 +4757,6 @@
             "gws": 14
           },
           {
-            "id": 450,
-            "name": "Cunha",
-            "gws": 14
-          },
-          {
             "id": 21,
             "name": "Rice",
             "gws": 14
@@ -4769,6 +4764,11 @@
           {
             "id": 666,
             "name": "Gyökeres",
+            "gws": 13
+          },
+          {
+            "id": 450,
+            "name": "Cunha",
             "gws": 13
           },
           {
@@ -4860,7 +4860,7 @@
           "35": 58,
           "36": 63,
           "37": 85,
-          "38": 0
+          "38": 14
         },
         "cap_history": [
           {
@@ -5089,7 +5089,7 @@
             "gw": 38,
             "player_id": 16,
             "player": "Saka",
-            "gw_total": 0
+            "gw_total": 14
           }
         ],
         "best_gw": [
@@ -5097,8 +5097,8 @@
           87
         ],
         "worst_gw": [
-          38,
-          0
+          34,
+          12
         ]
       },
       "4127653": {
@@ -5134,18 +5134,18 @@
             "gws": 18
           },
           {
+            "id": 314,
+            "name": "Leno",
+            "gws": 14
+          },
+          {
             "id": 16,
             "name": "Saka",
-            "gws": 14
+            "gws": 13
           },
           {
             "id": 575,
             "name": "Van de Ven",
-            "gws": 13
-          },
-          {
-            "id": 314,
-            "name": "Leno",
             "gws": 13
           },
           {
@@ -5164,14 +5164,14 @@
             "gws": 11
           },
           {
-            "id": 470,
-            "name": "Dúbravka",
-            "gws": 10
-          },
-          {
             "id": 449,
             "name": "B.Fernandes",
             "gws": 10
+          },
+          {
+            "id": 470,
+            "name": "Dúbravka",
+            "gws": 9
           },
           {
             "id": 414,
@@ -5254,7 +5254,7 @@
           "35": 57,
           "36": 73,
           "37": 69,
-          "38": 0
+          "38": 55
         },
         "cap_history": [
           {
@@ -5483,7 +5483,7 @@
             "gw": 38,
             "player_id": 16,
             "player": "Saka",
-            "gw_total": 0
+            "gw_total": 55
           }
         ],
         "best_gw": [
@@ -5491,8 +5491,8 @@
           116
         ],
         "worst_gw": [
-          38,
-          0
+          19,
+          27
         ]
       }
     }
@@ -6342,7 +6342,7 @@
       "web_name": "Hill",
       "team": 4,
       "element_type": 2,
-      "total_points": 108
+      "total_points": 110
     },
     "78": {
       "web_name": "J.Araujo",
