@@ -1,0 +1,4628 @@
+{
+  "meta": {
+    "updated_at": "2026-05-23T00:12:03.686404+00:00",
+    "current_gw": 38,
+    "season": "2024/25",
+    "league_id": 83735,
+    "total_matches": 147,
+    "note": "Data GW1-36 základní část + GW37 semifinále. GW38 finále čeká na výsledek."
+  },
+  "standings": [
+    {
+      "name": "Martin Holub",
+      "team": "Real Mordor *****",
+      "short": "MH",
+      "entry": 4239832,
+      "pts": 67,
+      "w": 22,
+      "d": 1,
+      "l": 13,
+      "fpl_total": 2070,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 51
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 75
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 84
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 30
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 29
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 34
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 88
+        },
+        {
+          "gw": 15,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 61
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 33
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 29
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 48
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 30
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 65
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 83
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 68
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 80
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 59
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 91
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 76
+        },
+        {
+          "gw": 35,
+          "result": "W",
+          "fpl": 59
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 71
+        }
+      ],
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "avg_pts": 57.5
+    },
+    {
+      "name": "Libor Pechoč",
+      "team": "Četnické humoresky",
+      "short": "LP",
+      "entry": 156572,
+      "pts": 66,
+      "w": 22,
+      "d": 0,
+      "l": 14,
+      "fpl_total": 2135,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 78
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 57
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 59
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 76
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 30
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 69
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 15,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 81
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 75
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 81
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 39
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 55
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 59
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 55
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 48
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 76
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 54
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 42
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 118
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 58
+        }
+      ],
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
+      "avg_pts": 59.3
+    },
+    {
+      "name": "Martin Válek",
+      "team": "Fusswaffe",
+      "short": "MV",
+      "entry": 155266,
+      "pts": 64,
+      "w": 21,
+      "d": 1,
+      "l": 14,
+      "fpl_total": 2063,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 82
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 71
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 66
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 34
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 45
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 54
+        },
+        {
+          "gw": 15,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 91
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 74
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 40
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 39
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 67
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 66
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 64
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 65
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 98
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 35,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 57
+        }
+      ],
+      "form": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "L"
+      ],
+      "avg_pts": 57.3
+    },
+    {
+      "name": "Jaroslav Bureš",
+      "team": "Yobagoya",
+      "short": "JB",
+      "entry": 167387,
+      "pts": 63,
+      "w": 21,
+      "d": 0,
+      "l": 15,
+      "fpl_total": 2093,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 44
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 84
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 71
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 81
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 47
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 44
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 79
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 80
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 36
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 51
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 53
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 97
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 69
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 44
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 72
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 71
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 85
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 13
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 55
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 65
+        }
+      ],
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "W"
+      ],
+      "avg_pts": 58.1
+    },
+    {
+      "name": "Rudolf Kvapil",
+      "team": "EREKCE ZE STRACHU",
+      "short": "RK",
+      "entry": 138950,
+      "pts": 54,
+      "w": 18,
+      "d": 0,
+      "l": 18,
+      "fpl_total": 1999,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 67
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 48
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 28
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 59
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 90
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 44
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 35
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 49
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 81
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 63
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 51
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 49
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 55
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 61
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 57
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 75
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 53
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 56
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 103
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 35,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 59
+        }
+      ],
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "L"
+      ],
+      "avg_pts": 55.5
+    },
+    {
+      "name": "Marek Palán",
+      "team": "Eskimo brothers",
+      "short": "MP",
+      "entry": 472208,
+      "pts": 48,
+      "w": 16,
+      "d": 0,
+      "l": 20,
+      "fpl_total": 1983,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 62
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 23
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 62
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 65
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 44
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 24
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 84
+        },
+        {
+          "gw": 15,
+          "result": "W",
+          "fpl": 70
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 93
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 96
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 41
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 32
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 47
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 32
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 58
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 65
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 62
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 56
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 66
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 68
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 49
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 90
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 42
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "avg_pts": 55.1
+    },
+    {
+      "name": "Michal Krautwurm",
+      "team": "Krampus",
+      "short": "MK",
+      "entry": 184202,
+      "pts": 40,
+      "w": 13,
+      "d": 1,
+      "l": 22,
+      "fpl_total": 1918,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 68
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 26
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 72
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 87
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 67
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 15,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 79
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 72
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 55
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 52
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 87
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 78
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 42
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 50
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 77
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 12
+        },
+        {
+          "gw": 35,
+          "result": "W",
+          "fpl": 58
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 31
+        }
+      ],
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "L"
+      ],
+      "avg_pts": 53.3
+    },
+    {
+      "name": "Lukáš Kapinus",
+      "team": "1. FC Lukasovo",
+      "short": "LK",
+      "entry": 4127653,
+      "pts": 28,
+      "w": 9,
+      "d": 1,
+      "l": 26,
+      "fpl_total": 1805,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 39
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 72
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 116
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 27
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 52
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 37
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 48
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 35
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 35
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 48
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 66
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 35,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 73
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "W",
+        "D",
+        "W"
+      ],
+      "avg_pts": 50.1
+    }
+  ],
+  "h2h": {
+    "4239832": {
+      "156572": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      },
+      "155266": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "167387": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "138950": {
+        "w": 4,
+        "l": 2,
+        "d": 0
+      },
+      "472208": {
+        "w": 5,
+        "l": 0,
+        "d": 0
+      },
+      "184202": {
+        "w": 2,
+        "l": 2,
+        "d": 1
+      },
+      "4127653": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      }
+    },
+    "156572": {
+      "4239832": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "155266": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      },
+      "167387": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "138950": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      },
+      "472208": {
+        "w": 4,
+        "l": 2,
+        "d": 0
+      },
+      "184202": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "4127653": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      }
+    },
+    "155266": {
+      "4239832": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      },
+      "156572": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "167387": {
+        "w": 4,
+        "l": 2,
+        "d": 0
+      },
+      "138950": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "472208": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "184202": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "4127653": {
+        "w": 4,
+        "l": 0,
+        "d": 1
+      }
+    },
+    "167387": {
+      "4239832": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "156572": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "155266": {
+        "w": 2,
+        "l": 4,
+        "d": 0
+      },
+      "138950": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "472208": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "184202": {
+        "w": 5,
+        "l": 0,
+        "d": 0
+      },
+      "4127653": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      }
+    },
+    "138950": {
+      "4239832": {
+        "w": 2,
+        "l": 4,
+        "d": 0
+      },
+      "156572": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "155266": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "167387": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "472208": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "184202": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "4127653": {
+        "w": 4,
+        "l": 1,
+        "d": 0
+      }
+    },
+    "472208": {
+      "4239832": {
+        "w": 0,
+        "l": 5,
+        "d": 0
+      },
+      "156572": {
+        "w": 2,
+        "l": 4,
+        "d": 0
+      },
+      "155266": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "167387": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "138950": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "184202": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      },
+      "4127653": {
+        "w": 3,
+        "l": 2,
+        "d": 0
+      }
+    },
+    "184202": {
+      "4239832": {
+        "w": 2,
+        "l": 2,
+        "d": 1
+      },
+      "156572": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "155266": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "167387": {
+        "w": 0,
+        "l": 5,
+        "d": 0
+      },
+      "138950": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "472208": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "4127653": {
+        "w": 3,
+        "l": 3,
+        "d": 0
+      }
+    },
+    "4127653": {
+      "4239832": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "156572": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "155266": {
+        "w": 0,
+        "l": 4,
+        "d": 1
+      },
+      "167387": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "138950": {
+        "w": 1,
+        "l": 4,
+        "d": 0
+      },
+      "472208": {
+        "w": 2,
+        "l": 3,
+        "d": 0
+      },
+      "184202": {
+        "w": 3,
+        "l": 3,
+        "d": 0
+      }
+    }
+  },
+  "records": {
+    "top10": [
+      {
+        "pts": 118,
+        "name": "Libor Pechoč",
+        "team": "Četnické humoresky",
+        "entry": 156572,
+        "gw": 33,
+        "opp": "Jaroslav Bureš"
+      },
+      {
+        "pts": 116,
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo",
+        "entry": 4127653,
+        "gw": 17,
+        "opp": "Rudolf Kvapil"
+      },
+      {
+        "pts": 103,
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU",
+        "entry": 138950,
+        "gw": 33,
+        "opp": "Marek Palán"
+      },
+      {
+        "pts": 98,
+        "name": "Martin Válek",
+        "team": "Fusswaffe",
+        "entry": 155266,
+        "gw": 33,
+        "opp": "Michal Krautwurm"
+      },
+      {
+        "pts": 97,
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
+        "entry": 167387,
+        "gw": 25,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 96,
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
+        "entry": 472208,
+        "gw": 17,
+        "opp": "Martin Válek"
+      },
+      {
+        "pts": 93,
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
+        "entry": 472208,
+        "gw": 16,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 91,
+        "name": "Martin Válek",
+        "team": "Fusswaffe",
+        "entry": 155266,
+        "gw": 16,
+        "opp": "Libor Pechoč"
+      },
+      {
+        "pts": 91,
+        "name": "Martin Holub",
+        "team": "Real Mordor *****",
+        "entry": 4239832,
+        "gw": 33,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 90,
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU",
+        "entry": 138950,
+        "gw": 10,
+        "opp": "Lukáš Kapinus"
+      }
+    ],
+    "bottom5": [
+      {
+        "pts": 12,
+        "name": "Michal Krautwurm",
+        "team": "Krampus",
+        "entry": 184202,
+        "gw": 34,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 13,
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
+        "entry": 167387,
+        "gw": 34,
+        "opp": "Martin Válek"
+      },
+      {
+        "pts": 23,
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
+        "entry": 472208,
+        "gw": 2,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 24,
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
+        "entry": 472208,
+        "gw": 13,
+        "opp": "Libor Pechoč"
+      },
+      {
+        "pts": 26,
+        "name": "Michal Krautwurm",
+        "team": "Krampus",
+        "entry": 184202,
+        "gw": 5,
+        "opp": "Martin Válek"
+      }
+    ]
+  },
+  "series": [
+    {
+      "entry": 4239832,
+      "name": "Martin Holub",
+      "best_w": 4,
+      "best_l": 3,
+      "current": "4× W"
+    },
+    {
+      "entry": 156572,
+      "name": "Libor Pechoč",
+      "best_w": 7,
+      "best_l": 4,
+      "current": "1× W"
+    },
+    {
+      "entry": 155266,
+      "name": "Martin Válek",
+      "best_w": 6,
+      "best_l": 3,
+      "current": "1× L"
+    },
+    {
+      "entry": 167387,
+      "name": "Jaroslav Bureš",
+      "best_w": 7,
+      "best_l": 3,
+      "current": "1× W"
+    },
+    {
+      "entry": 138950,
+      "name": "Rudolf Kvapil",
+      "best_w": 5,
+      "best_l": 4,
+      "current": "1× L"
+    },
+    {
+      "entry": 472208,
+      "name": "Marek Palán",
+      "best_w": 5,
+      "best_l": 3,
+      "current": "2× L"
+    },
+    {
+      "entry": 184202,
+      "name": "Michal Krautwurm",
+      "best_w": 4,
+      "best_l": 4,
+      "current": "1× L"
+    },
+    {
+      "entry": 4127653,
+      "name": "Lukáš Kapinus",
+      "best_w": 3,
+      "best_l": 12,
+      "current": "1× W"
+    }
+  ],
+  "playoff": {
+    "shiva_sf": [
+      {
+        "home": {
+          "entry": 4239832,
+          "name": "Martin Holub",
+          "team": "Real Mordor *****",
+          "league_pts": 67,
+          "gw37_fpl": 77,
+          "naskok": 4,
+          "virtual": 81
+        },
+        "away": {
+          "entry": 167387,
+          "name": "Jaroslav Bureš",
+          "team": "Yobagoya",
+          "league_pts": 63,
+          "gw37_fpl": 69,
+          "naskok": 0,
+          "virtual": 69
+        },
+        "winner": 4239832
+      },
+      {
+        "home": {
+          "entry": 156572,
+          "name": "Libor Pechoč",
+          "team": "Četnické humoresky",
+          "league_pts": 66,
+          "gw37_fpl": 65,
+          "naskok": 2,
+          "virtual": 67
+        },
+        "away": {
+          "entry": 155266,
+          "name": "Martin Válek",
+          "team": "Fusswaffe",
+          "league_pts": 64,
+          "gw37_fpl": 78,
+          "naskok": 0,
+          "virtual": 78
+        },
+        "winner": 155266
+      }
+    ],
+    "shiva_final": [
+      {
+        "home": {
+          "entry": 4239832,
+          "name": "Martin Holub",
+          "team": "Real Mordor *****",
+          "gw38_fpl": 85
+        },
+        "away": {
+          "entry": 155266,
+          "name": "Martin Válek",
+          "team": "Fusswaffe",
+          "gw38_fpl": 72
+        },
+        "winner": 4239832
+      }
+    ],
+    "playout_sf": [
+      {
+        "higher": {
+          "name": "Rudolf Kvapil",
+          "team": "EREKCE ZE STRACHU",
+          "short": "RK",
+          "entry": 138950,
+          "league_pts": 54,
+          "gw37_fpl": 73,
+          "naskok": 26,
+          "virtual": 99
+        },
+        "lower": {
+          "name": "Lukáš Kapinus",
+          "team": "1. FC Lukasovo",
+          "short": "LK",
+          "entry": 4127653,
+          "league_pts": 28,
+          "gw37_fpl": 69,
+          "naskok": 0,
+          "virtual": 69
+        },
+        "winner": 138950,
+        "loser": 4127653
+      },
+      {
+        "higher": {
+          "name": "Marek Palán",
+          "team": "Eskimo brothers",
+          "short": "MP",
+          "entry": 472208,
+          "league_pts": 48,
+          "gw37_fpl": 57,
+          "naskok": 8,
+          "virtual": 65
+        },
+        "lower": {
+          "name": "Michal Krautwurm",
+          "team": "Krampus",
+          "short": "MK",
+          "entry": 184202,
+          "league_pts": 40,
+          "gw37_fpl": 85,
+          "naskok": 0,
+          "virtual": 85
+        },
+        "winner": 184202,
+        "loser": 472208
+      }
+    ],
+    "sacko_final": [
+      {
+        "home": {
+          "entry": 4127653,
+          "name": "Lukáš Kapinus",
+          "team": "1. FC Lukasovo",
+          "gw38_fpl": 55
+        },
+        "away": {
+          "entry": 472208,
+          "name": "Marek Palán",
+          "team": "Eskimo brothers",
+          "gw38_fpl": 56
+        },
+        "winner": 472208,
+        "sacko": 4127653
+      }
+    ]
+  },
+  "picks_stats": {
+    "top_players_liga": [],
+    "top_captains_liga": [],
+    "per_manager": {
+      "4239832": {
+        "gw_points": {
+          "1": 51,
+          "2": 43,
+          "3": 47,
+          "4": 75,
+          "5": 46,
+          "6": 77,
+          "7": 73,
+          "8": 60,
+          "9": 61,
+          "10": 84,
+          "11": 30,
+          "12": 29,
+          "13": 34,
+          "14": 88,
+          "15": 57,
+          "16": 61,
+          "17": 77,
+          "18": 33,
+          "19": 29,
+          "20": 48,
+          "21": 61,
+          "22": 41,
+          "23": 30,
+          "24": 65,
+          "25": 83,
+          "26": 68,
+          "27": 42,
+          "28": 60,
+          "29": 80,
+          "30": 59,
+          "31": 40,
+          "32": 41,
+          "33": 91,
+          "34": 76,
+          "35": 59,
+          "36": 71
+        },
+        "best_gw": [
+          33,
+          91
+        ],
+        "worst_gw": [
+          19,
+          29
+        ],
+        "avg_pts": 57.5,
+        "top5_gws": [
+          {
+            "gw": 33,
+            "pts": 91,
+            "result": "W"
+          },
+          {
+            "gw": 14,
+            "pts": 88,
+            "result": "W"
+          },
+          {
+            "gw": 10,
+            "pts": 84,
+            "result": "W"
+          },
+          {
+            "gw": 25,
+            "pts": 83,
+            "result": "W"
+          },
+          {
+            "gw": 29,
+            "pts": 80,
+            "result": "W"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 23,
+            "pts": 30,
+            "result": "L"
+          },
+          {
+            "gw": 12,
+            "pts": 29,
+            "result": "L"
+          },
+          {
+            "gw": 19,
+            "pts": 29,
+            "result": "W"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "156572": {
+        "gw_points": {
+          "1": 56,
+          "2": 56,
+          "3": 45,
+          "4": 78,
+          "5": 52,
+          "6": 58,
+          "7": 70,
+          "8": 57,
+          "9": 59,
+          "10": 76,
+          "11": 49,
+          "12": 30,
+          "13": 69,
+          "14": 73,
+          "15": 47,
+          "16": 81,
+          "17": 75,
+          "18": 43,
+          "19": 42,
+          "20": 81,
+          "21": 56,
+          "22": 39,
+          "23": 55,
+          "24": 59,
+          "25": 73,
+          "26": 55,
+          "27": 48,
+          "28": 76,
+          "29": 54,
+          "30": 49,
+          "31": 42,
+          "32": 63,
+          "33": 118,
+          "34": 51,
+          "35": 42,
+          "36": 58
+        },
+        "best_gw": [
+          33,
+          118
+        ],
+        "worst_gw": [
+          12,
+          30
+        ],
+        "avg_pts": 59.3,
+        "top5_gws": [
+          {
+            "gw": 33,
+            "pts": 118,
+            "result": "W"
+          },
+          {
+            "gw": 16,
+            "pts": 81,
+            "result": "L"
+          },
+          {
+            "gw": 20,
+            "pts": 81,
+            "result": "W"
+          },
+          {
+            "gw": 4,
+            "pts": 78,
+            "result": "W"
+          },
+          {
+            "gw": 10,
+            "pts": 76,
+            "result": "L"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 35,
+            "pts": 42,
+            "result": "L"
+          },
+          {
+            "gw": 22,
+            "pts": 39,
+            "result": "W"
+          },
+          {
+            "gw": 12,
+            "pts": 30,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "155266": {
+        "gw_points": {
+          "1": 51,
+          "2": 54,
+          "3": 61,
+          "4": 82,
+          "5": 47,
+          "6": 52,
+          "7": 71,
+          "8": 73,
+          "9": 42,
+          "10": 66,
+          "11": 56,
+          "12": 34,
+          "13": 45,
+          "14": 54,
+          "15": 56,
+          "16": 91,
+          "17": 74,
+          "18": 40,
+          "19": 39,
+          "20": 57,
+          "21": 61,
+          "22": 40,
+          "23": 36,
+          "24": 63,
+          "25": 67,
+          "26": 66,
+          "27": 41,
+          "28": 64,
+          "29": 50,
+          "30": 36,
+          "31": 60,
+          "32": 65,
+          "33": 98,
+          "34": 57,
+          "35": 57,
+          "36": 57
+        },
+        "best_gw": [
+          33,
+          98
+        ],
+        "worst_gw": [
+          12,
+          34
+        ],
+        "avg_pts": 57.3,
+        "top5_gws": [
+          {
+            "gw": 33,
+            "pts": 98,
+            "result": "W"
+          },
+          {
+            "gw": 16,
+            "pts": 91,
+            "result": "W"
+          },
+          {
+            "gw": 4,
+            "pts": 82,
+            "result": "W"
+          },
+          {
+            "gw": 17,
+            "pts": 74,
+            "result": "L"
+          },
+          {
+            "gw": 8,
+            "pts": 73,
+            "result": "W"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 23,
+            "pts": 36,
+            "result": "L"
+          },
+          {
+            "gw": 30,
+            "pts": 36,
+            "result": "L"
+          },
+          {
+            "gw": 12,
+            "pts": 34,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "167387": {
+        "gw_points": {
+          "1": 44,
+          "2": 61,
+          "3": 60,
+          "4": 60,
+          "5": 51,
+          "6": 31,
+          "7": 84,
+          "8": 71,
+          "9": 38,
+          "10": 81,
+          "11": 47,
+          "12": 44,
+          "13": 39,
+          "14": 58,
+          "15": 54,
+          "16": 79,
+          "17": 80,
+          "18": 57,
+          "19": 43,
+          "20": 53,
+          "21": 73,
+          "22": 36,
+          "23": 51,
+          "24": 53,
+          "25": 97,
+          "26": 77,
+          "27": 43,
+          "28": 69,
+          "29": 54,
+          "30": 44,
+          "31": 72,
+          "32": 71,
+          "33": 85,
+          "34": 13,
+          "35": 55,
+          "36": 65
+        },
+        "best_gw": [
+          25,
+          97
+        ],
+        "worst_gw": [
+          34,
+          13
+        ],
+        "avg_pts": 58.1,
+        "top5_gws": [
+          {
+            "gw": 25,
+            "pts": 97,
+            "result": "W"
+          },
+          {
+            "gw": 33,
+            "pts": 85,
+            "result": "L"
+          },
+          {
+            "gw": 7,
+            "pts": 84,
+            "result": "W"
+          },
+          {
+            "gw": 10,
+            "pts": 81,
+            "result": "W"
+          },
+          {
+            "gw": 17,
+            "pts": 80,
+            "result": "W"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 22,
+            "pts": 36,
+            "result": "W"
+          },
+          {
+            "gw": 6,
+            "pts": 31,
+            "result": "L"
+          },
+          {
+            "gw": 34,
+            "pts": 13,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "138950": {
+        "gw_points": {
+          "1": 67,
+          "2": 58,
+          "3": 60,
+          "4": 60,
+          "5": 48,
+          "6": 28,
+          "7": 60,
+          "8": 59,
+          "9": 31,
+          "10": 90,
+          "11": 43,
+          "12": 44,
+          "13": 35,
+          "14": 60,
+          "15": 49,
+          "16": 81,
+          "17": 63,
+          "18": 51,
+          "19": 31,
+          "20": 38,
+          "21": 49,
+          "22": 49,
+          "23": 52,
+          "24": 55,
+          "25": 61,
+          "26": 57,
+          "27": 46,
+          "28": 75,
+          "29": 60,
+          "30": 53,
+          "31": 63,
+          "32": 56,
+          "33": 103,
+          "34": 45,
+          "35": 60,
+          "36": 59
+        },
+        "best_gw": [
+          33,
+          103
+        ],
+        "worst_gw": [
+          6,
+          28
+        ],
+        "avg_pts": 55.5,
+        "top5_gws": [
+          {
+            "gw": 33,
+            "pts": 103,
+            "result": "W"
+          },
+          {
+            "gw": 10,
+            "pts": 90,
+            "result": "W"
+          },
+          {
+            "gw": 16,
+            "pts": 81,
+            "result": "W"
+          },
+          {
+            "gw": 28,
+            "pts": 75,
+            "result": "W"
+          },
+          {
+            "gw": 1,
+            "pts": 67,
+            "result": "W"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 9,
+            "pts": 31,
+            "result": "L"
+          },
+          {
+            "gw": 19,
+            "pts": 31,
+            "result": "L"
+          },
+          {
+            "gw": 6,
+            "pts": 28,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "472208": {
+        "gw_points": {
+          "1": 62,
+          "2": 23,
+          "3": 60,
+          "4": 62,
+          "5": 39,
+          "6": 65,
+          "7": 70,
+          "8": 70,
+          "9": 46,
+          "10": 53,
+          "11": 44,
+          "12": 52,
+          "13": 24,
+          "14": 84,
+          "15": 70,
+          "16": 93,
+          "17": 96,
+          "18": 43,
+          "19": 41,
+          "20": 32,
+          "21": 47,
+          "22": 32,
+          "23": 58,
+          "24": 46,
+          "25": 65,
+          "26": 62,
+          "27": 42,
+          "28": 56,
+          "29": 66,
+          "30": 31,
+          "31": 68,
+          "32": 49,
+          "33": 90,
+          "34": 61,
+          "35": 39,
+          "36": 42
+        },
+        "best_gw": [
+          17,
+          96
+        ],
+        "worst_gw": [
+          2,
+          23
+        ],
+        "avg_pts": 55.1,
+        "top5_gws": [
+          {
+            "gw": 17,
+            "pts": 96,
+            "result": "W"
+          },
+          {
+            "gw": 16,
+            "pts": 93,
+            "result": "W"
+          },
+          {
+            "gw": 33,
+            "pts": 90,
+            "result": "L"
+          },
+          {
+            "gw": 14,
+            "pts": 84,
+            "result": "L"
+          },
+          {
+            "gw": 7,
+            "pts": 70,
+            "result": "L"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 30,
+            "pts": 31,
+            "result": "L"
+          },
+          {
+            "gw": 13,
+            "pts": 24,
+            "result": "L"
+          },
+          {
+            "gw": 2,
+            "pts": 23,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "184202": {
+        "gw_points": {
+          "1": 46,
+          "2": 68,
+          "3": 41,
+          "4": 54,
+          "5": 26,
+          "6": 72,
+          "7": 77,
+          "8": 87,
+          "9": 43,
+          "10": 67,
+          "11": 40,
+          "12": 46,
+          "13": 50,
+          "14": 60,
+          "15": 57,
+          "16": 79,
+          "17": 72,
+          "18": 36,
+          "19": 31,
+          "20": 55,
+          "21": 41,
+          "22": 49,
+          "23": 41,
+          "24": 52,
+          "25": 87,
+          "26": 78,
+          "27": 42,
+          "28": 50,
+          "29": 58,
+          "30": 45,
+          "31": 40,
+          "32": 50,
+          "33": 77,
+          "34": 12,
+          "35": 58,
+          "36": 31
+        },
+        "best_gw": [
+          8,
+          87
+        ],
+        "worst_gw": [
+          34,
+          12
+        ],
+        "avg_pts": 53.3,
+        "top5_gws": [
+          {
+            "gw": 8,
+            "pts": 87,
+            "result": "W"
+          },
+          {
+            "gw": 25,
+            "pts": 87,
+            "result": "W"
+          },
+          {
+            "gw": 16,
+            "pts": 79,
+            "result": "L"
+          },
+          {
+            "gw": 26,
+            "pts": 78,
+            "result": "W"
+          },
+          {
+            "gw": 7,
+            "pts": 77,
+            "result": "W"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 36,
+            "pts": 31,
+            "result": "L"
+          },
+          {
+            "gw": 5,
+            "pts": 26,
+            "result": "L"
+          },
+          {
+            "gw": 34,
+            "pts": 12,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      },
+      "4127653": {
+        "gw_points": {
+          "1": 43,
+          "2": 39,
+          "3": 51,
+          "4": 38,
+          "5": 31,
+          "6": 50,
+          "7": 70,
+          "8": 63,
+          "9": 40,
+          "10": 58,
+          "11": 63,
+          "12": 57,
+          "13": 72,
+          "14": 36,
+          "15": 39,
+          "16": 51,
+          "17": 116,
+          "18": 53,
+          "19": 27,
+          "20": 52,
+          "21": 46,
+          "22": 37,
+          "23": 36,
+          "24": 43,
+          "25": 48,
+          "26": 53,
+          "27": 35,
+          "28": 35,
+          "29": 48,
+          "30": 47,
+          "31": 45,
+          "32": 66,
+          "33": 41,
+          "34": 46,
+          "35": 57,
+          "36": 73
+        },
+        "best_gw": [
+          17,
+          116
+        ],
+        "worst_gw": [
+          19,
+          27
+        ],
+        "avg_pts": 50.1,
+        "top5_gws": [
+          {
+            "gw": 17,
+            "pts": 116,
+            "result": "W"
+          },
+          {
+            "gw": 36,
+            "pts": 73,
+            "result": "W"
+          },
+          {
+            "gw": 13,
+            "pts": 72,
+            "result": "W"
+          },
+          {
+            "gw": 7,
+            "pts": 70,
+            "result": "L"
+          },
+          {
+            "gw": 32,
+            "pts": 66,
+            "result": "L"
+          }
+        ],
+        "bot3_gws": [
+          {
+            "gw": 28,
+            "pts": 35,
+            "result": "L"
+          },
+          {
+            "gw": 5,
+            "pts": 31,
+            "result": "L"
+          },
+          {
+            "gw": 19,
+            "pts": 27,
+            "result": "L"
+          }
+        ],
+        "top_players": [],
+        "top_captains": [],
+        "chips": {},
+        "cap_history": []
+      }
+    },
+    "note": "Picks data se doplní automaticky po prvním spuštění GitHub Actions"
+  },
+  "pl_players": {},
+  "standings_with_results": [
+    {
+      "name": "Martin Holub",
+      "team": "Real Mordor *****",
+      "short": "MH",
+      "entry": 4239832,
+      "pts": 67,
+      "w": 22,
+      "d": 1,
+      "l": 13,
+      "fpl_total": 2070,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 51
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 75
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 84
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 30
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 29
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 34
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 88
+        },
+        {
+          "gw": 15,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 61
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 33
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 29
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 48
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 30
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 65
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 83
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 68
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 80
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 59
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 91
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 76
+        },
+        {
+          "gw": 35,
+          "result": "W",
+          "fpl": 59
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 71
+        }
+      ],
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "avg_pts": 57.5
+    },
+    {
+      "name": "Libor Pechoč",
+      "team": "Četnické humoresky",
+      "short": "LP",
+      "entry": 156572,
+      "pts": 66,
+      "w": 22,
+      "d": 0,
+      "l": 14,
+      "fpl_total": 2135,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 78
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 57
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 59
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 76
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 30
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 69
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 15,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 81
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 75
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 81
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 39
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 55
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 59
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 55
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 48
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 76
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 54
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 42
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 118
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 58
+        }
+      ],
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
+      "avg_pts": 59.3
+    },
+    {
+      "name": "Martin Válek",
+      "team": "Fusswaffe",
+      "short": "MV",
+      "entry": 155266,
+      "pts": 64,
+      "w": 21,
+      "d": 1,
+      "l": 14,
+      "fpl_total": 2063,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 82
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 71
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 66
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 34
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 45
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 54
+        },
+        {
+          "gw": 15,
+          "result": "W",
+          "fpl": 56
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 91
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 74
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 40
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 39
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 67
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 66
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 64
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 65
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 98
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 35,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 57
+        }
+      ],
+      "form": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "L"
+      ],
+      "avg_pts": 57.3
+    },
+    {
+      "name": "Jaroslav Bureš",
+      "team": "Yobagoya",
+      "short": "JB",
+      "entry": 167387,
+      "pts": 63,
+      "w": 21,
+      "d": 0,
+      "l": 15,
+      "fpl_total": 2093,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 44
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 84
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 71
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 81
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 47
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 44
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 79
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 80
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 21,
+          "result": "W",
+          "fpl": 73
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 36
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 51
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 53
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 97
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 69
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 44
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 72
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 71
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 85
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 13
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 55
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 65
+        }
+      ],
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "W"
+      ],
+      "avg_pts": 58.1
+    },
+    {
+      "name": "Rudolf Kvapil",
+      "team": "EREKCE ZE STRACHU",
+      "short": "RK",
+      "entry": 138950,
+      "pts": 54,
+      "w": 18,
+      "d": 0,
+      "l": 18,
+      "fpl_total": 1999,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 67
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 48
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 28
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 59
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 10,
+          "result": "W",
+          "fpl": 90
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 44
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 35
+        },
+        {
+          "gw": 14,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 49
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 81
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 63
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 51
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 49
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 24,
+          "result": "W",
+          "fpl": 55
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 61
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 57
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 28,
+          "result": "W",
+          "fpl": 75
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 53
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 56
+        },
+        {
+          "gw": 33,
+          "result": "W",
+          "fpl": 103
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 35,
+          "result": "W",
+          "fpl": 60
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 59
+        }
+      ],
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "L"
+      ],
+      "avg_pts": 55.5
+    },
+    {
+      "name": "Marek Palán",
+      "team": "Eskimo brothers",
+      "short": "MP",
+      "entry": 472208,
+      "pts": 48,
+      "w": 16,
+      "d": 0,
+      "l": 20,
+      "fpl_total": 1983,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 62
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 23
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 62
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 65
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 44
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 52
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 24
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 84
+        },
+        {
+          "gw": 15,
+          "result": "W",
+          "fpl": 70
+        },
+        {
+          "gw": 16,
+          "result": "W",
+          "fpl": 93
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 96
+        },
+        {
+          "gw": 18,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 19,
+          "result": "W",
+          "fpl": 41
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 32
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 47
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 32
+        },
+        {
+          "gw": 23,
+          "result": "W",
+          "fpl": 58
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 65
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 62
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 42
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 56
+        },
+        {
+          "gw": 29,
+          "result": "W",
+          "fpl": 66
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 31,
+          "result": "W",
+          "fpl": 68
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 49
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 90
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 61
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 42
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "avg_pts": 55.1
+    },
+    {
+      "name": "Michal Krautwurm",
+      "team": "Krampus",
+      "short": "MK",
+      "entry": 184202,
+      "pts": 40,
+      "w": 13,
+      "d": 1,
+      "l": 22,
+      "fpl_total": 1918,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 68
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 54
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 26
+        },
+        {
+          "gw": 6,
+          "result": "W",
+          "fpl": 72
+        },
+        {
+          "gw": 7,
+          "result": "W",
+          "fpl": 77
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 87
+        },
+        {
+          "gw": 9,
+          "result": "W",
+          "fpl": 43
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 67
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 60
+        },
+        {
+          "gw": 15,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 79
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 72
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 20,
+          "result": "W",
+          "fpl": 55
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 22,
+          "result": "W",
+          "fpl": 49
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 52
+        },
+        {
+          "gw": 25,
+          "result": "W",
+          "fpl": 87
+        },
+        {
+          "gw": 26,
+          "result": "W",
+          "fpl": 78
+        },
+        {
+          "gw": 27,
+          "result": "W",
+          "fpl": 42
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 32,
+          "result": "W",
+          "fpl": 50
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 77
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 12
+        },
+        {
+          "gw": 35,
+          "result": "W",
+          "fpl": 58
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 31
+        }
+      ],
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "L"
+      ],
+      "avg_pts": 53.3
+    },
+    {
+      "name": "Lukáš Kapinus",
+      "team": "1. FC Lukasovo",
+      "short": "LK",
+      "entry": 4127653,
+      "pts": 28,
+      "w": 9,
+      "d": 1,
+      "l": 26,
+      "fpl_total": 1805,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 39
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 31
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 50
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 70
+        },
+        {
+          "gw": 8,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 40
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 58
+        },
+        {
+          "gw": 11,
+          "result": "W",
+          "fpl": 63
+        },
+        {
+          "gw": 12,
+          "result": "W",
+          "fpl": 57
+        },
+        {
+          "gw": 13,
+          "result": "W",
+          "fpl": 72
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 39
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 51
+        },
+        {
+          "gw": 17,
+          "result": "W",
+          "fpl": 116
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 27
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 52
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 37
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 43
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 48
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 53
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 35
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 35
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 48
+        },
+        {
+          "gw": 30,
+          "result": "W",
+          "fpl": 47
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 45
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 66
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 34,
+          "result": "W",
+          "fpl": 46
+        },
+        {
+          "gw": 35,
+          "result": "D",
+          "fpl": 57
+        },
+        {
+          "gw": 36,
+          "result": "W",
+          "fpl": 73
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "W",
+        "D",
+        "W"
+      ],
+      "avg_pts": 50.1
+    }
+  ],
+  "picks": {}
+}

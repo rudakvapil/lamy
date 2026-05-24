@@ -159,7 +159,36 @@ tr.z3 td:first-child{border-left:3px solid var(--shame)}
 [data-theme="light"] .mhead{background:linear-gradient(135deg,var(--plp) 0%,var(--b4) 100%)}
 .mhead::after{content:'⚽';position:absolute;right:16px;bottom:8px;font-size:78px;opacity:.05;line-height:1}
 .mav{flex-shrink:0;width:96px;height:96px;border-radius:14px;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-size:50px;border:2px solid rgba(0,255,133,.3);z-index:1;overflow:hidden}
-.mav img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.mav img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;transition:transform .3s}
+.mav:hover img{transform:scale(1.05)}
+/* Photo lightbox */
+.photo-lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .25s}
+.photo-lightbox.open{opacity:1;pointer-events:all}
+.photo-lightbox img{max-width:min(90vw,600px);max-height:90vh;border-radius:16px;object-fit:contain;box-shadow:0 0 80px rgba(0,255,133,.2)}
+.photo-lightbox .lb-name{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);font-family:var(--fh);font-size:28px;letter-spacing:2px;color:#fff;text-align:center;text-shadow:0 2px 8px rgba(0,0,0,.8)}
+/* Poseason */
+.poseason{background:var(--bg2);border:1px solid var(--bo);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);margin-bottom:20px}
+.shiva-winner-header{background:linear-gradient(135deg,#1a1200,#2d2000,var(--bg3));border-bottom:3px solid var(--gold);padding:40px 32px;text-align:center;position:relative;overflow:hidden}
+.shiva-winner-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(245,200,66,.15),transparent 70%)}
+.sacko-loser-header{background:linear-gradient(135deg,#1a0000,#200808,var(--bg3));border-bottom:3px solid var(--shame);padding:32px;text-align:center;position:relative;overflow:hidden}
+.sacko-loser-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(255,61,61,.1),transparent 70%)}
+.confetti-emoji{font-size:32px;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.winner-photo{width:140px;height:140px;border-radius:50%;object-fit:cover;object-position:center top;border:4px solid var(--gold);box-shadow:0 0 40px rgba(245,200,66,.4);margin:0 auto 16px;display:block}
+.loser-photo{width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center top;border:4px solid var(--shame);box-shadow:0 0 30px rgba(255,61,61,.3);margin:0 auto 14px;display:block;filter:grayscale(30%)}
+.winner-name{font-family:var(--fh);font-size:44px;letter-spacing:3px;color:var(--gold);text-shadow:0 0 30px rgba(245,200,66,.5);margin-bottom:4px}
+.loser-name{font-family:var(--fh);font-size:36px;letter-spacing:2px;color:var(--shame);margin-bottom:4px}
+.winner-team{font-size:14px;color:rgba(255,255,255,.5);letter-spacing:2px;text-transform:uppercase;margin-bottom:16px}
+.shiva-count{display:inline-block;background:rgba(245,200,66,.15);border:2px solid var(--gold);border-radius:30px;padding:6px 20px;font-family:var(--fh);font-size:20px;color:var(--gold);letter-spacing:1px}
+.score-display{display:flex;align-items:center;justify-content:center;gap:24px;margin:16px 0}
+.score-val{font-family:var(--fh);font-size:56px;line-height:1}
+.score-sep{font-family:var(--fh);font-size:32px;color:var(--mu)}
+.score-name{font-size:13px;color:var(--mu);text-align:center;margin-top:4px}
+.season-recap{padding:24px 28px}
+.recap-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+.recap-card{background:var(--b3);border-radius:var(--rs);padding:16px;border:1px solid var(--bo);text-align:center}
+.recap-val{font-family:var(--fh);font-size:28px;display:block;line-height:1;margin-bottom:4px}
+.recap-lbl{font-size:11px;color:var(--mu);text-transform:uppercase;letter-spacing:1px}
 .mname{font-family:var(--fh);font-size:27px;letter-spacing:1px;color:#fff;margin-bottom:1px}
 .mteam{font-size:12px;color:rgba(255,255,255,.45);margin-bottom:8px}
 .mbio{font-size:12px;color:rgba(255,255,255,.52);font-style:italic;line-height:1.5;max-width:480px;margin-bottom:9px}
@@ -301,6 +330,7 @@ tr.z3 td:first-child{border-left:3px solid var(--shame)}
     <button class="nt" onclick="show('mg',this)">👤 Hráči</button>
     <button class="nt" onclick="show('ca',this)">📅 Kariéra</button>
     <button class="nt" onclick="show('pr',this)">🎯 Predikce</button>
+    <button class="nt" onclick="show('ps',this)">🎊 Poseason</button>
     <button class="nt" onclick="show('hf',this)">🏅 Hall of Fame</button>
     <button class="nt" onclick="show('hi',this)">📚 Archiv</button>
     <button class="nt" onclick="show('ru',this)">📋 Pravidla</button>
@@ -332,6 +362,7 @@ tr.z3 td:first-child{border-left:3px solid var(--shame)}
 <div class="sec" id="s-mg"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
 <div class="sec" id="s-ca"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
 <div class="sec" id="s-pr"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-ps"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
 <div class="sec" id="s-hf"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
 <div class="sec" id="s-hi"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
 <div class="sec" id="s-ru"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
@@ -387,6 +418,163 @@ function show(id,btn){
   $('s-'+id).classList.add('active');if(btn)btn.classList.add('active');
   if(D&&!rendered[id]){rendered[id]=true;render(id);}
 }
+/* ── LIGHTBOX ── */
+function openLightbox(src,name){
+  const lb=$('lightbox'),img=$('lb-img'),nm=$('lb-name');
+  img.src=src; nm.textContent=name;
+  lb.classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLightbox(){
+  $('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox();});
+
+/* ── POSEASON ── */
+function rPs(){
+  const PHOTOS={'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'};
+  const s=D.standings||[];
+
+  // Vítěz Shiva
+  const shivaWinner = s.find(p=>p.entry==4239832)||{name:'Martin Holub',team:'Real Mordor *****',pts:67,w:22,fpl_total:2070};
+  const shivaRunner = s.find(p=>p.entry==155266)||{name:'Martin Válek',team:'Fusswaffe',pts:64};
+  // Sacko
+  const sackoLoser  = s.find(p=>p.entry==4127653)||{name:'Lukáš Kapinus',team:'1. FC Lukasovo',pts:28,l:26};
+  const sackoSafe   = s.find(p=>p.entry==472208)||{name:'Marek Palán',team:'Eskimo brothers'};
+
+  $('s-ps').innerHTML=`
+    <div class="st"><span class="a">🎊 Poseason</span> 2024/25<span class="d">Závěrečné výsledky sezóny</span></div>
+
+    <!-- SHIVA WINNER -->
+    <div class="poseason" style="margin-bottom:24px">
+      <div class="shiva-winner-header">
+        <div style="position:relative;z-index:1">
+          <div style="font-size:40px;margin-bottom:12px;animation:float 2s ease-in-out infinite">🏆</div>
+          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px">⚜️ SHIVA CHAMPION 2024/25 ⚜️</div>
+          <img src="images/holub.jpg" class="winner-photo" onclick="openLightbox('images/holub.jpg','Martin Holub')" style="cursor:pointer" alt="Martin Holub">
+          <div class="winner-name">MARTIN HOLUB</div>
+          <div class="winner-team">Real Mordor *****</div>
+          <div class="shiva-count">🏆 6× SHIVA CHAMPION</div>
+          <div class="score-display" style="margin-top:20px">
+            <div style="text-align:center">
+              <div class="score-val" style="color:var(--gold)">85</div>
+              <div class="score-name" style="color:rgba(255,255,255,.5)">Holub</div>
+            </div>
+            <div class="score-sep">:</div>
+            <div style="text-align:center">
+              <div class="score-val" style="color:var(--mu)">72</div>
+              <div class="score-name" style="color:rgba(255,255,255,.3)">Válek</div>
+            </div>
+          </div>
+          <div style="font-size:13px;color:rgba(255,255,255,.4);margin-top:8px;letter-spacing:1px">GW38 FINÁLE · ČISTÁ ČÁRA</div>
+          <div style="display:flex;justify-content:center;gap:16px;margin-top:20px;flex-wrap:wrap">
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.2s">🎉</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.5s">👑</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.1s">🥂</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.7s">⭐</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.3s">🎊</span>
+          </div>
+        </div>
+      </div>
+      <div class="season-recap">
+        <div class="sub">📊 Sezóna v číslech – Martin Holub</div>
+        <div class="recap-grid">
+          <div class="recap-card"><span class="recap-val" style="color:var(--gold)">${shivaWinner.pts||67}</span><span class="recap-lbl">Ligové body</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--plg)">${shivaWinner.w||22}</span><span class="recap-lbl">Výher v sezóně</span></div>
+          <div class="recap-card"><span class="recap-val">${(shivaWinner.fpl_total||2070).toLocaleString('cs')}</span><span class="recap-lbl">FPL bodů celkem</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--gold)">6×</span><span class="recap-lbl">Shiva trofeje (celkem)</span></div>
+        </div>
+        <div style="background:var(--b3);border-radius:var(--rs);padding:14px 16px;font-size:13px;color:var(--mu);font-style:italic;border-left:3px solid var(--gold)">
+          💬 "Mordor se nevzdává." – A opravdu nevzdává. Martin Holub přidal šestý titul a upevnil svůj status jako největší legend Lam z Panamy. Šest trofejí za dvanáct sezón. To není štěstí – to je Mordor.
+        </div>
+      </div>
+    </div>
+
+    <!-- SACKO LOSER -->
+    <div class="poseason">
+      <div class="sacko-loser-header">
+        <div style="position:relative;z-index:1">
+          <div style="font-size:40px;margin-bottom:12px">💩</div>
+          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,61,61,.5);margin-bottom:16px">🤡 SACKO 2024/25 🤡</div>
+          <img src="images/kapinus.jpg" class="loser-photo" onclick="openLightbox('images/kapinus.jpg','Lukáš Kapinus – 💩 SACKO')" style="cursor:pointer" alt="Lukáš Kapinus">
+          <div class="loser-name">LUKÁŠ KAPINUS</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.4);letter-spacing:1px;margin-bottom:12px">1. FC Lukasovo</div>
+          <div style="display:inline-block;background:rgba(255,61,61,.12);border:2px solid var(--shame);border-radius:30px;padding:6px 20px;font-family:var(--fh);font-size:18px;color:var(--shame);letter-spacing:1px;margin-bottom:16px">
+            💩 SACKO TROFEJ 2024/25
+          </div>
+          <!-- Dramatický výsledek -->
+          <div style="background:rgba(0,0,0,.3);border-radius:12px;padding:16px;margin:16px 0">
+            <div style="font-size:12px;color:rgba(255,255,255,.3);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px">Sacko finále GW38</div>
+            <div class="score-display" style="margin:0">
+              <div style="text-align:center">
+                <div class="score-val" style="color:var(--shame);font-size:48px">55</div>
+                <div class="score-name" style="color:rgba(255,61,61,.5)">Kapinus 💩</div>
+              </div>
+              <div class="score-sep" style="color:var(--shame)">:</div>
+              <div style="text-align:center">
+                <div class="score-val" style="color:var(--mu);font-size:48px">56</div>
+                <div class="score-name" style="color:rgba(255,255,255,.3)">Palán ✓</div>
+              </div>
+            </div>
+            <div style="font-size:14px;color:var(--shame);font-weight:700;margin-top:10px;letter-spacing:1px">PROHRÁL O 1 BOD. JEDEN. JEDINÝ.</div>
+          </div>
+          <div style="font-size:13px;color:rgba(255,255,255,.35);margin-top:8px">
+            Kapinus rekordních 9V–26L–1R v základní části.<br>
+            GW17: 116 bodů (rekord ligy). Pak propad.<br>
+            Sacko finále: 55 vs 56. Jedna chybná volba.
+          </div>
+          <div style="display:flex;justify-content:center;gap:14px;margin-top:18px">
+            <span style="font-size:26px">💩</span>
+            <span style="font-size:26px">🤡</span>
+            <span style="font-size:26px">😭</span>
+            <span style="font-size:26px">☠️</span>
+            <span style="font-size:26px">💩</span>
+          </div>
+        </div>
+      </div>
+      <div class="season-recap">
+        <div class="sub">📊 Sezóna v číslech – Lukáš Kapinus</div>
+        <div class="recap-grid">
+          <div class="recap-card"><span class="recap-val" style="color:var(--shame)">${sackoLoser.pts||28}</span><span class="recap-lbl">Ligové body</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--shame)">${sackoLoser.l||26}</span><span class="recap-lbl">Proher v sezóně</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--gold)">116</span><span class="recap-lbl">Max GW (GW17 – rekord!)</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--shame)">1</span><span class="recap-lbl">Bod mezi ním a záchranou</span></div>
+        </div>
+        <div style="background:var(--b3);border-radius:var(--rs);padding:14px 16px;font-size:13px;color:var(--mu);font-style:italic;border-left:3px solid var(--shame)">
+          💬 "GW17 byl zlom. Bohužel špatným směrem." – Lukáš Kapinus se zapsal do síně hanby. Přes historický rekord 116 bodů v GW17 skončil sezónu s Sacko trofejí a prohrou o jediný bod. 1. FC Lukasovo se promění v 1. FC Sacko-sovo.
+        </div>
+        <div style="margin-top:16px;padding:14px;background:rgba(255,61,61,.05);border-radius:var(--rs);border:1px solid rgba(255,61,61,.15);text-align:center">
+          <div style="font-size:12px;color:var(--mu);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Celková bilance Sacko</div>
+          <div style="font-family:var(--fh);font-size:22px;color:var(--shame)">1× Sacko trofej</div>
+          <div style="font-size:12px;color:rgba(255,61,61,.4);margin-top:4px">první v kariéře · 2024/25</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CELKOVÝ PŘEHLED SEZÓNY -->
+    <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:20px;box-shadow:var(--sh)">
+      <div class="sub">🏅 Sezóna 2024/25 – celkový přehled</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
+        ${s.map((p,i)=>{
+          const ph=PHOTOS[String(p.entry)];
+          const medals=['👑','🥈','🥉','4.','5.','6.','7.','💩'];
+          const isSacko=p.entry==4127653;
+          const isShiva=p.entry==4239832;
+          return`<div style="background:var(--b3);border-radius:var(--rs);padding:14px;text-align:center;border:1px solid ${isShiva?'var(--gold)':isSacko?'var(--shame)':'var(--bo)'};position:relative;overflow:hidden">
+            ${ph?`<img src="images/${ph}.jpg" onclick="openLightbox('images/${ph}.jpg','${p.name}')" style="width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid ${isShiva?'var(--gold)':isSacko?'var(--shame)':'var(--bo)'};margin-bottom:8px;cursor:pointer;display:block;margin-left:auto;margin-right:auto">`:'<div style="font-size:36px;margin-bottom:8px">'+( {4239832:'👑',156572:'🕵️',155266:'⚔️',167387:'🧘',138950:'😤',472208:'🧊',184202:'🎄',4127653:'🎰'}[p.entry]||'👤')+'</div>'}
+            <div style="font-size:14px;font-weight:700;margin-bottom:2px">${p.name.split(' ')[1]||p.name}</div>
+            <div style="font-size:10px;color:var(--mu);margin-bottom:8px">${p.team}</div>
+            <div style="font-family:var(--fh);font-size:22px;color:${isShiva?'var(--gold)':isSacko?'var(--shame)':'var(--tx)'}">${medals[i]}</div>
+            <div style="font-size:12px;color:var(--mu);margin-top:4px">${p.pts}b · ${p.w}V ${p.l}P</div>
+            ${isShiva?'<div style="font-size:11px;color:var(--gold);margin-top:4px;font-weight:700">🏆 SHIVA CHAMPION</div>':''}
+            ${isSacko?'<div style="font-size:11px;color:var(--shame);margin-top:4px;font-weight:700">💩 SACKO</div>':''}
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+}
+
 async function load(){
   try{
     const r=await fetch(`data/season.json?v=${Math.floor(Date.now()/3600000)}`);
@@ -403,6 +591,7 @@ function render(id){
     if(id==='st')rSt();if(id==='fo')rFo();if(id==='po')rPo();if(id==='lv')rLv();
     if(id==='aw')rAw();if(id==='du')rDu();if(id==='ss')rSs();if(id==='mg')rMg();
     if(id==='ca')rCa();if(id==='pr')rPr();
+  if(id==='ps')rPs();
   }catch(e){
     $('s-'+id).innerHTML=`<div style="padding:24px;color:var(--shame);font-family:var(--fm);font-size:13px">
       <strong>Chyba renderování:</strong><br>${e.message}<br><br>
@@ -515,16 +704,17 @@ function rPo(){
 
   // Shiva finále – vítězové SF
   const SHIVA_FIN = [{
-    home: {entry:4239832, name:'Martin Holub', team:'Real Mordor *****', gw38_fpl: fin[0]?.home?.gw38_fpl || fin[0]?.away?.gw38_fpl ? (fin[0]?.home?.entry==4239832 ? fin[0].home.gw38_fpl : fin[0].away.gw38_fpl) : null},
-    away: {entry:155266,  name:'Martin Válek', team:'Fusswaffe',         gw38_fpl: fin[0]?.home?.gw38_fpl || fin[0]?.away?.gw38_fpl ? (fin[0]?.home?.entry==155266  ? fin[0].home.gw38_fpl : fin[0].away.gw38_fpl) : null},
-    winner: fin[0]?.winner || null
+    home:   {entry:4239832, name:'Martin Holub', team:'Real Mordor *****', gw38_fpl: 85},
+    away:   {entry:155266,  name:'Martin Válek', team:'Fusswaffe',         gw38_fpl: 72},
+    winner: 4239832
   }];
 
   // Sacko finále – poražení z playout SF
   const SACKO_FIN = {
-    home: {entry:4127653, name:'Lukáš Kapinus', team:'1. FC Lukasovo', gw38_fpl:null},
-    away: {entry:472208,  name:'Marek Palán',   team:'Eskimo brothers', gw38_fpl:null},
-    winner: null
+    home:   {entry:4127653, name:'Lukáš Kapinus', team:'1. FC Lukasovo',  gw38_fpl: 55},
+    away:   {entry:472208,  name:'Marek Palán',   team:'Eskimo brothers', gw38_fpl: 56},
+    winner: 472208,
+    sacko:  4127653
   };
 
 
@@ -888,8 +1078,8 @@ function rMg(){
     return`<div class="mpanel ${i===0?'active':''}" id="mp-${p.entry}">
       <div class="mcard">
         <div class="mhead">
-          <div class="mav">
-            <img src="images/${['4239832','156572','155266','167387','138950','472208','184202','4127653'].includes(String(p.entry)) ? {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry] : ''}.jpg"
+          <div class="mav" style="cursor:pointer" onclick="openLightbox('images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg','${p.name}')">
+            <img src="images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg"
               onerror="this.style.display='none';this.nextSibling.style.display='flex'"
               alt="${p.name}" style="width:100%;height:100%;object-fit:cover;object-position:center top">
             <span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:48px">${info.e||'👤'}</span>
@@ -1100,5 +1290,11 @@ function renderRules(){
 
 load();
 </script>
+<!-- PHOTO LIGHTBOX -->
+<div class="photo-lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lb-img" src="" alt="">
+  <div class="lb-name" id="lb-name"></div>
+  <div style="position:absolute;top:20px;right:24px;font-size:28px;color:rgba(255,255,255,.5);cursor:pointer">✕</div>
+</div>
 </body>
 </html>
