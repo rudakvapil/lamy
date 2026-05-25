@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🦙 Fantasy Lamy z Panamy</title>
+<title>🦙 Fantasy Lamy z Panamy – Archiv 2025/26</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -316,6 +316,14 @@ tr.z3 td:first-child{border-left:3px solid var(--shame)}
 </style>
 </head>
 <body>
+<div style="background:linear-gradient(90deg,#2a1a00,#1a0a00);border-bottom:2px solid var(--gold);padding:8px 20px;display:flex;align-items:center;justify-content:space-between;font-size:13px;position:sticky;top:0;z-index:300">
+  <div style="display:flex;align-items:center;gap:10px">
+    <span style="font-size:18px">📦</span>
+    <strong style="color:var(--gold)">ARCHIVOVANÁ SEZÓNA 2025/26</strong>
+    <span style="color:rgba(255,255,255,.4)">· Data zmrazena ke konci sezóny</span>
+  </div>
+  <a href="../../" style="color:var(--plg);font-size:12px;font-weight:600;text-decoration:none;border:1px solid rgba(0,255,133,.3);padding:3px 10px;border-radius:12px">← Aktuální sezóna</a>
+</div>
 <div class="ubar"><span id="ust"><span class="ldg"></span>Načítám...</span><span id="utm"></span></div>
 <nav class="nav">
   <a class="logo" href="#">🦙 LAMY<span>Z&nbsp;PANAMY</span></a>
@@ -459,7 +467,7 @@ function rPs(){
         <div style="position:relative;z-index:1">
           <div style="font-size:40px;margin-bottom:12px;animation:float 2s ease-in-out infinite">🏆</div>
           <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px">⚜️ SHIVA CHAMPION 2025/26 ⚜️</div>
-          <img src="images/holub.jpg" class="winner-photo" onclick="openLightbox('images/holub.jpg','Martin Holub')" style="cursor:pointer" alt="Martin Holub">
+          <img src="../../images/holub.jpg" class="winner-photo" onclick="openLightbox('images/holub.jpg','Martin Holub')" style="cursor:pointer" alt="Martin Holub">
           <div class="winner-name">MARTIN HOLUB</div>
           <div class="winner-team">Real Mordor *****</div>
           <div class="shiva-count">🏆 6× SHIVA CHAMPION · REKORD LIGY</div>
@@ -508,7 +516,7 @@ function rPs(){
         <div style="position:relative;z-index:1">
           <div style="font-size:40px;margin-bottom:12px">💩</div>
           <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,61,61,.5);margin-bottom:16px">🤡 SACKO 2025/26 🤡</div>
-          <img src="images/kapinus.jpg" class="loser-photo" onclick="openLightbox('images/kapinus.jpg','Lukáš Kapinus – 💩 SACKO')" style="cursor:pointer" alt="Lukáš Kapinus">
+          <img src="../../images/kapinus.jpg" class="loser-photo" onclick="openLightbox('images/kapinus.jpg','Lukáš Kapinus – 💩 SACKO')" style="cursor:pointer" alt="Lukáš Kapinus">
           <div class="loser-name">LUKÁŠ KAPINUS</div>
           <div style="font-size:13px;color:rgba(255,255,255,.4);letter-spacing:1px;margin-bottom:12px">1. FC Lukasovo</div>
           <div style="display:inline-block;background:rgba(255,61,61,.12);border:2px solid var(--shame);border-radius:30px;padding:6px 20px;font-family:var(--fh);font-size:18px;color:var(--shame);letter-spacing:1px;margin-bottom:16px">
@@ -586,7 +594,7 @@ function rPs(){
             const ph=PHOTOS[String(entry)];
             const emoji={4239832:'👑',156572:'🕵️',155266:'⚔️',167387:'🧘',138950:'😤',472208:'🧊',184202:'🎄',4127653:'🎰'}[entry]||'👤';
             return`<div style="background:var(--b3);border-radius:var(--rs);padding:14px;text-align:center;border:1px solid ${BORDERS[i]};position:relative">
-              ${ph?`<img src="images/${ph}.jpg" onclick="openLightbox('images/${ph}.jpg','${p.name}')" style="width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid ${BORDERS[i]};margin-bottom:8px;cursor:pointer;display:block;margin-left:auto;margin-right:auto">`:`<div style="font-size:36px;margin-bottom:8px">${emoji}</div>`}
+              ${ph?`<img src="../../images/${ph}.jpg" onclick="openLightbox('images/${ph}.jpg','${p.name}')" style="width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid ${BORDERS[i]};margin-bottom:8px;cursor:pointer;display:block;margin-left:auto;margin-right:auto">`:`<div style="font-size:36px;margin-bottom:8px">${emoji}</div>`}
               <div style="font-size:14px;font-weight:700;margin-bottom:2px">${p.name?.split(' ')[1]||p.name}</div>
               <div style="font-size:10px;color:var(--mu);margin-bottom:8px">${p.team}</div>
               <div style="font-family:var(--fh);font-size:24px;color:${COLORS[i]}">${MEDALS[i]}</div>
@@ -601,10 +609,10 @@ function rPs(){
 
 async function load(){
   try{
-    const r=await fetch(`data/season.json?v=${Math.floor(Date.now()/3600000)}`);
+    const r=await fetch(`../data/season.json`);
     D=await r.json();
     const u=new Date(D.meta.updated_at);
-    $('ust').textContent='✅ Data aktuální';$('utm').textContent='Aktualizováno: '+u.toLocaleString('cs-CZ');
+    $('ust').textContent='📦 Archivovaná data – sezóna 2025/26';$('utm').textContent='Aktualizováno: '+u.toLocaleString('cs-CZ');
     $('hgw').textContent=D.meta.current_gw;$('hgw2').textContent=D.meta.current_gw;$('hse').textContent=D.meta.season;
     if(D.standings?.length)$('hld').textContent=D.standings[0].name.split(' ')[1]||D.standings[0].name;
     rendered={};render('ps');render('st');renderHoF();renderHist();renderRules();
@@ -1099,7 +1107,7 @@ function rMg(){
   const tabs=s.map((p,i)=>{
     const ph=PHOTOS[String(p.entry)];
     const av=ph
-      ? `<img src="images/${ph}.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;object-position:center top;vertical-align:middle;margin-right:4px" onerror="this.style.display='none'">`
+      ? `<img src="../../images/${ph}.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;object-position:center top;vertical-align:middle;margin-right:4px" onerror="this.style.display='none'">`
       : `${MS[p.entry]?.e||'👤'} `;
     return `<button class="mtab ${i===0?'active':''}" onclick="swM(${p.entry},this)">${av}${p.name.split(' ')[1]||p.name}</button>`;
   }).join('');
@@ -1126,7 +1134,7 @@ function rMg(){
       <div class="mcard">
         <div class="mhead">
           <div class="mav" style="cursor:pointer" onclick="openLightbox('images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg','${p.name}')">
-            <img src="images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg"
+            <img src="../../images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg"
               onerror="this.style.display='none';this.nextSibling.style.display='flex'"
               alt="${p.name}" style="width:100%;height:100%;object-fit:cover;object-position:center top">
             <span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:48px">${info.e||'👤'}</span>
