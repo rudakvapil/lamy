@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-25T14:28:50.357514+00:00",
+    "updated_at": "2026-05-25T16:57:27.195560+00:00",
     "current_gw": 38,
     "season": "2025/26",
     "league_id": 83735,
@@ -2137,7 +2137,7 @@
           "team": "Fusswaffe",
           "gw38_fpl": 72
         },
-        "winner": null
+        "winner": 4239832
       }
     ],
     "playout_sf": [
