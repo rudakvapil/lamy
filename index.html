@@ -402,7 +402,7 @@ const HIST=[
   {n:10,s:'2022/2023',sh:'Marek Palán',     sa:'Martin Holub'},
   {n:11,s:'2023/2024',sh:'Martin Holub',    sa:'Michal Krautwurm'},
   {n:12,s:'2024/2025',sh:'Marek Palán',     sa:'Libor Pechoč'},
-  {n:13,s:'2025/2026',sh:'Martin Holub',    sa:'Lukáš Kapinus'},
+  {n:13,s:'2025/2026',sh:'Martin Holub',    sa:'Lukáš Kapinus', arch:'2025-26'},
 ];
 const CL={'bboost':'Bench Boost','bench_boost':'Bench Boost','3xc':'Triple Captain','triple_captain':'Triple Captain','freehit':'Free Hit','free_hit':'Free Hit','wildcard':'Wildcard'};
 const CC={'bboost':'bb','bench_boost':'bb','3xc':'tc','triple_captain':'tc','freehit':'fh','free_hit':'fh','wildcard':'wc'};
@@ -1304,7 +1304,7 @@ function renderHist(){
     <div class="tw"><table><thead><tr><th>#</th><th>📅 Sezóna</th><th>🏆 Shiva – Vítěz</th><th>💩 Sacko – Poražený</th></tr></thead>
     <tbody>${[...HIST].reverse().map(h=>`<tr ${h.cur?'style="background:rgba(0,255,133,.04)"':''}>
       <td style="font-family:var(--fm);font-size:11px;color:var(--mu)">${h.n}</td>
-      <td style="${h.cur?'color:var(--plg);font-weight:700':'font-weight:500'}">${h.s}${h.cur?' <span class="live-pill">LIVE</span>':''}</td>
+      <td style="${h.cur?'color:var(--plg);font-weight:700':'font-weight:500'}">${h.s}${h.cur?' <span class="live-pill">LIVE</span>':h.arch?` <a href="archive/${h.arch}/" style="font-size:10px;color:var(--plg);border:1px solid rgba(0,255,133,.3);padding:1px 6px;border-radius:8px;text-decoration:none;margin-left:6px">📦 archiv</a>`:''}</td>
       <td style="${!h.cur?'color:var(--gold);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sh}</td>
       <td style="${!h.cur?'color:var(--shame);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sa}</td>
     </tr>`).join('')}</tbody></table></div>
