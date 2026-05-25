@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="cs" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🦙 Fantasy Lamy z Panamy – Archiv 2025/26</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --plp:#37003c;--plg:#00ff85;--plk:#e90052;--pls:#04f5ff;
+  --gold:#f5c842;--silver:#b8b8b8;--shame:#ff3d3d;--bronze:#cd7f32;--blue:#4488ff;
+  --bg:#0a0a12;--b2:#12121e;--b3:#1a1a28;--b4:#222232;--b5:#2a2a3e;
+  --bo:rgba(255,255,255,.07);--b2o:rgba(255,255,255,.13);--b3o:rgba(255,255,255,.22);
+  --tx:#f0eeff;--mu:rgba(240,238,255,.45);--m2:rgba(240,238,255,.2);
+  --sh:0 4px 24px rgba(0,0,0,.4);--r:14px;--rs:8px;
+  --fh:'Bebas Neue',sans-serif;--fb:'DM Sans',sans-serif;--fm:'DM Mono',monospace;
+}
+[data-theme="light"]{
+  --bg:#f0eef8;--b2:#ffffff;--b3:#e8e4f4;--b4:#ddd8ef;--b5:#d0c8e8;
+  --bo:rgba(55,0,60,.1);--b2o:rgba(55,0,60,.18);--b3o:rgba(55,0,60,.3);
+  --tx:#1a0020;--mu:rgba(26,0,32,.6);--m2:rgba(26,0,32,.3);
+  --sh:0 2px 12px rgba(55,0,60,.12);
+  --plg:#009955;--gold:#b88a00;--shame:#cc2222;--blue:#2266dd;
+}
+body{background:var(--bg);color:var(--tx);font-family:var(--fb);font-size:15px;line-height:1.6;min-height:100vh;transition:background .25s,color .25s}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 28px,rgba(0,255,133,.015) 28px,rgba(0,255,133,.015) 30px);opacity:.7}
+[data-theme="light"] body::before{background-image:repeating-linear-gradient(0deg,transparent,transparent 28px,rgba(55,0,60,.02) 28px,rgba(55,0,60,.02) 30px)}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:200;background:var(--plp);border-bottom:3px solid var(--plg);display:flex;align-items:center;padding:0 14px;height:52px;gap:4px;box-shadow:0 2px 20px rgba(0,0,0,.5)}
+.logo{font-family:var(--fh);font-size:21px;letter-spacing:2px;color:var(--plg);margin-right:10px;white-space:nowrap;text-decoration:none;display:flex;align-items:center;gap:7px}
+.logo span{color:#fff;font-size:17px}
+.tabs{display:flex;gap:1px;overflow-x:auto;flex:1}.tabs::-webkit-scrollbar{display:none}
+.nt{background:none;border:none;cursor:pointer;padding:5px 8px;border-radius:5px;color:rgba(255,255,255,.5);font-family:var(--fb);font-size:11px;font-weight:600;transition:all .15s;white-space:nowrap;text-transform:uppercase;letter-spacing:.3px}
+.nt:hover{color:#fff;background:rgba(255,255,255,.1)}.nt.active{color:var(--plg);background:rgba(0,255,133,.15)}
+.tbtn{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:3px 10px;cursor:pointer;font-size:12px;color:#fff;flex-shrink:0;margin-left:8px;transition:background .2s}
+.tbtn:hover{background:rgba(255,255,255,.22)}
+
+/* UBAR */
+.ubar{background:var(--b3);border-bottom:1px solid var(--bo);padding:4px 20px;font-size:11px;color:var(--mu);display:flex;justify-content:space-between;position:relative;z-index:1}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;padding:52px 20px 40px;background:var(--plp);border-bottom:3px solid var(--plg)}
+.hero::before{content:'';position:absolute;bottom:-80px;left:50%;transform:translateX(-50%);width:1000px;height:560px;border:2px solid rgba(0,255,133,.1);border-radius:50%;pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-40px;left:50%;transform:translateX(-50%);width:560px;height:340px;border:1px solid rgba(0,255,133,.07);border-radius:50%;pointer-events:none}
+.hcorner{position:absolute;font-size:30px;opacity:.3}
+.hcorner.tl{top:16px;left:18px}.hcorner.tr{top:16px;right:18px}
+.hcorner.bl{bottom:16px;left:18px}.hcorner.br{bottom:16px;right:18px}
+.hi{position:relative;max-width:880px;margin:0 auto;text-align:center;z-index:1}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;margin-bottom:12px;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--plg);border:1px solid rgba(0,255,133,.3);padding:4px 14px;border-radius:20px;background:rgba(0,255,133,.07)}
+.ld{width:6px;height:6px;border-radius:50%;background:var(--plk);animation:blink 1.5s infinite;flex-shrink:0}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.6)}}
+.hero h1{font-family:var(--fh);font-size:clamp(38px,9vw,86px);letter-spacing:3px;line-height:.92;margin-bottom:8px;color:#fff;text-shadow:0 0 60px rgba(0,255,133,.25)}
+.hero h1 .g{color:var(--plg)}.hero h1 .p{color:var(--plk)}
+.hs{font-size:11px;color:rgba(255,255,255,.45);letter-spacing:3px;text-transform:uppercase;margin-bottom:26px}
+.kpis{display:flex;justify-content:center;max-width:560px;margin:0 auto;border:1px solid rgba(0,255,133,.2);border-radius:var(--r);overflow:hidden;background:rgba(0,0,0,.25)}
+.kpi{flex:1;text-align:center;padding:13px 8px;border-right:1px solid rgba(0,255,133,.12)}
+.kpi:last-child{border-right:none}
+.kv{font-family:var(--fh);font-size:28px;color:var(--plg);display:block;line-height:1}
+.kl{font-size:9px;color:rgba(255,255,255,.38);text-transform:uppercase;letter-spacing:1.5px;margin-top:2px}
+
+/* SECTIONS */
+.sec{padding:20px 18px 32px;max-width:1060px;margin:0 auto;display:none;position:relative;z-index:1}
+.sec.active{display:block}
+.st{font-family:var(--fh);font-size:22px;letter-spacing:2px;margin-bottom:16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;text-transform:uppercase}
+.st .a{color:var(--plg)}.st .d{color:var(--mu);font-size:12px;font-family:var(--fb);font-weight:400;text-transform:none;letter-spacing:0}
+.sdiv{height:2px;background:linear-gradient(90deg,var(--plg),transparent);margin:18px 0;opacity:.35;border-radius:1px}
+
+/* CARDS */
+.tw{border-radius:var(--r);overflow:hidden;border:1px solid var(--bo);background:var(--b2);box-shadow:var(--sh)}
+table{width:100%;border-collapse:collapse}
+th{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--mu);padding:9px 12px;text-align:left;background:var(--b3);border-bottom:1px solid var(--b2o)}
+td{padding:10px 12px;border-bottom:1px solid var(--bo);font-size:14px;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(0,255,133,.025)}
+[data-theme="light"] tr:hover td{background:rgba(55,0,60,.025)}
+tr.z1 td:first-child{border-left:3px solid var(--gold)}
+tr.z2 td:first-child{border-left:3px solid var(--plg)}
+tr.z3 td:first-child{border-left:3px solid var(--shame)}
+.lp{font-family:var(--fm);font-size:13px;font-weight:700;padding:3px 8px;border-radius:5px}
+.lp.t{background:rgba(0,255,133,.12);color:var(--plg)}.lp.m{background:rgba(245,200,66,.12);color:var(--gold)}.lp.b{background:rgba(255,61,61,.12);color:var(--shame)}
+.frow{display:flex;gap:3px}
+.fd{width:9px;height:9px;border-radius:50%}
+.fd.W{background:var(--plg)}.fd.L{background:var(--shame)}.fd.D{background:var(--gold)}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:10px;margin-top:14px}
+.sc{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:15px;position:relative;overflow:hidden;box-shadow:var(--sh)}
+.sc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.sc.g::before{background:linear-gradient(90deg,var(--gold),#ffaa00)}.sc.n::before{background:linear-gradient(90deg,var(--plg),var(--pls))}
+.sc.s::before{background:linear-gradient(90deg,var(--shame),#ff8800)}.sc.p::before{background:linear-gradient(90deg,var(--plk),#ff0066)}
+.sc.b::before{background:linear-gradient(90deg,var(--blue),#8844ff)}
+.sc .v{font-family:var(--fh);font-size:30px;line-height:1;margin-bottom:2px}
+.sc.g .v{color:var(--gold)}.sc.n .v{color:var(--plg)}.sc.s .v{color:var(--shame)}.sc.p .v{color:var(--plk)}.sc.b .v{color:var(--blue)}
+.sc .lb{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:1px}.sc .nm{font-size:12px;font-weight:600;margin-top:4px}
+
+/* H2H */
+.h2w{overflow-x:auto}
+.h2t{border-collapse:collapse;font-size:12px;min-width:500px}
+.h2t th,.h2t td{padding:6px 8px;text-align:center;border:1px solid var(--bo)}
+.h2t th{background:var(--b3);color:var(--mu);font-size:10px;text-transform:uppercase}
+.h2t .hn{text-align:left;font-weight:600;background:var(--b3);white-space:nowrap}
+.h2t .win{color:var(--plg);font-weight:700}.h2t .loss{color:var(--shame)}.h2t .draw{color:var(--gold)}.h2t .self{background:var(--b4);color:var(--m2)}
+
+/* ══════════════════════════════════════
+   PLAYOFF BRACKET – klasický turnaj
+   SF-A │ → FINÁLE ← │ SF-B
+══════════════════════════════════════ */
+.bracket-section{margin-bottom:28px}
+.bracket-label{font-family:var(--fh);font-size:17px;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.bracket-grid{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:0;align-items:center}
+.bracket-col{}
+.bracket-col-title{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--mu);text-align:center;margin-bottom:8px;padding:4px;border-radius:4px}
+/* connector between SF and FINAL */
+.bconn{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 8px;gap:2px}
+.bconn-line{width:2px;min-height:30px;flex:1;border-radius:1px}
+.bconn-arrow{font-size:16px;line-height:1}
+
+/* match card */
+.bm{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);overflow:hidden;margin-bottom:10px;box-shadow:var(--sh)}
+.bm:last-child{margin-bottom:0}
+.bm.shiva{border-left:3px solid rgba(245,200,66,.6)}
+.bm.sacko{border-left:3px solid rgba(255,61,61,.6)}
+.bm.fin-shiva{border:2px solid var(--gold);box-shadow:0 0 28px rgba(245,200,66,.18),var(--sh)}
+.bm.fin-sacko{border:2px solid var(--shame);box-shadow:0 0 28px rgba(255,61,61,.18),var(--sh)}
+.bm-head{padding:5px 12px;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.bm-head.sh{background:rgba(245,200,66,.07);color:var(--gold)}
+.bm-head.sk{background:rgba(255,61,61,.07);color:var(--shame)}
+.bm-head.fsh{background:linear-gradient(90deg,rgba(245,200,66,.14),rgba(245,200,66,.04));color:var(--gold)}
+.bm-head.fsk{background:linear-gradient(90deg,rgba(255,61,61,.14),rgba(255,61,61,.04));color:var(--shame)}
+.bm-row{padding:9px 13px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--bo);transition:background .15s}
+.bm-row.won{background:rgba(0,255,133,.06)}.bm-row.lost{opacity:.48}
+.bm-name{font-size:13px;font-weight:600}.bm-team{font-size:10px;color:var(--mu)}
+.bm-pts{font-family:var(--fm);font-size:14px;font-weight:700}
+.bm-pts.w{color:var(--plg)}.bm-pts.l{color:var(--shame)}.bm-pts.lv{color:var(--gold)}
+.bm-note{font-size:11px;color:var(--mu);padding:5px 12px;border-top:1px solid var(--bo);font-style:italic}
+.vrow{background:rgba(0,255,133,.04);border-top:1px solid var(--bo);padding:5px 12px;font-size:11px;color:var(--plg);font-family:var(--fm)}
+.tbadge{font-size:10px;padding:2px 7px;border-radius:4px;font-weight:600}
+.tbadge.done{background:rgba(0,255,133,.12);color:var(--plg)}
+.tbadge.lv{background:var(--plk);color:#fff;animation:blink 1.5s infinite}
+.tbadge.tbd{background:rgba(245,200,66,.12);color:var(--gold)}
+/* Final center decoration */
+.fin-center{text-align:center;margin-bottom:8px}
+.fin-icon{font-size:28px;display:block;margin-bottom:4px}
+.fin-txt{font-family:var(--fh);font-size:11px;letter-spacing:3px;text-transform:uppercase}
+
+/* GW CHART */
+.gwchart{display:flex;align-items:flex-end;gap:2px;height:62px;background:var(--b3);border-radius:var(--rs);padding:6px 8px;overflow:hidden}
+.gwbar{border-radius:2px 2px 0 0;min-width:3px;flex:1;cursor:pointer;transition:opacity .15s,transform .15s}
+.gwbar.W{background:linear-gradient(180deg,var(--plg),rgba(0,255,133,.35))}.gwbar.L{background:linear-gradient(180deg,var(--shame),rgba(255,61,61,.35))}.gwbar.D{background:linear-gradient(180deg,var(--gold),rgba(245,200,66,.35))}
+.gwbar:hover{opacity:.7;transform:scaleY(1.05);transform-origin:bottom}
+
+/* MANAGERS */
+.mtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.mtab{background:var(--b2);border:1px solid var(--bo);border-radius:30px;padding:5px 13px;cursor:pointer;font-size:12px;font-weight:600;color:var(--mu);transition:all .2s}
+.mtab:hover{border-color:var(--b2o);color:var(--tx)}.mtab.active{background:var(--plp);color:var(--plg);border-color:var(--plg)}
+.mpanel{display:none}.mpanel.active{display:block}
+.mcard{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+.mhead{padding:22px 20px;display:flex;gap:18px;align-items:flex-start;border-bottom:1px solid var(--bo);position:relative;overflow:hidden;background:linear-gradient(135deg,var(--plp) 0%,var(--b3) 100%)}
+[data-theme="light"] .mhead{background:linear-gradient(135deg,var(--plp) 0%,var(--b4) 100%)}
+.mhead::after{content:'⚽';position:absolute;right:16px;bottom:8px;font-size:78px;opacity:.05;line-height:1}
+.mav{flex-shrink:0;width:96px;height:96px;border-radius:14px;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-size:50px;border:2px solid rgba(0,255,133,.3);z-index:1;overflow:hidden}
+.mav img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;transition:transform .3s}
+.mav:hover img{transform:scale(1.05)}
+/* Photo lightbox */
+.photo-lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .25s}
+.photo-lightbox.open{opacity:1;pointer-events:all}
+.photo-lightbox img{max-width:min(90vw,600px);max-height:90vh;border-radius:16px;object-fit:contain;box-shadow:0 0 80px rgba(0,255,133,.2)}
+.photo-lightbox .lb-name{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);font-family:var(--fh);font-size:28px;letter-spacing:2px;color:#fff;text-align:center;text-shadow:0 2px 8px rgba(0,0,0,.8)}
+/* Poseason */
+.poseason{background:var(--bg2);border:1px solid var(--bo);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);margin-bottom:20px}
+.shiva-winner-header{background:linear-gradient(135deg,#1a1200,#2d2000,var(--bg3));border-bottom:3px solid var(--gold);padding:40px 32px;text-align:center;position:relative;overflow:hidden}
+.shiva-winner-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(245,200,66,.15),transparent 70%)}
+.sacko-loser-header{background:linear-gradient(135deg,#1a0000,#200808,var(--bg3));border-bottom:3px solid var(--shame);padding:32px;text-align:center;position:relative;overflow:hidden}
+.sacko-loser-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(255,61,61,.1),transparent 70%)}
+.confetti-emoji{font-size:32px;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.winner-photo{width:140px;height:140px;border-radius:50%;object-fit:cover;object-position:center top;border:4px solid var(--gold);box-shadow:0 0 40px rgba(245,200,66,.4);margin:0 auto 16px;display:block}
+.loser-photo{width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center top;border:4px solid var(--shame);box-shadow:0 0 30px rgba(255,61,61,.3);margin:0 auto 14px;display:block;filter:grayscale(30%)}
+.winner-name{font-family:var(--fh);font-size:44px;letter-spacing:3px;color:var(--gold);text-shadow:0 0 30px rgba(245,200,66,.5);margin-bottom:4px}
+.loser-name{font-family:var(--fh);font-size:36px;letter-spacing:2px;color:var(--shame);margin-bottom:4px}
+.winner-team{font-size:14px;color:rgba(255,255,255,.5);letter-spacing:2px;text-transform:uppercase;margin-bottom:16px}
+.shiva-count{display:inline-block;background:rgba(245,200,66,.15);border:2px solid var(--gold);border-radius:30px;padding:6px 20px;font-family:var(--fh);font-size:20px;color:var(--gold);letter-spacing:1px}
+.score-display{display:flex;align-items:center;justify-content:center;gap:24px;margin:16px 0}
+.score-val{font-family:var(--fh);font-size:56px;line-height:1}
+.score-sep{font-family:var(--fh);font-size:32px;color:var(--mu)}
+.score-name{font-size:13px;color:var(--mu);text-align:center;margin-top:4px}
+.season-recap{padding:24px 28px}
+.recap-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+.recap-card{background:var(--b3);border-radius:var(--rs);padding:16px;border:1px solid var(--bo);text-align:center}
+.recap-val{font-family:var(--fh);font-size:28px;display:block;line-height:1;margin-bottom:4px}
+.recap-lbl{font-size:11px;color:var(--mu);text-transform:uppercase;letter-spacing:1px}
+.mname{font-family:var(--fh);font-size:27px;letter-spacing:1px;color:#fff;margin-bottom:1px}
+.mteam{font-size:12px;color:rgba(255,255,255,.45);margin-bottom:8px}
+.mbio{font-size:12px;color:rgba(255,255,255,.52);font-style:italic;line-height:1.5;max-width:480px;margin-bottom:9px}
+.mbadges{display:flex;gap:4px;flex-wrap:wrap}
+.mbadge{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:700}
+.mbadge.sh{background:rgba(245,200,66,.18);color:var(--gold);border:1px solid rgba(245,200,66,.35)}
+.mbadge.sk{background:rgba(255,61,61,.15);color:var(--shame);border:1px solid rgba(255,61,61,.3)}
+.mbadge.ok{background:rgba(0,255,133,.15);color:var(--plg);border:1px solid rgba(0,255,133,.3)}
+.mpos{position:absolute;top:14px;right:14px;font-family:var(--fh);font-size:50px;color:rgba(0,255,133,.1);line-height:1;z-index:0}
+.mbody{padding:18px 20px}
+.mstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(78px,1fr));gap:7px;margin-bottom:16px}
+.ms{background:var(--b3);border-radius:var(--rs);padding:9px 7px;text-align:center;border:1px solid var(--bo)}
+.ms .v{font-family:var(--fm);font-size:16px;font-weight:600;display:block;line-height:1.2}
+.ms .l{font-size:9px;color:var(--mu);text-transform:uppercase;letter-spacing:.5px;margin-top:3px}
+.msec{margin-bottom:16px}
+.msec h4{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--mu);margin-bottom:9px;padding-left:8px;border-left:2px solid var(--plg)}
+.capbar{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.capbar-name{font-size:12px;font-weight:600;min-width:72px}
+.capbar-track{flex:1;background:var(--b3);border-radius:3px;height:5px;overflow:hidden}
+.capbar-fill{height:5px;background:linear-gradient(90deg,var(--plg),var(--pls));border-radius:3px;transition:width .5s}
+.capbar-cnt{font-family:var(--fm);font-size:11px;color:var(--mu)}
+.chip-tag{display:inline-block;font-size:11px;padding:3px 8px;border-radius:5px;margin:2px;font-weight:600}
+.chip-tag.bb{border:1px solid rgba(0,255,133,.3);color:var(--plg);background:rgba(0,255,133,.07)}
+.chip-tag.tc{border:1px solid rgba(245,200,66,.3);color:var(--gold);background:rgba(245,200,66,.07)}
+.chip-tag.fh{border:1px solid rgba(233,0,82,.3);color:var(--plk);background:rgba(233,0,82,.07)}
+.chip-tag.wc{border:1px solid rgba(68,136,255,.3);color:var(--blue);background:rgba(68,136,255,.07)}
+.plchip{display:inline-flex;align-items:center;gap:4px;background:var(--b3);border:1px solid var(--bo);border-radius:6px;padding:3px 8px;font-size:11px;font-weight:600;margin:2px}
+.plchip.t1{border-color:var(--gold);background:rgba(245,200,66,.08);color:var(--gold)}.plchip.t2{border-color:var(--silver)}.plchip.t3{border-color:var(--bronze);color:var(--bronze)}
+.pgws{font-size:10px;color:var(--mu);font-family:var(--fm)}
+
+/* AWARDS */
+.awards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:11px;margin-bottom:18px}
+.ac{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:17px;position:relative;overflow:hidden;box-shadow:var(--sh);transition:transform .2s}
+.ac:hover{transform:translateY(-2px)}
+.ac::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.ac.gold::before{background:linear-gradient(90deg,var(--gold),#ffaa00)}.ac.green::before{background:linear-gradient(90deg,var(--plg),var(--pls))}
+.ac.shame::before{background:linear-gradient(90deg,var(--shame),#ff8800)}.ac.pink::before{background:linear-gradient(90deg,var(--plk),#cc0088)}
+.ac.blue::before{background:linear-gradient(90deg,var(--blue),#8844ff)}.ac.purple::before{background:linear-gradient(90deg,#8844ff,var(--plk))}
+.ac-emoji{font-size:30px;margin-bottom:7px;display:block;line-height:1}
+.ac-title{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--mu);margin-bottom:4px}
+.ac-winner{font-size:16px;font-weight:700;margin-bottom:3px}
+.ac-detail{font-size:12px;color:var(--mu)}
+.ac-desc{font-size:11px;color:var(--m2);margin-top:4px;font-style:italic}
+
+/* FORM */
+.ftabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap}
+.ftab{background:var(--b3);border:1px solid var(--bo);border-radius:6px;padding:4px 11px;cursor:pointer;font-size:12px;font-weight:600;color:var(--mu);transition:all .15s}
+.ftab.active{background:var(--plp);color:var(--plg);border-color:var(--plg)}
+
+/* DUEL */
+.dsel{background:var(--b2);border:1px solid var(--b2o);border-radius:var(--rs);padding:8px 12px;font-family:var(--fb);font-size:13px;color:var(--tx);cursor:pointer;flex:1;min-width:140px;transition:border-color .2s}
+.dsel:focus{outline:none;border-color:var(--plg)}
+.dsel-row{display:flex;gap:12px;margin-bottom:18px;flex-wrap:wrap;align-items:center}
+.dvs{font-family:var(--fh);font-size:20px;color:var(--mu);padding:8px;align-self:center}
+.dcard{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:18px;margin-bottom:14px;box-shadow:var(--sh)}
+.dhead{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;text-align:center;margin-bottom:18px}
+.demoji{font-size:46px;margin-bottom:4px}
+.dname{font-family:var(--fh);font-size:21px;letter-spacing:1px}
+.dteam{font-size:11px;color:var(--mu)}
+.drow{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--bo)}
+.drow:last-child{border-bottom:none}
+.dval{font-family:var(--fm);font-size:15px;font-weight:700}
+.dval.w{color:var(--plg)}.dval.l{color:var(--shame)}.dval.t{color:var(--mu)}
+.dlbl{font-size:10px;color:var(--mu);text-align:center;text-transform:uppercase;letter-spacing:.5px}
+.dbar-wrap{display:flex;height:8px;border-radius:4px;overflow:hidden;margin:4px 0}
+.dbar-a{background:linear-gradient(90deg,var(--plg),var(--pls));transition:width .6s}.dbar-b{background:linear-gradient(90deg,var(--shame),#ff8800);flex:1}
+.gwduel{display:flex;align-items:flex-end;gap:2px;height:58px;background:var(--b3);border-radius:var(--rs);padding:6px 8px;margin:8px 0}
+.gwdb{flex:1;border-radius:1px 1px 0 0;min-width:3px}
+.gwdb.w{background:rgba(0,255,133,.65)}.gwdb.l{background:rgba(255,61,61,.55)}.gwdb.d{background:rgba(245,200,66,.5)}
+
+/* PREDICT */
+.pcard{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:18px;margin-bottom:12px;box-shadow:var(--sh)}
+.pvs{display:grid;grid-template-columns:1fr 56px 1fr;gap:12px;align-items:center;margin-bottom:12px}
+.pplayer{text-align:center}
+.pemoji{font-size:34px;margin-bottom:4px}
+.pname{font-weight:700;font-size:14px}
+.pavg{font-size:11px;color:var(--mu);font-family:var(--fm)}
+.pprob{font-family:var(--fh);font-size:30px;line-height:1;margin-top:4px}
+.pprob.fav{color:var(--plg)}.pprob.dog{color:var(--shame)}.pprob.even{color:var(--gold)}
+.pbar{display:flex;height:10px;border-radius:5px;overflow:hidden;margin-bottom:9px}
+.pbar-a{background:linear-gradient(90deg,var(--plg),var(--pls));transition:width .6s}.pbar-b{background:linear-gradient(90deg,var(--shame),#ff8800);flex:1}
+.pfacts{font-size:11px;color:var(--mu);display:flex;flex-wrap:wrap;gap:5px}
+.pfact{background:var(--b3);border-radius:4px;padding:2px 7px;border:1px solid var(--bo)}
+
+/* HOF */
+.hg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px}
+.hc{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:18px;box-shadow:var(--sh)}
+.hc.hcs{border-top:3px solid var(--gold)}.hc.hck{border-top:3px solid var(--shame)}
+.ht{font-family:var(--fh);font-size:17px;letter-spacing:1px;margin-bottom:10px;text-transform:uppercase}
+.ht.g{color:var(--gold)}.ht.s{color:var(--shame)}
+.hr{display:flex;align-items:center;gap:9px;padding:7px 0;border-bottom:1px solid var(--bo)}
+.hr:last-child{border-bottom:none}
+.hrk{font-size:17px;min-width:26px}.hpl{font-size:14px;font-weight:600;flex:1}
+.hct{font-family:var(--fm);font-size:13px;font-weight:700}.hct.g{color:var(--gold)}.hct.s{color:var(--shame)}
+
+/* RULES */
+.rbox{background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:16px 18px;margin-bottom:12px;box-shadow:var(--sh)}
+.rbox h3{font-family:var(--fh);font-size:17px;color:var(--plg);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:9px}
+.rs{display:flex;gap:9px;margin-bottom:7px;font-size:13px;color:var(--mu);line-height:1.5}
+.rs .num{font-family:var(--fh);font-size:17px;color:var(--plg);min-width:22px;line-height:1.2}
+
+/* MISC */
+.sub{font-size:14px;font-weight:600;margin-bottom:9px;display:flex;align-items:center;gap:7px;letter-spacing:.3px}
+.sub::before{content:'';display:inline-block;width:3px;height:13px;background:linear-gradient(180deg,var(--plg),var(--pls));border-radius:2px}
+.ibox{background:var(--b2);border:1px solid rgba(0,255,133,.2);border-left:3px solid var(--plg);border-radius:var(--r);padding:11px 15px;margin-bottom:14px;font-size:13px;line-height:1.5}
+.fnote{margin-top:9px;font-size:11px;color:var(--mu);display:flex;gap:12px;flex-wrap:wrap}
+.ldg{display:inline-block;width:14px;height:14px;border:2px solid var(--bo);border-top-color:var(--plg);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.lmsg{text-align:center;padding:40px;color:var(--mu);font-size:14px}
+.tag{font-size:10px;padding:2px 6px;border-radius:4px;font-weight:600;display:inline-block;margin:2px}
+.tag.pos{background:rgba(0,255,133,.1);color:var(--plg)}.tag.neg{background:rgba(255,61,61,.1);color:var(--shame)}
+.tag.sh{background:rgba(245,200,66,.1);color:var(--gold)}.tag.sk{background:rgba(255,61,61,.15);color:var(--shame)}
+.live-pill{background:var(--plk);color:#fff;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.5px;animation:blink 1.5s infinite}
+
+@media(max-width:700px){
+  .hg{grid-template-columns:1fr}
+  .bracket-grid{grid-template-columns:1fr!important;gap:8px}
+  .bconn{display:none}
+  .hm{display:none}
+  .mhead{flex-direction:column}
+  .mav{width:68px;height:68px}
+}
+::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(0,255,133,.18);border-radius:3px}
+</style>
+</head>
+<body>
+<div style="background:linear-gradient(90deg,#2a1a00,#1a0a00);border-bottom:2px solid var(--gold);padding:8px 20px;display:flex;align-items:center;justify-content:space-between;font-size:13px;position:sticky;top:0;z-index:300">
+  <div style="display:flex;align-items:center;gap:10px">
+    <span style="font-size:18px">📦</span>
+    <strong style="color:var(--gold)">ARCHIVOVANÁ SEZÓNA 2025/26</strong>
+    <span style="color:rgba(255,255,255,.4)">· Data zmrazena ke konci sezóny</span>
+  </div>
+  <a href="../../" style="color:var(--plg);font-size:12px;font-weight:600;text-decoration:none;border:1px solid rgba(0,255,133,.3);padding:3px 10px;border-radius:12px">← Aktuální sezóna</a>
+</div>
+<div class="ubar"><span id="ust"><span class="ldg"></span>Načítám...</span><span id="utm"></span></div>
+<nav class="nav">
+  <a class="logo" href="#">🦙 LAMY<span>Z&nbsp;PANAMY</span></a>
+  <div class="tabs">
+    <button class="nt" onclick="show('st',this)">⚽ Tabulka</button>
+    <button class="nt" onclick="show('fo',this)">📈 Forma</button>
+    <button class="nt" onclick="show('po',this)">🏆 Playoff</button>
+    <button class="nt" onclick="show('lv',this)">🔴 Live</button>
+    <button class="nt" onclick="show('aw',this)">🎖️ Tituly</button>
+    <button class="nt" onclick="show('du',this)">⚔️ Duel</button>
+    <button class="nt" onclick="show('ss',this)">📊 Statistiky</button>
+    <button class="nt" onclick="show('mg',this)">👤 Hráči</button>
+    <button class="nt" onclick="show('ca',this)">📅 Kariéra</button>
+    <button class="nt" onclick="show('pr',this)">🎯 Predikce</button>
+    <button class="nt active" onclick="show('ps',this)">🎊 Poseason</button>
+    <button class="nt" onclick="show('hf',this)">🏅 Hall of Fame</button>
+    <button class="nt" onclick="show('hi',this)">📚 Archiv</button>
+    <button class="nt" onclick="show('ru',this)">📋 Pravidla</button>
+  </div>
+  <button class="tbtn" onclick="toggleTheme()" id="tbtn">☀️</button>
+</nav>
+<div class="hero">
+  <span class="hcorner tl">🦙</span><span class="hcorner tr">⚽</span>
+  <span class="hcorner bl">🏆</span><span class="hcorner br">💩</span>
+  <div class="hi">
+    <div class="eyebrow"><span class="ld"></span>Liga #83735 · <span id="hse">2025/26</span> · Sezóna 13</div>
+    <h1><span class="g">FANTASY</span> LAMY<br><span class="p">Z</span> PANAMY</h1>
+    <div class="hs">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League Fantasy · GW <span id="hgw">?</span></div>
+    <div class="kpis">
+      <div class="kpi"><span class="kv">8</span><span class="kl">🎮 Hráčů</span></div>
+      <div class="kpi"><span class="kv" id="hgw2">—</span><span class="kl">⚽ GW</span></div>
+      <div class="kpi"><span class="kv">12</span><span class="kl">📅 Sezón</span></div>
+      <div class="kpi"><span class="kv" id="hld" style="font-size:14px;margin-top:8px">—</span><span class="kl">👑 Lídr</span></div>
+    </div>
+  </div>
+</div>
+<div class="sec" id="s-st"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-fo"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-po"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-lv"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-aw"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-du"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-ss"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-mg"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-ca"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-pr"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec active" id="s-ps"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-hf"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-hi"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+<div class="sec" id="s-ru"><div class="lmsg"><span class="ldg"></span>Načítám...</div></div>
+
+<script>
+const MS={
+  4239832:{e:'👑',cap:'Říká se, že Holub se přihlásil do FPL jen proto, aby měl další trofej na poličce. Poličku musel rozšířit dvakrát. Soupeři si říkají "proč vůbec hraju" – on jim tiše odpovídá 5 zlatými.',shiva:5,sacko:1,str:['5× Shiva 🐐','Playoff veterán','H2H vs Palán 5:0'],wk:['1× Sacko (2022/23)','Mid-season výpadky'],q:'"Mordor se nevzdává."'},
+  156572:{e:'🕵️',cap:'Záhadný L.P. Nikdo nezná jeho celé jméno. 2135 FPL bodů – rekord ligy. Ale ligová tabulka říká jiné. Živý důkaz že FPL body ≠ výhry.',shiva:0,sacko:1,str:['118 pts GW33 – rekord!','2135 FPL bodů (rekord)'],wk:['H2H vs Holub 1:4','SF vypadnutí'],q:'"L.P. Tolik stačí."'},
+  155266:{e:'⚔️',cap:'Fusswaffe – německá nožní zbraň. Porazil Bureše 78:69 v SF. Ve finále Shivy čelí Holubovi. Krieg findet immer einen Weg.',shiva:1,sacko:1,str:['Shiva finále GW38','H2H vs Holub 4:1'],wk:['H2H vs Pechoč 1:4'],q:'"Krieg findet immer einen Weg."'},
+  167387:{e:'🧘',cap:'Yobagoya – nikdo neví co to znamená. Hraje s klidem Buda. 2× Shiva, 0× Sacko – nejčistší kariéra v lize.',shiva:2,sacko:0,str:['2× Shiva','0× Sacko (rekord)','H2H vs Krautwurm 5:0'],wk:['SF prohra 69:78'],q:'"Yobagoya neexistuje v tomto světě."'},
+  138950:{e:'😤',cap:'EREKCE ZE STRACHU – psychologická zbraň v názvu. Bench Boost GW37 na 73 bodů zachránil záda od Sacka.',shiva:1,sacko:0,str:['1× Shiva, 0× Sacko','Psycho warfare 10/10'],wk:['Mid-table konzistence'],q:'"Název říká vše."'},
+  472208:{e:'🧊',cap:'Eskimo brothers sdílejí všechno – i smůlu. 2× Shiva, ale GW38 Sacko finále čeká s otevřenou náručí.',shiva:2,sacko:1,str:['2× Shiva v historii'],wk:['Sacko finále GW38','H2H vs Holub 0:5'],q:'"Brothers share everything."'},
+  184202:{e:'🎄',cap:'Krampus přichází v červenci. GW34 na 12 bodů – historické dno. Ale GW37 Bench Boost 85 pts ho zachránil. 3× Sacko champion.',shiva:0,sacko:3,str:['Přežil playout SF (85pts)'],wk:['3× Sacko 🤡','GW34: 12 pts (rekord dna)'],q:'"Sacko je moje životní mise."'},
+  4127653:{e:'🎰',cap:'Las Vegas: GW17 = 116 pts (rekord ligy!). Zbytek sezóny: průměr 47 pts. 9W-26L – historický antirekord. Sacko finále čeká.',shiva:1,sacko:0,str:['116 pts GW17 🤯 (rekord)','1× Shiva (2018/19)'],wk:['9W-26L antirekord','💩 1× Sacko (2025/26)'],q:'"GW17 byl zlom. Bohužel špatným směrem."'},
+};
+const HOF=[
+  {n:'Martin Holub',    s:6, k:1},
+  {n:'Marek Palán',     s:2, k:1},
+  {n:'Jaroslav Bureš',  s:2, k:0},
+  {n:'Rudolf Kvapil',   s:1, k:0},
+  {n:'Martin Válek',    s:1, k:1},
+  {n:'Lukáš Kapinus',   s:1, k:1},
+  {n:'Libor Pechoč',    s:0, k:2},
+  {n:'Michal Krautwurm',s:0, k:3},
+  {n:'Vojtěch Raiman',  s:0, k:4},
+];
+const HIST=[
+  {n:1, s:'2013/2014',sh:'Martin Holub',    sa:'Michal Krautwurm'},
+  {n:2, s:'2014/2015',sh:'Rudolf Kvapil',   sa:'Vojtěch Raiman'},
+  {n:3, s:'2015/2016',sh:'Martin Válek',    sa:'Vojtěch Raiman'},
+  {n:4, s:'2016/2017',sh:'Martin Holub',    sa:'Vojtěch Raiman'},
+  {n:5, s:'2017/2018',sh:'Martin Holub',    sa:'Vojtěch Raiman'},
+  {n:6, s:'2018/2019',sh:'Lukáš Kapinus',   sa:'Libor Pechoč'},
+  {n:7, s:'2019/2020',sh:'Jaroslav Bureš',  sa:'Martin Válek'},
+  {n:8, s:'2020/2021',sh:'Martin Holub',    sa:'Marek Palán'},
+  {n:9, s:'2021/2022',sh:'Jaroslav Bureš',  sa:'Michal Krautwurm'},
+  {n:10,s:'2022/2023',sh:'Marek Palán',     sa:'Martin Holub'},
+  {n:11,s:'2023/2024',sh:'Martin Holub',    sa:'Michal Krautwurm'},
+  {n:12,s:'2024/2025',sh:'Marek Palán',     sa:'Libor Pechoč'},
+  {n:13,s:'2025/2026',sh:'Martin Holub',    sa:'Lukáš Kapinus'},
+];
+const CL={'bboost':'Bench Boost','bench_boost':'Bench Boost','3xc':'Triple Captain','triple_captain':'Triple Captain','freehit':'Free Hit','free_hit':'Free Hit','wildcard':'Wildcard'};
+const CC={'bboost':'bb','bench_boost':'bb','3xc':'tc','triple_captain':'tc','freehit':'fh','free_hit':'fh','wildcard':'wc'};
+
+let D=null,rendered={};
+const $=id=>document.getElementById(id);
+const fm=n=>Number(n||0).toLocaleString('cs');
+const lN=(r,n)=>(r||[]).filter(x=>x.gw<=36).slice(-n);
+const fPts=r=>r.reduce((s,x)=>s+(x.result==='W'?3:x.result==='D'?1:0),0);
+const aFpl=r=>r.length?+(r.reduce((s,x)=>s+x.fpl,0)/r.length).toFixed(1):0;
+const pm=e=>(D.picks_stats?.per_manager||{})[e]||(D.picks_stats?.per_manager||{})[String(e)]||{};
+
+function initTheme(){const t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);$('tbtn').textContent=t==='dark'?'☀️':'🌙';}
+function toggleTheme(){const c=document.documentElement.getAttribute('data-theme'),n=c==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);localStorage.setItem('theme',n);$('tbtn').textContent=n==='dark'?'☀️':'🌙';}
+initTheme();
+
+function show(id,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.nt').forEach(t=>t.classList.remove('active'));
+  $('s-'+id).classList.add('active');if(btn)btn.classList.add('active');
+  if(D&&!rendered[id]){rendered[id]=true;render(id);}
+}
+/* ── LIGHTBOX ── */
+function openLightbox(src,name){
+  const lb=$('lightbox'),img=$('lb-img'),nm=$('lb-name');
+  img.src=src; nm.textContent=name;
+  lb.classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLightbox(){
+  $('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox();});
+
+/* ── POSEASON ── */
+function rPs(){
+  const PHOTOS={'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'};
+  const s=D.standings||[];
+
+  // Vítěz Shiva
+  const shivaWinner = s.find(p=>p.entry==4239832)||{name:'Martin Holub',team:'Real Mordor *****',pts:67,w:22,fpl_total:2070};
+  const shivaRunner = s.find(p=>p.entry==155266)||{name:'Martin Válek',team:'Fusswaffe',pts:64};
+  // Sacko
+  const sackoLoser  = s.find(p=>p.entry==4127653)||{name:'Lukáš Kapinus',team:'1. FC Lukasovo',pts:28,l:26};
+  const sackoSafe   = s.find(p=>p.entry==472208)||{name:'Marek Palán',team:'Eskimo brothers'};
+
+  $('s-ps').innerHTML=`
+    <div class="st"><span class="a">🎊 Poseason</span> 2025/26<span class="d">Závěrečné výsledky sezóny</span></div>
+
+    <!-- SHIVA WINNER -->
+    <div class="poseason" style="margin-bottom:24px">
+      <div class="shiva-winner-header">
+        <div style="position:relative;z-index:1">
+          <div style="font-size:40px;margin-bottom:12px;animation:float 2s ease-in-out infinite">🏆</div>
+          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px">⚜️ SHIVA CHAMPION 2025/26 ⚜️</div>
+          <img src="../../images/holub.jpg" class="winner-photo" onclick="openLightbox('images/holub.jpg','Martin Holub')" style="cursor:pointer" alt="Martin Holub">
+          <div class="winner-name">MARTIN HOLUB</div>
+          <div class="winner-team">Real Mordor *****</div>
+          <div class="shiva-count">🏆 6× SHIVA CHAMPION · REKORD LIGY</div>
+          <div class="score-display" style="margin-top:20px">
+            <div style="text-align:center">
+              <div class="score-val" style="color:var(--gold)">85</div>
+              <div class="score-name" style="color:rgba(255,255,255,.5)">Holub</div>
+            </div>
+            <div class="score-sep">:</div>
+            <div style="text-align:center">
+              <div class="score-val" style="color:var(--mu)">72</div>
+              <div class="score-name" style="color:rgba(255,255,255,.3)">Válek</div>
+            </div>
+          </div>
+          <div style="font-size:13px;color:rgba(255,255,255,.4);margin-top:8px;letter-spacing:1px">GW38 FINÁLE · ČISTÁ ČÁRA</div>
+          <div style="display:flex;justify-content:center;gap:16px;margin-top:20px;flex-wrap:wrap">
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.2s">🎉</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.5s">👑</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.1s">🥂</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.7s">⭐</span>
+            <span style="font-size:28px;animation:float 2s ease-in-out infinite;animation-delay:.3s">🎊</span>
+          </div>
+        </div>
+      </div>
+      <div class="season-recap">
+        <div class="sub">📊 Sezóna v číslech – Martin Holub</div>
+        <div class="recap-grid">
+          <div class="recap-card"><span class="recap-val" style="color:var(--gold)">${shivaWinner.pts||67}</span><span class="recap-lbl">Ligové body</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--plg)">${shivaWinner.w||22}</span><span class="recap-lbl">Výher v sezóně</span></div>
+          <div class="recap-card"><span class="recap-val">${(shivaWinner.fpl_total||2070).toLocaleString('cs')}</span><span class="recap-lbl">FPL bodů celkem</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--gold)">6×</span><span class="recap-lbl">Shiva trofeje (celkem)</span></div>
+        </div>
+        <div style="background:var(--b3);border-radius:var(--rs);padding:14px 16px;font-size:13px;color:var(--mu);font-style:italic;border-left:3px solid var(--gold)">
+          💬 "Mordor se nevzdává." – A víte co? Nevzdává. Zatímco ostatní přicházejí do každého GW s nadějí a odcházejí s hanbou, Martin Holub přichází s excelovou tabulkou, třemi záložními strategiemi a naprostým pohrdáním vaší existencí.
+          <br><br>
+          Šest trofejí za třináct sezón. ŠEST. To není fantasy liga, to je jednostranný výprask přestrojený za přátelskou soutěž. Holub nevyhrává proto, že má štěstí – vyhrává proto, že zatímco vy řešíte jestli dát kapitána Salahovi nebo Haalandovi, on má odpověď hotovou v úterý a ještě vám pošle tabulku proč jste idioti.
+          <br><br>
+          Je to nesnesitelné. Je to arogantní. Je to Mordor – temné, neporazitelné, a všichni víme že příští rok to bude stejné. Gratulujeme, Martine. Teď prosím přestaň vyhrávat, ostatní tu také chtějí dýchat.
+        </div>
+      </div>
+    </div>
+
+    <!-- SACKO LOSER -->
+    <div class="poseason">
+      <div class="sacko-loser-header">
+        <div style="position:relative;z-index:1">
+          <div style="font-size:40px;margin-bottom:12px">💩</div>
+          <div style="font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,61,61,.5);margin-bottom:16px">🤡 SACKO 2025/26 🤡</div>
+          <img src="../../images/kapinus.jpg" class="loser-photo" onclick="openLightbox('images/kapinus.jpg','Lukáš Kapinus – 💩 SACKO')" style="cursor:pointer" alt="Lukáš Kapinus">
+          <div class="loser-name">LUKÁŠ KAPINUS</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.4);letter-spacing:1px;margin-bottom:12px">1. FC Lukasovo</div>
+          <div style="display:inline-block;background:rgba(255,61,61,.12);border:2px solid var(--shame);border-radius:30px;padding:6px 20px;font-family:var(--fh);font-size:18px;color:var(--shame);letter-spacing:1px;margin-bottom:16px">
+            💩 SACKO TROFEJ 2025/26
+          </div>
+          <!-- Dramatický výsledek -->
+          <div style="background:rgba(0,0,0,.3);border-radius:12px;padding:16px;margin:16px 0">
+            <div style="font-size:12px;color:rgba(255,255,255,.3);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px">Sacko finále GW38</div>
+            <div class="score-display" style="margin:0">
+              <div style="text-align:center">
+                <div class="score-val" style="color:var(--shame);font-size:48px">55</div>
+                <div class="score-name" style="color:rgba(255,61,61,.5)">Kapinus 💩</div>
+              </div>
+              <div class="score-sep" style="color:var(--shame)">:</div>
+              <div style="text-align:center">
+                <div class="score-val" style="color:var(--mu);font-size:48px">56</div>
+                <div class="score-name" style="color:rgba(255,255,255,.3)">Palán ✓</div>
+              </div>
+            </div>
+            <div style="font-size:14px;color:var(--shame);font-weight:700;margin-top:10px;letter-spacing:1px">PROHRÁL O 1 BOD. JEDEN. JEDINÝ.</div>
+          </div>
+          <div style="font-size:13px;color:rgba(255,255,255,.35);margin-top:8px">
+            Kapinus rekordních 9V–26L–1R v základní části.<br>
+            GW17: 116 bodů (rekord ligy). Pak propad.<br>
+            Sacko finále: 55 vs 56. Jedna chybná volba.
+          </div>
+          <div style="display:flex;justify-content:center;gap:14px;margin-top:18px">
+            <span style="font-size:26px">💩</span>
+            <span style="font-size:26px">🤡</span>
+            <span style="font-size:26px">😭</span>
+            <span style="font-size:26px">☠️</span>
+            <span style="font-size:26px">💩</span>
+          </div>
+        </div>
+      </div>
+      <div class="season-recap">
+        <div class="sub">📊 Sezóna v číslech – Lukáš Kapinus</div>
+        <div class="recap-grid">
+          <div class="recap-card"><span class="recap-val" style="color:var(--shame)">${sackoLoser.pts||28}</span><span class="recap-lbl">Ligové body</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--shame)">${sackoLoser.l||26}</span><span class="recap-lbl">Proher v sezóně</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--gold)">116</span><span class="recap-lbl">Max GW (GW17 – rekord!)</span></div>
+          <div class="recap-card"><span class="recap-val" style="color:var(--shame)">1</span><span class="recap-lbl">Bod mezi ním a záchranou</span></div>
+        </div>
+        <div style="background:var(--b3);border-radius:var(--rs);padding:14px 16px;font-size:13px;color:var(--mu);font-style:italic;border-left:3px solid var(--shame)">
+          💬 "GW17 byl zlom. Bohužel špatným směrem." – Kde začít. Kde vůbec začít.
+          <br><br>
+          Lukáš Kapinus vstoupil do sezóny s ambicemi, v GW17 zazářil jako supernova (116 bodů – rekord celé ligy, nezapomeňme), a pak systematicky, metodicky a s neuvěřitelnou důsledností sezónu pohřbil. 9 výher. 26 proher. Jedna remíza, která mu pravděpodobně přišla jako dar z nebes. To není smůla – to je umění.
+          <br><br>
+          Ale to nejlepší? Sacko finále. Marek Palán – člověk, který celou sezónu vypadal jako kandidát číslo jedna na tuto trofej – ho porazil o JEDEN BOD. 56:55. Kapinus prohrál Sacko finále o jeden. jediný. nešťastný. bod. Pravděpodobně proto, že v GW38 posadil na lavičku hráče, který nakonec dal gól. Klasika.
+          <br><br>
+          1. FC Lukasovo. Jméno, které říká vše – klub pojmenovaný po sobě samém, protože nikdo jiný by to nechtěl. Přejmenovává se na 1. FC Sacko-sovo a bude hrát v příští sezóně s trofejí hanby na stole jako připomínkou toho, že GW17 byl přesně ten moment, kdy měl přestat hrát FPL a jít si místo toho zaplavat.
+        </div>
+        <div style="margin-top:16px;padding:14px;background:rgba(255,61,61,.05);border-radius:var(--rs);border:1px solid rgba(255,61,61,.15);text-align:center">
+          <div style="font-size:12px;color:var(--mu);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Celková bilance Sacko</div>
+          <div style="font-family:var(--fh);font-size:22px;color:var(--shame)">1× Sacko trofej</div>
+          <div style="font-size:12px;color:rgba(255,61,61,.4);margin-top:4px">první v kariéře · 2025/26</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CELKOVÝ PŘEHLED SEZÓNY -->
+    <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:20px;box-shadow:var(--sh)">
+      <div class="sub">🏅 Sezóna 2025/26 – celkový přehled</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
+        ${(()=>{
+          // Finální pořadí:
+          // 1. Shiva vítěz, 2. Finalista Shiva, 3-4. SF poražení, 5-6. Playout SF vítězové, 7. Zachráněný Sacko fin, 8. Sacko
+          const ORDER = [4239832, 155266, 167387, 156572, 138950, 184202, 472208, 4127653];
+          const MEDALS = ['👑','🥈','🥉','4.','5.','6.','7.','💩'];
+          const LABELS = ['🏆 Shiva Champion','Finalista Shiva','Vypadl v SF','Vypadl v SF','Bezpečný – playout SF','Bezpečný – playout SF','Zachráněn – Sacko finále','💩 Sacko'];
+          const COLORS = ['var(--gold)','var(--silver)','var(--tx)','var(--tx)','var(--tx)','var(--tx)','var(--mu)','var(--shame)'];
+          const BORDERS = ['var(--gold)','var(--silver)','var(--bo)','var(--bo)','var(--bo)','var(--bo)','var(--bo)','var(--shame)'];
+          return ORDER.map((entry,i)=>{
+            const p=s.find(x=>x.entry==entry)||{name:'?',team:'?',pts:0,w:0,l:0};
+            const ph=PHOTOS[String(entry)];
+            const emoji={4239832:'👑',156572:'🕵️',155266:'⚔️',167387:'🧘',138950:'😤',472208:'🧊',184202:'🎄',4127653:'🎰'}[entry]||'👤';
+            return`<div style="background:var(--b3);border-radius:var(--rs);padding:14px;text-align:center;border:1px solid ${BORDERS[i]};position:relative">
+              ${ph?`<img src="../../images/${ph}.jpg" onclick="openLightbox('images/${ph}.jpg','${p.name}')" style="width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid ${BORDERS[i]};margin-bottom:8px;cursor:pointer;display:block;margin-left:auto;margin-right:auto">`:`<div style="font-size:36px;margin-bottom:8px">${emoji}</div>`}
+              <div style="font-size:14px;font-weight:700;margin-bottom:2px">${p.name?.split(' ')[1]||p.name}</div>
+              <div style="font-size:10px;color:var(--mu);margin-bottom:8px">${p.team}</div>
+              <div style="font-family:var(--fh);font-size:24px;color:${COLORS[i]}">${MEDALS[i]}</div>
+              <div style="font-size:11px;color:${COLORS[i]};margin-top:3px;font-weight:600">${LABELS[i]}</div>
+              <div style="font-size:11px;color:var(--mu);margin-top:4px">${p.pts}b · ${p.w}V ${p.l}P</div>
+            </div>`;
+          }).join('');
+        })()}
+      </div>
+    </div>`;
+}
+
+async function load(){
+  try{
+    const r=await fetch(`../data/season.json`);
+    D=await r.json();
+    const u=new Date(D.meta.updated_at);
+    $('ust').textContent='📦 Archivovaná data – sezóna 2025/26';$('utm').textContent='Aktualizováno: '+u.toLocaleString('cs-CZ');
+    $('hgw').textContent=D.meta.current_gw;$('hgw2').textContent=D.meta.current_gw;$('hse').textContent=D.meta.season;
+    if(D.standings?.length)$('hld').textContent=D.standings[0].name.split(' ')[1]||D.standings[0].name;
+    rendered={};render('ps');render('st');renderHoF();renderHist();renderRules();
+  }catch(e){$('ust').textContent='⚠ Chyba načítání dat';console.error(e);}
+}
+function render(id){
+  try{
+    if(id==='st')rSt();if(id==='fo')rFo();if(id==='po')rPo();if(id==='lv')rLv();
+    if(id==='aw')rAw();if(id==='du')rDu();if(id==='ss')rSs();if(id==='mg')rMg();
+    if(id==='ca')rCa();if(id==='pr')rPr();
+  if(id==='ps')rPs();
+  }catch(e){
+    $('s-'+id).innerHTML=`<div style="padding:24px;color:var(--shame);font-family:var(--fm);font-size:13px">
+      <strong>Chyba renderování:</strong><br>${e.message}<br><br>
+      <small style="color:var(--mu)">${e.stack?.split('\n').slice(0,4).join('<br>')}</small>
+    </div>`;
+    console.error('render('+id+') chyba:',e);
+  }
+}
+
+/* ── STANDINGS ── */
+function rSt(){
+  const s=D.standings||[];
+  const rows=s.map((p,i)=>{
+    const zc=i===0?'z1':i<4?'z2':i>=6?'z3':'';
+    const lc=i===0?'t':i<4?'m':'b';
+    const ic=i===0?'👑':i===1?'🥈':i===2?'🥉':i+1;
+    const form=(p.form||[]).map(f=>`<div class="fd ${f}"></div>`).join('');
+    return`<tr class="${zc}"><td><span style="font-family:var(--fm);font-size:12px;color:var(--mu)">${ic}</span></td>
+      <td><div style="font-weight:600">${p.team}</div><div style="font-size:11px;color:var(--mu)">${p.name}</div></td>
+      <td style="font-family:var(--fm);color:var(--plg);font-weight:600">${p.w}</td>
+      <td class="hm" style="font-family:var(--fm);color:var(--gold)">${p.d}</td>
+      <td style="font-family:var(--fm);color:var(--shame)">${p.l}</td>
+      <td><span class="lp ${lc}">${p.pts}</span></td>
+      <td class="hm"><span style="font-family:var(--fm);font-size:12px;color:var(--mu)">${fm(p.fpl_total)}</span></td>
+      <td><div class="frow">${form}</div></td></tr>`;
+  }).join('');
+  $('s-st').innerHTML=`<div class="st"><span class="a">⚽ Tabulka</span> základní části<span class="d">GW1–36 · finální pořadí</span></div>
+    <div class="tw"><table><thead><tr><th>#</th><th>Tým / Hráč</th><th>V</th><th class="hm">R</th><th>P</th><th>Body</th><th class="hm">FPL</th><th>Forma</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="fnote"><span>🥇 <span style="color:var(--gold)">▌</span>#1 seed</span><span>✅ <span style="color:var(--plg)">▌</span>Top 4 → Shiva</span><span>⚠️ <span style="color:var(--shame)">▌</span>Spodní 2 → Playout</span></div>
+    <div class="sg">
+      <div class="sc g"><div class="v">${s[0]?.pts||'–'}</div><div class="lb">👑 Bodů lídr</div><div class="nm">${s[0]?.name||'–'}</div></div>
+      <div class="sc n"><div class="v">${fm(Math.max(...s.map(p=>p.fpl_total||0)))}</div><div class="lb">🎮 Max FPL</div><div class="nm">${s.find(p=>p.fpl_total===Math.max(...s.map(q=>q.fpl_total||0)))?.name||'–'}</div></div>
+      <div class="sc s"><div class="v">${s[s.length-1]?.pts||'–'}</div><div class="lb">💀 Poslední</div><div class="nm">${s[s.length-1]?.name||'–'}</div></div>
+      <div class="sc p"><div class="v">${(s[0]?.pts||0)-(s[s.length-1]?.pts||0)}</div><div class="lb">📏 Rozdíl</div><div class="nm">1. vs 8. místo</div></div>
+    </div>`;
+}
+
+/* ── FORMA ── */
+function rFo(n){
+  n=n||5;const s=D.standings||[];
+  const fd=s.map(p=>{const r=lN(p.results,n);return{...p,fr:r,fp:fPts(r),fa:aFpl(r)};}).sort((a,b)=>b.fp-a.fp||b.fa-a.fa);
+  const rows=fd.map((p,i)=>{
+    const lc=i<2?'t':i<4?'m':'b';const form=p.fr.map(r=>`<div class="fd ${r.result}"></div>`).join('');
+    return`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td>
+      <td><div style="font-weight:600">${p.name}</div><div style="font-size:11px;color:var(--mu)">${p.team}</div></td>
+      <td><span class="lp ${lc}">${p.fp}</span></td>
+      <td style="font-family:var(--fm);color:var(--plg)">${p.fr.filter(r=>r.result==='W').length}</td>
+      <td style="font-family:var(--fm);color:var(--shame)">${p.fr.filter(r=>r.result==='L').length}</td>
+      <td style="font-family:var(--fm);color:var(--mu)">${p.fa}</td>
+      <td><div class="frow">${form}</div></td></tr>`;
+  }).join('');
+  $('s-fo').innerHTML=`<div class="st"><span class="a">📈 Forma</span><span class="d">aktuální výkonnost</span></div>
+    <div class="ftabs">${[5,10,20,36].map(x=>`<div class="ftab ${x===n?'active':''}" onclick="rFo(${x});rendered.fo=true">${x===36?'🏁 Celá sezóna':'⏱️ '+x+' GW'}</div>`).join('')}</div>
+    <div class="tw"><table><thead><tr><th>#</th><th>Hráč</th><th>Body</th><th>V</th><th>P</th><th>Avg</th><th>Forma</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="sdiv"></div>
+    <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:14px;box-shadow:var(--sh)">
+      ${fd.slice(0,3).map((p,i)=>{
+        const em=['🔥','⚡','💪'],lb=['Nejžhavější','In form','Rozehraný'];
+        return`<div style="display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--bo)">
+          <span style="font-size:22px">${em[i]}</span>
+          <div style="flex:1"><div style="font-weight:600">${p.name}</div>
+            <div style="font-size:11px;color:var(--mu)">${lb[i]} · ${p.fp} bodů za posl. ${n} GW · avg ${p.fa} pts</div></div>
+          <div class="frow">${p.fr.map(r=>`<div class="fd ${r.result}"></div>`).join('')}</div>
+        </div>`;
+      }).join('')}
+    </div>`;
+}
+
+/* ── PLAYOFF – KLASICKÝ BRACKET ── */
+function rPo(){
+  const po=D.playoff||{},fin=po.shiva_final||[],pl=po.playout_sf||[];
+  const gw=D.meta.current_gw;
+
+  // ── SHIVA SF – NATVRDO (GW37 výsledky) ──
+  // Skutečné páry dle FPL API:
+  // SF-A: Bureš vs Válek → Válek vyhrál 78:69 (náskok: Bureš #4 má -4b, Válek #3 má -2b → vyšší je Válek)
+  // SF-B: Pechoč vs Holub → Holub vyhrál 77:65 (náskok: Holub #1 +1b vs Pechoč #2)
+  // Náskok: vyšší nasazený = více lig. bodů
+  // Zápas A: Válek(64b) vs Bureš(63b) → náskok +1b pro Válek
+  // Zápas B: Holub(67b) vs Pechoč(66b) → náskok +1b pro Holub
+  const SHIVA_SF = [
+    { // SF-A: #1 Holub (67b) vs #4 Bureš (63b) → náskok +4b
+      // Holub 77+4=81 vs Bureš 69 → Holub postoupil
+      home: {entry:4239832, name:'Martin Holub',   team:'Real Mordor *****',  league_pts:67, gw37_fpl:77, naskok:4, virtual:81},
+      away: {entry:167387,  name:'Jaroslav Bureš', team:'Yobagoya',           league_pts:63, gw37_fpl:69, naskok:0, virtual:69},
+      winner: 4239832
+    },
+    { // SF-B: #2 Pechoč (66b) vs #3 Válek (64b) → náskok +2b
+      // Pechoč 65+2=67 vs Válek 78 → Válek postoupil (náskok nestačil)
+      home: {entry:156572,  name:'Libor Pechoč',   team:'Četnické humoresky', league_pts:66, gw37_fpl:65, naskok:2, virtual:67},
+      away: {entry:155266,  name:'Martin Válek',   team:'Fusswaffe',          league_pts:64, gw37_fpl:78, naskok:0, virtual:78},
+      winner: 155266
+    }
+  ];
+
+  // ── PLAYOUT SF – NATVRDO (GW37 výsledky) ──
+  // Seeding: #5 Kvapil(54b), #6 Palán(48b), #7 Krautwurm(40b), #8 Kapinus(28b)
+  const PLAYOUT_SF = [
+    { // #5 vs #8
+      higher: {entry:138950,  name:'Rudolf Kvapil',    team:'EREKCE ZE STRACHU', league_pts:54, gw37_fpl:73, naskok:26, virtual:99},
+      lower:  {entry:4127653, name:'Lukáš Kapinus',    team:'1. FC Lukasovo',    league_pts:28, gw37_fpl:69, naskok:0,  virtual:69},
+      winner: 138950, loser: 4127653
+    },
+    { // #6 vs #7
+      higher: {entry:472208,  name:'Marek Palán',      team:'Eskimo brothers',   league_pts:48, gw37_fpl:57, naskok:8,  virtual:65},
+      lower:  {entry:184202,  name:'Michal Krautwurm', team:'Krampus',           league_pts:40, gw37_fpl:85, naskok:0,  virtual:85},
+      winner: 184202, loser: 472208
+    }
+  ];
+
+  // Shiva finále – vítězové SF
+  const SHIVA_FIN = [{
+    home:   {entry:4239832, name:'Martin Holub', team:'Real Mordor *****', gw38_fpl: 85},
+    away:   {entry:155266,  name:'Martin Válek', team:'Fusswaffe',         gw38_fpl: 72},
+    winner: 4239832
+  }];
+
+  // Sacko finále – poražení z playout SF
+  const SACKO_FIN = {
+    home:   {entry:4127653, name:'Lukáš Kapinus', team:'1. FC Lukasovo',  gw38_fpl: 55},
+    away:   {entry:472208,  name:'Marek Palán',   team:'Eskimo brothers', gw38_fpl: 56},
+    winner: 472208,
+    sacko:  4127653
+  };
+
+
+  // GW37 body natvrdo (z FPL tabulky)
+  const GW37_PLAYOUT = {
+    138950:  73,  // Kvapil – EREKCE ZE STRACHU
+    472208:  57,  // Palán – Eskimo brothers
+    184202:  85,  // Krautwurm – Krampus
+    4127653: 69,  // Kapinus – 1. FC Lukasovo
+    4239832: 77,  // Holub – Real Mordor
+    156572:  65,  // Pechoč – Četnické humoresky
+    155266:  78,  // Válek – Fusswaffe
+    167387:  69,  // Bureš – Yobagoya
+  };
+
+  function badge(done,live){return done?'<span class="tbadge done">✅</span>':live?'<span class="tbadge lv">🔴 LIVE</span>':'<span class="tbadge tbd">⏳</span>';}
+
+  function sfCard(m,cls,label){
+    if(!m)return`<div class="bm ${cls}" style="padding:14px;text-align:center;opacity:.4;font-size:13px;color:var(--mu)">Čeká se…</div>`;
+    const we=m.winner;
+    let h=m.home||m.higher,a=m.away||m.lower;
+    if(!h||!a)return'';
+    // Použij plné jméno z standings pokud API vrátilo zkrácené
+    if(h.entry&&D?.standings){const sh=D.standings.find(p=>p.entry==h.entry);if(sh)h={...h,name:sh.name,team:sh.team};}
+    if(a.entry&&D?.standings){const sa=D.standings.find(p=>p.entry==a.entry);if(sa)a={...a,name:sa.name,team:sa.team};};
+    const hW=we&&we==h.entry,aW=we&&we==a.entry,done=!!we;
+    const hpts=(h.gw37_fpl||GW37_PLAYOUT?.[h.entry])||h.gw38_fpl||'—',apts=(a.gw37_fpl||GW37_PLAYOUT?.[a.entry])||a.gw38_fpl||'—';
+    const nask=(h.naskok||0)>0?`<div style="font-size:10px;color:var(--plg);font-weight:700">+${h.naskok}b náskok</div>`:'';
+    const hFpl=(h.gw37_fpl||GW37_PLAYOUT[h?.entry]||0);
+    const lFpl=(a.gw37_fpl||GW37_PLAYOUT[a?.entry]||0);
+    const hNask=Number(h.naskok||m.higher?.naskok||0);
+    const hVirtTotal=hFpl+hNask;
+    const virt=hNask>0?`<div class="vrow">⚡ Virtuálně: ${hFpl}+${hNask}=${hVirtTotal} vs ${lFpl}</div>`:'';
+    return`<div class="bm ${cls}">
+      <div class="bm-head ${cls==='shiva'?'sh':'sk'}">${label} ${badge(done,gw>=37)}</div>
+      <div class="bm-row ${hW?'won':aW?'lost':''}">
+        <div><div class="bm-name">${MS[h.entry]?.e||''} ${h.name||h.player||'?'}</div><div class="bm-team">${h.team||''} ${h.league_pts?'· '+h.league_pts+'b':''}</div>${nask}</div>
+        <div style="text-align:right"><div class="bm-pts ${hW?'w':aW?'l':''}">${hpts} pts</div>
+          ${hW?(cls==='sacko'?'<div style="font-size:11px;color:var(--plg)">✅ Bezpečný</div>':'<div style="font-size:11px;color:var(--plg)">→ FINÁLE ✓</div>'):aW?(cls==='sacko'?'<div style="font-size:11px;color:var(--shame)">→ 💩 Sacko finále</div>':'<div style="font-size:11px;color:var(--shame)">Vypadl</div>'):''}</div>
+      </div>
+      <div class="bm-row ${aW?'won':hW?'lost':''}">
+        <div><div class="bm-name">${MS[a.entry]?.e||''} ${a.name||a.player||'?'}</div><div class="bm-team">${a.team||''} ${a.league_pts?'· '+a.league_pts+'b':''}</div></div>
+        <div style="text-align:right"><div class="bm-pts ${aW?'w':hW?'l':''}">${apts} pts</div>
+          ${aW?(cls==='sacko'?'<div style="font-size:11px;color:var(--plg)">✅ Bezpečný</div>':'<div style="font-size:11px;color:var(--plg)">→ FINÁLE ✓</div>'):hW?(cls==='sacko'?'<div style="font-size:11px;color:var(--shame)">→ 💩 Sacko finále</div>':'<div style="font-size:11px;color:var(--shame)">Vypadl</div>'):''}</div>
+      </div>${virt}</div>`;
+  }
+
+  function finCard(m,type){
+    const isShiva=type==='shiva';
+    const cls=isShiva?'fin-shiva':'fin-sacko';
+    const hcls=isShiva?'fsh':'fsk';
+    if(!m||(!m.home&&!m.away))return`<div class="bm ${cls}" style="padding:24px;text-align:center">
+      <div style="font-size:40px;margin-bottom:8px">${isShiva?'🏆':'💩'}</div>
+      <div style="color:var(--mu);font-size:13px">Finalisté budou známi po GW37</div></div>`;
+    const h=m.home,a=m.away,done=!!(m.winner||m.sacko);
+    const hpts=h?.gw38_fpl??'—',apts=a?.gw38_fpl??'—';
+    if(isShiva){
+      const hW=m.winner&&m.winner==h?.entry,aW=m.winner&&m.winner==a?.entry;
+      return`<div class="bm ${cls}">
+        <div class="bm-head ${hcls}">🏆 SHIVA FINÁLE · GW38 ${badge(done,gw>=38)}</div>
+        <div class="bm-row ${hW?'won':aW?'lost':''}">
+          <div><div class="bm-name">${MS[h?.entry]?.e||''} ${h?.name||'?'}</div><div class="bm-team">Vítěz SF-A</div></div>
+          <div style="text-align:right"><div class="bm-pts ${hW?'w':aW?'l':'lv'}">${hpts} pts</div>
+            ${hW?'<div style="font-size:13px;color:var(--gold);font-weight:700">🏆 SHIVA!</div>':aW?'<div style="font-size:11px;color:var(--shame)">Poražený</div>':''}</div>
+        </div>
+        <div class="bm-row ${aW?'won':hW?'lost':''}">
+          <div><div class="bm-name">${MS[a?.entry]?.e||''} ${a?.name||'?'}</div><div class="bm-team">Vítěz SF-B</div></div>
+          <div style="text-align:right"><div class="bm-pts ${aW?'w':hW?'l':'lv'}">${apts} pts</div>
+            ${aW?'<div style="font-size:13px;color:var(--gold);font-weight:700">🏆 SHIVA!</div>':hW?'<div style="font-size:11px;color:var(--shame)">Poražený</div>':''}</div>
+        </div>
+        <div class="bm-note">Čistá čára · bez náskoku · více bodů = 🏆 Shiva</div>
+      </div>`;
+    } else {
+      // Sacko: MÉNĚ bodů = 💩 Sacko; VÍCE bodů = bezpečný
+      const hSacko=m.sacko&&m.sacko==h?.entry,aSacko=m.sacko&&m.sacko==a?.entry;
+      const hSafe=m.winner&&m.winner==h?.entry,aSafe=m.winner&&m.winner==a?.entry;
+      return`<div class="bm ${cls}">
+        <div class="bm-head ${hcls}">💩 SACKO FINÁLE · GW38 ${badge(done,gw>=38)}</div>
+        <div class="bm-row ${hSacko?'lost':hSafe?'won':''}">
+          <div><div class="bm-name">${MS[h?.entry]?.e||''} ${h?.name||'?'}</div><div class="bm-team">Poražený SF-C</div></div>
+          <div style="text-align:right"><div class="bm-pts ${hSacko?'l':hSafe?'w':'lv'}">${hpts} pts</div>
+            ${hSacko?'<div style="font-size:13px;color:var(--shame);font-weight:700">💩 SACKO!</div>':hSafe?'<div style="font-size:12px;color:var(--plg)">✅ Zachráněn</div>':''}</div>
+        </div>
+        <div class="bm-row ${aSacko?'lost':aSafe?'won':''}">
+          <div><div class="bm-name">${MS[a?.entry]?.e||''} ${a?.name||'?'}</div><div class="bm-team">Poražený SF-D</div></div>
+          <div style="text-align:right"><div class="bm-pts ${aSacko?'l':aSafe?'w':'lv'}">${apts} pts</div>
+            ${aSacko?'<div style="font-size:13px;color:var(--shame);font-weight:700">💩 SACKO!</div>':aSafe?'<div style="font-size:12px;color:var(--plg)">✅ Zachráněn</div>':''}</div>
+        </div>
+        <div class="bm-note">Čistá čára · bez náskoku · MÉNĚ bodů = 💩 Sacko</div>
+      </div>`;
+    }
+  }
+
+  function conn(col){return`<div class="bconn">
+    <div class="bconn-line" style="background:linear-gradient(180deg,${col}60,${col}15)"></div>
+    <div class="bconn-arrow" style="color:${col};opacity:.7">⟶</div>
+    <div class="bconn-line" style="background:linear-gradient(180deg,${col}15,${col}60)"></div>
+  </div>`;}
+  function connLeft(col){return`<div class="bconn">
+    <div class="bconn-line" style="background:linear-gradient(180deg,${col}60,${col}15)"></div>
+    <div class="bconn-arrow" style="color:${col};opacity:.7">⟵</div>
+    <div class="bconn-line" style="background:linear-gradient(180deg,${col}15,${col}60)"></div>
+  </div>`;}
+
+  // Playout SF – losers jdou do Sacko finále
+  // Zápas C: Kvapil(73+26=99) vs Kapinus(69) → Kapinus prohrál → Sacko finále
+  // Zápas D: Palán(57+8=65) vs Krautwurm(85) → Palán prohrál → Sacko finále
+  const losers=pl.map(m=>{
+    const loserEntry=m.loser;
+    return loserEntry==m.higher?.entry ? m.higher : m.lower;
+  }).filter(Boolean);
+
+
+
+  // Oprav gw37_fpl v playout SF pokud chybí
+  pl.forEach(m=>{
+    if(!m.higher.gw37_fpl) m.higher.gw37_fpl = GW37_PLAYOUT[m.higher.entry]||0;
+    if(!m.lower.gw37_fpl)  m.lower.gw37_fpl  = GW37_PLAYOUT[m.lower.entry]||0;
+    if(!m.higher.virtual)  m.higher.virtual   = m.higher.gw37_fpl + (m.higher.naskok||0);
+    if(!m.lower.virtual)   m.lower.virtual    = m.lower.gw37_fpl;
+  });
+
+  const sackoFin={
+    home: losers[0] ? {entry:losers[0].entry, name:losers[0].name, team:losers[0].team, gw38_fpl:null} : null,
+    away: losers[1] ? {entry:losers[1].entry, name:losers[1].name, team:losers[1].team, gw38_fpl:null} : null,
+    winner:null
+  };
+
+  $('s-po').innerHTML=`
+    <div class="st"><span class="a">🏆 Playoff</span> &amp; Playout<span class="d">GW37–38 · tournament bracket</span></div>
+    <div class="ibox">✅ <strong>GW37 SF odehráno</strong> · ${gw>=38?'🔴 <strong>GW38 LIVE</strong>':'⏳ GW38 čeká'} · Playout počítáme manuálně s virtuálním náskokem.</div>
+
+    <div class="bracket-section">
+      <div class="bracket-label" style="color:var(--gold)">🏆 Shiva Bowl</div>
+      <div style="display:grid;grid-template-columns:1fr 56px 1fr 56px 1fr;align-items:center;gap:0">
+        <div>
+          <div class="bracket-col-title" style="background:rgba(245,200,66,.07);color:var(--gold)">SF-A · vlevo</div>
+          ${sfCard(SHIVA_SF[0],'shiva','Zápas A')}
+        </div>
+        ${conn('var(--gold)')}
+        <div>
+          <div class="fin-center">
+            <span class="fin-icon">🏆</span>
+            <span class="fin-txt" style="color:var(--gold)">FINÁLE</span>
+          </div>
+          ${finCard(SHIVA_FIN[0],'shiva')}
+        </div>
+        ${connLeft('var(--gold)')}
+        <div>
+          <div class="bracket-col-title" style="background:rgba(245,200,66,.07);color:var(--gold)">SF-B · vpravo</div>
+          ${sfCard(SHIVA_SF[1],'shiva','Zápas B')}
+        </div>
+      </div>
+    </div>
+
+    <div class="sdiv"></div>
+
+    <div class="bracket-section">
+      <div class="bracket-label" style="color:var(--shame)">💩 Sacko Bowl</div>
+      <div style="display:grid;grid-template-columns:1fr 56px 1fr 56px 1fr;align-items:center;gap:0">
+        <div>
+          <div class="bracket-col-title" style="background:rgba(255,61,61,.06);color:var(--shame)">SF-C · vlevo</div>
+          ${sfCard(PLAYOUT_SF[0],'sacko','Zápas C')}
+        </div>
+        ${conn('var(--shame)')}
+        <div>
+          <div class="fin-center">
+            <span class="fin-icon">💩</span>
+            <span class="fin-txt" style="color:var(--shame)">SACKO FINÁLE</span>
+          </div>
+          ${finCard(SACKO_FIN,'sacko')}
+        </div>
+        ${connLeft('var(--shame)')}
+        <div>
+          <div class="bracket-col-title" style="background:rgba(255,61,61,.06);color:var(--shame)">SF-D · vpravo</div>
+          ${sfCard(PLAYOUT_SF[1],'sacko','Zápas D')}
+        </div>
+      </div>
+      <div style="margin-top:10px;background:var(--b2);border:1px solid var(--bo);border-radius:var(--rs);padding:9px 14px;font-size:12px;color:var(--mu)">
+        ⚡ <strong style="color:var(--tx)">Playout:</strong> Vyšší nasazený má virtuální náskok = rozdíl ligových bodů. Poražený ze SF jde do Sacko finále (čistá čára v GW38).
+      </div>
+    </div>`;
+}
+
+/* ── LIVE ── */
+function rLv(){
+  const gw=D.meta.current_gw,s=D.standings||[];
+  const ld=s.map(p=>{const m=pm(p.entry);return{...p,lp:m.gw_points?.[gw]||m.gw_points?.[String(gw)]||null};});
+  const hasL=ld.some(p=>p.lp!==null);
+  if(!hasL){
+    $('s-lv').innerHTML=`<div class="st"><span class="a">🔴 Live</span> GW${gw}</div>
+      <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:36px;text-align:center;box-shadow:var(--sh)">
+        <div style="font-size:48px;margin-bottom:12px">⏳</div>
+        <div style="font-size:17px;font-weight:700;margin-bottom:8px">GW${gw} data nejsou dostupná</div>
+        <div style="color:var(--mu);font-size:13px;line-height:1.7">Live data se zobrazí po zahájení GW.<br>GitHub Actions stahuje automaticky každou hodinu.</div>
+      </div><div class="sdiv"></div>
+      <div class="sub">📊 Výsledky posledního GW</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:10px">
+        ${s.map(p=>{const m=pm(p.entry),gp=m.gw_points||{},lg=Math.max(...Object.keys(gp).map(Number).filter(x=>x<=36),0),lpts=gp[lg]||'–',info=MS[p.entry]||{};
+          return`<div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:13px;box-shadow:var(--sh)">
+            <div style="font-size:22px;margin-bottom:5px">${info.e||'👤'}</div>
+            <div style="font-weight:600">${p.name}</div><div style="font-size:11px;color:var(--mu);margin-bottom:8px">${p.team}</div>
+            <div style="font-family:var(--fm);font-size:24px;color:var(--plg);font-weight:700">${lpts}</div>
+            <div style="font-size:11px;color:var(--mu)">bodů GW${lg}</div></div>`;
+        }).join('')}
+      </div>`;return;
+  }
+  const sorted=[...ld].sort((a,b)=>(b.lp||0)-(a.lp||0));
+  $('s-lv').innerHTML=`<div class="st"><span class="a">🔴 Live</span> GW${gw} <span class="live-pill">LIVE</span></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:10px">
+      ${sorted.map((p,i)=>{const info=MS[p.entry]||{},lead=i===0,last=i>=6;
+        return`<div style="background:var(--b2);border:2px solid ${lead?'var(--plg)':last?'var(--shame)':'var(--bo)'};border-radius:var(--r);padding:15px;box-shadow:var(--sh);position:relative">
+          ${lead?'<div style="position:absolute;top:8px;right:8px;font-size:10px;background:rgba(0,255,133,.15);color:var(--plg);padding:2px 6px;border-radius:4px;font-weight:700">🔥 VEDOUCÍ</div>':''}
+          ${last?'<div style="position:absolute;top:8px;right:8px;font-size:10px;background:rgba(255,61,61,.15);color:var(--shame);padding:2px 6px;border-radius:4px;font-weight:700">💀</div>':''}
+          <div style="font-size:24px;margin-bottom:5px">${info.e||'👤'}</div>
+          <div style="font-weight:600">${p.name}</div><div style="font-size:11px;color:var(--mu);margin-bottom:9px">${p.team}</div>
+          <div style="font-family:var(--fm);font-size:28px;color:${lead?'var(--plg)':last?'var(--shame)':'var(--tx)'};font-weight:700">${p.lp}</div>
+          <div style="font-size:11px;color:var(--mu)">bodů GW${gw}</div></div>`;
+      }).join('')}
+    </div>`;
+}
+
+/* ── AWARDS ── */
+function rAw(){
+  const s=D.standings||[],h2h=D.h2h||{};
+  const capA={},chipC={},haaG={},bestC={},worstC={};
+  s.forEach(p=>{
+    const m=pm(p.entry),ch=m.cap_history||[];
+    if(ch.length){capA[p.entry]=+(ch.reduce((s,c)=>s+c.gw_total,0)/ch.length).toFixed(1);bestC[p.entry]=ch.reduce((b,c)=>c.gw_total>b.gw_total?c:b);worstC[p.entry]=ch.reduce((b,c)=>c.gw_total<b.gw_total?c:b);}
+    chipC[p.entry]=Object.keys(m.chips||{}).length;
+    const hf=m.top_players?.find(x=>x.name==='Haaland');if(hf)haaG[p.entry]=hf.gws;
+  });
+  const h2hS={};s.forEach(p=>{h2hS[p.entry]=Object.values(h2h[p.entry]||h2h[String(p.entry)]||{}).reduce((s,r)=>s+r.w,0);});
+  const cons={};s.forEach(p=>{const pts=(p.results||[]).filter(r=>r.gw<=36).map(r=>r.fpl);if(pts.length){const avg=pts.reduce((a,b)=>a+b,0)/pts.length;cons[p.entry]=+Math.sqrt(pts.reduce((s,x)=>s+Math.pow(x-avg,2),0)/pts.length).toFixed(1);}});
+  const cb={};s.forEach(p=>{const r=(p.results||[]).filter(x=>x.gw<=36);if(r.length>=18)cb[p.entry]=fPts(r.slice(18))-fPts(r.slice(0,18));});
+  function win(obj,hi=true){const e=hi?Object.entries(obj).sort((a,b)=>b[1]-a[1])[0]:Object.entries(obj).sort((a,b)=>a[1]-b[1])[0];if(!e)return{n:'?',v:'–'};return{n:s.find(x=>x.entry==e[0])?.name||'?',v:e[1]};}
+  const awards=[
+    {emoji:'🎯',title:'Nejlepší kapitán',cls:'gold',winner:win(capA).n,detail:'Průměr '+win(capA).v+' pts/GW',desc:'Největší kapitánský mozek ligy'},
+    {emoji:'😬',title:'Nejhorší kapitán',cls:'shame',winner:win(capA,false).n,detail:'Průměr '+win(capA,false).v+' pts/GW',desc:'Kapitánská volba jako ruská ruleta'},
+    {emoji:'💊',title:'Chip závislák',cls:'purple',winner:win(chipC).n,detail:win(chipC).v+' chipů použito',desc:'Čip na každou příležitost'},
+    {emoji:'🐘',title:'Haaland otrok',cls:'green',winner:(()=>{const e=Object.entries(haaG).sort((a,b)=>b[1]-a[1])[0];return s.find(x=>x.entry==e?.[0])?.name||'?';})(),detail:Math.max(...Object.values(haaG),0)+' GW s Haalandem',desc:'Erling je jejich životní partner'},
+    {emoji:'💥',title:'Největší exploze',cls:'gold',winner:(()=>{const e=Object.entries(bestC).sort((a,b)=>b[1].gw_total-a[1].gw_total)[0];return s.find(x=>x.entry==e?.[0])?.name||'?';})(),detail:(Object.entries(bestC).sort((a,b)=>b[1].gw_total-a[1].gw_total)[0]?.[1]?.gw_total||'–')+' pts nejlepší GW s cap',desc:'Ten jeden zlatý gameweek'},
+    {emoji:'🤦',title:'Kapitánský blunder',cls:'shame',winner:(()=>{const e=Object.entries(worstC).sort((a,b)=>a[1].gw_total-b[1].gw_total)[0];return s.find(x=>x.entry==e?.[0])?.name||'?';})(),detail:(Object.entries(worstC).sort((a,b)=>a[1].gw_total-b[1].gw_total)[0]?.[1]?.gw_total||'–')+' pts nejhorší GW s cap',desc:'Kapitán? Spíš závaží na noze'},
+    {emoji:'⚔️',title:'H2H dominance',cls:'gold',winner:(()=>{const e=Object.entries(h2hS).sort((a,b)=>b[1]-a[1])[0];return s.find(x=>x.entry==e?.[0])?.name||'?';})(),detail:Math.max(...Object.values(h2hS),0)+' H2H výher celkem',desc:'Nepřemožitelný soubojník'},
+    {emoji:'🎯',title:'Nejkonzistentnější',cls:'blue',winner:(()=>{const e=Object.entries(cons).sort((a,b)=>a[1]-b[1])[0];return s.find(x=>x.entry==e?.[0])?.name||'?';})(),detail:'Odchylka '+Math.min(...Object.values(cons),99)+' pts',desc:'Každý týden jako hodinky'},
+    {emoji:'📈',title:'Největší comeback',cls:'green',winner:(()=>{const e=Object.entries(cb).sort((a,b)=>b[1]-a[1])[0];return s.find(x=>x.entry==e?.[0])?.name||'?';})(),detail:'+'+Math.max(...Object.values(cb),0)+' bodů (1. vs 2. polovina)',desc:'Pomalý start, rychlý konec'},
+    {emoji:'💀',title:'Rekordní prohrář',cls:'shame',winner:s[s.length-1]?.name||'?',detail:(s[s.length-1]?.l||'?')+' proher v sezóně',desc:'Historický antirekord ligy'},
+    {emoji:'👑',title:'Král základní části',cls:'gold',winner:s[0]?.name||'?',detail:(s[0]?.pts||'?')+' ligových bodů',desc:'Dominoval celou základní část'},
+    {emoji:'📊',title:'FPL bodový magnát',cls:'green',winner:(()=>{const t=s.reduce((b,p)=>p.fpl_total>b.fpl_total?p:b,s[0]||{});return t?.name||'?';})(),detail:fm(s.reduce((b,p)=>p.fpl_total>b.fpl_total?p:b,s[0]||{})?.fpl_total||0)+' FPL bodů',desc:'Nejvíce PL bodů v celé lize'},
+  ];
+  $('s-aw').innerHTML=`<div class="st"><span class="a">🎖️ Tituly</span> sezóny 2025/26<span class="d">automaticky vypočítané</span></div>
+    <div class="awards-grid">${awards.map(a=>`<div class="ac ${a.cls}"><span class="ac-emoji">${a.emoji}</span><div class="ac-title">${a.title}</div><div class="ac-winner">${a.winner}</div><div class="ac-detail">${a.detail}</div><div class="ac-desc">${a.desc}</div></div>`).join('')}</div>`;
+}
+
+/* ── DUEL ── */
+function rDu(eA,eB){
+  const s=D.standings||[],h2h=D.h2h||{};
+  if(!eA)eA=s[0]?.entry;if(!eB)eB=s[1]?.entry;
+  const oA=s.map(p=>`<option value="${p.entry}" ${p.entry==eA?'selected':''}>${MS[p.entry]?.e||''} ${p.name}</option>`).join('');
+  const oB=s.map(p=>`<option value="${p.entry}" ${p.entry==eB?'selected':''}>${MS[p.entry]?.e||''} ${p.name}</option>`).join('');
+  const pA=s.find(p=>p.entry==eA),pB=s.find(p=>p.entry==eB);
+  if(!pA||!pB){$('s-du').innerHTML='';return;}
+  const iA=MS[eA]||{},iB=MS[eB]||{};
+  const h=(h2h[String(eA)]||{})[String(eB)]||{w:0,l:0,d:0};
+  const tot=h.w+h.l+(h.d||0),hp=tot>0?Math.round(h.w/tot*100):50;
+  const rA=(pA.results||[]).filter(r=>r.gw<=36),rB=(pB.results||[]).filter(r=>r.gw<=36);
+  const mxG=Math.max(...rA.map(r=>r.gw),1);
+  const gc=[];for(let g=1;g<=mxG;g++){const a=rA.find(r=>r.gw===g),b=rB.find(r=>r.gw===g);if(a&&b)gc.push({g,pA:a.fpl,pB:b.fpl,w:a.fpl>b.fpl?'a':a.fpl<b.fpl?'b':'d'});}
+  const gA=gc.filter(x=>x.w==='a').length,gB=gc.filter(x=>x.w==='b').length,gD=gc.filter(x=>x.w==='d').length;
+  const mxP=Math.max(...gc.map(x=>Math.max(x.pA,x.pB)),1);
+  const bars=gc.map(x=>{const h=Math.max(4,Math.round((Math.max(x.pA,x.pB)/mxP)*52));return`<div class="gwdb ${x.w==='a'?'w':x.w==='b'?'l':'d'}" style="height:${h}px" title="GW${x.g}: ${pA.name.split(' ')[1]} ${x.pA} vs ${pB.name.split(' ')[1]} ${x.pB}"></div>`;}).join('');
+  const pmA=pm(eA),pmB=pm(eB);
+  const cA=pmA.cap_history?.length?(pmA.cap_history.reduce((s,c)=>s+c.gw_total,0)/pmA.cap_history.length).toFixed(1):'–';
+  const cB=pmB.cap_history?.length?(pmB.cap_history.reduce((s,c)=>s+c.gw_total,0)/pmB.cap_history.length).toFixed(1):'–';
+  function sr(label,vA,vB,hi=true){const aw=hi?vA>vB:vA<vB,bw=hi?vB>vA:vB<vA;
+    return`<div class="drow"><div style="text-align:right"><span class="dval ${aw?'w':bw?'l':'t'}">${vA}</span></div><div class="dlbl">${label}</div><div><span class="dval ${bw?'w':aw?'l':'t'}">${vB}</span></div></div>`;}
+  $('s-du').innerHTML=`<div class="st"><span class="a">⚔️ Přímý</span> duel</div>
+    <div class="dsel-row">
+      <select class="dsel" onchange="rDu(this.value,${eB});rendered.du=true">${oA}</select>
+      <div class="dvs">VS</div>
+      <select class="dsel" onchange="rDu(${eA},this.value);rendered.du=true">${oB}</select>
+    </div>
+    <div class="dcard">
+      <div class="dhead">
+        <div><div class="demoji">${iA.e||'👤'}</div><div class="dname">${pA.name.split(' ')[1]||pA.name}</div><div class="dteam">${pA.team}</div></div>
+        <div style="font-family:var(--fh);font-size:26px;color:var(--mu);text-align:center">VS</div>
+        <div style="text-align:right"><div class="demoji">${iB.e||'👤'}</div><div class="dname">${pB.name.split(' ')[1]||pB.name}</div><div class="dteam">${pB.team}</div></div>
+      </div>
+      <div style="margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600;margin-bottom:5px">
+          <span style="color:var(--plg)">✅ ${h.w} výher</span>${h.d?`<span style="color:var(--gold)">= ${h.d} remíz</span>`:''}
+          <span style="color:var(--shame)">❌ ${h.l} proher</span></div>
+        <div class="dbar-wrap"><div class="dbar-a" style="width:${hp}%"></div><div class="dbar-b"></div></div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mu)"><span>${hp}%</span><span>${100-hp}%</span></div>
+      </div>
+      ${sr('⚽ Ligové body',pA.pts,pB.pts)}${sr('🎮 FPL celkem',fm(pA.fpl_total),fm(pB.fpl_total))}
+      ${sr('🤝 Výher H2H',h.w,h.l)}${sr('📊 Průměr/GW',aFpl(rA),aFpl(rB))}
+      ${sr('🎯 Avg s kapitánem',cA,cB)}${sr('🏆 Shivy',iA.shiva||0,iB.shiva||0)}
+      ${sr('💩 Sacka',iA.sacko||0,iB.sacko||0,false)}${sr('📅 FPL GW duely',gA,gB)}
+    </div>
+    <div class="sub">📅 GW po GW – kdo měl více FPL bodů</div>
+    <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:12px;box-shadow:var(--sh)">
+      <div style="display:flex;gap:12px;font-size:11px;color:var(--mu);margin-bottom:7px;flex-wrap:wrap">
+        <span>🟢 ${pA.name.split(' ')[1]} (${gA}×)</span><span>🔴 ${pB.name.split(' ')[1]} (${gB}×)</span><span>🟡 Remíza (${gD}×)</span></div>
+      <div class="gwduel">${bars}</div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--mu);margin-top:4px"><span>GW1</span><span>GW18</span><span>GW36</span></div>
+    </div>`;
+}
+
+/* ── STATISTIKY ── */
+function rSs(){
+  const rec=D.records,h2h=D.h2h,ser=D.series,ps=D.picks_stats||{},perM=ps.per_manager||{};
+  const gw=Math.min(D.meta.current_gw||36,36);
+  const t10=(rec?.top10||[]).map((s,i)=>`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td><td style="font-weight:600">${s.name}</td><td style="font-family:var(--fm)">GW${s.gw}</td><td><span style="font-family:var(--fm);font-size:14px;font-weight:700;color:var(--gold)">${s.pts}</span></td><td class="hm" style="font-size:12px;color:var(--mu)">vs ${s.opp||'–'}</td></tr>`).join('');
+  const b5=(rec?.bottom5||[]).map((s,i)=>`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td><td style="font-weight:600">${s.name}</td><td style="font-family:var(--fm)">GW${s.gw}</td><td><span style="font-family:var(--fm);font-size:14px;font-weight:700;color:var(--shame)">${s.pts}</span></td></tr>`).join('');
+  const ord=(D.standings||[]).map(p=>String(p.entry));
+  const sn={};(D.standings||[]).forEach(p=>sn[p.entry]=p.name.split(' ')[1]||p.name);
+  let h2h2='<tr><th>↓ vs →</th>'+ord.map(e=>`<th>${sn[e]||e}</th>`).join('')+'</tr>';
+  ord.forEach(e1=>{
+    h2h2+=`<tr><th class="hn">${MS[e1]?.e||''} ${sn[e1]||e1}</th>`;
+    ord.forEach(e2=>{if(e1===e2){h2h2+='<td class="self">—</td>';return;}
+      const r=(h2h?.[e1]||{})[e2]||{w:0,l:0,d:0};const cls=r.w>r.l?'win':r.w<r.l?'loss':r.w>0?'draw':'';
+      h2h2+=`<td class="${cls}" title="${r.w}V ${r.d||0}R ${r.l}P">${r.w}:${r.l}</td>`;});h2h2+='</tr>';});
+  const serR=(ser||[]).map(p=>{const c=p.current?.includes('W')?'var(--plg)':p.current?.includes('L')?'var(--shame)':'var(--gold)';
+    return`<tr><td style="font-weight:600">${MS[p.entry]?.e||''} ${p.name}</td><td style="font-family:var(--fm);color:var(--plg)">${p.best_w}× W</td><td style="font-family:var(--fm);color:var(--shame)">${p.best_l}× L</td><td style="font-family:var(--fm);color:${c}">${p.current}</td></tr>`;}).join('');
+  const caps=(ps.top_captains_liga||[]).slice(0,10).map((c,i)=>`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td><td style="font-weight:600">${c.name}</td><td><span style="font-family:var(--fm);color:var(--plg);font-weight:700">${c.times}×</span></td></tr>`).join('')||'<tr><td colspan="3" style="color:var(--mu);text-align:center;padding:16px">Data po GitHub Actions</td></tr>';
+  const plrs=(ps.top_players_liga||[]).slice(0,10).map((p,i)=>`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td><td style="font-weight:600">${p.name}</td><td><span style="font-family:var(--fm);color:var(--plg);font-weight:700">${p.appearances}×</span></td></tr>`).join('')||'<tr><td colspan="3" style="color:var(--mu);text-align:center;padding:16px">Data po GitHub Actions</td></tr>';
+  let cs={bb:0,tc:0,fh:0,wc:0};
+  Object.values(perM).forEach(m=>Object.values(m.chips||{}).forEach(c=>{if(c==='bboost'||c==='bench_boost')cs.bb++;else if(c==='3xc'||c==='triple_captain')cs.tc++;else if(c==='freehit'||c==='free_hit')cs.fh++;else cs.wc++;}));
+  $('s-ss').innerHTML=`<div class="st"><span class="a">📊 Statistiky</span><span class="d">GW1–${gw}</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px">
+      <div><div class="sub">⬆️ Top 10 GW skóre</div><div class="tw"><table><thead><tr><th>#</th><th>Hráč</th><th>GW</th><th>FPL</th><th class="hm">Soupeř</th></tr></thead><tbody>${t10}</tbody></table></div></div>
+      <div><div class="sub">⬇️ Bottom 5 GW skóre</div><div class="tw"><table><thead><tr><th>#</th><th>Hráč</th><th>GW</th><th>FPL</th></tr></thead><tbody>${b5}</tbody></table></div></div>
+    </div>
+    <div class="sub">⚔️ Head-to-Head bilance</div><div class="h2w"><table class="h2t">${h2h2}</table></div>
+    <div class="sdiv"></div>
+    <div class="sub">📈 Série výher a proher</div><div class="tw"><table><thead><tr><th>Hráč</th><th>Nejdelší W</th><th>Nejdelší L</th><th>Aktuální</th></tr></thead><tbody>${serR}</tbody></table></div>
+    <div class="sdiv"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+      <div><div class="sub">⚽ Nejoblíbenější PL hráči</div><div class="tw"><table><thead><tr><th>#</th><th>Hráč</th><th>GW v sestavě</th></tr></thead><tbody>${plrs}</tbody></table></div></div>
+      <div><div class="sub">🎯 Nejčastější kapitáni</div><div class="tw"><table><thead><tr><th>#</th><th>Hráč</th><th>Captainů</th></tr></thead><tbody>${caps}</tbody></table></div></div>
+    </div>
+    <div class="sdiv"></div>
+    <div class="sub">🃏 Chipy v lize</div>
+    <div class="sg">
+      <div class="sc n"><div class="v">${cs.bb}</div><div class="lb">🟢 Bench Boost</div></div>
+      <div class="sc g"><div class="v">${cs.tc}</div><div class="lb">🟡 Triple Captain</div></div>
+      <div class="sc p"><div class="v">${cs.fh}</div><div class="lb">🔴 Free Hit</div></div>
+      <div class="sc b"><div class="v">${cs.wc}</div><div class="lb">🔵 Wildcard</div></div>
+    </div>`;
+}
+
+/* ── MANAGERS ── */
+function rMg(){
+  const s=D.standings||[];
+  const mxP=Math.max(...s.flatMap(p=>(p.results||[]).filter(r=>r.gw<=36).map(r=>r.fpl)),1);
+  const PHOTOS={'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'};
+  const tabs=s.map((p,i)=>{
+    const ph=PHOTOS[String(p.entry)];
+    const av=ph
+      ? `<img src="../../images/${ph}.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;object-position:center top;vertical-align:middle;margin-right:4px" onerror="this.style.display='none'">`
+      : `${MS[p.entry]?.e||'👤'} `;
+    return `<button class="mtab ${i===0?'active':''}" onclick="swM(${p.entry},this)">${av}${p.name.split(' ')[1]||p.name}</button>`;
+  }).join('');
+  const panels=s.map((p,i)=>{
+    const info=MS[p.entry]||{},m=pm(p.entry);
+    const res=(p.results||[]).filter(r=>r.gw<=36).sort((a,b)=>a.gw-b.gw);
+    const av=aFpl(res);
+    const bars=res.map(r=>{const h=Math.max(4,Math.round((r.fpl/mxP)*54));return`<div class="gwbar ${r.result}" style="height:${h}px" title="GW${r.gw}: ${r.fpl}pts (${r.result})"></div>`;}).join('');
+    const caps=m.top_captains||[],mxC=caps[0]?.times||1;
+    const capBars=caps.slice(0,5).map(c=>`<div class="capbar"><span class="capbar-name">${c.name}</span><div class="capbar-track"><div class="capbar-fill" style="width:${Math.round(c.times/mxC*100)}%"></div></div><span class="capbar-cnt">${c.times}×</span></div>`).join('')||'<div style="color:var(--mu);font-size:12px;font-style:italic">Data po GitHub Actions</div>';
+    const chips=m.chips||{};
+    const chipH=Object.entries(chips).sort((a,b)=>a[0]-b[0]).map(([gw,c])=>`<span class="chip-tag ${CC[c]||'wc'}">GW${gw}: ${CL[c]||c}</span>`).join('')||'<span style="color:var(--mu);font-size:12px">–</span>';
+    const plrs=m.top_players||[];
+    const plH=plrs.slice(0,8).map((pl,i)=>`<span class="plchip ${i===0?'t1':i<3?'t2':i<5?'t3':''}">${pl.name} <span class="pgws">${pl.gws}GW</span></span>`).join('')||'<span style="color:var(--mu);font-size:12px;font-style:italic">Data po GitHub Actions</span>';
+    const t5=[...res].sort((a,b)=>b.fpl-a.fpl).slice(0,5);
+    const w3=[...res].sort((a,b)=>a.fpl-b.fpl).slice(0,3);
+    const myH=(D.h2h||{})[String(p.entry)]||(D.h2h||{})[p.entry]||{};
+    const h2hR=s.filter(op=>op.entry!=p.entry).map(op=>{const r=myH[String(op.entry)]||myH[op.entry]||{w:0,l:0,d:0};const c=r.w>r.l?'var(--plg)':r.w<r.l?'var(--shame)':'var(--mu)';return`<tr><td>${MS[op.entry]?.e||''} ${op.name}</td><td style="font-family:var(--fm);color:${c};font-weight:700">${r.w}:${r.l}</td><td style="font-size:11px;color:var(--mu)">${r.w}V ${r.d||0}R ${r.l}P</td></tr>`;}).join('');
+    const str=(info.str||[]).map(s=>`<span class="tag pos">✓ ${s}</span>`).join('');
+    const wk=(info.wk||[]).map(w=>`<span class="tag neg">✗ ${w}</span>`).join('');
+    const tr2=(info.shiva?`<span class="tag sh">🏆 ${info.shiva}× Shiva</span>`:'')+
+              (info.sacko?`<span class="tag sk">💩 ${info.sacko}× Sacko</span>`:'');
+    return`<div class="mpanel ${i===0?'active':''}" id="mp-${p.entry}">
+      <div class="mcard">
+        <div class="mhead">
+          <div class="mav" style="cursor:pointer" onclick="openLightbox('images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg','${p.name}')">
+            <img src="../../images/${ {'4239832':'holub','156572':'pechoc','155266':'valek','167387':'bures','138950':'kvapil','472208':'palan','184202':'krautwurm','4127653':'kapinus'}[p.entry]||'' }.jpg"
+              onerror="this.style.display='none';this.nextSibling.style.display='flex'"
+              alt="${p.name}" style="width:100%;height:100%;object-fit:cover;object-position:center top">
+            <span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:48px">${info.e||'👤'}</span>
+          </div>
+          <div style="flex:1;position:relative;z-index:1">
+            <div class="mname">${p.name}</div><div class="mteam">🎽 ${p.team}</div>
+            <div class="mbio">"${info.cap||''}"</div>
+            <div class="mbadges">${str}${wk}${tr2}${i===0?'<span class="mbadge ok">👑 Lídr sezóny</span>':''}</div>
+          </div><div class="mpos">#${i+1}</div>
+        </div>
+        <div class="mbody">
+          <div class="mstats">
+            <div class="ms"><span class="v" style="color:var(--plg)">${p.pts}</span><span class="l">⚽ Body</span></div>
+            <div class="ms"><span class="v" style="color:var(--plg)">${p.w}</span><span class="l">✅ Výher</span></div>
+            <div class="ms"><span class="v" style="color:var(--shame)">${p.l}</span><span class="l">❌ Proher</span></div>
+            <div class="ms"><span class="v">${fm(p.fpl_total)}</span><span class="l">🎮 FPL</span></div>
+            <div class="ms"><span class="v">${av}</span><span class="l">📊 Průměr</span></div>
+            <div class="ms"><span class="v" style="color:var(--gold)">${Math.max(...res.map(r=>r.fpl),0)}</span><span class="l">⭐ Max GW</span></div>
+          </div>
+          <div class="msec"><h4>📊 FPL body GW1–36</h4>
+            <div style="background:var(--b3);border-radius:var(--rs);padding:7px">
+              <div class="gwchart">${bars||'<div style="color:var(--mu)">–</div>'}</div>
+              <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--mu);margin-top:4px"><span>GW1</span><span>GW18</span><span>GW36</span></div>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px">
+            <div class="msec"><h4>⭐ Top 5 kol</h4>${t5.map(r=>`<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--bo);font-size:13px"><span style="color:var(--mu)">GW${r.gw}</span><span style="font-family:var(--fm);color:var(--plg);font-weight:700">${r.fpl} pts</span></div>`).join('')}</div>
+            <div class="msec"><h4>💀 3 nejhorší kola</h4>${w3.map(r=>`<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--bo);font-size:13px"><span style="color:var(--mu)">GW${r.gw}</span><span style="font-family:var(--fm);color:var(--shame);font-weight:700">${r.fpl} pts</span></div>`).join('')}</div>
+          </div>
+          <div class="msec"><h4>🎯 Nejčastější kapitáni</h4>${capBars}</div>
+          <div class="msec"><h4>🃏 Použité chipy</h4>${chipH}</div>
+          <div class="msec"><h4>⚽ Nejčastěji v sestavě</h4><div style="display:flex;flex-wrap:wrap;gap:4px">${plH}</div></div>
+          <div class="msec"><h4>⚔️ H2H vs ostatní</h4><div class="tw"><table><thead><tr><th>Soupeř</th><th>V:P</th><th>Detail</th></tr></thead><tbody>${h2hR}</tbody></table></div></div>
+          <div style="background:linear-gradient(135deg,var(--plp),var(--b3));border-radius:var(--rs);padding:11px 14px;font-size:13px;color:rgba(255,255,255,.6);font-style:italic;border-left:3px solid var(--plg)">💬 ${info.q||''}</div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  $('s-mg').innerHTML=`<div class="st"><span class="a">👤 Manažerské</span> profily</div>
+    <div class="mtabs">${tabs}</div>${panels}`;
+}
+function swM(e,btn){document.querySelectorAll('.mtab').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.mpanel').forEach(p=>p.classList.remove('active'));btn.classList.add('active');document.getElementById(`mp-${e}`)?.classList.add('active');}
+
+/* ── KARIÉRA ── */
+function rCa(){
+  const rows=HOF.sort((a,b)=>(b.s-b.k)-(a.s-a.k)||b.s-a.s).map(pl=>{
+    const sc=pl.s-pl.k,c=sc>0?'var(--plg)':sc<0?'var(--shame)':'var(--mu)';
+    return`<div style="margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--bo)">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:7px;flex-wrap:wrap">
+        <span style="font-size:15px;font-weight:700;min-width:145px">${pl.n}</span>
+        <span style="color:var(--gold)">${'🏆'.repeat(Math.min(pl.s,5))||'–'}</span>
+        <span>${'💩'.repeat(Math.min(pl.k,4))||''}</span>
+        <span style="font-family:var(--fm);font-size:14px;font-weight:700;color:${c};margin-left:auto">${sc>0?'+':''}${sc}</span>
+      </div>
+      <div style="display:flex;gap:3px;flex-wrap:wrap">
+        ${HIST.map(h=>`<div style="text-align:center;min-width:36px">
+          ${h.sh===pl.n?'<div style="width:26px;height:26px;border-radius:50%;background:rgba(245,200,66,.2);border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer" title="🏆 '+h.s+'">🏆</div>':
+            h.sa===pl.n?'<div style="width:26px;height:26px;border-radius:50%;background:rgba(255,61,61,.15);border:1px solid var(--shame);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer" title="💩 '+h.s+'">💩</div>':
+            h.cur?'<div style="width:26px;height:26px;border-radius:50%;background:var(--b3);border:1px solid var(--b2o);display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--mu)">?</div>':
+            '<div style="width:26px;height:26px;border-radius:50%;background:var(--b3);border:1px solid var(--bo)"></div>'}
+          <div style="font-size:9px;color:var(--m2);margin-top:2px">${h.s.substring(2,4)}/${h.s.substring(7,9)}</div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }).join('');
+  $('s-ca').innerHTML=`<div class="st"><span class="a">📅 Kariéra</span> hráčů<span class="d">2013–2026 · 13 sezón</span></div>
+    <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:18px;box-shadow:var(--sh)">
+      <div style="display:flex;gap:14px;font-size:12px;color:var(--mu);margin-bottom:16px;flex-wrap:wrap">
+        <span>🏆 Shiva – vítěz sezóny</span><span>💩 Sacko – poražený sezóny</span><span style="opacity:.5">⬜ Ani jedno</span>
+      </div>${rows}
+    </div>`;
+}
+
+/* ── PREDIKCE ── */
+function rPr(){
+  const s=D.standings||[],po=D.playoff||{},h2h=D.h2h||{};
+  function calc(pA,pB){
+    const rA=(pA.results||[]).filter(r=>r.gw<=36),rB=(pB.results||[]).filter(r=>r.gw<=36);
+    const a5=aFpl(rA.slice(-5)),b5=aFpl(rB.slice(-5)),aA=aFpl(rA),bA=aFpl(rB);
+    const hh=(h2h[String(pA.entry)]||{})[String(pB.entry)]||{w:0,l:0};
+    const adv=hh.w-hh.l,sA=a5*.5+aA*.3+adv*2,sB=b5*.5+bA*.3,tot=sA+sB;
+    const p=tot>0?Math.max(20,Math.min(80,Math.round(sA/tot*100))):50;
+    return{p,a5,b5,aA,bA,adv,hh};
+  }
+  function pc(pA,pB,label,type){
+    if(!pA||!pB)return'';
+    const iA=MS[pA.entry]||{},iB=MS[pB.entry]||{};
+    const{p,a5,b5,aA,bA,adv,hh}=calc(pA,pB);
+    const fav=p>=50,tc=type==='shiva'?'var(--gold)':'var(--shame)';
+    return`<div class="pcard" style="border-left:3px solid ${tc}">
+      <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:${tc};margin-bottom:12px">${label}</div>
+      <div class="pvs">
+        <div class="pplayer"><div class="pemoji">${iA.e||'👤'}</div><div class="pname">${pA.name.split(' ')[1]||pA.name}</div><div class="pavg">L5: ${a5} | Avg: ${aA}</div><div class="pprob ${fav?'fav':'dog'}">${p}%</div></div>
+        <div style="font-family:var(--fh);font-size:20px;color:var(--mu);text-align:center;align-self:center">VS</div>
+        <div class="pplayer" style="text-align:right"><div class="pemoji">${iB.e||'👤'}</div><div class="pname">${pB.name.split(' ')[1]||pB.name}</div><div class="pavg">L5: ${b5} | Avg: ${bA}</div><div class="pprob ${!fav?'fav':'dog'}">${100-p}%</div></div>
+      </div>
+      <div class="pbar"><div class="pbar-a" style="width:${p}%"></div><div class="pbar-b"></div></div>
+      <div class="pfacts">
+        <span class="pfact">⏱️ L5: ${a5} vs ${b5}</span><span class="pfact">📊 Avg: ${aA} vs ${bA}</span>
+        <span class="pfact">⚔️ H2H: ${hh.w}:${hh.l} ${adv>0?'(výhoda '+pA.name.split(' ')[1]+')':adv<0?'(výhoda '+pB.name.split(' ')[1]+')':'(vyrovnané)'}</span>
+      </div>
+    </div>`;
+  }
+  const sf=po.shiva_sf||[],fin=po.shiva_final||[],pl=po.playout_sf||[];
+  let cards='';
+  if(fin[0]){const hP=s.find(p=>p.entry==fin[0].home?.entry),aP=s.find(p=>p.entry==fin[0].away?.entry);if(hP&&aP)cards+=pc(hP,aP,'🏆 SHIVA FINÁLE GW38','shiva');}
+  const losers=pl.map(m=>m.loser);
+  if(losers.length>=2){const lA=s.find(p=>p.entry==losers[0]),lB=s.find(p=>p.entry==losers[1]);if(lA&&lB)cards+=pc(lA,lB,'💩 SACKO FINÁLE GW38','sacko');}
+  $('s-pr').innerHTML=`<div class="st"><span class="a">🎯 Predikce</span><span class="d">algoritmus · forma + H2H</span></div>
+    <div class="ibox">⚡ <strong>Algoritmus:</strong> 50% váha formy L5 + 30% průměr sezóny + H2H historická výhoda (±2 body za výhrový rozdíl).</div>
+    ${cards||'<div style="color:var(--mu);font-size:13px;padding:16px">Finalisté budou známi po GW37.</div>'}
+    <div class="sdiv"></div>
+    <div class="sub">🎮 Hypotetický duel</div>
+    <div class="dsel-row">
+      <select class="dsel" id="pa" onchange="updP()">${s.map(p=>`<option value="${p.entry}">${MS[p.entry]?.e||''} ${p.name}</option>`).join('')}</select>
+      <div class="dvs">VS</div>
+      <select class="dsel" id="pb" onchange="updP()">${s.map((p,i)=>`<option value="${p.entry}" ${i===1?'selected':''}>${MS[p.entry]?.e||''} ${p.name}</option>`).join('')}</select>
+    </div>
+    <div id="ph"></div>`;
+  updP();
+}
+function updP(){
+  const eA=parseInt($('pa')?.value),eB=parseInt($('pb')?.value);
+  if(!eA||!eB||eA===eB){if($('ph'))$('ph').innerHTML='<div style="color:var(--mu);font-size:13px">Vyber dva různé hráče.</div>';return;}
+  const s=D.standings||[],h2h=D.h2h||{};
+  const pA=s.find(p=>p.entry==eA),pB=s.find(p=>p.entry==eB);if(!pA||!pB)return;
+  const iA=MS[eA]||{},iB=MS[eB]||{};
+  const rA=(pA.results||[]).filter(r=>r.gw<=36),rB=(pB.results||[]).filter(r=>r.gw<=36);
+  const a5=aFpl(rA.slice(-5)),b5=aFpl(rB.slice(-5)),aA=aFpl(rA),bA=aFpl(rB);
+  const hh=(h2h[String(eA)]||{})[String(eB)]||{w:0,l:0};
+  const adv=hh.w-hh.l,sA=a5*.5+aA*.3+adv*2,sB=b5*.5+bA*.3,tot=sA+sB;
+  const p=tot>0?Math.max(20,Math.min(80,Math.round(sA/tot*100))):50,fav=p>=50;
+  $('ph').innerHTML=`<div class="pcard">
+    <div class="pvs">
+      <div class="pplayer"><div class="pemoji">${iA.e||'👤'}</div><div class="pname">${pA.name.split(' ')[1]||pA.name}</div><div class="pavg">L5: ${a5} | Avg: ${aA}</div><div class="pprob ${fav?'fav':'dog'}">${p}%</div></div>
+      <div style="font-family:var(--fh);font-size:20px;color:var(--mu);align-self:center;text-align:center">VS</div>
+      <div class="pplayer" style="text-align:right"><div class="pemoji">${iB.e||'👤'}</div><div class="pname">${pB.name.split(' ')[1]||pB.name}</div><div class="pavg">L5: ${b5} | Avg: ${bA}</div><div class="pprob ${!fav?'fav':'dog'}">${100-p}%</div></div>
+    </div>
+    <div class="pbar"><div class="pbar-a" style="width:${p}%"></div><div class="pbar-b"></div></div>
+    <div class="pfacts"><span class="pfact">L5: ${a5} vs ${b5}</span><span class="pfact">Avg: ${aA} vs ${bA}</span><span class="pfact">H2H: ${hh.w}:${hh.l}</span></div>
+  </div>`;
+}
+
+/* ── HOF ── */
+function renderHoF(){
+  const ranked=[...HOF].sort((a,b)=>(b.s-b.k)-(a.s-a.k)||b.s-a.s);
+  const tbody=ranked.map((p,i)=>{const sc=p.s-p.k,c=sc>0?'var(--plg)':sc<0?'var(--shame)':'var(--mu)';
+    return`<tr><td style="font-family:var(--fm);color:var(--mu)">${i+1}</td><td style="font-weight:600">${p.n}</td><td style="color:var(--gold);font-family:var(--fm)">${p.s?p.s+'× 🏆':'–'}</td><td style="color:var(--shame);font-family:var(--fm)">${p.k?p.k+'× 💩':'–'}</td><td><span style="font-family:var(--fm);font-size:16px;font-weight:700;color:${c}">${sc>0?'+':''}${sc}</span></td></tr>`;}).join('');
+  $('s-hf').innerHTML=`<div class="st"><span class="a">🏅 Hall of Fame</span> &amp; Shame</div>
+    <div class="hg">
+      <div class="hc hcs"><div class="ht g">🏆 Síň slávy – Shiva</div>
+        <div class="hr"><span class="hrk">👑</span><span class="hpl">Martin Holub</span><span class="hct g">6×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Marek Palán</span><span class="hct g">2×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Jaroslav Bureš</span><span class="hct g">2×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Rudolf Kvapil</span><span class="hct g">1×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Martin Válek</span><span class="hct g">1×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Lukáš Kapinus</span><span class="hct g">1×</span></div>
+      </div>
+      <div class="hc hck"><div class="ht s">💩 Zeď hanby – Sacko</div>
+        <div class="hr"><span class="hrk">🤡</span><span class="hpl">Vojtěch Raiman</span><span class="hct s">4×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">2.</span><span class="hpl">Michal Krautwurm</span><span class="hct s">3×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">3.</span><span class="hpl">Libor Pechoč</span><span class="hct s">2×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Lukáš Kapinus</span><span class="hct s">1×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Martin Válek</span><span class="hct s">1×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Marek Palán</span><span class="hct s">1×</span></div>
+        <div class="hr"><span class="hrk" style="color:var(--mu)">4.</span><span class="hpl">Martin Holub</span><span class="hct s">1×</span></div>
+      </div>
+    </div>
+    <div class="sub">📊 Celková bilance</div>
+    <div class="tw"><table><thead><tr><th>#</th><th>Hráč</th><th>🏆 Shiva</th><th>💩 Sacko</th><th>Bilance</th></tr></thead><tbody>${tbody}</tbody></table></div>`;
+}
+
+function renderHist(){
+  $('s-hi').innerHTML=`<div class="st"><span class="a">📚 Archiv</span> sezón<span class="d">2013/14 – 2025/26 · 13 sezón</span></div>
+    <div class="tw"><table><thead><tr><th>#</th><th>📅 Sezóna</th><th>🏆 Shiva – Vítěz</th><th>💩 Sacko – Poražený</th></tr></thead>
+    <tbody>${[...HIST].reverse().map(h=>`<tr ${h.cur?'style="background:rgba(0,255,133,.04)"':''}>
+      <td style="font-family:var(--fm);font-size:11px;color:var(--mu)">${h.n}</td>
+      <td style="${h.cur?'color:var(--plg);font-weight:700':'font-weight:500'}">${h.s}${h.cur?' <span class="live-pill">LIVE</span>':''}</td>
+      <td style="${!h.cur?'color:var(--gold);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sh}</td>
+      <td style="${!h.cur?'color:var(--shame);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sa}</td>
+    </tr>`).join('')}</tbody></table></div>
+    <div class="ibox" style="margin-top:14px">📋 <strong>Finální pořadí sezóny:</strong> 1. Shiva vítěz · 2. Shiva finalista · 3–4. SF poražení · 5–6. Playout SF vítězové · 7. Zachráněn · 8. 💩 Sacko</div>`;}
+
+function renderRules(){
+  $('s-ru').innerHTML=`<div class="st"><span class="a">📋 Pravidla</span> ligy<span class="d">Liga #83735</span></div>
+    <div class="rbox"><h3>⚙️ Základní část GW1–GW36</h3>
+      <div class="rs"><span class="num">1</span><span>H2H liga na fantasy.premierleague.com · FPL kickoff rules.</span></div>
+      <div class="rs"><span class="num">2</span><span>Výhra = <strong>3 body</strong> · remíza = <strong>1 bod</strong> · prohra = <strong>0 bodů</strong>.</span></div>
+      <div class="rs"><span class="num">3</span><span>8 hráčů. <span style="color:var(--plg)">Top 4 → 🏆 Shiva playoff.</span> <span style="color:var(--shame)">Spodní 4 → 💩 Sacko playout.</span></span></div>
+    </div>
+    <div class="rbox"><h3>🏆 Shiva Playoff GW37–GW38</h3>
+      <div class="rs"><span class="num">1</span><span>GW37 SF: <strong>#1 vs #4</strong>, <strong>#2 vs #3</strong>. Vyšší nasazený má virtuální náskok.</span></div>
+      <div class="rs"><span class="num">2</span><span><strong>Virtuální náskok</strong> = rozdíl ligových bodů ze základní části.</span></div>
+      <div class="rs"><span class="num">3</span><span><strong>GW38 finále – čistá čára.</strong> Více FPL bodů = <strong style="color:var(--gold)">🏆 Shiva</strong>.</span></div>
+    </div>
+    <div class="rbox" style="border-left:3px solid var(--shame)"><h3 style="color:var(--shame)">💩 Sacko Playout GW37–GW38</h3>
+      <div class="rs"><span class="num">1</span><span>GW37 SF: <strong>#5 vs #8</strong>, <strong>#6 vs #7</strong>. Stejný systém náskoku.</span></div>
+      <div class="rs"><span class="num">2</span><span>Vítěz SF = bezpečný. Poražený → Sacko finále GW38.</span></div>
+      <div class="rs"><span class="num">3</span><span><strong>GW38 Sacko finále:</strong> Méně FPL bodů = <strong style="color:var(--shame)">💩 SACKO</strong>.</span></div>
+    </div>
+    <div class="rbox" style="border-left:3px solid var(--silver)"><h3 style="color:var(--silver)">📋 Příklad náskoku</h3>
+      <p style="font-size:13px;color:var(--mu);line-height:1.7;font-family:var(--fm)">
+        Kvapil (#5) 54b vs Kapinus (#8) 28b → náskok +26b<br>
+        GW37 FPL: Kvapil 73, Kapinus 69<br>
+        Virtuální: <strong style="color:var(--plg)">73+26=99</strong> vs <strong>69</strong> → Kvapil bezpečný ✅
+      </p>
+    </div>`;
+}
+
+load();
+</script>
+<!-- PHOTO LIGHTBOX -->
+<div class="photo-lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lb-img" src="" alt="">
+  <div class="lb-name" id="lb-name"></div>
+  <div style="position:absolute;top:20px;right:24px;font-size:28px;color:rgba(255,255,255,.5);cursor:pointer">✕</div>
+</div>
+</body>
+</html>
