@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-07-24T12:44:14.381591+00:00",
+    "updated_at": "2026-07-24T15:14:09.303626+00:00",
     "current_gw": 38,
     "season": "2025/26",
     "league_id": 83735,
@@ -815,6 +815,12 @@
       "element_type": 4,
       "total_points": 24
     },
+    "557": {
+      "web_name": "Tzolis",
+      "team": 1,
+      "element_type": 3,
+      "total_points": 0
+    },
     "28": {
       "web_name": "Martinez",
       "team": 2,
@@ -976,6 +982,12 @@
       "team": 2,
       "element_type": 4,
       "total_points": 23
+    },
+    "160": {
+      "web_name": "Garnacho",
+      "team": 2,
+      "element_type": 3,
+      "total_points": 56
     },
     "57": {
       "web_name": "Petrović",
@@ -1600,12 +1612,6 @@
       "team": 6,
       "element_type": 3,
       "total_points": 110
-    },
-    "160": {
-      "web_name": "Garnacho",
-      "team": 6,
-      "element_type": 3,
-      "total_points": 56
     },
     "161": {
       "web_name": "Lavia",
@@ -2427,6 +2433,12 @@
       "web_name": "Burstow",
       "team": 11,
       "element_type": 4,
+      "total_points": 0
+    },
+    "556": {
+      "web_name": "Targett",
+      "team": 11,
+      "element_type": 2,
       "total_points": 0
     },
     "259": {
@@ -3616,6 +3628,12 @@
       "team": 18,
       "element_type": 4,
       "total_points": 9
+    },
+    "558": {
+      "web_name": "Schlager",
+      "team": 18,
+      "element_type": 3,
+      "total_points": 0
     },
     "112": {
       "web_name": "Van Hecke",
