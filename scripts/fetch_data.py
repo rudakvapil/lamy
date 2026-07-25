@@ -251,6 +251,10 @@ def compute_picks_stats(all_picks, pl_players, max_gw):
         m_best_cap    = {"pts": 0, "player": "", "gw": 0}
         m_worst_cap   = {"pts": 999, "player": "", "gw": 0}
 
+        m_bench   = 0   # body shnilé na lavičce
+        m_hits    = 0   # minusové body za přestupy
+        m_transf  = 0   # počet přestupů
+
         for gw, data in gws.items():
             gw = int(gw)
             chip = data.get("active_chip")
@@ -260,6 +264,9 @@ def compute_picks_stats(all_picks, pl_players, max_gw):
             eh = data.get("entry_history", {})
             gw_pts = eh.get("points", 0)
             m_gw_pts[gw] = gw_pts
+            m_bench  += eh.get("points_on_bench", 0) or 0
+            m_hits   += eh.get("event_transfers_cost", 0) or 0
+            m_transf += eh.get("event_transfers", 0) or 0
 
             for pick in data.get("picks", []):
                 pid  = pick["element"]
@@ -297,7 +304,31 @@ def compute_picks_stats(all_picks, pl_players, max_gw):
             "cap_history":   m_cap_pts,
             "best_gw":       max(m_gw_pts.items(), key=lambda x: x[1]) if m_gw_pts else (0, 0),
             "worst_gw":      min(m_gw_pts.items(), key=lambda x: x[1]) if m_gw_pts else (0, 0),
+            "bench_points":  m_bench,
+            "hits_cost":     m_hits,
+            "transfers":     m_transf,
         }
+
+    # Ownership v POSLEDNÍM dostupném GW → diferenciály
+    ownership = defaultdict(set)   # pid → set manažerů (aktuální sestavy)
+    for entry, gws in all_picks.items():
+        if not gws:
+            continue
+        last_gw = max(int(g) for g in gws.keys())
+        for pick in gws[last_gw].get("picks", []):
+            if pick["position"] <= 11:
+                ownership[pick["element"]].add(entry)
+
+    differentials = []
+    for pid, owners in ownership.items():
+        if len(owners) <= 2:
+            info = pl_players.get(str(pid), {})
+            differentials.append({
+                "id": pid, "name": info.get("web_name", f"ID{pid}"),
+                "total_points": info.get("total_points", 0),
+                "owners": [MANAGERS[e]["name"] for e in owners if e in MANAGERS],
+            })
+    differentials.sort(key=lambda x: -x["total_points"])
 
     # Globální TOP hráči ligy
     top_liga = sorted(pl_appearances.items(), key=lambda x: -x[1])[:20]
@@ -305,9 +336,13 @@ def compute_picks_stats(all_picks, pl_players, max_gw):
 
     return {
         "top_players_liga": [
-            {"id": pid, "name": pl_players.get(str(pid), {}).get("web_name", f"ID{pid}"), "appearances": n}
+            {"id": pid, "name": pl_players.get(str(pid), {}).get("web_name", f"ID{pid}"),
+             "appearances": n,
+             "pos": pl_players.get(str(pid), {}).get("element_type", 0),
+             "total_points": pl_players.get(str(pid), {}).get("total_points", 0)}
             for pid, n in top_liga
         ],
+        "differentials": differentials[:12],
         "top_captains_liga": [
             {"id": pid, "name": pl_players.get(str(pid), {}).get("web_name", f"ID{pid}"), "times": n}
             for pid, n in top_caps
