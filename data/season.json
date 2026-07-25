@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-07-25T20:16:37.360119+00:00",
+    "updated_at": "2026-07-25T20:51:43.476394+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -530,6 +530,7 @@
   "next_fixtures": [],
   "picks_stats": {
     "top_players_liga": [],
+    "differentials": [],
     "top_captains_liga": [],
     "per_manager": {
       "4239832": {
@@ -545,7 +546,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "156572": {
         "top_players": [],
@@ -560,7 +564,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "155266": {
         "top_players": [],
@@ -575,7 +582,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "167387": {
         "top_players": [],
@@ -590,7 +600,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "138950": {
         "top_players": [],
@@ -605,7 +618,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "472208": {
         "top_players": [],
@@ -620,7 +636,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "184202": {
         "top_players": [],
@@ -635,7 +654,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       },
       "4127653": {
         "top_players": [],
@@ -650,7 +672,10 @@
         "worst_gw": [
           0,
           0
-        ]
+        ],
+        "bench_points": 0,
+        "hits_cost": 0,
+        "transfers": 0
       }
     }
   },
