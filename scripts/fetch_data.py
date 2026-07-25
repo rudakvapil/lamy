@@ -10,8 +10,8 @@ from datetime import datetime, timezone
 from collections import defaultdict
 
 # ─── KONFIGURACE ─────────────────────────────────────────────────────────────
-LEAGUE_ID      = 83735
-CURRENT_SEASON = "2025/26"
+LEAGUE_ID      = 199256
+CURRENT_SEASON = "2026/27"
 REGULAR_GWS    = 36   # základní část GW1–36
 
 MANAGERS = {
@@ -351,6 +351,24 @@ def main():
     all_picks   = fetch_all_picks(fetch_max)
     picks_stats = compute_picks_stats(all_picks, pl_players, fetch_max)
 
+    # Deadline dalšího GW (první nedokončený event)
+    next_deadline = None
+    for e in bootstrap.get("events", []):
+        if not e.get("finished"):
+            next_deadline = e.get("deadline_time")
+            break
+
+    # Zápasy dalšího (aktuálního nedohraného) GW – pro widget "další soupeř"
+    next_gw_matches = [m for m in matches if m.get("event") == current_gw and not m.get("finished")]
+    if not next_gw_matches:
+        next_gw_matches = [m for m in matches if m.get("event") == current_gw + 1]
+    next_fixtures = [
+        {"gw": m.get("event"),
+         "home": {"entry": m.get("entry_1_entry"), "name": m.get("entry_1_player_name"), "team": m.get("entry_1_name")},
+         "away": {"entry": m.get("entry_2_entry"), "name": m.get("entry_2_player_name"), "team": m.get("entry_2_name")}}
+        for m in next_gw_matches
+    ]
+
     output = {
         "meta": {
             "updated_at":    datetime.now(timezone.utc).isoformat(),
@@ -358,6 +376,7 @@ def main():
             "season":        CURRENT_SEASON,
             "league_id":     LEAGUE_ID,
             "total_matches": len(matches),
+            "next_deadline": next_deadline,
         },
         "standings":               [p for p in standings],
         "h2h":                     h2h,
@@ -382,6 +401,7 @@ def main():
             ],
             "playout_sf":  playout,
         },
+        "next_fixtures": next_fixtures,
         "picks_stats": picks_stats,
         "pl_players":  pl_players,
     }
