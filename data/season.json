@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-07-29T13:26:46.135600+00:00",
+    "updated_at": "2026-07-29T15:36:28.312274+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -2652,6 +2652,12 @@
       "web_name": "Maeda",
       "team": 12,
       "element_type": 3,
+      "total_points": 0
+    },
+    "564": {
+      "web_name": "Scherpen",
+      "team": 12,
+      "element_type": 1,
       "total_points": 0
     },
     "260": {
