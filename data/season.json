@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-04T15:48:03.650545+00:00",
+    "updated_at": "2026-08-04T18:00:14.613776+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -1286,12 +1286,6 @@
       "element_type": 3,
       "total_points": 13
     },
-    "101": {
-      "web_name": "Henderson",
-      "team": 4,
-      "element_type": 3,
-      "total_points": 76
-    },
     "102": {
       "web_name": "Yarmoliuk",
       "team": 4,
@@ -1339,12 +1333,6 @@
       "team": 5,
       "element_type": 1,
       "total_points": 130
-    },
-    "110": {
-      "web_name": "Rushworth",
-      "team": 5,
-      "element_type": 1,
-      "total_points": 0
     },
     "111": {
       "web_name": "Steele",
@@ -1525,6 +1513,12 @@
       "team": 6,
       "element_type": 3,
       "total_points": 169
+    },
+    "101": {
+      "web_name": "Henderson",
+      "team": 6,
+      "element_type": 3,
+      "total_points": 76
     },
     "136": {
       "web_name": "Welbeck",
@@ -1724,11 +1718,23 @@
       "element_type": 2,
       "total_points": 0
     },
+    "568": {
+      "web_name": "Barco",
+      "team": 6,
+      "element_type": 3,
+      "total_points": 0
+    },
     "104": {
       "web_name": "Onyeka",
       "team": 7,
       "element_type": 3,
       "total_points": 12
+    },
+    "110": {
+      "web_name": "Rushworth",
+      "team": 7,
+      "element_type": 1,
+      "total_points": 0
     },
     "171": {
       "web_name": "Dovin",
