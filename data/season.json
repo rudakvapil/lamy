@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-06T13:21:31.086837+00:00",
+    "updated_at": "2026-08-06T15:38:16.744524+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -2516,6 +2516,12 @@
       "element_type": 3,
       "total_points": 0
     },
+    "572": {
+      "web_name": "Tzolakis",
+      "team": 11,
+      "element_type": 1,
+      "total_points": 0
+    },
     "259": {
       "web_name": "Diop",
       "team": 12,
@@ -2688,6 +2694,12 @@
       "web_name": "Scherpen",
       "team": 12,
       "element_type": 1,
+      "total_points": 0
+    },
+    "571": {
+      "web_name": "Florentino",
+      "team": 12,
+      "element_type": 3,
       "total_points": 0
     },
     "260": {
