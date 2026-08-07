@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-07T13:08:41.971463+00:00",
+    "updated_at": "2026-08-07T14:36:05.733932+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -800,12 +800,6 @@
       "element_type": 3,
       "total_points": 16
     },
-    "21": {
-      "web_name": "Nørgaard",
-      "team": 1,
-      "element_type": 3,
-      "total_points": 7
-    },
     "22": {
       "web_name": "Nwaneri",
       "team": 1,
@@ -1168,6 +1162,12 @@
     },
     "566": {
       "web_name": "Silva",
+      "team": 3,
+      "element_type": 2,
+      "total_points": 0
+    },
+    "573": {
+      "web_name": "Sanchez",
       "team": 3,
       "element_type": 2,
       "total_points": 0
@@ -2066,6 +2066,12 @@
       "element_type": 1,
       "total_points": 0
     },
+    "21": {
+      "web_name": "Nørgaard",
+      "team": 9,
+      "element_type": 3,
+      "total_points": 7
+    },
     "226": {
       "web_name": "Pickford",
       "team": 9,
@@ -2846,6 +2852,12 @@
       "element_type": 4,
       "total_points": 0
     },
+    "385": {
+      "web_name": "Trafford",
+      "team": 13,
+      "element_type": 1,
+      "total_points": 13
+    },
     "350": {
       "web_name": "A.Becker",
       "team": 14,
@@ -3061,12 +3073,6 @@
       "team": 15,
       "element_type": 1,
       "total_points": 135
-    },
-    "385": {
-      "web_name": "Trafford",
-      "team": 15,
-      "element_type": 1,
-      "total_points": 13
     },
     "386": {
       "web_name": "Bettinelli",
