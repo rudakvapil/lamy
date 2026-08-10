@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-10T13:11:48.487898+00:00",
+    "updated_at": "2026-08-10T14:43:35.253152+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -835,6 +835,12 @@
       "team": 1,
       "element_type": 4,
       "total_points": 24
+    },
+    "452": {
+      "web_name": "Bruno G.",
+      "team": 1,
+      "element_type": 3,
+      "total_points": 154
     },
     "557": {
       "web_name": "Tzolis",
@@ -1898,6 +1904,12 @@
       "element_type": 4,
       "total_points": 0
     },
+    "575": {
+      "web_name": "Yirenkyi",
+      "team": 7,
+      "element_type": 3,
+      "total_points": 0
+    },
     "198": {
       "web_name": "Henderson",
       "team": 8,
@@ -2064,6 +2076,12 @@
       "web_name": "Matthews",
       "team": 8,
       "element_type": 1,
+      "total_points": 0
+    },
+    "577": {
+      "web_name": "Tomiyasu",
+      "team": 8,
+      "element_type": 2,
       "total_points": 0
     },
     "21": {
@@ -2300,12 +2318,6 @@
       "element_type": 3,
       "total_points": 41
     },
-    "267": {
-      "web_name": "Lukić",
-      "team": 10,
-      "element_type": 3,
-      "total_points": 67
-    },
     "268": {
       "web_name": "King",
       "team": 10,
@@ -2528,11 +2540,29 @@
       "element_type": 1,
       "total_points": 0
     },
+    "574": {
+      "web_name": "Hjertø-Dahl",
+      "team": 11,
+      "element_type": 3,
+      "total_points": 0
+    },
+    "576": {
+      "web_name": "Stroud",
+      "team": 11,
+      "element_type": 3,
+      "total_points": 0
+    },
     "259": {
       "web_name": "Diop",
       "team": 12,
       "element_type": 2,
       "total_points": 31
+    },
+    "267": {
+      "web_name": "Lukić",
+      "team": 12,
+      "element_type": 3,
+      "total_points": 67
     },
     "300": {
       "web_name": "Walton",
@@ -3493,12 +3523,6 @@
       "team": 17,
       "element_type": 2,
       "total_points": 2
-    },
-    "452": {
-      "web_name": "Bruno G.",
-      "team": 17,
-      "element_type": 3,
-      "total_points": 154
     },
     "453": {
       "web_name": "Barnes",
