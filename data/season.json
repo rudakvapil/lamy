@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-12T13:10:50.708394+00:00",
+    "updated_at": "2026-08-12T14:43:16.458475+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -1730,6 +1730,12 @@
       "element_type": 3,
       "total_points": 0
     },
+    "578": {
+      "web_name": "Mudryk",
+      "team": 6,
+      "element_type": 3,
+      "total_points": 0
+    },
     "104": {
       "web_name": "Onyeka",
       "team": 7,
@@ -1970,12 +1976,6 @@
       "element_type": 3,
       "total_points": 117
     },
-    "209": {
-      "web_name": "Johnson",
-      "team": 8,
-      "element_type": 3,
-      "total_points": 65
-    },
     "210": {
       "web_name": "Wharton",
       "team": 8,
@@ -2072,6 +2072,12 @@
       "element_type": 4,
       "total_points": 17
     },
+    "241": {
+      "web_name": "McNeil",
+      "team": 8,
+      "element_type": 3,
+      "total_points": 53
+    },
     "555": {
       "web_name": "Matthews",
       "team": 8,
@@ -2089,6 +2095,12 @@
       "team": 9,
       "element_type": 3,
       "total_points": 7
+    },
+    "209": {
+      "web_name": "Johnson",
+      "team": 9,
+      "element_type": 3,
+      "total_points": 65
     },
     "226": {
       "web_name": "Pickford",
@@ -2173,12 +2185,6 @@
       "team": 9,
       "element_type": 3,
       "total_points": 68
-    },
-    "241": {
-      "web_name": "McNeil",
-      "team": 9,
-      "element_type": 3,
-      "total_points": 53
     },
     "242": {
       "web_name": "George",
@@ -2356,6 +2362,12 @@
     },
     "570": {
       "web_name": "Palacios",
+      "team": 10,
+      "element_type": 3,
+      "total_points": 0
+    },
+    "580": {
+      "web_name": "Charles",
       "team": 10,
       "element_type": 3,
       "total_points": 0
@@ -3092,6 +3104,12 @@
       "element_type": 3,
       "total_points": 5
     },
+    "579": {
+      "web_name": "Araujo",
+      "team": 14,
+      "element_type": 2,
+      "total_points": 0
+    },
     "238": {
       "web_name": "Grealish",
       "team": 15,
@@ -3774,6 +3792,12 @@
       "web_name": "Schlager",
       "team": 18,
       "element_type": 3,
+      "total_points": 0
+    },
+    "581": {
+      "web_name": "Diomande",
+      "team": 18,
+      "element_type": 2,
       "total_points": 0
     },
     "112": {
