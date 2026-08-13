@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-13T13:13:17.641393+00:00",
+    "updated_at": "2026-08-13T14:45:01.323832+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -926,12 +926,6 @@
       "element_type": 3,
       "total_points": 102
     },
-    "42": {
-      "web_name": "Guessand",
-      "team": 2,
-      "element_type": 3,
-      "total_points": 44
-    },
     "44": {
       "web_name": "Bailey",
       "team": 2,
@@ -1015,6 +1009,12 @@
       "team": 2,
       "element_type": 3,
       "total_points": 56
+    },
+    "582": {
+      "web_name": "Madjo",
+      "team": 2,
+      "element_type": 4,
+      "total_points": 0
     },
     "57": {
       "web_name": "Petrović",
@@ -1736,6 +1736,12 @@
       "element_type": 3,
       "total_points": 0
     },
+    "583": {
+      "web_name": "Chavarria",
+      "team": 6,
+      "element_type": 2,
+      "total_points": 0
+    },
     "104": {
       "web_name": "Onyeka",
       "team": 7,
@@ -1915,6 +1921,18 @@
       "team": 7,
       "element_type": 3,
       "total_points": 0
+    },
+    "584": {
+      "web_name": "Hamer",
+      "team": 7,
+      "element_type": 3,
+      "total_points": 0
+    },
+    "42": {
+      "web_name": "Guessand",
+      "team": 8,
+      "element_type": 3,
+      "total_points": 44
     },
     "198": {
       "web_name": "Henderson",
