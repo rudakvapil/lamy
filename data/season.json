@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-14T13:07:26.144212+00:00",
+    "updated_at": "2026-08-14T14:39:09.618250+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -2582,6 +2582,18 @@
       "element_type": 3,
       "total_points": 0
     },
+    "585": {
+      "web_name": "Herrington",
+      "team": 11,
+      "element_type": 2,
+      "total_points": 0
+    },
+    "586": {
+      "web_name": "Mendy",
+      "team": 11,
+      "element_type": 2,
+      "total_points": 0
+    },
     "259": {
       "web_name": "Diop",
       "team": 12,
@@ -3301,6 +3313,12 @@
       "team": 15,
       "element_type": 3,
       "total_points": 180
+    },
+    "587": {
+      "web_name": "Rulli",
+      "team": 15,
+      "element_type": 1,
+      "total_points": 0
     },
     "43": {
       "web_name": "Tielemans",
