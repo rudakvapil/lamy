@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-17T14:48:59.105202+00:00",
+    "updated_at": "2026-08-17T15:47:47.308404+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -2558,6 +2558,12 @@
       "element_type": 4,
       "total_points": 0
     },
+    "340": {
+      "web_name": "Gelhardt",
+      "team": 11,
+      "element_type": 3,
+      "total_points": 0
+    },
     "556": {
       "web_name": "Targett",
       "team": 11,
@@ -2875,12 +2881,6 @@
       "team": 13,
       "element_type": 3,
       "total_points": 56
-    },
-    "340": {
-      "web_name": "Gelhardt",
-      "team": 13,
-      "element_type": 3,
-      "total_points": 0
     },
     "341": {
       "web_name": "Gnonto",
