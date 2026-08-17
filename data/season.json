@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-17T14:03:36.409513+00:00",
+    "updated_at": "2026-08-17T14:48:59.105202+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -2108,6 +2108,12 @@
       "element_type": 2,
       "total_points": 0
     },
+    "588": {
+      "web_name": "Khalaili",
+      "team": 8,
+      "element_type": 2,
+      "total_points": 0
+    },
     "21": {
       "web_name": "Nørgaard",
       "team": 9,
@@ -2592,6 +2598,12 @@
       "web_name": "Mendy",
       "team": 11,
       "element_type": 2,
+      "total_points": 0
+    },
+    "589": {
+      "web_name": "Gourna-Douath",
+      "team": 11,
+      "element_type": 3,
       "total_points": 0
     },
     "259": {
@@ -3834,6 +3846,12 @@
       "web_name": "Diomande",
       "team": 18,
       "element_type": 2,
+      "total_points": 0
+    },
+    "590": {
+      "web_name": "Benda",
+      "team": 18,
+      "element_type": 1,
       "total_points": 0
     },
     "112": {
