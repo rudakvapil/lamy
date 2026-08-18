@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-18T14:07:39.676100+00:00",
+    "updated_at": "2026-08-18T14:53:00.516836+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -1916,6 +1916,12 @@
       "element_type": 4,
       "total_points": 0
     },
+    "492": {
+      "web_name": "Awoniyi",
+      "team": 7,
+      "element_type": 4,
+      "total_points": 43
+    },
     "575": {
       "web_name": "Yirenkyi",
       "team": 7,
@@ -2796,6 +2802,18 @@
       "web_name": "Florentino",
       "team": 12,
       "element_type": 3,
+      "total_points": 0
+    },
+    "591": {
+      "web_name": "Enciso",
+      "team": 12,
+      "element_type": 3,
+      "total_points": 0
+    },
+    "592": {
+      "web_name": "Ouattara",
+      "team": 12,
+      "element_type": 2,
       "total_points": 0
     },
     "260": {
@@ -3823,12 +3841,6 @@
       "team": 18,
       "element_type": 4,
       "total_points": 114
-    },
-    "492": {
-      "web_name": "Awoniyi",
-      "team": 18,
-      "element_type": 4,
-      "total_points": 43
     },
     "493": {
       "web_name": "Kalimuendo",
