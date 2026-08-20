@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-20T14:10:41.478473+00:00",
+    "updated_at": "2026-08-20T14:57:14.936153+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -1016,6 +1016,18 @@
       "element_type": 4,
       "total_points": 0
     },
+    "596": {
+      "web_name": "Ruggeri",
+      "team": 2,
+      "element_type": 2,
+      "total_points": 0
+    },
+    "597": {
+      "web_name": "Suzuki",
+      "team": 2,
+      "element_type": 1,
+      "total_points": 0
+    },
     "57": {
       "web_name": "Petrović",
       "team": 3,
@@ -1938,6 +1950,12 @@
       "web_name": "Hamer",
       "team": 7,
       "element_type": 3,
+      "total_points": 0
+    },
+    "599": {
+      "web_name": "Cherif",
+      "team": 7,
+      "element_type": 4,
       "total_points": 0
     },
     "42": {
@@ -2971,6 +2989,12 @@
       "team": 13,
       "element_type": 1,
       "total_points": 13
+    },
+    "598": {
+      "web_name": "Elvedi",
+      "team": 13,
+      "element_type": 2,
+      "total_points": 0
     },
     "350": {
       "web_name": "A.Becker",
