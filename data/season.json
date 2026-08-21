@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updated_at": "2026-08-21T18:18:05.766535+00:00",
+    "updated_at": "2026-08-21T19:17:31.379877+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
-    "total_matches": 0,
+    "total_matches": 144,
     "next_deadline": "2026-08-21T17:30:00Z"
   },
   "standings": [
@@ -412,8 +412,130 @@
     }
   },
   "records": {
-    "top10": [],
-    "bottom5": []
+    "top10": [
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 5884187,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 161243,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 394522,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1277021,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1436706,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1034876,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1287745,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 125278,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 161243,
+        "gw": 2,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1287745,
+        "gw": 2,
+        "opp": "?"
+      }
+    ],
+    "bottom5": [
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1277021,
+        "gw": 36,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 1034876,
+        "gw": 36,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 5884187,
+        "gw": 36,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 125278,
+        "gw": 36,
+        "opp": "?"
+      },
+      {
+        "pts": 0,
+        "name": "?",
+        "team": "?",
+        "entry": 394522,
+        "gw": 36,
+        "opp": "?"
+      }
+    ]
   },
   "series": [
     {
@@ -527,7 +649,60 @@
       }
     ]
   },
-  "next_fixtures": [],
+  "next_fixtures": [
+    {
+      "gw": 1,
+      "home": {
+        "entry": 5884187,
+        "name": "Martin Holub",
+        "team": "Real Mordor ******"
+      },
+      "away": {
+        "entry": 161243,
+        "name": "J B",
+        "team": "Yobagoya"
+      }
+    },
+    {
+      "gw": 1,
+      "home": {
+        "entry": 394522,
+        "name": "Martin Valek",
+        "team": "Fusswaffe"
+      },
+      "away": {
+        "entry": 1277021,
+        "name": "L P",
+        "team": "Četnické humoresky"
+      }
+    },
+    {
+      "gw": 1,
+      "home": {
+        "entry": 1436706,
+        "name": "Lukas Kapinus",
+        "team": "1 FC Lukasovo"
+      },
+      "away": {
+        "entry": 1034876,
+        "name": "Marek Palan",
+        "team": "Eskimo brothers"
+      }
+    },
+    {
+      "gw": 1,
+      "home": {
+        "entry": 1287745,
+        "name": "Michal Krautwurm",
+        "team": "Krampus"
+      },
+      "away": {
+        "entry": 125278,
+        "name": "Ruda Peroni",
+        "team": "EREKCE ZE STRACHU"
+      }
+    }
+  ],
   "picks_stats": {
     "top_players_liga": [
       {
@@ -577,7 +752,7 @@
         "name": "Tzolis",
         "appearances": 4,
         "pos": 3,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 346,
@@ -598,7 +773,7 @@
         "name": "Raya",
         "appearances": 3,
         "pos": 1,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 226,
@@ -619,7 +794,7 @@
         "name": "Gabriel",
         "appearances": 2,
         "pos": 2,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 356,
@@ -647,7 +822,7 @@
         "name": "Calafiori",
         "appearances": 2,
         "pos": 2,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 357,
@@ -668,10 +843,44 @@
         "name": "White",
         "appearances": 1,
         "pos": 2,
-        "total_points": 0
+        "total_points": 1
       }
     ],
     "differentials": [
+      {
+        "id": 10,
+        "name": "White",
+        "total_points": 1,
+        "owners": [
+          "Martin Holub"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Gabriel",
+        "total_points": 1,
+        "owners": [
+          "Martin Válek",
+          "Libor Pechoč"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Mosquera",
+        "total_points": 1,
+        "owners": [
+          "Rudolf Kvapil"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Calafiori",
+        "total_points": 1,
+        "owners": [
+          "Michal Krautwurm",
+          "Lukáš Kapinus"
+        ]
+      },
       {
         "id": 226,
         "name": "Pickford",
@@ -692,14 +901,6 @@
       {
         "id": 233,
         "name": "Mykolenko",
-        "total_points": 0,
-        "owners": [
-          "Martin Holub"
-        ]
-      },
-      {
-        "id": 10,
-        "name": "White",
         "total_points": 0,
         "owners": [
           "Martin Holub"
@@ -743,33 +944,6 @@
         "total_points": 0,
         "owners": [
           "Martin Holub"
-        ]
-      },
-      {
-        "id": 412,
-        "name": "Lammens",
-        "total_points": 0,
-        "owners": [
-          "Martin Válek",
-          "Libor Pechoč"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Gabriel",
-        "total_points": 0,
-        "owners": [
-          "Martin Válek",
-          "Libor Pechoč"
-        ]
-      },
-      {
-        "id": 356,
-        "name": "Virgil",
-        "total_points": 0,
-        "owners": [
-          "Jaroslav Bureš",
-          "Libor Pechoč"
         ]
       }
     ],
@@ -1510,7 +1684,7 @@
       "web_name": "Raya",
       "team": 1,
       "element_type": 1,
-      "total_points": 0
+      "total_points": 1
     },
     "2": {
       "web_name": "Arrizabalaga",
@@ -1528,7 +1702,7 @@
       "web_name": "Gabriel",
       "team": 1,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "5": {
       "web_name": "J.Timber",
@@ -1546,13 +1720,13 @@
       "web_name": "Lewis-Skelly",
       "team": 1,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "8": {
       "web_name": "Calafiori",
       "team": 1,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "9": {
       "web_name": "Hincapie",
@@ -1564,25 +1738,25 @@
       "web_name": "White",
       "team": 1,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "11": {
       "web_name": "Mosquera",
       "team": 1,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "12": {
       "web_name": "Saka",
       "team": 1,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "13": {
       "web_name": "Rice",
       "team": 1,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "14": {
       "web_name": "Eze",
@@ -1594,7 +1768,7 @@
       "web_name": "Ødegaard",
       "team": 1,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "16": {
       "web_name": "Madueke",
@@ -1654,7 +1828,7 @@
       "web_name": "Havertz",
       "team": 1,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "27": {
       "web_name": "G.Jesus",
@@ -1678,7 +1852,7 @@
       "web_name": "Tzolis",
       "team": 1,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "28": {
       "web_name": "Martinez",
@@ -2596,13 +2770,13 @@
       "web_name": "Onyeka",
       "team": 7,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "110": {
       "web_name": "Rushworth",
       "team": 7,
       "element_type": 1,
-      "total_points": 0
+      "total_points": 1
     },
     "171": {
       "web_name": "Dovin",
@@ -2620,7 +2794,7 @@
       "web_name": "Thomas",
       "team": 7,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "174": {
       "web_name": "Kitching",
@@ -2632,13 +2806,13 @@
       "web_name": "van Ewijk",
       "team": 7,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "176": {
       "web_name": "Dasilva",
       "team": 7,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "177": {
       "web_name": "Kesler-Hayden",
@@ -2674,7 +2848,7 @@
       "web_name": "Amenda",
       "team": 7,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "183": {
       "web_name": "Rudoni",
@@ -2686,7 +2860,7 @@
       "web_name": "Grimes",
       "team": 7,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "185": {
       "web_name": "Sakamoto",
@@ -2722,7 +2896,7 @@
       "web_name": "Tchaouna",
       "team": 7,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "191": {
       "web_name": "Borges Rodrigues",
@@ -2746,13 +2920,13 @@
       "web_name": "Thomas-Asante",
       "team": 7,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "195": {
       "web_name": "Simms",
       "team": 7,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "196": {
       "web_name": "Markelo",
@@ -2776,7 +2950,7 @@
       "web_name": "Yirenkyi",
       "team": 7,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "584": {
       "web_name": "Hamer",
