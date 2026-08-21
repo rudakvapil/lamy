@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-21T15:54:00.608052+00:00",
+    "updated_at": "2026-08-21T16:49:55.665413+00:00",
     "current_gw": 38,
     "season": "2026/27",
     "league_id": 199256,
@@ -836,6 +836,12 @@
       "element_type": 4,
       "total_points": 24
     },
+    "31": {
+      "web_name": "Konsa",
+      "team": 1,
+      "element_type": 2,
+      "total_points": 100
+    },
     "452": {
       "web_name": "Bruno G.",
       "team": 1,
@@ -865,12 +871,6 @@
       "team": 2,
       "element_type": 2,
       "total_points": 97
-    },
-    "31": {
-      "web_name": "Konsa",
-      "team": 2,
-      "element_type": 2,
-      "total_points": 100
     },
     "32": {
       "web_name": "Cash",
