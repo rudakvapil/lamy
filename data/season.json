@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-21T22:10:17.828392+00:00",
+    "updated_at": "2026-08-21T23:11:27.225110+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -414,23 +414,7 @@
   "records": {
     "top10": [
       {
-        "pts": 0,
-        "name": "?",
-        "team": "?",
-        "entry": 5884187,
-        "gw": 1,
-        "opp": "?"
-      },
-      {
-        "pts": 0,
-        "name": "?",
-        "team": "?",
-        "entry": 161243,
-        "gw": 1,
-        "opp": "?"
-      },
-      {
-        "pts": 0,
+        "pts": 21,
         "name": "?",
         "team": "?",
         "entry": 394522,
@@ -438,7 +422,7 @@
         "opp": "?"
       },
       {
-        "pts": 0,
+        "pts": 21,
         "name": "?",
         "team": "?",
         "entry": 1277021,
@@ -446,7 +430,23 @@
         "opp": "?"
       },
       {
-        "pts": 0,
+        "pts": 20,
+        "name": "?",
+        "team": "?",
+        "entry": 5884187,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 15,
+        "name": "?",
+        "team": "?",
+        "entry": 161243,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 15,
         "name": "?",
         "team": "?",
         "entry": 1436706,
@@ -454,7 +454,15 @@
         "opp": "?"
       },
       {
-        "pts": 0,
+        "pts": 15,
+        "name": "?",
+        "team": "?",
+        "entry": 125278,
+        "gw": 1,
+        "opp": "?"
+      },
+      {
+        "pts": 9,
         "name": "?",
         "team": "?",
         "entry": 1034876,
@@ -462,18 +470,10 @@
         "opp": "?"
       },
       {
-        "pts": 0,
+        "pts": 9,
         "name": "?",
         "team": "?",
         "entry": 1287745,
-        "gw": 1,
-        "opp": "?"
-      },
-      {
-        "pts": 0,
-        "name": "?",
-        "team": "?",
-        "entry": 125278,
         "gw": 1,
         "opp": "?"
       },
@@ -1032,23 +1032,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 0
+          "1": 11
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 397,
             "player": "Semenyo",
-            "gw_total": 0
+            "gw_total": 11
           }
         ],
         "best_gw": [
           1,
-          0
+          11
         ],
         "worst_gw": [
           1,
-          0
+          11
         ],
         "bench_points": 0,
         "hits_cost": 0,
@@ -1121,23 +1121,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 0
+          "1": 11
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 427,
             "player": "Mbeumo",
-            "gw_total": 0
+            "gw_total": 11
           }
         ],
         "best_gw": [
           1,
-          0
+          11
         ],
         "worst_gw": [
           1,
-          0
+          11
         ],
         "bench_points": 0,
         "hits_cost": 0,
@@ -1210,25 +1210,25 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 0
+          "1": 11
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 427,
             "player": "Mbeumo",
-            "gw_total": 0
+            "gw_total": 11
           }
         ],
         "best_gw": [
           1,
-          0
+          11
         ],
         "worst_gw": [
           1,
-          0
+          11
         ],
-        "bench_points": 0,
+        "bench_points": 1,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1317,7 +1317,7 @@
           1,
           0
         ],
-        "bench_points": 0,
+        "bench_points": 1,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1388,23 +1388,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 0
+          "1": 18
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 18
           }
         ],
         "best_gw": [
           1,
-          0
+          18
         ],
         "worst_gw": [
           1,
-          0
+          18
         ],
         "bench_points": 0,
         "hits_cost": 0,
@@ -1495,7 +1495,7 @@
           1,
           0
         ],
-        "bench_points": 0,
+        "bench_points": 1,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1566,25 +1566,25 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 0
+          "1": 21
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 21
           }
         ],
         "best_gw": [
           1,
-          0
+          21
         ],
         "worst_gw": [
           1,
-          0
+          21
         ],
-        "bench_points": 0,
+        "bench_points": 1,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1655,23 +1655,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 0
+          "1": 15
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 427,
             "player": "Mbeumo",
-            "gw_total": 0
+            "gw_total": 15
           }
         ],
         "best_gw": [
           1,
-          0
+          15
         ],
         "worst_gw": [
           1,
-          0
+          15
         ],
         "bench_points": 0,
         "hits_cost": 0,
