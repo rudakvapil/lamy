@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-22T18:10:39.546598+00:00",
+    "updated_at": "2026-08-22T19:13:22.147916+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -2224,7 +2224,7 @@
       "web_name": "Ajer",
       "team": 4,
       "element_type": 2,
-      "total_points": 6
+      "total_points": 8
     },
     "88": {
       "web_name": "Kayode",
@@ -2290,7 +2290,7 @@
       "web_name": "Janelt",
       "team": 4,
       "element_type": 3,
-      "total_points": 7
+      "total_points": 9
     },
     "99": {
       "web_name": "Milambo",
@@ -2338,7 +2338,7 @@
       "web_name": "Wilson",
       "team": 4,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "565": {
       "web_name": "M.Sangaré",
@@ -4996,7 +4996,7 @@
       "web_name": "Udogie",
       "team": 19,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "507": {
       "web_name": "Phillips",
