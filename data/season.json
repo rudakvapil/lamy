@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-22T11:09:26.193075+00:00",
+    "updated_at": "2026-08-22T12:13:19.903213+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -731,7 +731,7 @@
         "name": "Mbeumo",
         "appearances": 5,
         "pos": 3,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 237,
@@ -766,7 +766,7 @@
         "name": "B.Fernandes",
         "appearances": 3,
         "pos": 3,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 1,
@@ -882,6 +882,14 @@
         ]
       },
       {
+        "id": 428,
+        "name": "Cunha",
+        "total_points": 1,
+        "owners": [
+          "Martin Holub"
+        ]
+      },
+      {
         "id": 226,
         "name": "Pickford",
         "total_points": 0,
@@ -901,14 +909,6 @@
       {
         "id": 233,
         "name": "Mykolenko",
-        "total_points": 0,
-        "owners": [
-          "Martin Holub"
-        ]
-      },
-      {
-        "id": 428,
-        "name": "Cunha",
         "total_points": 0,
         "owners": [
           "Martin Holub"
@@ -3466,7 +3466,7 @@
       "web_name": "Egan",
       "team": 11,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "278": {
       "web_name": "Hughes",
@@ -3478,13 +3478,13 @@
       "web_name": "Ajayi",
       "team": 11,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 10
     },
     "280": {
       "web_name": "Coyle",
       "team": 11,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "281": {
       "web_name": "Drameh",
@@ -3496,7 +3496,7 @@
       "web_name": "Giles",
       "team": 11,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "283": {
       "web_name": "Jacob",
@@ -3520,7 +3520,7 @@
       "web_name": "Belloumi",
       "team": 11,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "287": {
       "web_name": "Millar",
@@ -3538,13 +3538,13 @@
       "web_name": "Crooks",
       "team": 11,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "290": {
       "web_name": "Slater",
       "team": 11,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 5
     },
     "291": {
       "web_name": "Matazo",
@@ -3574,7 +3574,7 @@
       "web_name": "McBurnie",
       "team": 11,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 4
     },
     "296": {
       "web_name": "Akintola",
@@ -3622,7 +3622,7 @@
       "web_name": "Tzolakis",
       "team": 11,
       "element_type": 1,
-      "total_points": 0
+      "total_points": 1
     },
     "574": {
       "web_name": "Hjertø-Dahl",
@@ -3634,7 +3634,7 @@
       "web_name": "Stroud",
       "team": 11,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "585": {
       "web_name": "Herrington",
@@ -3646,7 +3646,7 @@
       "web_name": "Mendy",
       "team": 11,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 9
     },
     "589": {
       "web_name": "Gourna-Douath",
@@ -4396,13 +4396,13 @@
       "web_name": "Tielemans",
       "team": 16,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "162": {
       "web_name": "Andrey Santos",
       "team": 16,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "325": {
       "web_name": "Darlow",
@@ -4498,19 +4498,19 @@
       "web_name": "B.Fernandes",
       "team": 16,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "427": {
       "web_name": "Mbeumo",
       "team": 16,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "428": {
       "web_name": "Cunha",
       "team": 16,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "429": {
       "web_name": "Rashford",
