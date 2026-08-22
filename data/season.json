@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-22T14:09:15.463599+00:00",
+    "updated_at": "2026-08-22T15:08:27.816615+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -759,7 +759,7 @@
         "name": "Calvert-Lewin",
         "appearances": 4,
         "pos": 4,
-        "total_points": 1
+        "total_points": 0
       },
       {
         "id": 426,
@@ -882,6 +882,14 @@
         ]
       },
       {
+        "id": 544,
+        "name": "Xhaka",
+        "total_points": 5,
+        "owners": [
+          "Lukáš Kapinus"
+        ]
+      },
+      {
         "id": 428,
         "name": "Cunha",
         "total_points": 2,
@@ -937,14 +945,6 @@
         "total_points": 1,
         "owners": [
           "Martin Válek"
-        ]
-      },
-      {
-        "id": 552,
-        "name": "Brobbey",
-        "total_points": 1,
-        "owners": [
-          "Jaroslav Bureš"
         ]
       }
     ],
@@ -3233,7 +3233,7 @@
       "web_name": "Dewsbury-Hall",
       "team": 9,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 9
     },
     "237": {
       "web_name": "Ndiaye",
@@ -3269,7 +3269,7 @@
       "web_name": "Armstrong",
       "team": 9,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 6
     },
     "245": {
       "web_name": "Dibling",
@@ -3767,7 +3767,7 @@
       "web_name": "Emersonn",
       "team": 12,
       "element_type": 4,
-      "total_points": 1
+      "total_points": 8
     },
     "317": {
       "web_name": "Hirst",
@@ -3845,7 +3845,7 @@
       "web_name": "Enciso",
       "team": 12,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 4
     },
     "592": {
       "web_name": "Ouattara",
@@ -3893,7 +3893,7 @@
       "web_name": "Justin",
       "team": 13,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 2
     },
     "333": {
       "web_name": "Bornauw",
@@ -3911,7 +3911,7 @@
       "web_name": "Stach",
       "team": 13,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "336": {
       "web_name": "Okafor",
@@ -3971,7 +3971,7 @@
       "web_name": "Calvert-Lewin",
       "team": 13,
       "element_type": 4,
-      "total_points": 1
+      "total_points": 0
     },
     "347": {
       "web_name": "Nmecha",
@@ -3995,7 +3995,7 @@
       "web_name": "Trafford",
       "team": 13,
       "element_type": 1,
-      "total_points": 1
+      "total_points": 3
     },
     "598": {
       "web_name": "Elvedi",
@@ -4787,7 +4787,7 @@
       "web_name": "Aina",
       "team": 18,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 0
     },
     "474": {
       "web_name": "Jair Cunha",
@@ -4859,7 +4859,7 @@
       "web_name": "McAtee",
       "team": 18,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 4
     },
     "487": {
       "web_name": "Dominguez",
@@ -5153,7 +5153,7 @@
       "web_name": "Ballard",
       "team": 20,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 0
     },
     "533": {
       "web_name": "Mukiele",
@@ -5225,7 +5225,7 @@
       "web_name": "Xhaka",
       "team": 20,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 5
     },
     "545": {
       "web_name": "Sadiki",
@@ -5267,7 +5267,7 @@
       "web_name": "Angulo",
       "team": 20,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 8
     },
     "552": {
       "web_name": "Brobbey",
