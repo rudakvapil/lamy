@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-22T16:08:42.158062+00:00",
+    "updated_at": "2026-08-22T17:09:30.665932+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -2194,7 +2194,7 @@
       "web_name": "Kelleher",
       "team": 4,
       "element_type": 1,
-      "total_points": 0
+      "total_points": 1
     },
     "83": {
       "web_name": "Valdimarsson",
@@ -2206,7 +2206,7 @@
       "web_name": "Collins",
       "team": 4,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "85": {
       "web_name": "Van den Berg",
@@ -2218,19 +2218,19 @@
       "web_name": "Lewis-Potter",
       "team": 4,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 9
     },
     "87": {
       "web_name": "Ajer",
       "team": 4,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "88": {
       "web_name": "Kayode",
       "team": 4,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "89": {
       "web_name": "Henry",
@@ -2266,13 +2266,13 @@
       "web_name": "Schade",
       "team": 4,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "95": {
       "web_name": "O.Dango",
       "team": 4,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "96": {
       "web_name": "Damsgaard",
@@ -2284,13 +2284,13 @@
       "web_name": "Jensen",
       "team": 4,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 5
     },
     "98": {
       "web_name": "Janelt",
       "team": 4,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 8
     },
     "99": {
       "web_name": "Milambo",
@@ -2326,7 +2326,7 @@
       "web_name": "Thiago",
       "team": 4,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "107": {
       "web_name": "Furo",
@@ -2344,7 +2344,7 @@
       "web_name": "M.Sangaré",
       "team": 4,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 4
     },
     "109": {
       "web_name": "Verbruggen",
@@ -4924,7 +4924,7 @@
       "web_name": "Tonali",
       "team": 19,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "494": {
       "web_name": "Vicario",
@@ -5044,7 +5044,7 @@
       "web_name": "Tel",
       "team": 19,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "515": {
       "web_name": "Maddison",
@@ -5080,7 +5080,7 @@
       "web_name": "Bergvall",
       "team": 19,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "521": {
       "web_name": "Kulusevski",
@@ -5092,13 +5092,13 @@
       "web_name": "Gray",
       "team": 19,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "523": {
       "web_name": "Moore",
       "team": 19,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "524": {
       "web_name": "Olusesi",
@@ -5122,7 +5122,7 @@
       "web_name": "Richarlison",
       "team": 19,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "528": {
       "web_name": "Scarlett",
