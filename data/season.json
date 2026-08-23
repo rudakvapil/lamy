@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-23T17:10:37.785531+00:00",
+    "updated_at": "2026-08-23T18:11:03.321299+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -801,7 +801,7 @@
         "name": "Virgil",
         "appearances": 2,
         "pos": 2,
-        "total_points": 1
+        "total_points": 2
       },
       {
         "id": 40,
@@ -815,7 +815,7 @@
         "name": "Szoboszlai",
         "appearances": 2,
         "pos": 3,
-        "total_points": 2
+        "total_points": 8
       },
       {
         "id": 8,
@@ -905,6 +905,15 @@
         ]
       },
       {
+        "id": 368,
+        "name": "Szoboszlai",
+        "total_points": 8,
+        "owners": [
+          "Marek Palán",
+          "Jaroslav Bureš"
+        ]
+      },
+      {
         "id": 226,
         "name": "Pickford",
         "total_points": 7,
@@ -935,15 +944,6 @@
         "total_points": 6,
         "owners": [
           "Rudolf Kvapil"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Gabriel",
-        "total_points": 5,
-        "owners": [
-          "Martin Válek",
-          "Libor Pechoč"
         ]
       }
     ],
@@ -4024,7 +4024,7 @@
       "web_name": "A.Becker",
       "team": 14,
       "element_type": 1,
-      "total_points": 1
+      "total_points": 2
     },
     "351": {
       "web_name": "Mamardashvili",
@@ -4060,7 +4060,7 @@
       "web_name": "Virgil",
       "team": 14,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 2
     },
     "357": {
       "web_name": "Frimpong",
@@ -4132,7 +4132,7 @@
       "web_name": "Szoboszlai",
       "team": 14,
       "element_type": 3,
-      "total_points": 2
+      "total_points": 8
     },
     "369": {
       "web_name": "Ngumoha",
@@ -4150,7 +4150,7 @@
       "web_name": "Gravenberch",
       "team": 14,
       "element_type": 3,
-      "total_points": 6
+      "total_points": 5
     },
     "372": {
       "web_name": "Mac Allister",
@@ -4186,7 +4186,7 @@
       "web_name": "Munoz",
       "team": 14,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 4
     },
     "378": {
       "web_name": "McConnell",
@@ -4630,19 +4630,19 @@
       "web_name": "Thiaw",
       "team": 17,
       "element_type": 2,
-      "total_points": 4
+      "total_points": 3
     },
     "446": {
       "web_name": "Schär",
       "team": 17,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "447": {
       "web_name": "Botman",
       "team": 17,
       "element_type": 2,
-      "total_points": 2
+      "total_points": 3
     },
     "448": {
       "web_name": "Burn",
@@ -4654,7 +4654,7 @@
       "web_name": "Hall",
       "team": 17,
       "element_type": 2,
-      "total_points": 4
+      "total_points": 3
     },
     "450": {
       "web_name": "Livramento",
@@ -4756,13 +4756,13 @@
       "web_name": "Horníček",
       "team": 17,
       "element_type": 1,
-      "total_points": 3
+      "total_points": 1
     },
     "593": {
       "web_name": "Dedić",
       "team": 17,
       "element_type": 2,
-      "total_points": 2
+      "total_points": 1
     },
     "467": {
       "web_name": "Sels",
