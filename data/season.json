@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-23T15:09:45.413623+00:00",
+    "updated_at": "2026-08-23T16:09:39.893051+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -801,7 +801,7 @@
         "name": "Virgil",
         "appearances": 2,
         "pos": 2,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 40,
@@ -815,7 +815,7 @@
         "name": "Szoboszlai",
         "appearances": 2,
         "pos": 3,
-        "total_points": 0
+        "total_points": 1
       },
       {
         "id": 8,
@@ -4024,7 +4024,7 @@
       "web_name": "A.Becker",
       "team": 14,
       "element_type": 1,
-      "total_points": 0
+      "total_points": 1
     },
     "351": {
       "web_name": "Mamardashvili",
@@ -4060,7 +4060,7 @@
       "web_name": "Virgil",
       "team": 14,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "357": {
       "web_name": "Frimpong",
@@ -4096,7 +4096,7 @@
       "web_name": "Jacquet",
       "team": 14,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "363": {
       "web_name": "Leoni",
@@ -4120,25 +4120,25 @@
       "web_name": "Wirtz",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "367": {
       "web_name": "Gakpo",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "368": {
       "web_name": "Szoboszlai",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "369": {
       "web_name": "Ngumoha",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "370": {
       "web_name": "Chiesa",
@@ -4150,7 +4150,7 @@
       "web_name": "Gravenberch",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "372": {
       "web_name": "Mac Allister",
@@ -4198,7 +4198,7 @@
       "web_name": "Isak",
       "team": 14,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "380": {
       "web_name": "Ekitiké",
@@ -4630,7 +4630,7 @@
       "web_name": "Thiaw",
       "team": 17,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "446": {
       "web_name": "Schär",
@@ -4642,7 +4642,7 @@
       "web_name": "Botman",
       "team": 17,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "448": {
       "web_name": "Burn",
@@ -4654,7 +4654,7 @@
       "web_name": "Hall",
       "team": 17,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "450": {
       "web_name": "Livramento",
@@ -4672,13 +4672,13 @@
       "web_name": "Barnes",
       "team": 17,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "454": {
       "web_name": "Elanga",
       "team": 17,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 9
     },
     "456": {
       "web_name": "J.Ramsey",
@@ -4702,7 +4702,7 @@
       "web_name": "L.Miley",
       "team": 17,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "460": {
       "web_name": "Willock",
@@ -4720,7 +4720,7 @@
       "web_name": "Steur",
       "team": 17,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "463": {
       "web_name": "Woltemade",
@@ -4738,7 +4738,7 @@
       "web_name": "Osula",
       "team": 17,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 6
     },
     "466": {
       "web_name": "Neave",
@@ -4756,13 +4756,13 @@
       "web_name": "Horníček",
       "team": 17,
       "element_type": 1,
-      "total_points": 0
+      "total_points": 2
     },
     "593": {
       "web_name": "Dedić",
       "team": 17,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "467": {
       "web_name": "Sels",
