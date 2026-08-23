@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-23T16:09:39.893051+00:00",
+    "updated_at": "2026-08-23T17:10:37.785531+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -815,7 +815,7 @@
         "name": "Szoboszlai",
         "appearances": 2,
         "pos": 3,
-        "total_points": 1
+        "total_points": 2
       },
       {
         "id": 8,
@@ -851,6 +851,14 @@
         "id": 10,
         "name": "White",
         "total_points": 11,
+        "owners": [
+          "Martin Holub"
+        ]
+      },
+      {
+        "id": 367,
+        "name": "Gakpo",
+        "total_points": 10,
         "owners": [
           "Martin Holub"
         ]
@@ -936,14 +944,6 @@
         "owners": [
           "Martin Válek",
           "Libor Pechoč"
-        ]
-      },
-      {
-        "id": 428,
-        "name": "Cunha",
-        "total_points": 2,
-        "owners": [
-          "Martin Holub"
         ]
       }
     ],
@@ -4120,25 +4120,25 @@
       "web_name": "Wirtz",
       "team": 14,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "367": {
       "web_name": "Gakpo",
       "team": 14,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 10
     },
     "368": {
       "web_name": "Szoboszlai",
       "team": 14,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "369": {
       "web_name": "Ngumoha",
       "team": 14,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "370": {
       "web_name": "Chiesa",
@@ -4150,13 +4150,13 @@
       "web_name": "Gravenberch",
       "team": 14,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 6
     },
     "372": {
       "web_name": "Mac Allister",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "373": {
       "web_name": "C.Jones",
@@ -4186,7 +4186,7 @@
       "web_name": "Munoz",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "378": {
       "web_name": "McConnell",
@@ -4198,7 +4198,7 @@
       "web_name": "Isak",
       "team": 14,
       "element_type": 4,
-      "total_points": 1
+      "total_points": 2
     },
     "380": {
       "web_name": "Ekitiké",
@@ -4210,7 +4210,7 @@
       "web_name": "Koumas",
       "team": 14,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "382": {
       "web_name": "Danns",
@@ -4228,7 +4228,7 @@
       "web_name": "Araujo",
       "team": 14,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "238": {
       "web_name": "Grealish",
@@ -4630,7 +4630,7 @@
       "web_name": "Thiaw",
       "team": 17,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 4
     },
     "446": {
       "web_name": "Schär",
@@ -4642,7 +4642,7 @@
       "web_name": "Botman",
       "team": 17,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 2
     },
     "448": {
       "web_name": "Burn",
@@ -4654,7 +4654,7 @@
       "web_name": "Hall",
       "team": 17,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 4
     },
     "450": {
       "web_name": "Livramento",
@@ -4672,13 +4672,13 @@
       "web_name": "Barnes",
       "team": 17,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "454": {
       "web_name": "Elanga",
       "team": 17,
       "element_type": 3,
-      "total_points": 9
+      "total_points": 10
     },
     "456": {
       "web_name": "J.Ramsey",
@@ -4702,13 +4702,13 @@
       "web_name": "L.Miley",
       "team": 17,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 3
     },
     "460": {
       "web_name": "Willock",
       "team": 17,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 6
     },
     "461": {
       "web_name": "Touré",
@@ -4732,13 +4732,13 @@
       "web_name": "Wissa",
       "team": 17,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 4
     },
     "465": {
       "web_name": "Osula",
       "team": 17,
       "element_type": 4,
-      "total_points": 6
+      "total_points": 4
     },
     "466": {
       "web_name": "Neave",
@@ -4750,19 +4750,19 @@
       "web_name": "Bamba",
       "team": 17,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "567": {
       "web_name": "Horníček",
       "team": 17,
       "element_type": 1,
-      "total_points": 2
+      "total_points": 3
     },
     "593": {
       "web_name": "Dedić",
       "team": 17,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 2
     },
     "467": {
       "web_name": "Sels",
