@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-23T13:23:30.175099+00:00",
+    "updated_at": "2026-08-23T14:11:12.445794+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -1864,7 +1864,7 @@
       "web_name": "M.Bizot",
       "team": 2,
       "element_type": 1,
-      "total_points": 0
+      "total_points": -1
     },
     "30": {
       "web_name": "Digne",
@@ -1876,7 +1876,7 @@
       "web_name": "Cash",
       "team": 2,
       "element_type": 2,
-      "total_points": 0
+      "total_points": -1
     },
     "33": {
       "web_name": "Mings",
@@ -1888,7 +1888,7 @@
       "web_name": "Pau",
       "team": 2,
       "element_type": 2,
-      "total_points": 0
+      "total_points": -1
     },
     "35": {
       "web_name": "Bogarde",
@@ -1900,13 +1900,13 @@
       "web_name": "Maatsen",
       "team": 2,
       "element_type": 2,
-      "total_points": 0
+      "total_points": -1
     },
     "37": {
       "web_name": "Lindelöf",
       "team": 2,
       "element_type": 2,
-      "total_points": -2
+      "total_points": -3
     },
     "38": {
       "web_name": "A.García",
@@ -1936,7 +1936,7 @@
       "web_name": "McGinn",
       "team": 2,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 0
     },
     "46": {
       "web_name": "Barkley",
@@ -1990,7 +1990,7 @@
       "web_name": "Gomes",
       "team": 2,
       "element_type": 3,
-      "total_points": 0
+      "total_points": -2
     },
     "55": {
       "web_name": "Watkins",
@@ -2098,7 +2098,7 @@
       "web_name": "Tavernier",
       "team": 3,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 9
     },
     "69": {
       "web_name": "Scott",
@@ -2164,7 +2164,7 @@
       "web_name": "Evanilson",
       "team": 3,
       "element_type": 4,
-      "total_points": 1
+      "total_points": 3
     },
     "80": {
       "web_name": "Enes Ünal",
@@ -2374,7 +2374,7 @@
       "web_name": "De Cuyper",
       "team": 5,
       "element_type": 2,
-      "total_points": 10
+      "total_points": 12
     },
     "116": {
       "web_name": "Dunk",
@@ -2422,7 +2422,7 @@
       "web_name": "Hinshelwood",
       "team": 5,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 14
     },
     "124": {
       "web_name": "Groß",
@@ -2446,7 +2446,7 @@
       "web_name": "Gomez",
       "team": 5,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 5
     },
     "128": {
       "web_name": "Buonanotte",
@@ -4258,7 +4258,7 @@
       "web_name": "Guéhi",
       "team": 15,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 2
     },
     "389": {
       "web_name": "Matheus N.",
@@ -4318,7 +4318,7 @@
       "web_name": "Foden",
       "team": 15,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 3
     },
     "399": {
       "web_name": "Cherki",
