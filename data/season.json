@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-24T21:59:23.177073+00:00",
+    "updated_at": "2026-08-24T22:12:13.513250+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -8,6 +8,314 @@
     "next_deadline": "2026-08-21T17:30:00Z"
   },
   "standings": [
+    {
+      "name": "Marek Palán",
+      "team": "Eskimo brothers",
+      "short": "MP",
+      "entry": 1034876,
+      "pts": 0,
+      "w": 0,
+      "d": 0,
+      "l": 36,
+      "fpl_total": 71,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 71,
+          "opp_entry": 1436706,
+          "opp_fpl": 49,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1287745,
+          "opp_fpl": 0,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1287745,
+          "opp_fpl": 0,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1287745,
+          "opp_fpl": 0,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1287745,
+          "opp_fpl": 0,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1287745,
+          "opp_fpl": 0,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
     {
       "name": "Libor Pechoč",
       "team": "Četnické humoresky",
@@ -17,14 +325,14 @@
       "w": 0,
       "d": 0,
       "l": 36,
-      "fpl_total": 48,
+      "fpl_total": 59,
       "results": [
         {
           "gw": 1,
           "result": "L",
-          "fpl": 48,
+          "fpl": 59,
           "opp_entry": 394522,
-          "opp_fpl": 46,
+          "opp_fpl": 57,
           "opp_name": "Martin Válek"
         },
         {
@@ -325,14 +633,14 @@
       "w": 0,
       "d": 0,
       "l": 36,
-      "fpl_total": 47,
+      "fpl_total": 58,
       "results": [
         {
           "gw": 1,
           "result": "L",
-          "fpl": 47,
+          "fpl": 58,
           "opp_entry": 161243,
-          "opp_fpl": 38,
+          "opp_fpl": 49,
           "opp_name": "Jaroslav Bureš"
         },
         {
@@ -633,14 +941,14 @@
       "w": 0,
       "d": 0,
       "l": 36,
-      "fpl_total": 46,
+      "fpl_total": 57,
       "results": [
         {
           "gw": 1,
           "result": "L",
-          "fpl": 46,
+          "fpl": 57,
           "opp_entry": 1277021,
-          "opp_fpl": 48,
+          "opp_fpl": 59,
           "opp_name": "Libor Pechoč"
         },
         {
@@ -933,6 +1241,314 @@
       ]
     },
     {
+      "name": "Michal Krautwurm",
+      "team": "Krampus",
+      "short": "MK",
+      "entry": 1287745,
+      "pts": 0,
+      "w": 0,
+      "d": 0,
+      "l": 36,
+      "fpl_total": 55,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 55,
+          "opp_entry": 125278,
+          "opp_fpl": 52,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1034876,
+          "opp_fpl": 0,
+          "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1034876,
+          "opp_fpl": 0,
+          "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1034876,
+          "opp_fpl": 0,
+          "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1034876,
+          "opp_fpl": 0,
+          "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 125278,
+          "opp_fpl": 0,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 161243,
+          "opp_fpl": 0,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1277021,
+          "opp_fpl": 0,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1034876,
+          "opp_fpl": 0,
+          "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 5884187,
+          "opp_fpl": 0,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 1436706,
+          "opp_fpl": 0,
+          "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0,
+          "opp_entry": 394522,
+          "opp_fpl": 0,
+          "opp_name": "Martin Válek"
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
       "name": "Rudolf Kvapil",
       "team": "EREKCE ZE STRACHU",
       "short": "RK",
@@ -941,14 +1557,14 @@
       "w": 0,
       "d": 0,
       "l": 36,
-      "fpl_total": 41,
+      "fpl_total": 52,
       "results": [
         {
           "gw": 1,
           "result": "L",
-          "fpl": 41,
+          "fpl": 52,
           "opp_entry": 1287745,
-          "opp_fpl": 36,
+          "opp_fpl": 55,
           "opp_name": "Michal Krautwurm"
         },
         {
@@ -1249,14 +1865,14 @@
       "w": 0,
       "d": 0,
       "l": 36,
-      "fpl_total": 38,
+      "fpl_total": 49,
       "results": [
         {
           "gw": 1,
           "result": "L",
-          "fpl": 38,
+          "fpl": 49,
           "opp_entry": 5884187,
-          "opp_fpl": 47,
+          "opp_fpl": 58,
           "opp_name": "Martin Holub"
         },
         {
@@ -1557,14 +2173,14 @@
       "w": 0,
       "d": 0,
       "l": 36,
-      "fpl_total": 38,
+      "fpl_total": 49,
       "results": [
         {
           "gw": 1,
           "result": "L",
-          "fpl": 38,
+          "fpl": 49,
           "opp_entry": 1034876,
-          "opp_fpl": 35,
+          "opp_fpl": 71,
           "opp_name": "Marek Palán"
         },
         {
@@ -1846,622 +2462,6 @@
           "opp_entry": 161243,
           "opp_fpl": 0,
           "opp_name": "Jaroslav Bureš"
-        }
-      ],
-      "form": [
-        "L",
-        "L",
-        "L",
-        "L",
-        "L"
-      ]
-    },
-    {
-      "name": "Michal Krautwurm",
-      "team": "Krampus",
-      "short": "MK",
-      "entry": 1287745,
-      "pts": 0,
-      "w": 0,
-      "d": 0,
-      "l": 36,
-      "fpl_total": 36,
-      "results": [
-        {
-          "gw": 1,
-          "result": "L",
-          "fpl": 36,
-          "opp_entry": 125278,
-          "opp_fpl": 41,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 2,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 3,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 4,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1034876,
-          "opp_fpl": 0,
-          "opp_name": "Marek Palán"
-        },
-        {
-          "gw": 5,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 6,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 7,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 8,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 9,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 10,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 11,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1034876,
-          "opp_fpl": 0,
-          "opp_name": "Marek Palán"
-        },
-        {
-          "gw": 12,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 13,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 14,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 15,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 16,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 17,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 18,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1034876,
-          "opp_fpl": 0,
-          "opp_name": "Marek Palán"
-        },
-        {
-          "gw": 19,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 20,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 21,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 22,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 23,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 24,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 25,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1034876,
-          "opp_fpl": 0,
-          "opp_name": "Marek Palán"
-        },
-        {
-          "gw": 26,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 27,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 28,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 29,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 30,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 31,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 32,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1034876,
-          "opp_fpl": 0,
-          "opp_name": "Marek Palán"
-        },
-        {
-          "gw": 33,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 34,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 35,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 36,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        }
-      ],
-      "form": [
-        "L",
-        "L",
-        "L",
-        "L",
-        "L"
-      ]
-    },
-    {
-      "name": "Marek Palán",
-      "team": "Eskimo brothers",
-      "short": "MP",
-      "entry": 1034876,
-      "pts": 0,
-      "w": 0,
-      "d": 0,
-      "l": 36,
-      "fpl_total": 35,
-      "results": [
-        {
-          "gw": 1,
-          "result": "L",
-          "fpl": 35,
-          "opp_entry": 1436706,
-          "opp_fpl": 38,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 2,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 3,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 4,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1287745,
-          "opp_fpl": 0,
-          "opp_name": "Michal Krautwurm"
-        },
-        {
-          "gw": 5,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 6,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 7,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 8,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 9,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 10,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 11,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1287745,
-          "opp_fpl": 0,
-          "opp_name": "Michal Krautwurm"
-        },
-        {
-          "gw": 12,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 13,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 14,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 15,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 16,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 17,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 18,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1287745,
-          "opp_fpl": 0,
-          "opp_name": "Michal Krautwurm"
-        },
-        {
-          "gw": 19,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 20,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 21,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 22,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 23,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 24,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 25,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1287745,
-          "opp_fpl": 0,
-          "opp_name": "Michal Krautwurm"
-        },
-        {
-          "gw": 26,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 27,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 28,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 29,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1436706,
-          "opp_fpl": 0,
-          "opp_name": "Lukáš Kapinus"
-        },
-        {
-          "gw": 30,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 394522,
-          "opp_fpl": 0,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 31,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 125278,
-          "opp_fpl": 0,
-          "opp_name": "Rudolf Kvapil"
-        },
-        {
-          "gw": 32,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1287745,
-          "opp_fpl": 0,
-          "opp_name": "Michal Krautwurm"
-        },
-        {
-          "gw": 33,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 34,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 161243,
-          "opp_fpl": 0,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 35,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 5884187,
-          "opp_fpl": 0,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 36,
-          "result": "L",
-          "fpl": 0,
-          "opp_entry": 1277021,
-          "opp_fpl": 0,
-          "opp_name": "Libor Pechoč"
         }
       ],
       "form": [
@@ -2774,7 +2774,15 @@
   "records": {
     "top10": [
       {
-        "pts": 48,
+        "pts": 71,
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
+        "entry": 1034876,
+        "gw": 1,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 59,
         "name": "Libor Pechoč",
         "team": "Četnické humoresky",
         "entry": 1277021,
@@ -2782,7 +2790,7 @@
         "opp": "Martin Válek"
       },
       {
-        "pts": 47,
+        "pts": 58,
         "name": "Martin Holub",
         "team": "Real Mordor ******",
         "entry": 5884187,
@@ -2790,7 +2798,7 @@
         "opp": "Jaroslav Bureš"
       },
       {
-        "pts": 46,
+        "pts": 57,
         "name": "Martin Válek",
         "team": "Fusswaffe",
         "entry": 394522,
@@ -2798,31 +2806,7 @@
         "opp": "Libor Pechoč"
       },
       {
-        "pts": 41,
-        "name": "Rudolf Kvapil",
-        "team": "EREKCE ZE STRACHU",
-        "entry": 125278,
-        "gw": 1,
-        "opp": "Michal Krautwurm"
-      },
-      {
-        "pts": 38,
-        "name": "Jaroslav Bureš",
-        "team": "Yobagoya",
-        "entry": 161243,
-        "gw": 1,
-        "opp": "Martin Holub"
-      },
-      {
-        "pts": 38,
-        "name": "Lukáš Kapinus",
-        "team": "1. FC Lukasovo",
-        "entry": 1436706,
-        "gw": 1,
-        "opp": "Marek Palán"
-      },
-      {
-        "pts": 36,
+        "pts": 55,
         "name": "Michal Krautwurm",
         "team": "Krampus",
         "entry": 1287745,
@@ -2830,12 +2814,28 @@
         "opp": "Rudolf Kvapil"
       },
       {
-        "pts": 35,
-        "name": "Marek Palán",
-        "team": "Eskimo brothers",
-        "entry": 1034876,
+        "pts": 52,
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU",
+        "entry": 125278,
         "gw": 1,
-        "opp": "Lukáš Kapinus"
+        "opp": "Michal Krautwurm"
+      },
+      {
+        "pts": 49,
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
+        "entry": 161243,
+        "gw": 1,
+        "opp": "Martin Holub"
+      },
+      {
+        "pts": 49,
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo",
+        "entry": 1436706,
+        "gw": 1,
+        "opp": "Marek Palán"
       },
       {
         "pts": 0,
@@ -2899,6 +2899,13 @@
   },
   "series": [
     {
+      "entry": 1034876,
+      "name": "Marek Palán",
+      "best_w": 0,
+      "best_l": 36,
+      "current": "36× L"
+    },
+    {
       "entry": 1277021,
       "name": "Libor Pechoč",
       "best_w": 0,
@@ -2915,6 +2922,13 @@
     {
       "entry": 394522,
       "name": "Martin Válek",
+      "best_w": 0,
+      "best_l": 36,
+      "current": "36× L"
+    },
+    {
+      "entry": 1287745,
+      "name": "Michal Krautwurm",
       "best_w": 0,
       "best_l": 36,
       "current": "36× L"
@@ -2939,20 +2953,6 @@
       "best_w": 0,
       "best_l": 36,
       "current": "36× L"
-    },
-    {
-      "entry": 1287745,
-      "name": "Michal Krautwurm",
-      "best_w": 0,
-      "best_l": 36,
-      "current": "36× L"
-    },
-    {
-      "entry": 1034876,
-      "name": "Marek Palán",
-      "best_w": 0,
-      "best_l": 36,
-      "current": "36× L"
     }
   ],
   "playoff": {
@@ -2961,40 +2961,6 @@
     "playout_sf": [
       {
         "higher": {
-          "name": "Jaroslav Bureš",
-          "team": "Yobagoya",
-          "short": "JB",
-          "entry": 161243,
-          "league_pts": 0,
-          "gw37_fpl": 0,
-          "naskok": 0,
-          "virtual": 0
-        },
-        "lower": {
-          "name": "Marek Palán",
-          "team": "Eskimo brothers",
-          "short": "MP",
-          "entry": 1034876,
-          "league_pts": 0,
-          "gw37_fpl": 0,
-          "naskok": 0,
-          "virtual": 0
-        },
-        "winner": 1034876,
-        "loser": 161243
-      },
-      {
-        "higher": {
-          "name": "Lukáš Kapinus",
-          "team": "1. FC Lukasovo",
-          "short": "LK",
-          "entry": 1436706,
-          "league_pts": 0,
-          "gw37_fpl": 0,
-          "naskok": 0,
-          "virtual": 0
-        },
-        "lower": {
           "name": "Michal Krautwurm",
           "team": "Krampus",
           "short": "MK",
@@ -3004,8 +2970,42 @@
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 1287745,
-        "loser": 1436706
+        "lower": {
+          "name": "Lukáš Kapinus",
+          "team": "1. FC Lukasovo",
+          "short": "LK",
+          "entry": 1436706,
+          "league_pts": 0,
+          "gw37_fpl": 0,
+          "naskok": 0,
+          "virtual": 0
+        },
+        "winner": 1436706,
+        "loser": 1287745
+      },
+      {
+        "higher": {
+          "name": "Rudolf Kvapil",
+          "team": "EREKCE ZE STRACHU",
+          "short": "RK",
+          "entry": 125278,
+          "league_pts": 0,
+          "gw37_fpl": 0,
+          "naskok": 0,
+          "virtual": 0
+        },
+        "lower": {
+          "name": "Jaroslav Bureš",
+          "team": "Yobagoya",
+          "short": "JB",
+          "entry": 161243,
+          "league_pts": 0,
+          "gw37_fpl": 0,
+          "naskok": 0,
+          "virtual": 0
+        },
+        "winner": 161243,
+        "loser": 125278
       }
     ]
   },
@@ -3393,23 +3393,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 47
+          "1": 58
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 47
+            "gw_total": 58
           }
         ],
         "best_gw": [
           1,
-          47
+          58
         ],
         "worst_gw": [
           1,
-          47
+          58
         ],
         "bench_points": 5,
         "hits_cost": 0,
@@ -3482,23 +3482,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 48
+          "1": 59
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 48
+            "gw_total": 59
           }
         ],
         "best_gw": [
           1,
-          48
+          59
         ],
         "worst_gw": [
           1,
-          48
+          59
         ],
         "bench_points": 10,
         "hits_cost": 0,
@@ -3571,23 +3571,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 46
+          "1": 57
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 426,
             "player": "B.Fernandes",
-            "gw_total": 46
+            "gw_total": 57
           }
         ],
         "best_gw": [
           1,
-          46
+          57
         ],
         "worst_gw": [
           1,
-          46
+          57
         ],
         "bench_points": 13,
         "hits_cost": 0,
@@ -3660,23 +3660,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 38
+          "1": 49
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 38
+            "gw_total": 49
           }
         ],
         "best_gw": [
           1,
-          38
+          49
         ],
         "worst_gw": [
           1,
-          38
+          49
         ],
         "bench_points": 8,
         "hits_cost": 0,
@@ -3749,23 +3749,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 41
+          "1": 52
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 41
+            "gw_total": 52
           }
         ],
         "best_gw": [
           1,
-          41
+          52
         ],
         "worst_gw": [
           1,
-          41
+          52
         ],
         "bench_points": 6,
         "hits_cost": 0,
@@ -3838,23 +3838,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 35
+          "1": 71
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 165,
             "player": "João Pedro",
-            "gw_total": 35
+            "gw_total": 71
           }
         ],
         "best_gw": [
           1,
-          35
+          71
         ],
         "worst_gw": [
           1,
-          35
+          71
         ],
         "bench_points": 12,
         "hits_cost": 0,
@@ -3927,23 +3927,23 @@
         ],
         "chips": {},
         "gw_points": {
-          "1": 36
+          "1": 55
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 36
+            "gw_total": 55
           }
         ],
         "best_gw": [
           1,
-          36
+          55
         ],
         "worst_gw": [
           1,
-          36
+          55
         ],
         "bench_points": 12,
         "hits_cost": 0,
@@ -4018,23 +4018,23 @@
           "1": "bboost"
         },
         "gw_points": {
-          "1": 38
+          "1": 49
         },
         "cap_history": [
           {
             "gw": 1,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 38
+            "gw_total": 49
           }
         ],
         "best_gw": [
           1,
-          38
+          49
         ],
         "worst_gw": [
           1,
-          38
+          49
         ],
         "bench_points": 0,
         "hits_cost": 0,
