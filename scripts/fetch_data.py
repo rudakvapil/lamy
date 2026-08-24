@@ -122,7 +122,7 @@ def compute_standings(matches):
                for e, info in MANAGERS.items()}
     regular = [m for m in matches if not m.get("is_knockout") and m["event"] <= REGULAR_GWS]
     for m in sorted(regular, key=lambda x: x["event"]):
-        for pfx in ["entry_1", "entry_2"]:
+        for pfx, opfx in [("entry_1", "entry_2"), ("entry_2", "entry_1")]:
             e = m[f"{pfx}_entry"]
             if e not in players:
                 continue
@@ -131,7 +131,10 @@ def compute_standings(matches):
             players[e]["pts"]       += pts_l
             players[e]["fpl_total"] += pts_f
             r = "W" if pts_l == 3 else "D" if pts_l == 1 else "L"
-            players[e]["results"].append({"gw": m["event"], "result": r, "fpl": pts_f})
+            players[e]["results"].append({"gw": m["event"], "result": r, "fpl": pts_f,
+                                          "opp_entry": m.get(f"{opfx}_entry"),
+                                          "opp_fpl":   m.get(f"{opfx}_points"),
+                                          "opp_name":  MANAGERS.get(m.get(f"{opfx}_entry"), {}).get("name", m.get(f"{opfx}_player_name", "?"))})
             if pts_l == 3:   players[e]["w"] += 1
             elif pts_l == 1: players[e]["d"] += 1
             else:            players[e]["l"] += 1
