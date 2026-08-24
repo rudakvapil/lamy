@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-24T19:19:38.862336+00:00",
+    "updated_at": "2026-08-24T20:15:08.063384+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -717,7 +717,7 @@
         "name": "João Pedro",
         "appearances": 6,
         "pos": 4,
-        "total_points": 5
+        "total_points": 6
       },
       {
         "id": 423,
@@ -808,7 +808,7 @@
         "name": "Rogers",
         "appearances": 2,
         "pos": 3,
-        "total_points": 1
+        "total_points": 8
       },
       {
         "id": 368,
@@ -905,6 +905,15 @@
         ]
       },
       {
+        "id": 40,
+        "name": "Rogers",
+        "total_points": 8,
+        "owners": [
+          "Marek Palán",
+          "Libor Pechoč"
+        ]
+      },
+      {
         "id": 368,
         "name": "Szoboszlai",
         "total_points": 8,
@@ -936,14 +945,6 @@
         "total_points": 6,
         "owners": [
           "Martin Válek"
-        ]
-      },
-      {
-        "id": 11,
-        "name": "Mosquera",
-        "total_points": 6,
-        "owners": [
-          "Rudolf Kvapil"
         ]
       }
     ],
@@ -2566,7 +2567,7 @@
       "web_name": "Rogers",
       "team": 6,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 8
     },
     "101": {
       "web_name": "Henderson",
@@ -2668,7 +2669,7 @@
       "web_name": "Palmer",
       "team": 6,
       "element_type": 3,
-      "total_points": 4
+      "total_points": 12
     },
     "155": {
       "web_name": "Enzo",
@@ -2722,7 +2723,7 @@
       "web_name": "João Pedro",
       "team": 6,
       "element_type": 4,
-      "total_points": 5
+      "total_points": 6
     },
     "166": {
       "web_name": "N.Jackson",
@@ -2758,7 +2759,7 @@
       "web_name": "Lacroix",
       "team": 6,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 4
     },
     "560": {
       "web_name": "Penders",
@@ -3352,13 +3353,13 @@
       "web_name": "Robinson",
       "team": 10,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 0
     },
     "255": {
       "web_name": "J.Cuenca",
       "team": 10,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 0
     },
     "256": {
       "web_name": "Tete",
@@ -3370,13 +3371,13 @@
       "web_name": "Bassey",
       "team": 10,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 0
     },
     "258": {
       "web_name": "Castagne",
       "team": 10,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 3
     },
     "261": {
       "web_name": "Iwobi",
@@ -3418,7 +3419,7 @@
       "web_name": "King",
       "team": 10,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 6
     },
     "269": {
       "web_name": "Sessegnon",
