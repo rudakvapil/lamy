@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-24T21:16:33.650141+00:00",
+    "updated_at": "2026-08-24T21:58:42.745562+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -4960,6 +4960,12 @@
       "team": 10,
       "element_type": 3,
       "total_points": 1
+    },
+    "610": {
+      "web_name": "De Fougerolles",
+      "team": 10,
+      "element_type": 2,
+      "total_points": 0
     },
     "273": {
       "web_name": "Phillips",
