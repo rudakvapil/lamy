@@ -15,14 +15,14 @@ CURRENT_SEASON = "2026/27"
 REGULAR_GWS    = 36   # základní část GW1–36
 
 MANAGERS = {
-    4239832: {"name": "Martin Holub",     "team": "Real Mordor *****",  "short": "MH"},
-    156572:  {"name": "Libor Pechoč",     "team": "Četnické humoresky", "short": "LP"},
-    155266:  {"name": "Martin Válek",     "team": "Fusswaffe",          "short": "MV"},
-    167387:  {"name": "Jaroslav Bureš",   "team": "Yobagoya",           "short": "JB"},
-    138950:  {"name": "Rudolf Kvapil",    "team": "EREKCE ZE STRACHU",  "short": "RK"},
-    472208:  {"name": "Marek Palán",      "team": "Eskimo brothers",    "short": "MP"},
-    184202:  {"name": "Michal Krautwurm", "team": "Krampus",            "short": "MK"},
-    4127653: {"name": "Lukáš Kapinus",    "team": "1. FC Lukasovo",     "short": "LK"},
+    5884187: {"name": "Martin Holub",     "team": "Real Mordor ******",  "short": "MH"},
+    1277021:  {"name": "Libor Pechoč",     "team": "Četnické humoresky", "short": "LP"},
+    394522:  {"name": "Martin Válek",     "team": "Fusswaffe",          "short": "MV"},
+    161243:  {"name": "Jaroslav Bureš",   "team": "Yobagoya",           "short": "JB"},
+    125278:  {"name": "Rudolf Kvapil",    "team": "EREKCE ZE STRACHU",  "short": "RK"},
+    1034876:  {"name": "Marek Palán",      "team": "Eskimo brothers",    "short": "MP"},
+    1287745:  {"name": "Michal Krautwurm", "team": "Krampus",            "short": "MK"},
+    1436706: {"name": "Lukáš Kapinus",    "team": "1. FC Lukasovo",     "short": "LK"},
 }
 
 BASE_URL = "https://fantasy.premierleague.com/api"
