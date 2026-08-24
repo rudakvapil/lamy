@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-24T20:15:08.063384+00:00",
+    "updated_at": "2026-08-24T21:15:15.953231+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -717,7 +717,7 @@
         "name": "João Pedro",
         "appearances": 6,
         "pos": 4,
-        "total_points": 6
+        "total_points": 11
       },
       {
         "id": 423,
@@ -2585,7 +2585,7 @@
       "web_name": "Sánchez",
       "team": 6,
       "element_type": 1,
-      "total_points": 1
+      "total_points": 2
     },
     "141": {
       "web_name": "Jörgensen",
@@ -2597,7 +2597,7 @@
       "web_name": "James",
       "team": 6,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 0
     },
     "143": {
       "web_name": "Chalobah",
@@ -2651,7 +2651,7 @@
       "web_name": "Acheampong",
       "team": 6,
       "element_type": 2,
-      "total_points": 1
+      "total_points": 3
     },
     "152": {
       "web_name": "Palestra",
@@ -2669,25 +2669,25 @@
       "web_name": "Palmer",
       "team": 6,
       "element_type": 3,
-      "total_points": 12
+      "total_points": 13
     },
     "155": {
       "web_name": "Enzo",
       "team": 6,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "156": {
       "web_name": "Neto",
       "team": 6,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "157": {
       "web_name": "Estêvão",
       "team": 6,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "158": {
       "web_name": "Gittens",
@@ -2705,7 +2705,7 @@
       "web_name": "Lavia",
       "team": 6,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "163": {
       "web_name": "D.Essugo",
@@ -2717,13 +2717,13 @@
       "web_name": "Quenda",
       "team": 6,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "165": {
       "web_name": "João Pedro",
       "team": 6,
       "element_type": 4,
-      "total_points": 6
+      "total_points": 11
     },
     "166": {
       "web_name": "N.Jackson",
@@ -2759,7 +2759,7 @@
       "web_name": "Lacroix",
       "team": 6,
       "element_type": 2,
-      "total_points": 4
+      "total_points": 6
     },
     "560": {
       "web_name": "Penders",
@@ -2789,7 +2789,7 @@
       "web_name": "Chavarria",
       "team": 6,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "104": {
       "web_name": "Onyeka",
@@ -3329,7 +3329,7 @@
       "web_name": "Leno",
       "team": 10,
       "element_type": 1,
-      "total_points": 1
+      "total_points": 2
     },
     "251": {
       "web_name": "Lecomte",
@@ -3353,13 +3353,13 @@
       "web_name": "Robinson",
       "team": 10,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "255": {
       "web_name": "J.Cuenca",
       "team": 10,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 3
     },
     "256": {
       "web_name": "Tete",
@@ -3377,13 +3377,13 @@
       "web_name": "Castagne",
       "team": 10,
       "element_type": 2,
-      "total_points": 3
+      "total_points": 6
     },
     "261": {
       "web_name": "Iwobi",
       "team": 10,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "262": {
       "web_name": "Smith Rowe",
@@ -3395,19 +3395,19 @@
       "web_name": "Kevin",
       "team": 10,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "264": {
       "web_name": "Bobb",
       "team": 10,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "265": {
       "web_name": "Berge",
       "team": 10,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "266": {
       "web_name": "Cairney",
@@ -3419,13 +3419,13 @@
       "web_name": "King",
       "team": 10,
       "element_type": 3,
-      "total_points": 6
+      "total_points": 7
     },
     "269": {
       "web_name": "Sessegnon",
       "team": 10,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "270": {
       "web_name": "Reed",
@@ -3437,7 +3437,7 @@
       "web_name": "Muniz",
       "team": 10,
       "element_type": 4,
-      "total_points": 0
+      "total_points": 1
     },
     "272": {
       "web_name": "Kusi-Asare",
@@ -3449,19 +3449,19 @@
       "web_name": "Gonzalo",
       "team": 10,
       "element_type": 4,
-      "total_points": 1
+      "total_points": 6
     },
     "570": {
       "web_name": "Palacios",
       "team": 10,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "580": {
       "web_name": "Charles",
       "team": 10,
       "element_type": 3,
-      "total_points": 0
+      "total_points": 1
     },
     "273": {
       "web_name": "Phillips",
