@@ -585,7 +585,8 @@ function rRk(){
         <div style="font-size:14px;margin-top:4px"><span style="color:var(--gold)">${p.s?'🏆'.repeat(Math.min(p.s,6)):''}</span><span>${p.k?'💩'.repeat(Math.min(p.k,4)):''}</span></div>
         <div style="font-size:10px;color:var(--mu);margin-top:2px">${p.s}× Shiva · ${p.k}× Sacko</div>
       </div>`;}).join('')}
-    </div>`;
+    </div>`
+    +eloSection()+momentsSection();
 }
 
 /* ── BUMP CHART – vývoj pořadí ── */
@@ -851,6 +852,338 @@ function tableMovement(){
   now.forEach((e,i)=>{const pi=prev.indexOf(e);mov[e]=pi-i;});
   return mov;
 }
+/* ══════════ NOVÉ FUNKCE v3 ══════════ */
+
+/* ── ELO RATING (seed z kariéry + letošní zápasy) ── */
+function computeElo(){
+  const s=D.standings||[];if(!s.length)return [];
+  const elo={},games={};
+  s.forEach(p=>{const h=HOF.find(x=>norm(x.n)===norm(p.name))||{s:0,k:0};
+    elo[p.entry]=1500+h.s*25-h.k*25;games[p.entry]=0;});
+  // Chronologicky podle GW, každý zápas jen jednou
+  const maxGw=Math.max(...s.flatMap(p=>(p.results||[]).map(r=>r.gw)),0);
+  for(let g=1;g<=maxGw;g++){
+    const done=new Set();
+    s.forEach(p=>{
+      const r=(p.results||[]).find(x=>x.gw===g);
+      if(!r||r.opp_entry==null||done.has(p.entry)||done.has(r.opp_entry))return;
+      done.add(p.entry);done.add(r.opp_entry);
+      const Ra=elo[p.entry],Rb=elo[r.opp_entry];if(Rb==null)return;
+      const Ea=1/(1+Math.pow(10,(Rb-Ra)/400));
+      const Sa=r.result==='W'?1:r.result==='D'?0.5:0;
+      const K=32,d=K*(Sa-Ea);
+      elo[p.entry]=Ra+d;elo[r.opp_entry]=Rb-d;
+      games[p.entry]++;games[r.opp_entry]=(games[r.opp_entry]||0)+1;
+    });
+  }
+  return s.map(p=>({entry:p.entry,name:p.name,elo:Math.round(elo[p.entry]),games:games[p.entry]||0}))
+    .sort((a,b)=>b.elo-a.elo);
+}
+function eloSection(){
+  const rows=computeElo();if(!rows.length)return '';
+  const hasGames=rows.some(r=>r.games>0);
+  const mx=Math.max(...rows.map(r=>r.elo)),mn=Math.min(...rows.map(r=>r.elo));
+  return`<div class="sdiv"></div><div class="sub">♟️ Elo rating – skutečná síla napříč sezónami</div>
+  <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:16px;box-shadow:var(--sh)">
+    ${rows.map((r,i)=>{const w=mx>mn?Math.round((r.elo-mn)/(mx-mn)*70)+30:50;
+      const col=r.elo>=1550?'var(--gold)':r.elo>=1490?'var(--plg)':'var(--shame)';
+      return`<div style="display:flex;align-items:center;gap:10px;padding:6px 0">
+      <span style="min-width:24px;font-family:var(--fm);color:var(--mu)">${i+1}.</span>
+      <span style="min-width:120px;font-size:13px;font-weight:600">${emojiOf(r)} ${(r.name||'').split(' ')[1]||r.name}</span>
+      <div style="flex:1;background:var(--b3);border-radius:4px;height:12px;overflow:hidden">
+        <div style="height:12px;width:${w}%;background:linear-gradient(90deg,${col},${col}88);border-radius:4px"></div></div>
+      <span style="font-family:var(--fh);font-size:17px;font-weight:700;color:${col};min-width:52px;text-align:right">${r.elo}</span>
+    </div>`;}).join('')}
+    <div style="font-size:11px;color:var(--mu);margin-top:10px;font-style:italic">Start 1500 · kariérní bonus ±25 za každou Shivu/Sacko · ${hasGames?'aktualizuje se každým zápasem (K=32)':'letošní zápasy se započítají po prvních odehraných kolech'}. Šachy lžou míň než tabulka.</div>
+  </div>`;
+}
+
+/* ── HEATMAPA VÝKONŮ ── */
+function heatmapSection(){
+  const s=D.standings||[];
+  const maxGw=Math.max(...s.flatMap(p=>(p.results||[]).map(r=>r.gw)),0);
+  if(!maxGw)return '';
+  const all=s.flatMap(p=>(p.results||[]).map(r=>r.fpl)).filter(x=>x!=null);
+  const lo=Math.min(...all),hi=Math.max(...all);
+  const colFor=v=>{if(v==null)return 'var(--b3)';
+    const t=hi>lo?(v-lo)/(hi-lo):.5;
+    if(t>=.75)return 'rgba(0,255,133,'+(0.25+t*0.55)+')';
+    if(t>=.45)return 'rgba(245,200,66,'+(0.2+t*0.4)+')';
+    return 'rgba(255,61,61,'+(0.55-t*0.35)+')';};
+  const gws=Array.from({length:maxGw},(_,i)=>i+1);
+  return`<div class="sdiv"></div><div class="sub">🌡️ Heatmapa výkonů – celá sezóna jedním pohledem</div>
+  <div class="bump-wrap"><table style="border-collapse:separate;border-spacing:2px;font-size:10px">
+    <tr><td></td>${gws.map(g=>`<td style="color:var(--mu);text-align:center;padding:1px 0;min-width:26px">${g}</td>`).join('')}</tr>
+    ${s.map(p=>`<tr>
+      <td style="font-size:11px;font-weight:600;padding-right:8px;white-space:nowrap">${emojiOf(p)} ${(p.name||'').split(' ')[1]||p.name}</td>
+      ${gws.map(g=>{const r=(p.results||[]).find(x=>x.gw===g);
+        return`<td style="background:${colFor(r?.fpl)};border-radius:3px;text-align:center;padding:4px 0;font-family:var(--fm);font-size:9px;color:${r?'#fff':'var(--m2)'}" title="GW${g}: ${r?r.fpl+' bodů ('+r.result+')':'—'}">${r?r.fpl:''}</td>`;}).join('')}
+    </tr>`).join('')}
+  </table>
+  <div style="display:flex;gap:14px;margin-top:8px;font-size:10px;color:var(--mu)">
+    <span><span style="display:inline-block;width:10px;height:10px;background:rgba(0,255,133,.7);border-radius:2px"></span> nářez</span>
+    <span><span style="display:inline-block;width:10px;height:10px;background:rgba(245,200,66,.5);border-radius:2px"></span> průměr</span>
+    <span><span style="display:inline-block;width:10px;height:10px;background:rgba(255,61,61,.5);border-radius:2px"></span> ostuda</span>
+  </div></div>`;
+}
+
+/* ── KAPITÁNSKÉ ZRCADLO ── */
+function captainMirror(){
+  const pm=D.picks_stats?.per_manager||{};const s=D.standings||[];
+  const rows=s.map(p=>{const m=pm[p.entry]||pm[String(p.entry)]||{};
+    const ch=(m.cap_history||[]);const last=ch.length?ch[ch.length-1]:null;
+    return last?{name:p.name,entry:p.entry,cap:last.player,gw:last.gw,pts:last.gw_total}:null;}).filter(Boolean);
+  if(!rows.length)return '';
+  const gw=Math.max(...rows.map(r=>r.gw));
+  const cur=rows.filter(r=>r.gw===gw);
+  const capCount={};cur.forEach(r=>capCount[r.cap]=(capCount[r.cap]||0)+1);
+  return`<div class="sdiv"></div><div class="sub">🪞 Kapitánské zrcadlo – GW${gw}</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px">
+  ${cur.sort((a,b)=>b.pts-a.pts).map(r=>{const herd=capCount[r.cap]>=4;
+    return`<div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:12px;text-align:center;box-shadow:var(--sh)">
+    <div style="font-size:11px;font-weight:600;color:var(--mu)">${emojiOf(r)} ${(r.name||'').split(' ')[1]||r.name}</div>
+    <div style="font-size:15px;font-weight:800;margin:4px 0;color:#fff">©️ ${r.cap}</div>
+    <div style="font-size:10px;color:${herd?'var(--mu)':'var(--gold)'}">${herd?'🐑 stádní volba':'🎯 vlastní hlava'}</div>
+    <div style="font-family:var(--fh);font-size:18px;color:var(--plg);margin-top:2px">${r.pts} b</div>
+  </div>`;}).join('')}</div>`;
+}
+
+/* ── LAMY BET ── */
+function lamyBet(){
+  const nf=D.next_fixtures||[];const s=D.standings||[];
+  if(!nf.length||!s.length)return '';
+  const strength=e=>{const p=s.find(x=>x.entry==e);if(!p)return 50;
+    const res=(p.results||[]);const l5=res.slice(-5);
+    return l5.length?l5.reduce((a,r)=>a+r.fpl,0)/l5.length:(res.length?res.reduce((a,r)=>a+r.fpl,0)/res.length:50);};
+  const odds=p=>Math.max(1.05,(1/(p*1.05))).toFixed(2);
+  return`<div class="sub">🎰 Lamy Bet – kurzovka na GW${nf[0]?.gw||'?'}</div>
+  <div style="background:linear-gradient(135deg,#0d1f0d,#0a150a);border:1px solid rgba(0,255,133,.25);border-radius:var(--r);padding:16px;box-shadow:var(--sh);margin-bottom:18px">
+    ${nf.map(m=>{const sa=strength(m.home?.entry),sb=strength(m.away?.entry);
+      const pa=Math.max(.12,Math.min(.88,.5+(sa-sb)/60)),pb=1-pa;
+      return`<div style="display:flex;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.05)">
+      <div style="flex:1;text-align:right;font-size:13px;font-weight:600">${(m.home?.name||'?').split(' ')[1]||m.home?.name} ${emojiOf(m.home)}</div>
+      <div style="display:flex;gap:6px">
+        <span style="background:${pa>pb?'rgba(0,255,133,.15)':'var(--b3)'};border:1px solid ${pa>pb?'var(--plg)':'var(--bo)'};border-radius:6px;padding:4px 10px;font-family:var(--fm);font-size:14px;font-weight:700;color:${pa>pb?'var(--plg)':'var(--tx)'}">${odds(pa)}</span>
+        <span style="background:${pb>pa?'rgba(0,255,133,.15)':'var(--b3)'};border:1px solid ${pb>pa?'var(--plg)':'var(--bo)'};border-radius:6px;padding:4px 10px;font-family:var(--fm);font-size:14px;font-weight:700;color:${pb>pa?'var(--plg)':'var(--tx)'}">${odds(pb)}</span>
+      </div>
+      <div style="flex:1;font-size:13px;font-weight:600">${emojiOf(m.away)} ${(m.away?.name||'?').split(' ')[1]||m.away?.name}</div>
+    </div>`;}).join('')}
+    <div style="font-size:10px;color:var(--mu);margin-top:10px;text-align:center;font-style:italic">Kurzy počítá algoritmus z formy. Sázejte pouze svou důstojnost – tu už stejně většina z vás prohrála.</div>
+  </div>`;
+}
+
+/* ── SÍŇ MOMENTŮ ── */
+function momentsSection(){
+  const s=D.standings||[];
+  const allRes=s.flatMap(p=>(p.results||[]).map(r=>({...r,name:p.name,entry:p.entry})));
+  if(allRes.length<4)return '';
+  const M=[];
+  const hi=allRes.reduce((b,r)=>r.fpl>b.fpl?r:b);
+  M.push({e:'💥',t:'Výbuch sezóny',w:hi.name,d:`${hi.fpl} bodů v GW${hi.gw}`});
+  const lo=allRes.reduce((b,r)=>r.fpl<b.fpl?r:b);
+  M.push({e:'🕳️',t:'Propadák sezóny',w:lo.name,d:`${lo.fpl} bodů v GW${lo.gw} – tohle se pouští dětem jako výstraha`});
+  // Horská dráha – největší swing mezi 2 koly
+  let swing=null;
+  s.forEach(p=>{const rs=(p.results||[]);for(let i=1;i<rs.length;i++){
+    const df=Math.abs(rs[i].fpl-rs[i-1].fpl);
+    if(!swing||df>swing.df)swing={df,name:p.name,a:rs[i-1],b:rs[i]};}});
+  if(swing&&swing.df>=15)M.push({e:'🎢',t:'Horská dráha',w:swing.name,d:`z ${swing.a.fpl} na ${swing.b.fpl} bodů (GW${swing.a.gw}→GW${swing.b.gw})`});
+  // S opp daty: masakr a drama
+  const withOpp=allRes.filter(r=>r.opp_fpl!=null&&r.result==='W');
+  if(withOpp.length){
+    const mas=withOpp.reduce((b,r)=>(r.fpl-r.opp_fpl)>(b.fpl-b.opp_fpl)?r:b);
+    if(mas.fpl-mas.opp_fpl>=15)M.push({e:'🩸',t:'Masakr sezóny',w:mas.name,d:`${mas.fpl}:${mas.opp_fpl} proti ${(mas.opp_name||'?').split(' ')[1]||mas.opp_name} (GW${mas.gw})`});
+    const dra=withOpp.reduce((b,r)=>(r.fpl-r.opp_fpl)<(b.fpl-b.opp_fpl)?r:b);
+    if(dra.fpl-dra.opp_fpl<=3)M.push({e:'😱',t:'Infarktové drama',w:dra.name,d:`${dra.fpl}:${dra.opp_fpl} proti ${(dra.opp_name||'?').split(' ')[1]||dra.opp_name} (GW${dra.gw}) – o ${dra.fpl-dra.opp_fpl===0?'skóre':'jediný chlup'}`});
+  }
+  // Šňůry
+  const ser=(D.series||[]).filter(x=>x.best_w>=3).sort((a,b)=>b.best_w-a.best_w)[0];
+  if(ser)M.push({e:'🔥',t:'Šňůra sezóny',w:ser.name,d:`${ser.best_w} výher v řadě`});
+  if(!M.length)return '';
+  return`<div class="sdiv"></div><div class="sub">🎬 Síň momentů – co se bude vyprávět u piva</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px">
+  ${M.map(m=>`<div class="rec-card">
+    <div style="font-size:28px;margin-bottom:4px">${m.e}</div>
+    <div style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--mu)">${m.t}</div>
+    <div class="rec-holder" style="font-size:15px;margin-top:4px">${m.w}</div>
+    <div class="rec-detail" style="margin-top:2px">${m.d}</div>
+  </div>`).join('')}</div>`;
+}
+
+/* ── KOMENTÁTOR – spousta variant, stabilní výběr dle GW ── */
+function seededPick(arr,seed){let h=0;const str=String(seed);for(let i=0;i<str.length;i++)h=(h*31+str.charCodeAt(i))>>>0;return arr[h%arr.length];}
+const KOM={
+  lead:[
+    n=>`${n} sedí na čele tabulky a tváří se, že je to samozřejmost.`,
+    n=>`Na trůnu ${n}. Poddaní, klanět se.`,
+    n=>`${n} vede ligu. Zbytek hraje o to, kdo mu bude nosit vodu.`,
+    n=>`První místo: ${n}. Meteorologové hlásí, že mu na vrcholu nesněží.`,
+    n=>`${n} shlíží z čela tabulky dolů a je mu vás upřímně líto.`,
+    n=>`Lídr ${n} má na tachometru náskok a v očích klid zabijáka.`,
+    n=>`${n} v čele. Někdo mu řekněte, že to není trvalé bydliště.`,
+    n=>`Tabulku aktuálně řídí ${n}. Řídí ji dobře, bohužel pro ostatní.`,
+  ],
+  last:[
+    n=>`${n} drží poslední místo s odhodláním, které by zasloužilo lepší uplatnění.`,
+    n=>`Na dně tabulky ${n}. Sacko trofej si právě dělá poznámky.`,
+    n=>`${n} je poslední. Ale pozor – odspodu se tabulka čte mnohem líp.`,
+    n=>`Dno drží ${n}. Prý je tam klid a nikdo ho neruší.`,
+    n=>`${n} zavírá tabulku. Někdo to dělat musí, říká si zoufale.`,
+    n=>`Poslední ${n}. V FPL se říká: kdo je dole, ten se má kam zlepšovat. Hodně.`,
+    n=>`${n} na chvostu. Jeho fanoušci (oba dva) věří v obrat.`,
+    n=>`Červená lucerna svítí u jména ${n}. A svítí jasně.`,
+  ],
+  up:[
+    n=>`${n} stoupá tabulkou jako nájemné v Praze.`,
+    n=>`Pozor na ${n} – šplhá nahoru a nebere zajatce.`,
+    n=>`${n} letí vzhůru. Někdo mu zapomněl říct, kde je jeho místo.`,
+    n=>`Raketa jménem ${n} právě opustila spodní patra tabulky.`,
+    n=>`${n} se zvedá. Soupeři nervózně kontrolují zrcátka.`,
+    n=>`Vzestup ${n} pokračuje – forma jak z učebnice, drzost jak z ulice.`,
+  ],
+  down:[
+    n=>`${n} padá tabulkou jak podzimní listí. Krásné na pohled, smutné pro majitele.`,
+    n=>`${n} klesá. Kapitán opouští loď, bohužel je to jeho vlastní loď.`,
+    n=>`Volný pád ${n} pokračuje. Padák nikde.`,
+    n=>`${n} se propadá – gravitace v jeho případě funguje nadstandardně.`,
+    n=>`Sestup ${n} nabírá na rychlosti. Brzdy prý dokoupí v lednu.`,
+    n=>`${n} míří dolů. Aspoň že výtah jede plynule.`,
+  ],
+  tight:[
+    (a,b)=>`${a} a ${b} dělí jen kousíček – tohle bude fotofiniš.`,
+    (a,b)=>`Souboj ${a} vs ${b} je těsnější než džíny po Vánocích.`,
+    (a,b)=>`Mezi ${a} a ${b} by neprošel ani list papíru. Drama zaručeno.`,
+    (a,b)=>`${a} a ${b} bok po boku. Někdo z nich bude v neděli večer smutný.`,
+  ],
+};
+function commentator(){
+  const s=D.standings||[];if(s.length<8)return '';
+  const gw=D.meta?.current_gw||1;
+  const mov=tableMovement();
+  const lines=[];
+  const nm=p=>(p.name||'').split(' ')[1]||p.name;
+  lines.push(seededPick(KOM.lead,gw+'l'+s[0].entry)(nm(s[0])));
+  const climber=s.filter(p=>(mov[p.entry]||0)>=2)[0];
+  if(climber)lines.push(seededPick(KOM.up,gw+'u'+climber.entry)(nm(climber)));
+  const faller=s.filter(p=>(mov[p.entry]||0)<=-2)[0];
+  if(faller)lines.push(seededPick(KOM.down,gw+'d'+faller.entry)(nm(faller)));
+  for(let i=0;i<s.length-1;i++){
+    if(s[i].pts-s[i+1].pts<=1&&s[i].pts>0){lines.push(seededPick(KOM.tight,gw+'t'+i)(nm(s[i]),nm(s[i+1])));break;}
+  }
+  lines.push(seededPick(KOM.last,gw+'x'+s[7].entry)(nm(s[7])));
+  return`<div class="report-card" style="border-left:3px solid var(--plg)">
+    <div class="sub" style="margin-bottom:8px">🎙️ Komentátorská budka</div>
+    ${lines.map(l=>`<div style="font-size:13px;line-height:1.7;color:var(--tx)">• ${l}</div>`).join('')}
+    <div style="font-size:10px;color:var(--mu);margin-top:8px;font-style:italic">Komentátor je stroj a uráží bez osobní zaujatosti. Většinou.</div>
+  </div>`;
+}
+
+/* ── ČASOVÁ OSA SEZÓNY ── */
+function timelineSection(){
+  const s=D.standings||[];
+  const maxGw=Math.max(...s.flatMap(p=>(p.results||[]).map(r=>r.gw)),0);
+  if(!maxGw)return '';
+  const ev=[];
+  ev.push({gw:1,e:'🚀',t:'Start sezóny 14'});
+  // Změny lídra
+  const ptsAt=g=>{const o={};s.forEach(p=>{o[p.entry]=(p.results||[]).filter(r=>r.gw<=g).reduce((a,r)=>a+(r.result==='W'?3:r.result==='D'?1:0),0);});return o;};
+  const fplAt=g=>{const o={};s.forEach(p=>{o[p.entry]=(p.results||[]).filter(r=>r.gw<=g).reduce((a,r)=>a+r.fpl,0);});return o;};
+  let prevLead=null;
+  for(let g=1;g<=maxGw;g++){
+    const pts=ptsAt(g),fpl=fplAt(g);
+    const lead=[...s].sort((a,b)=>pts[b.entry]-pts[a.entry]||fpl[b.entry]-fpl[a.entry])[0];
+    if(prevLead&&lead.entry!==prevLead){ev.push({gw:g,e:'👑',t:`${(lead.name||'').split(' ')[1]} přebírá vedení`});}
+    prevLead=lead.entry;
+  }
+  // Rekordy 100+, série
+  s.forEach(p=>{(p.results||[]).forEach(r=>{
+    if(r.fpl>=100)ev.push({gw:r.gw,e:'💯',t:`${(p.name||'').split(' ')[1]}: ${r.fpl} bodů!`});});});
+  s.forEach(p=>{let run=0;(p.results||[]).forEach(r=>{
+    if(r.result==='W'){run++;if(run===4)ev.push({gw:r.gw,e:'🔥',t:`${(p.name||'').split(' ')[1]} – 4 výhry v řadě`});}
+    else run=0;});});
+  if(maxGw>=18)ev.push({gw:19,e:'⛳',t:'Polovina sezóny'});
+  ev.sort((a,b)=>a.gw-b.gw);
+  const shown=ev.slice(0,14);
+  return`<div class="sdiv"></div><div class="sub">🗓️ Časová osa sezóny</div>
+  <div class="bump-wrap"><div style="display:flex;gap:0;align-items:flex-start;min-width:${shown.length*95}px">
+  ${shown.map((x,i)=>`<div style="flex:1;text-align:center;position:relative;min-width:90px">
+    ${i<shown.length-1?'<div style="position:absolute;top:14px;left:50%;width:100%;height:2px;background:rgba(0,255,133,.2)"></div>':''}
+    <div style="position:relative;width:30px;height:30px;margin:0 auto;background:var(--b3);border:2px solid var(--plg);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:1">${x.e}</div>
+    <div style="font-size:9px;color:var(--plg);font-weight:700;margin-top:4px">GW${x.gw}</div>
+    <div style="font-size:10px;color:var(--tx);margin-top:2px;line-height:1.3">${x.t}</div>
+  </div>`).join('')}</div></div>`;
+}
+
+/* ── AUTO-REFRESH LIVE ── */
+let liveRefreshTimer=null,lastDataFetch=Date.now();
+function startLiveAutoRefresh(){
+  if(liveRefreshTimer)return;
+  liveRefreshTimer=setInterval(async()=>{
+    const sec=document.getElementById('s-lv');
+    if(!sec||!sec.classList.contains('active'))return;
+    try{
+      const r=await fetch(`data/season.json?t=${Date.now()}`);
+      D=await r.json();lastDataFetch=Date.now();
+      rendered.lv=false;render('lv');rendered.lv=true;
+    }catch(e){}
+  },5*60*1000);
+}
+function liveRefreshBadge(){
+  const mins=Math.floor((Date.now()-lastDataFetch)/60000);
+  return`<div style="font-size:10px;color:var(--mu);text-align:right;margin-bottom:6px">🔄 Obnovuje se samo každých 5 min · naposledy ${mins===0?'právě teď':'před '+mins+' min'}</div>`;
+}
+
+/* ── ROČENKA (tisk/PDF) ── */
+function generateYearbook(){
+  const s=D.standings||[];
+  const season=D.meta?.season||'2026/27';
+  const gw=D.meta?.current_gw||1;
+  const recs=D.records||{};
+  const w=window.open('','_blank');
+  if(!w){alert('Povol prosím vyskakovací okna.');return;}
+  const rows=s.map((p,i)=>{
+    const ph=photoOf(p);
+    return`<tr>
+      <td style="font-weight:800;font-size:18px;color:${i===0?'#b8860b':i>=6?'#b03030':'#333'}">${i+1}.</td>
+      <td>${ph?`<img src="images/${ph}.jpg" style="width:42px;height:42px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px">`:''}<strong>${p.name}</strong><br><span style="color:#777;font-size:11px">${p.team}</span></td>
+      <td style="text-align:center">${p.w}–${p.d}–${p.l}</td>
+      <td style="text-align:center;font-weight:800">${p.pts}</td>
+      <td style="text-align:center">${p.fpl_total}</td>
+    </tr>`;}).join('');
+  const moments=(recs.top10||[]).slice(0,5).map((r,i)=>`<li><strong>${r.pts} bodů</strong> – ${r.name} (GW${r.gw})</li>`).join('');
+  const hof=HOF.map(h=>`<tr><td>${h.n}</td><td style="text-align:center">${'🏆'.repeat(h.s)||'—'}</td><td style="text-align:center">${'💩'.repeat(h.k)||'—'}</td></tr>`).join('');
+  w.document.write(`<!DOCTYPE html><html lang="cs"><head><meta charset="utf-8"><title>Ročenka ${season}</title>
+  <style>
+    body{font-family:Georgia,serif;color:#222;margin:0;padding:40px;max-width:800px;margin:0 auto}
+    .cover{text-align:center;padding:80px 0;page-break-after:always}
+    .cover h1{font-size:42px;margin:10px 0;color:#37003c}
+    .cover .llama{font-size:90px}
+    h2{color:#37003c;border-bottom:3px solid #00c853;padding-bottom:6px;margin-top:40px}
+    table{width:100%;border-collapse:collapse;margin:14px 0}
+    td,th{padding:9px 8px;border-bottom:1px solid #ddd;font-size:13px;text-align:left}
+    th{background:#37003c;color:#fff;font-size:11px;text-transform:uppercase;letter-spacing:1px}
+    .foot{margin-top:60px;text-align:center;color:#999;font-size:11px;font-style:italic}
+    @media print{.noprint{display:none}}
+  </style></head><body>
+  <div class="noprint" style="background:#fff3cd;padding:12px;border-radius:8px;margin-bottom:20px;font-family:Arial">
+    💡 Pro uložení jako PDF stiskni <strong>Ctrl+P</strong> a zvol „Uložit jako PDF". <button onclick="window.print()" style="padding:6px 16px;cursor:pointer">🖨️ Tisknout</button>
+  </div>
+  <div class="cover">
+    <div class="llama">🦙</div>
+    <h1>FANTASY LAMY Z PANAMY</h1>
+    <div style="font-size:24px;color:#00994d;font-weight:bold">ROČENKA ${season}</div>
+    <div style="color:#888;margin-top:8px">Sezóna 14 · stav po GW${gw}</div>
+    <div style="margin-top:40px;font-size:13px;color:#aaa">„Osm lam, jedna trofej, nula slitování."</div>
+  </div>
+  <h2>📊 Tabulka</h2>
+  <table><tr><th>#</th><th>Manažer</th><th>V–R–P</th><th>Body</th><th>FPL</th></tr>${rows}</table>
+  <h2>💥 Nejvyšší skóre sezóny</h2><ol>${moments||'<li>Zatím se čeká na první výstřely.</li>'}</ol>
+  <h2>🏛️ Síň slávy – celá historie</h2>
+  <table><tr><th>Manažer</th><th>Shiva</th><th>Sacko</th></tr>${hof}</table>
+  <div class="foot">Vygenerováno ${new Date().toLocaleDateString('cs-CZ')} · rudakvapil.github.io/lamy · Data: Fantasy Premier League</div>
+  </body></html>`);
+  w.document.close();
+}
 /* ── LIGHTBOX ── */
 function openLightbox(src,name){
   const lb=$('lightbox'),img=$('lb-img'),nm=$('lb-name');
@@ -1033,7 +1366,7 @@ async function load(){
     $('ust').textContent='✅ Data čerstvá jako ranní rohlíky';$('utm').textContent='Aktualizováno: '+u.toLocaleString('cs-CZ');
     $('hgw').textContent=D.meta.current_gw;$('hgw2').textContent=D.meta.current_gw;$('hse').textContent=D.meta.season;
     if(D.standings?.length)$('hld').textContent=D.standings[0].name.split(' ')[1]||D.standings[0].name;
-    rendered={};render('st');renderHoF();renderHist();renderRules();startCountdown();
+    rendered={};render('st');renderHoF();renderHist();renderRules();startCountdown();startLiveAutoRefresh();
   }catch(e){$('ust').textContent='⚠ Data se nenačetla – zkus obnovit stránku';console.error(e);}
 }
 function render(id){
@@ -1118,7 +1451,7 @@ function rFo(n){
   // Bump chart – vývoj pořadí
   document.getElementById('s-fo').insertAdjacentHTML('beforeend',
     `<div class="sdiv"></div><div class="sub">📉 Vývoj pořadí v tabulce (GW po GW)</div>
-     <div class="bump-wrap">${bumpChart()}</div>`);
+     <div class="bump-wrap">${bumpChart()}</div>`+heatmapSection());
 }
 
 /* ── PLAYOFF – KLASICKÝ BRACKET ── */
@@ -1203,7 +1536,7 @@ function rLv(){
         <div style="font-size:17px;font-weight:700;margin-bottom:8px">GW${gw} data nejsou dostupná</div>
         <div style="color:var(--mu);font-size:13px;line-height:1.7">Živé skóre naskočí, jakmile se kolo rozběhne.<br>Data se sama obnovují každou hodinu.</div>
       </div>
-      ${matchReport()}<div class="sdiv"></div>
+      ${liveRefreshBadge()}${matchReport()}${commentator()}${captainMirror()}<div class="sdiv"></div>
       <div class="sub">📊 Jak dopadlo poslední kolo</div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:10px">
         ${s.map(p=>{const m=pm(p.entry),gp=m.gw_points||{},lg=Math.max(...Object.keys(gp).map(Number).filter(x=>x<=36),0),lpts=gp[lg]||'–',info=MS[p.entry]||{};
@@ -1360,7 +1693,7 @@ function rSs(){
       <div class="sc p"><div class="v">${cs.fh}</div><div class="lb">🔴 Free Hit</div></div>
       <div class="sc b"><div class="v">${cs.wc}</div><div class="lb">🔵 Wildcard</div></div>
     </div>`
-    +diffSection()+dreamXI()+benchSection()+hitsSection();
+    +diffSection()+dreamXI()+benchSection()+hitsSection()+timelineSection();
 }
 
 /* ── MANAGERS ── */
@@ -1520,7 +1853,7 @@ function rPr(){
   
   $('s-pr').innerHTML=`<div class="st"><span class="a">🎯 Predikce</span><span class="d">chladná matematika · forma + vzájemné zápasy</span></div>
     <div class="ibox">⚡ <strong>Algoritmus:</strong> 50% váha formy L5 + 30% průměr sezóny + H2H historická výhoda (±2 body za výhrový rozdíl).</div>
-    ${chancesHtml}
+    ${lamyBet()}${chancesHtml}
     ${cards||''}
     <div class="sdiv"></div>
     <div class="sub">🎮 Co kdyby: postav proti sobě kohokoliv</div>
@@ -1592,7 +1925,10 @@ function renderHist(){
       <td style="${!h.cur?'color:var(--gold);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sh}</td>
       <td style="${!h.cur?'color:var(--shame);font-weight:600':''}">${h.cur?'<span style="color:var(--mu)">— probíhá —</span>':h.sa}</td>
     </tr>`).join('')}</tbody></table></div>
-    <div class="ibox" style="margin-top:14px">📋 <strong>Konečné pořadí každé sezóny:</strong> 1. Shiva vítěz · 2. Shiva finalista · 3–4. SF poražení · 5–6. Playout SF vítězové · 7. Zachráněn · 8. 💩 Sacko</div>`;}
+    <div class="ibox" style="margin-top:14px">📋 <strong>Konečné pořadí každé sezóny:</strong> 1. Shiva vítěz · 2. Shiva finalista · 3–4. SF poražení · 5–6. Playout SF vítězové · 7. Zachráněn · 8. 💩 Sacko</div>
+    <div style="margin-top:14px;text-align:center">
+      <button class="share-btn" onclick="generateYearbook()">📕 Vygenerovat ročenku sezóny (PDF)</button>
+    </div>`;}
 
 function renderRules(){
   $('s-ru').innerHTML=`<div class="st"><span class="a">📋 Pravidla</span> ligy<span class="d">Liga #83735</span></div>
