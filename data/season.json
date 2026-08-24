@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-24T21:15:15.953231+00:00",
+    "updated_at": "2026-08-24T21:16:16.196041+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -9,405 +9,1901 @@
   },
   "standings": [
     {
-      "name": "Martin Holub",
-      "team": "Real Mordor *****",
-      "short": "MH",
-      "entry": 4239832,
-      "pts": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
-    },
-    {
       "name": "Libor Pechoč",
       "team": "Četnické humoresky",
       "short": "LP",
-      "entry": 156572,
+      "entry": 1277021,
       "pts": 0,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
+      "l": 36,
+      "fpl_total": 48,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 48
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "name": "Martin Holub",
+      "team": "Real Mordor ******",
+      "short": "MH",
+      "entry": 5884187,
+      "pts": 0,
+      "w": 0,
+      "d": 0,
+      "l": 36,
+      "fpl_total": 47,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 47
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
     },
     {
       "name": "Martin Válek",
       "team": "Fusswaffe",
       "short": "MV",
-      "entry": 155266,
+      "entry": 394522,
       "pts": 0,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
-    },
-    {
-      "name": "Jaroslav Bureš",
-      "team": "Yobagoya",
-      "short": "JB",
-      "entry": 167387,
-      "pts": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
+      "l": 36,
+      "fpl_total": 46,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 46
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
     },
     {
       "name": "Rudolf Kvapil",
       "team": "EREKCE ZE STRACHU",
       "short": "RK",
-      "entry": 138950,
+      "entry": 125278,
       "pts": 0,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
+      "l": 36,
+      "fpl_total": 41,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 41
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
     },
     {
-      "name": "Marek Palán",
-      "team": "Eskimo brothers",
-      "short": "MP",
-      "entry": 472208,
+      "name": "Jaroslav Bureš",
+      "team": "Yobagoya",
+      "short": "JB",
+      "entry": 161243,
       "pts": 0,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
-    },
-    {
-      "name": "Michal Krautwurm",
-      "team": "Krampus",
-      "short": "MK",
-      "entry": 184202,
-      "pts": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
+      "l": 36,
+      "fpl_total": 38,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
     },
     {
       "name": "Lukáš Kapinus",
       "team": "1. FC Lukasovo",
       "short": "LK",
-      "entry": 4127653,
+      "entry": 1436706,
       "pts": 0,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "fpl_total": 0,
-      "results": [],
-      "form": []
+      "l": 36,
+      "fpl_total": 38,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 38
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "name": "Michal Krautwurm",
+      "team": "Krampus",
+      "short": "MK",
+      "entry": 1287745,
+      "pts": 0,
+      "w": 0,
+      "d": 0,
+      "l": 36,
+      "fpl_total": 36,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 36
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "name": "Marek Palán",
+      "team": "Eskimo brothers",
+      "short": "MP",
+      "entry": 1034876,
+      "pts": 0,
+      "w": 0,
+      "d": 0,
+      "l": 36,
+      "fpl_total": 35,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 35
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 3,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 6,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 7,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 8,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 9,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 10,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 11,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 12,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 13,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 14,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 15,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 16,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 17,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 18,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 19,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 20,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 21,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 22,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 23,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 24,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 25,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 26,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 27,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 28,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 29,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 30,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 31,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 32,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 33,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 34,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 35,
+          "result": "L",
+          "fpl": 0
+        },
+        {
+          "gw": 36,
+          "result": "L",
+          "fpl": 0
+        }
+      ],
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
     }
   ],
   "h2h": {
-    "4239832": {
-      "156572": {
+    "5884187": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     },
-    "156572": {
-      "4239832": {
+    "1277021": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     },
-    "155266": {
-      "4239832": {
+    "394522": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "156572": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     },
-    "167387": {
-      "4239832": {
+    "161243": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "156572": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       }
     },
-    "138950": {
-      "4239832": {
+    "125278": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "156572": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     },
-    "472208": {
-      "4239832": {
+    "1034876": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "156572": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     },
-    "184202": {
-      "4239832": {
+    "1287745": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "156572": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "4127653": {
+      "1436706": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     },
-    "4127653": {
-      "4239832": {
+    "1436706": {
+      "5884187": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "156572": {
+      "1277021": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "155266": {
+      "394522": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "167387": {
+      "161243": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 6
       },
-      "138950": {
+      "125278": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "472208": {
+      "1034876": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       },
-      "184202": {
+      "1287745": {
         "w": 0,
         "l": 0,
-        "d": 0
+        "d": 5
       }
     }
   },
@@ -415,184 +1911,184 @@
     "top10": [
       {
         "pts": 48,
-        "name": "?",
-        "team": "?",
+        "name": "Libor Pechoč",
+        "team": "Četnické humoresky",
         "entry": 1277021,
         "gw": 1,
-        "opp": "?"
+        "opp": "Martin Válek"
       },
       {
         "pts": 47,
-        "name": "?",
-        "team": "?",
+        "name": "Martin Holub",
+        "team": "Real Mordor ******",
         "entry": 5884187,
         "gw": 1,
-        "opp": "?"
+        "opp": "Jaroslav Bureš"
       },
       {
         "pts": 46,
-        "name": "?",
-        "team": "?",
+        "name": "Martin Válek",
+        "team": "Fusswaffe",
         "entry": 394522,
         "gw": 1,
-        "opp": "?"
+        "opp": "Libor Pechoč"
       },
       {
         "pts": 41,
-        "name": "?",
-        "team": "?",
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU",
         "entry": 125278,
         "gw": 1,
-        "opp": "?"
+        "opp": "Michal Krautwurm"
       },
       {
         "pts": 38,
-        "name": "?",
-        "team": "?",
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
         "entry": 161243,
         "gw": 1,
-        "opp": "?"
+        "opp": "Martin Holub"
       },
       {
         "pts": 38,
-        "name": "?",
-        "team": "?",
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo",
         "entry": 1436706,
         "gw": 1,
-        "opp": "?"
+        "opp": "Marek Palán"
       },
       {
         "pts": 36,
-        "name": "?",
-        "team": "?",
+        "name": "Michal Krautwurm",
+        "team": "Krampus",
         "entry": 1287745,
         "gw": 1,
-        "opp": "?"
+        "opp": "Rudolf Kvapil"
       },
       {
         "pts": 35,
-        "name": "?",
-        "team": "?",
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
         "entry": 1034876,
         "gw": 1,
-        "opp": "?"
+        "opp": "Lukáš Kapinus"
       },
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
         "entry": 161243,
         "gw": 2,
-        "opp": "?"
+        "opp": "Michal Krautwurm"
       },
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Michal Krautwurm",
+        "team": "Krampus",
         "entry": 1287745,
         "gw": 2,
-        "opp": "?"
+        "opp": "Jaroslav Bureš"
       }
     ],
     "bottom5": [
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Libor Pechoč",
+        "team": "Četnické humoresky",
         "entry": 1277021,
         "gw": 36,
-        "opp": "?"
+        "opp": "Marek Palán"
       },
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
         "entry": 1034876,
         "gw": 36,
-        "opp": "?"
+        "opp": "Libor Pechoč"
       },
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Martin Holub",
+        "team": "Real Mordor ******",
         "entry": 5884187,
         "gw": 36,
-        "opp": "?"
+        "opp": "Rudolf Kvapil"
       },
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU",
         "entry": 125278,
         "gw": 36,
-        "opp": "?"
+        "opp": "Martin Holub"
       },
       {
         "pts": 0,
-        "name": "?",
-        "team": "?",
+        "name": "Martin Válek",
+        "team": "Fusswaffe",
         "entry": 394522,
         "gw": 36,
-        "opp": "?"
+        "opp": "Michal Krautwurm"
       }
     ]
   },
   "series": [
     {
-      "entry": 4239832,
-      "name": "Martin Holub",
-      "best_w": 0,
-      "best_l": 0,
-      "current": "–"
-    },
-    {
-      "entry": 156572,
+      "entry": 1277021,
       "name": "Libor Pechoč",
       "best_w": 0,
-      "best_l": 0,
-      "current": "–"
+      "best_l": 36,
+      "current": "36× L"
     },
     {
-      "entry": 155266,
+      "entry": 5884187,
+      "name": "Martin Holub",
+      "best_w": 0,
+      "best_l": 36,
+      "current": "36× L"
+    },
+    {
+      "entry": 394522,
       "name": "Martin Válek",
       "best_w": 0,
-      "best_l": 0,
-      "current": "–"
+      "best_l": 36,
+      "current": "36× L"
     },
     {
-      "entry": 167387,
-      "name": "Jaroslav Bureš",
-      "best_w": 0,
-      "best_l": 0,
-      "current": "–"
-    },
-    {
-      "entry": 138950,
+      "entry": 125278,
       "name": "Rudolf Kvapil",
       "best_w": 0,
-      "best_l": 0,
-      "current": "–"
+      "best_l": 36,
+      "current": "36× L"
     },
     {
-      "entry": 472208,
-      "name": "Marek Palán",
+      "entry": 161243,
+      "name": "Jaroslav Bureš",
       "best_w": 0,
-      "best_l": 0,
-      "current": "–"
+      "best_l": 36,
+      "current": "36× L"
     },
     {
-      "entry": 184202,
-      "name": "Michal Krautwurm",
-      "best_w": 0,
-      "best_l": 0,
-      "current": "–"
-    },
-    {
-      "entry": 4127653,
+      "entry": 1436706,
       "name": "Lukáš Kapinus",
       "best_w": 0,
-      "best_l": 0,
-      "current": "–"
+      "best_l": 36,
+      "current": "36× L"
+    },
+    {
+      "entry": 1287745,
+      "name": "Michal Krautwurm",
+      "best_w": 0,
+      "best_l": 36,
+      "current": "36× L"
+    },
+    {
+      "entry": 1034876,
+      "name": "Marek Palán",
+      "best_w": 0,
+      "best_l": 36,
+      "current": "36× L"
     }
   ],
   "playoff": {
@@ -601,34 +2097,34 @@
     "playout_sf": [
       {
         "higher": {
-          "name": "Rudolf Kvapil",
-          "team": "EREKCE ZE STRACHU",
-          "short": "RK",
-          "entry": 138950,
+          "name": "Jaroslav Bureš",
+          "team": "Yobagoya",
+          "short": "JB",
+          "entry": 161243,
           "league_pts": 0,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
         "lower": {
-          "name": "Lukáš Kapinus",
-          "team": "1. FC Lukasovo",
-          "short": "LK",
-          "entry": 4127653,
+          "name": "Marek Palán",
+          "team": "Eskimo brothers",
+          "short": "MP",
+          "entry": 1034876,
           "league_pts": 0,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 4127653,
-        "loser": 138950
+        "winner": 1034876,
+        "loser": 161243
       },
       {
         "higher": {
-          "name": "Marek Palán",
-          "team": "Eskimo brothers",
-          "short": "MP",
-          "entry": 472208,
+          "name": "Lukáš Kapinus",
+          "team": "1. FC Lukasovo",
+          "short": "LK",
+          "entry": 1436706,
           "league_pts": 0,
           "gw37_fpl": 0,
           "naskok": 0,
@@ -638,14 +2134,14 @@
           "name": "Michal Krautwurm",
           "team": "Krampus",
           "short": "MK",
-          "entry": 184202,
+          "entry": 1287745,
           "league_pts": 0,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 184202,
-        "loser": 472208
+        "winner": 1287745,
+        "loser": 1436706
       }
     ]
   },
@@ -706,25 +2202,46 @@
   "picks_stats": {
     "top_players_liga": [
       {
-        "id": 411,
-        "name": "Haaland",
+        "id": 8,
+        "name": "Calafiori",
         "appearances": 8,
-        "pos": 4,
-        "total_points": 2
+        "pos": 2,
+        "total_points": 9
       },
       {
         "id": 165,
         "name": "João Pedro",
-        "appearances": 6,
+        "appearances": 8,
         "pos": 4,
         "total_points": 11
       },
       {
-        "id": 423,
-        "name": "Shaw",
+        "id": 411,
+        "name": "Haaland",
+        "appearances": 7,
+        "pos": 4,
+        "total_points": 2
+      },
+      {
+        "id": 557,
+        "name": "Tzolis",
+        "appearances": 6,
+        "pos": 3,
+        "total_points": 6
+      },
+      {
+        "id": 368,
+        "name": "Szoboszlai",
+        "appearances": 6,
+        "pos": 3,
+        "total_points": 8
+      },
+      {
+        "id": 426,
+        "name": "B.Fernandes",
         "appearances": 5,
-        "pos": 2,
-        "total_points": 1
+        "pos": 3,
+        "total_points": 2
       },
       {
         "id": 427,
@@ -734,73 +2251,73 @@
         "total_points": 2
       },
       {
-        "id": 237,
-        "name": "Ndiaye",
-        "appearances": 5,
-        "pos": 3,
-        "total_points": 9
-      },
-      {
-        "id": 397,
-        "name": "Semenyo",
+        "id": 496,
+        "name": "Kinsky",
         "appearances": 4,
-        "pos": 3,
+        "pos": 1,
         "total_points": 2
       },
       {
-        "id": 557,
-        "name": "Tzolis",
+        "id": 418,
+        "name": "Maguire",
         "appearances": 4,
-        "pos": 3,
-        "total_points": 6
+        "pos": 2,
+        "total_points": 1
       },
       {
         "id": 346,
         "name": "Calvert-Lewin",
-        "appearances": 4,
+        "appearances": 3,
         "pos": 4,
         "total_points": 1
       },
       {
-        "id": 426,
-        "name": "B.Fernandes",
+        "id": 423,
+        "name": "Shaw",
         "appearances": 3,
-        "pos": 3,
-        "total_points": 2
+        "pos": 2,
+        "total_points": 1
       },
       {
         "id": 1,
         "name": "Raya",
-        "appearances": 3,
+        "appearances": 2,
         "pos": 1,
         "total_points": 6
       },
       {
-        "id": 226,
-        "name": "Pickford",
+        "id": 237,
+        "name": "Ndiaye",
         "appearances": 2,
-        "pos": 1,
-        "total_points": 7
+        "pos": 3,
+        "total_points": 9
       },
       {
-        "id": 412,
-        "name": "Lammens",
-        "appearances": 2,
-        "pos": 1,
-        "total_points": 1
-      },
-      {
-        "id": 4,
-        "name": "Gabriel",
+        "id": 532,
+        "name": "Ballard",
         "appearances": 2,
         "pos": 2,
-        "total_points": 5
+        "total_points": 0
       },
       {
-        "id": 356,
-        "name": "Virgil",
+        "id": 469,
+        "name": "N.Williams",
         "appearances": 2,
         "pos": 2,
+        "total_points": 2
+      },
+      {
+        "id": 542,
+        "name": "E.Le Fée",
+        "appearances": 2,
+        "pos": 3,
+        "total_points": 2
+      },
+      {
+        "id": 397,
+        "name": "Semenyo",
+        "appearances": 2,
+        "pos": 3,
         "total_points": 2
       },
       {
@@ -811,73 +2328,44 @@
         "total_points": 8
       },
       {
-        "id": 368,
-        "name": "Szoboszlai",
+        "id": 412,
+        "name": "Lammens",
+        "appearances": 2,
+        "pos": 1,
+        "total_points": 1
+      },
+      {
+        "id": 398,
+        "name": "Foden",
         "appearances": 2,
         "pos": 3,
-        "total_points": 8
-      },
-      {
-        "id": 8,
-        "name": "Calafiori",
-        "appearances": 2,
-        "pos": 2,
-        "total_points": 9
-      },
-      {
-        "id": 357,
-        "name": "Frimpong",
-        "appearances": 1,
-        "pos": 2,
-        "total_points": 0
-      },
-      {
-        "id": 233,
-        "name": "Mykolenko",
-        "appearances": 1,
-        "pos": 2,
-        "total_points": 6
-      },
-      {
-        "id": 10,
-        "name": "White",
-        "appearances": 1,
-        "pos": 2,
-        "total_points": 11
+        "total_points": 1
       }
     ],
     "differentials": [
       {
-        "id": 367,
-        "name": "Gakpo",
-        "total_points": 12,
+        "id": 565,
+        "name": "M.Sangaré",
+        "total_points": 14,
         "owners": [
           "Martin Holub"
         ]
       },
       {
-        "id": 10,
-        "name": "White",
+        "id": 236,
+        "name": "Dewsbury-Hall",
         "total_points": 11,
-        "owners": [
-          "Martin Holub"
-        ]
-      },
-      {
-        "id": 388,
-        "name": "Guéhi",
-        "total_points": 10,
         "owners": [
           "Marek Palán"
         ]
       },
       {
-        "id": 8,
-        "name": "Calafiori",
+        "id": 237,
+        "name": "Ndiaye",
         "total_points": 9,
         "owners": [
-          "Michal Krautwurm",
-          "Lukáš Kapinus"
+          "Martin Válek",
+          "Libor Pechoč"
         ]
       },
       {
@@ -889,62 +2377,70 @@
         ]
       },
       {
-        "id": 544,
-        "name": "Xhaka",
-        "total_points": 9,
-        "owners": [
-          "Lukáš Kapinus"
-        ]
-      },
-      {
-        "id": 249,
-        "name": "Barry",
-        "total_points": 8,
-        "owners": [
-          "Martin Holub"
-        ]
-      },
-      {
         "id": 40,
         "name": "Rogers",
         "total_points": 8,
         "owners": [
-          "Marek Palán",
+          "Michal Krautwurm",
+          "Marek Palán"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Raya",
+        "total_points": 6,
+        "owners": [
+          "Martin Válek",
           "Libor Pechoč"
         ]
       },
       {
-        "id": 368,
-        "name": "Szoboszlai",
-        "total_points": 8,
-        "owners": [
-          "Marek Palán",
-          "Jaroslav Bureš"
-        ]
-      },
-      {
-        "id": 226,
-        "name": "Pickford",
-        "total_points": 7,
-        "owners": [
-          "Martin Holub",
-          "Jaroslav Bureš"
-        ]
-      },
-      {
-        "id": 233,
-        "name": "Mykolenko",
+        "id": 334,
+        "name": "Muharemović",
         "total_points": 6,
+        "owners": [
+          "Rudolf Kvapil"
+        ]
+      },
+      {
+        "id": 200,
+        "name": "Lacroix",
+        "total_points": 6,
+        "owners": [
+          "Marek Palán"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Gabriel",
+        "total_points": 5,
         "owners": [
           "Martin Holub"
         ]
       },
       {
-        "id": 229,
-        "name": "Tarkowski",
-        "total_points": 6,
+        "id": 124,
+        "name": "Groß",
+        "total_points": 2,
         "owners": [
-          "Martin Válek"
+          "Martin Holub"
+        ]
+      },
+      {
+        "id": 534,
+        "name": "Hume",
+        "total_points": 2,
+        "owners": [
+          "Libor Pechoč"
+        ]
+      },
+      {
+        "id": 469,
+        "name": "N.Williams",
+        "total_points": 2,
+        "owners": [
+          "Lukáš Kapinus",
+          "Jaroslav Bureš"
         ]
       }
     ],
@@ -952,114 +2448,25 @@
       {
         "id": 411,
         "name": "Haaland",
-        "times": 4
+        "times": 6
       },
       {
-        "id": 427,
-        "name": "Mbeumo",
-        "times": 3
+        "id": 426,
+        "name": "B.Fernandes",
+        "times": 1
       },
       {
-        "id": 397,
-        "name": "Semenyo",
+        "id": 165,
+        "name": "João Pedro",
         "times": 1
       }
     ],
     "per_manager": {
-      "4239832": {
+      "5884187": {
         "top_players": [
           {
-            "id": 226,
-            "name": "Pickford",
-            "gws": 1
-          },
-          {
-            "id": 357,
-            "name": "Frimpong",
-            "gws": 1
-          },
-          {
-            "id": 233,
-            "name": "Mykolenko",
-            "gws": 1
-          },
-          {
-            "id": 10,
-            "name": "White",
-            "gws": 1
-          },
-          {
-            "id": 397,
-            "name": "Semenyo",
-            "gws": 1
-          },
-          {
-            "id": 428,
-            "name": "Cunha",
-            "gws": 1
-          },
-          {
-            "id": 261,
-            "name": "Iwobi",
-            "gws": 1
-          },
-          {
-            "id": 367,
-            "name": "Gakpo",
-            "gws": 1
-          },
-          {
-            "id": 411,
-            "name": "Haaland",
-            "gws": 1
-          },
-          {
-            "id": 379,
-            "name": "Isak",
-            "gws": 1
-          },
-          {
-            "id": 249,
-            "name": "Barry",
-            "gws": 1
-          }
-        ],
-        "top_captains": [
-          {
-            "id": 397,
-            "name": "Semenyo",
-            "times": 1
-          }
-        ],
-        "chips": {},
-        "gw_points": {
-          "1": 52
-        },
-        "cap_history": [
-          {
-            "gw": 1,
-            "player_id": 397,
-            "player": "Semenyo",
-            "gw_total": 52
-          }
-        ],
-        "best_gw": [
-          1,
-          52
-        ],
-        "worst_gw": [
-          1,
-          52
-        ],
-        "bench_points": 23,
-        "hits_cost": 0,
-        "transfers": 0
-      },
-      "156572": {
-        "top_players": [
-          {
-            "id": 412,
-            "name": "Lammens",
+            "id": 496,
+            "name": "Kinsky",
             "gws": 1
           },
           {
@@ -1068,18 +2475,33 @@
             "gws": 1
           },
           {
-            "id": 356,
-            "name": "Virgil",
+            "id": 8,
+            "name": "Calafiori",
             "gws": 1
           },
           {
-            "id": 423,
-            "name": "Shaw",
+            "id": 418,
+            "name": "Maguire",
             "gws": 1
           },
           {
-            "id": 40,
-            "name": "Rogers",
+            "id": 565,
+            "name": "M.Sangaré",
+            "gws": 1
+          },
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 1
+          },
+          {
+            "id": 427,
+            "name": "Mbeumo",
+            "gws": 1
+          },
+          {
+            "id": 124,
+            "name": "Groß",
             "gws": 1
           },
           {
@@ -1088,13 +2510,181 @@
             "gws": 1
           },
           {
-            "id": 397,
-            "name": "Semenyo",
+            "id": 411,
+            "name": "Haaland",
             "gws": 1
           },
           {
-            "id": 427,
-            "name": "Mbeumo",
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 1
+          }
+        ],
+        "top_captains": [
+          {
+            "id": 411,
+            "name": "Haaland",
+            "times": 1
+          }
+        ],
+        "chips": {},
+        "gw_points": {
+          "1": 47
+        },
+        "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 47
+          }
+        ],
+        "best_gw": [
+          1,
+          47
+        ],
+        "worst_gw": [
+          1,
+          47
+        ],
+        "bench_points": 5,
+        "hits_cost": 0,
+        "transfers": 0
+      },
+      "1277021": {
+        "top_players": [
+          {
+            "id": 1,
+            "name": "Raya",
+            "gws": 1
+          },
+          {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 418,
+            "name": "Maguire",
+            "gws": 1
+          },
+          {
+            "id": 534,
+            "name": "Hume",
+            "gws": 1
+          },
+          {
+            "id": 368,
+            "name": "Szoboszlai",
+            "gws": 1
+          },
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 1
+          },
+          {
+            "id": 557,
+            "name": "Tzolis",
+            "gws": 1
+          },
+          {
+            "id": 237,
+            "name": "Ndiaye",
+            "gws": 1
+          },
+          {
+            "id": 411,
+            "name": "Haaland",
+            "gws": 1
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 1
+          },
+          {
+            "id": 346,
+            "name": "Calvert-Lewin",
+            "gws": 1
+          }
+        ],
+        "top_captains": [
+          {
+            "id": 411,
+            "name": "Haaland",
+            "times": 1
+          }
+        ],
+        "chips": {},
+        "gw_points": {
+          "1": 48
+        },
+        "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 48
+          }
+        ],
+        "best_gw": [
+          1,
+          48
+        ],
+        "worst_gw": [
+          1,
+          48
+        ],
+        "bench_points": 10,
+        "hits_cost": 0,
+        "transfers": 0
+      },
+      "394522": {
+        "top_players": [
+          {
+            "id": 1,
+            "name": "Raya",
+            "gws": 1
+          },
+          {
+            "id": 423,
+            "name": "Shaw",
+            "gws": 1
+          },
+          {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 532,
+            "name": "Ballard",
+            "gws": 1
+          },
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 1
+          },
+          {
+            "id": 368,
+            "name": "Szoboszlai",
+            "gws": 1
+          },
+          {
+            "id": 557,
+            "name": "Tzolis",
+            "gws": 1
+          },
+          {
+            "id": 237,
+            "name": "Ndiaye",
+            "gws": 1
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 1
           },
           {
@@ -1106,6 +2696,90 @@
             "id": 411,
             "name": "Haaland",
             "gws": 1
+          }
+        ],
+        "top_captains": [
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "times": 1
+          }
+        ],
+        "chips": {},
+        "gw_points": {
+          "1": 46
+        },
+        "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 426,
+            "player": "B.Fernandes",
+            "gw_total": 46
+          }
+        ],
+        "best_gw": [
+          1,
+          46
+        ],
+        "worst_gw": [
+          1,
+          46
+        ],
+        "bench_points": 13,
+        "hits_cost": 0,
+        "transfers": 0
+      },
+      "161243": {
+        "top_players": [
+          {
+            "id": 496,
+            "name": "Kinsky",
+            "gws": 1
+          },
+          {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 423,
+            "name": "Shaw",
+            "gws": 1
+          },
+          {
+            "id": 469,
+            "name": "N.Williams",
+            "gws": 1
+          },
+          {
+            "id": 542,
+            "name": "E.Le Fée",
+            "gws": 1
+          },
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 1
+          },
+          {
+            "id": 368,
+            "name": "Szoboszlai",
+            "gws": 1
+          },
+          {
+            "id": 397,
+            "name": "Semenyo",
+            "gws": 1
+          },
+          {
+            "id": 557,
+            "name": "Tzolis",
+            "gws": 1
+          },
+          {
+            "id": 411,
+            "name": "Haaland",
+            "gws": 1
           },
           {
             "id": 165,
@@ -1115,55 +2789,45 @@
         ],
         "top_captains": [
           {
-            "id": 427,
-            "name": "Mbeumo",
+            "id": 411,
+            "name": "Haaland",
             "times": 1
           }
         ],
         "chips": {},
         "gw_points": {
-          "1": 24
+          "1": 38
         },
         "cap_history": [
           {
             "gw": 1,
-            "player_id": 427,
-            "player": "Mbeumo",
-            "gw_total": 24
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 38
           }
         ],
         "best_gw": [
           1,
-          24
+          38
         ],
         "worst_gw": [
           1,
-          24
+          38
         ],
         "bench_points": 8,
         "hits_cost": 0,
         "transfers": 0
       },
-      "155266": {
+      "125278": {
         "top_players": [
           {
-            "id": 412,
-            "name": "Lammens",
+            "id": 496,
+            "name": "Kinsky",
             "gws": 1
           },
           {
-            "id": 4,
-            "name": "Gabriel",
-            "gws": 1
-          },
-          {
-            "id": 229,
-            "name": "Tarkowski",
-            "gws": 1
-          },
-          {
-            "id": 581,
-            "name": "Diomande",
+            "id": 334,
+            "name": "Muharemović",
             "gws": 1
           },
           {
@@ -1172,23 +2836,211 @@
             "gws": 1
           },
           {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 1
+          },
+          {
             "id": 427,
             "name": "Mbeumo",
             "gws": 1
           },
           {
-            "id": 237,
-            "name": "Ndiaye",
-            "gws": 1
-          },
-          {
-            "id": 542,
-            "name": "E.Le Fée",
-            "gws": 1
-          },
-          {
             "id": 557,
             "name": "Tzolis",
+            "gws": 1
+          },
+          {
+            "id": 368,
+            "name": "Szoboszlai",
+            "gws": 1
+          },
+          {
+            "id": 411,
+            "name": "Haaland",
+            "gws": 1
+          },
+          {
+            "id": 346,
+            "name": "Calvert-Lewin",
+            "gws": 1
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 1
+          }
+        ],
+        "top_captains": [
+          {
+            "id": 411,
+            "name": "Haaland",
+            "times": 1
+          }
+        ],
+        "chips": {},
+        "gw_points": {
+          "1": 41
+        },
+        "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 41
+          }
+        ],
+        "best_gw": [
+          1,
+          41
+        ],
+        "worst_gw": [
+          1,
+          41
+        ],
+        "bench_points": 6,
+        "hits_cost": 0,
+        "transfers": 0
+      },
+      "1034876": {
+        "top_players": [
+          {
+            "id": 496,
+            "name": "Kinsky",
+            "gws": 1
+          },
+          {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 200,
+            "name": "Lacroix",
+            "gws": 1
+          },
+          {
+            "id": 418,
+            "name": "Maguire",
+            "gws": 1
+          },
+          {
+            "id": 40,
+            "name": "Rogers",
+            "gws": 1
+          },
+          {
+            "id": 236,
+            "name": "Dewsbury-Hall",
+            "gws": 1
+          },
+          {
+            "id": 427,
+            "name": "Mbeumo",
+            "gws": 1
+          },
+          {
+            "id": 397,
+            "name": "Semenyo",
+            "gws": 1
+          },
+          {
+            "id": 368,
+            "name": "Szoboszlai",
+            "gws": 1
+          },
+          {
+            "id": 106,
+            "name": "Thiago",
+            "gws": 1
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 1
+          }
+        ],
+        "top_captains": [
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "times": 1
+          }
+        ],
+        "chips": {},
+        "gw_points": {
+          "1": 35
+        },
+        "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 165,
+            "player": "João Pedro",
+            "gw_total": 35
+          }
+        ],
+        "best_gw": [
+          1,
+          35
+        ],
+        "worst_gw": [
+          1,
+          35
+        ],
+        "bench_points": 12,
+        "hits_cost": 0,
+        "transfers": 0
+      },
+      "1287745": {
+        "top_players": [
+          {
+            "id": 412,
+            "name": "Lammens",
+            "gws": 1
+          },
+          {
+            "id": 532,
+            "name": "Ballard",
+            "gws": 1
+          },
+          {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 391,
+            "name": "Gvardiol",
+            "gws": 1
+          },
+          {
+            "id": 427,
+            "name": "Mbeumo",
+            "gws": 1
+          },
+          {
+            "id": 40,
+            "name": "Rogers",
+            "gws": 1
+          },
+          {
+            "id": 398,
+            "name": "Foden",
+            "gws": 1
+          },
+          {
+            "id": 366,
+            "name": "Wirtz",
+            "gws": 1
+          },
+          {
+            "id": 368,
+            "name": "Szoboszlai",
             "gws": 1
           },
           {
@@ -1204,8 +3056,8 @@
         ],
         "top_captains": [
           {
-            "id": 427,
-            "name": "Mbeumo",
+            "id": 411,
+            "name": "Haaland",
             "times": 1
           }
         ],
@@ -1216,8 +3068,8 @@
         "cap_history": [
           {
             "gw": 1,
-            "player_id": 427,
-            "player": "Mbeumo",
+            "player_id": 411,
+            "player": "Haaland",
             "gw_total": 36
           }
         ],
@@ -1233,382 +3085,16 @@
         "hits_cost": 0,
         "transfers": 0
       },
-      "167387": {
+      "1436706": {
         "top_players": [
           {
-            "id": 226,
-            "name": "Pickford",
+            "id": 412,
+            "name": "Lammens",
             "gws": 1
           },
           {
-            "id": 356,
-            "name": "Virgil",
-            "gws": 1
-          },
-          {
-            "id": 423,
-            "name": "Shaw",
-            "gws": 1
-          },
-          {
-            "id": 31,
-            "name": "Konsa",
-            "gws": 1
-          },
-          {
-            "id": 426,
-            "name": "B.Fernandes",
-            "gws": 1
-          },
-          {
-            "id": 397,
-            "name": "Semenyo",
-            "gws": 1
-          },
-          {
-            "id": 368,
-            "name": "Szoboszlai",
-            "gws": 1
-          },
-          {
-            "id": 237,
-            "name": "Ndiaye",
-            "gws": 1
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 1
-          },
-          {
-            "id": 411,
-            "name": "Haaland",
-            "gws": 1
-          },
-          {
-            "id": 552,
-            "name": "Brobbey",
-            "gws": 1
-          }
-        ],
-        "top_captains": [
-          {
-            "id": 411,
-            "name": "Haaland",
-            "times": 1
-          }
-        ],
-        "chips": {},
-        "gw_points": {
-          "1": 37
-        },
-        "cap_history": [
-          {
-            "gw": 1,
-            "player_id": 411,
-            "player": "Haaland",
-            "gw_total": 37
-          }
-        ],
-        "best_gw": [
-          1,
-          37
-        ],
-        "worst_gw": [
-          1,
-          37
-        ],
-        "bench_points": 3,
-        "hits_cost": 0,
-        "transfers": 0
-      },
-      "138950": {
-        "top_players": [
-          {
-            "id": 1,
-            "name": "Raya",
-            "gws": 1
-          },
-          {
-            "id": 423,
-            "name": "Shaw",
-            "gws": 1
-          },
-          {
-            "id": 11,
-            "name": "Mosquera",
-            "gws": 1
-          },
-          {
-            "id": 392,
-            "name": "Aït-Nouri",
-            "gws": 1
-          },
-          {
-            "id": 124,
-            "name": "Groß",
-            "gws": 1
-          },
-          {
-            "id": 237,
-            "name": "Ndiaye",
-            "gws": 1
-          },
-          {
-            "id": 427,
-            "name": "Mbeumo",
-            "gws": 1
-          },
-          {
-            "id": 557,
-            "name": "Tzolis",
-            "gws": 1
-          },
-          {
-            "id": 411,
-            "name": "Haaland",
-            "gws": 1
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 1
-          },
-          {
-            "id": 106,
-            "name": "Thiago",
-            "gws": 1
-          }
-        ],
-        "top_captains": [
-          {
-            "id": 411,
-            "name": "Haaland",
-            "times": 1
-          }
-        ],
-        "chips": {},
-        "gw_points": {
-          "1": 36
-        },
-        "cap_history": [
-          {
-            "gw": 1,
-            "player_id": 411,
-            "player": "Haaland",
-            "gw_total": 36
-          }
-        ],
-        "best_gw": [
-          1,
-          36
-        ],
-        "worst_gw": [
-          1,
-          36
-        ],
-        "bench_points": 7,
-        "hits_cost": 0,
-        "transfers": 0
-      },
-      "472208": {
-        "top_players": [
-          {
-            "id": 496,
-            "name": "Kinsky",
-            "gws": 1
-          },
-          {
-            "id": 142,
-            "name": "James",
-            "gws": 1
-          },
-          {
-            "id": 388,
-            "name": "Guéhi",
-            "gws": 1
-          },
-          {
-            "id": 499,
-            "name": "Pedro Porro",
-            "gws": 1
-          },
-          {
-            "id": 40,
-            "name": "Rogers",
-            "gws": 1
-          },
-          {
-            "id": 237,
-            "name": "Ndiaye",
-            "gws": 1
-          },
-          {
-            "id": 368,
-            "name": "Szoboszlai",
-            "gws": 1
-          },
-          {
-            "id": 426,
-            "name": "B.Fernandes",
-            "gws": 1
-          },
-          {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 1
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 1
-          },
-          {
-            "id": 411,
-            "name": "Haaland",
-            "gws": 1
-          }
-        ],
-        "top_captains": [
-          {
-            "id": 411,
-            "name": "Haaland",
-            "times": 1
-          }
-        ],
-        "chips": {},
-        "gw_points": {
-          "1": 36
-        },
-        "cap_history": [
-          {
-            "gw": 1,
-            "player_id": 411,
-            "player": "Haaland",
-            "gw_total": 36
-          }
-        ],
-        "best_gw": [
-          1,
-          36
-        ],
-        "worst_gw": [
-          1,
-          36
-        ],
-        "bench_points": 9,
-        "hits_cost": 0,
-        "transfers": 0
-      },
-      "184202": {
-        "top_players": [
-          {
-            "id": 1,
-            "name": "Raya",
-            "gws": 1
-          },
-          {
-            "id": 8,
-            "name": "Calafiori",
-            "gws": 1
-          },
-          {
-            "id": 423,
-            "name": "Shaw",
-            "gws": 1
-          },
-          {
-            "id": 391,
-            "name": "Gvardiol",
-            "gws": 1
-          },
-          {
-            "id": 366,
-            "name": "Wirtz",
-            "gws": 1
-          },
-          {
-            "id": 427,
-            "name": "Mbeumo",
-            "gws": 1
-          },
-          {
-            "id": 557,
-            "name": "Tzolis",
-            "gws": 1
-          },
-          {
-            "id": 397,
-            "name": "Semenyo",
-            "gws": 1
-          },
-          {
-            "id": 411,
-            "name": "Haaland",
-            "gws": 1
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 1
-          },
-          {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 1
-          }
-        ],
-        "top_captains": [
-          {
-            "id": 411,
-            "name": "Haaland",
-            "times": 1
-          }
-        ],
-        "chips": {},
-        "gw_points": {
-          "1": 42
-        },
-        "cap_history": [
-          {
-            "gw": 1,
-            "player_id": 411,
-            "player": "Haaland",
-            "gw_total": 42
-          }
-        ],
-        "best_gw": [
-          1,
-          42
-        ],
-        "worst_gw": [
-          1,
-          42
-        ],
-        "bench_points": 20,
-        "hits_cost": 0,
-        "transfers": 0
-      },
-      "4127653": {
-        "top_players": [
-          {
-            "id": 1,
-            "name": "Raya",
-            "gws": 1
-          },
-          {
-            "id": 8,
-            "name": "Calafiori",
-            "gws": 1
-          },
-          {
-            "id": 387,
-            "name": "O'Reilly",
-            "gws": 1
-          },
-          {
-            "id": 147,
-            "name": "Tosin",
+            "id": 469,
+            "name": "N.Williams",
             "gws": 1
           },
           {
@@ -1617,23 +3103,33 @@
             "gws": 1
           },
           {
-            "id": 426,
-            "name": "B.Fernandes",
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 1
+          },
+          {
+            "id": 398,
+            "name": "Foden",
+            "gws": 1
+          },
+          {
+            "id": 480,
+            "name": "Gibbs-White",
+            "gws": 1
+          },
+          {
+            "id": 542,
+            "name": "E.Le Fée",
+            "gws": 1
+          },
+          {
+            "id": 557,
+            "name": "Tzolis",
             "gws": 1
           },
           {
             "id": 427,
             "name": "Mbeumo",
-            "gws": 1
-          },
-          {
-            "id": 544,
-            "name": "Xhaka",
-            "gws": 1
-          },
-          {
-            "id": 237,
-            "name": "Ndiaye",
             "gws": 1
           },
           {
@@ -1642,39 +3138,41 @@
             "gws": 1
           },
           {
-            "id": 346,
-            "name": "Calvert-Lewin",
+            "id": 165,
+            "name": "João Pedro",
             "gws": 1
           }
         ],
         "top_captains": [
           {
-            "id": 427,
-            "name": "Mbeumo",
+            "id": 411,
+            "name": "Haaland",
             "times": 1
           }
         ],
-        "chips": {},
+        "chips": {
+          "1": "bboost"
+        },
         "gw_points": {
-          "1": 45
+          "1": 38
         },
         "cap_history": [
           {
             "gw": 1,
-            "player_id": 427,
-            "player": "Mbeumo",
-            "gw_total": 45
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 38
           }
         ],
         "best_gw": [
           1,
-          45
+          38
         ],
         "worst_gw": [
           1,
-          45
+          38
         ],
-        "bench_points": 9,
+        "bench_points": 0,
         "hits_cost": 0,
         "transfers": 0
       }
