@@ -375,10 +375,14 @@ def main():
                   for p in bootstrap["elements"]}
 
     matches   = fetch_league_matches()
-    standings = compute_standings(matches)
-    h2h       = compute_h2h(matches)
-    records   = compute_records(matches)
-    playout   = compute_playout_gw37(matches, standings)
+    # FPL vrací VŠECHNY naplánované zápasy sezóny – statistiky počítáme jen z odehraných,
+    # jinak budoucí kola vypadají jako prohry 0:0.
+    played    = [m for m in matches if m.get("finished")]
+    print(f"   Zápasů celkem: {len(matches)}, odehraných: {len(played)}")
+    standings = compute_standings(played)
+    h2h       = compute_h2h(played)
+    records   = compute_records(played)
+    playout   = compute_playout_gw37(played, standings)
     series    = compute_series(standings)
 
     playoff_sf    = [m for m in matches if m.get("is_knockout") and m["event"] == 37]
@@ -396,14 +400,27 @@ def main():
             next_deadline = e.get("deadline_time")
             break
 
-    # Zápasy dalšího (aktuálního nedohraného) GW – pro widget "další soupeř"
-    next_gw_matches = [m for m in matches if m.get("event") == current_gw and not m.get("finished")]
-    if not next_gw_matches:
-        next_gw_matches = [m for m in matches if m.get("event") == current_gw + 1]
+    # Zápasy dalšího GW – první neodehrané kolo; jména bereme z MANAGERS (FPL má zkratky typu "J B")
+    next_gw = None
+    for e in bootstrap.get("events", []):
+        if not e.get("finished"):
+            next_gw = e.get("id")
+            break
+    next_gw_matches = [m for m in matches if m.get("event") == next_gw] if next_gw else []
+
+    def mgr_name(entry, fallback):
+        return MANAGERS.get(entry, {}).get("name", fallback or "?")
+    def mgr_team(entry, fallback):
+        return MANAGERS.get(entry, {}).get("team", fallback or "?")
+
     next_fixtures = [
         {"gw": m.get("event"),
-         "home": {"entry": m.get("entry_1_entry"), "name": m.get("entry_1_player_name"), "team": m.get("entry_1_name")},
-         "away": {"entry": m.get("entry_2_entry"), "name": m.get("entry_2_player_name"), "team": m.get("entry_2_name")}}
+         "home": {"entry": m.get("entry_1_entry"),
+                  "name":  mgr_name(m.get("entry_1_entry"), m.get("entry_1_player_name")),
+                  "team":  mgr_team(m.get("entry_1_entry"), m.get("entry_1_name"))},
+         "away": {"entry": m.get("entry_2_entry"),
+                  "name":  mgr_name(m.get("entry_2_entry"), m.get("entry_2_player_name")),
+                  "team":  mgr_team(m.get("entry_2_entry"), m.get("entry_2_name"))}}
         for m in next_gw_matches
     ]
 
