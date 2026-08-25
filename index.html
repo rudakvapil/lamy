@@ -550,9 +550,9 @@ function rRk(){
   const curTop=(D.records?.top10||[])[0];
   const curBot=(D.records?.bottom5||[])[0];
   let gwHigh=[...ALLTIME.gw_high];
-  if(curTop&&curTop.pts>=(gwHigh[0]?.val||0)) gwHigh.unshift({name:curTop.name,val:curTop.pts,detail:`GW${curTop.gw} · 2026/27 🔥 NOVÝ`});
+  if(curTop&&curTop.pts>0&&curTop.pts>=(gwHigh[0]?.val||0)) gwHigh.unshift({name:curTop.name,val:curTop.pts,detail:`GW${curTop.gw} · 2026/27 🔥 NOVÝ`});
   let gwLow=[...ALLTIME.gw_low];
-  if(curBot&&curBot.pts<=(gwLow[0]?.val||99)) gwLow.unshift({name:curBot.name,val:curBot.pts,detail:`GW${curBot.gw} · 2026/27 💀 NOVÝ`});
+  if(curBot&&curBot.pts>0&&curBot.pts<=(gwLow[0]?.val||99)) gwLow.unshift({name:curBot.name,val:curBot.pts,detail:`GW${curBot.gw} · 2026/27 💀 NOVÝ`});
   const maxFpl=s.length?Math.max(...s.map(p=>p.fpl_total||0)):0;
   const maxFplP=s.find(p=>p.fpl_total===maxFpl);
 
@@ -651,13 +651,16 @@ function computeChances(){
 /* ── MATCH REPORT posledního GW ── */
 function matchReport(){
   const s=D.standings||[];
-  const allRes=s.flatMap(p=>(p.results||[]).map(r=>({...r,name:p.name,entry:p.entry})));
-  if(!allRes.length)return '';
-  const lastGw=Math.max(...allRes.map(r=>r.gw));
+  const allRes=s.flatMap(p=>(p.results||[]).map(r=>({...r,name:p.name,entry:p.entry})))
+    .filter(r=>r.fpl!=null);
+  const playedGws=[...new Set(allRes.filter(r=>r.fpl>0).map(r=>r.gw))];
+  if(!playedGws.length)return '';
+  const lastGw=Math.max(...playedGws);
   const gwRes=allRes.filter(r=>r.gw===lastGw);
   if(!gwRes.length)return '';
-  const star=gwRes.reduce((b,r)=>r.fpl>b.fpl?r:b);
-  const flop=gwRes.reduce((b,r)=>r.fpl<b.fpl?r:b);
+  const posOf=e=>s.findIndex(p=>p.entry===e);
+  const star=gwRes.reduce((b,r)=>r.fpl>b.fpl||(r.fpl===b.fpl&&(r.result==='W'&&b.result!=='W'||posOf(r.entry)<posOf(b.entry)))?r:b);
+  const flop=gwRes.reduce((b,r)=>r.fpl<b.fpl||(r.fpl===b.fpl&&(r.result==='L'&&b.result!=='L'||posOf(r.entry)>posOf(b.entry)))?r:b);
   const winners=gwRes.filter(r=>r.result==='W');
   const phS=photoOf(star),phF=photoOf(flop);
   return`<div class="report-card">
@@ -1123,7 +1126,7 @@ function startLiveAutoRefresh(){
     if(!sec||!sec.classList.contains('active'))return;
     try{
       const r=await fetch(`data/season.json?t=${Date.now()}`);
-      D=await r.json();lastDataFetch=Date.now();
+      D=await r.json();sanitizeData();lastDataFetch=Date.now();
       rendered.lv=false;render('lv');rendered.lv=true;
     }catch(e){}
   },5*60*1000);
@@ -1184,6 +1187,24 @@ function generateYearbook(){
   </body></html>`);
   w.document.close();
 }
+/* ── SANITIZACE DAT: odfiltruj neodehraná kola (0:0 "prohry") ── */
+function sanitizeData(){
+  const s=D?.standings||[];if(!s.length)return;
+  const playedG=new Set();
+  s.forEach(p=>(p.results||[]).forEach(r=>{if((r.fpl||0)>0)playedG.add(r.gw);}));
+  s.forEach(p=>{
+    p.results=(p.results||[]).filter(r=>playedG.has(r.gw));
+    p.w=p.results.filter(r=>r.result==='W').length;
+    p.d=p.results.filter(r=>r.result==='D').length;
+    p.l=p.results.filter(r=>r.result==='L').length;
+    p.form=p.results.slice(-5).map(r=>r.result);
+  });
+  if(D.records){
+    D.records.top10=(D.records.top10||[]).filter(r=>(r.pts||0)>0);
+    D.records.bottom5=(D.records.bottom5||[]).filter(r=>playedG.has(r.gw));
+  }
+}
+
 /* ── LIGHTBOX ── */
 function openLightbox(src,name){
   const lb=$('lightbox'),img=$('lb-img'),nm=$('lb-name');
@@ -1361,7 +1382,7 @@ function rPs(){
 async function load(){
   try{
     const r=await fetch(`data/season.json?v=${Math.floor(Date.now()/3600000)}`);
-    D=await r.json();
+    D=await r.json();sanitizeData();
     const u=new Date(D.meta.updated_at);
     $('ust').textContent='✅ Data čerstvá jako ranní rohlíky';$('utm').textContent='Aktualizováno: '+u.toLocaleString('cs-CZ');
     $('hgw').textContent=D.meta.current_gw;$('hgw2').textContent=D.meta.current_gw;$('hse').textContent=D.meta.season;
@@ -1567,6 +1588,17 @@ function rLv(){
 
 /* ── AWARDS ── */
 function rAw(){
+  const _played=(D.standings||[]).flatMap(p=>(p.results||[]).filter(r=>r.fpl>0).map(r=>r.gw));
+  const _maxPlayed=_played.length?Math.max(..._played):0;
+  if(_maxPlayed<3){
+    $('s-aw').innerHTML=`<div class="st"><span class="a">🎖️ Tituly</span> sezóny 2026/27<span class="d">počítá se samo, uráží adresně</span></div>
+      <div style="background:var(--b2);border:1px solid var(--bo);border-radius:var(--r);padding:36px;text-align:center;box-shadow:var(--sh)">
+        <div style="font-size:48px;margin-bottom:12px">🎖️</div>
+        <div style="font-size:16px;font-weight:700">Tituly se rozdávají od 3. kola</div>
+        <div style="color:var(--mu);font-size:13px;margin-top:8px">Po ${_maxPlayed} ${_maxPlayed===1?'kole':'kolech'} by to byla jen loterie. Vydržte – urážky na míru se už vaří.</div>
+      </div>`;
+    return;
+  }
   const s=D.standings||[],h2h=D.h2h||{};
   const capA={},chipC={},haaG={},bestC={},worstC={};
   s.forEach(p=>{
