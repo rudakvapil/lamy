@@ -377,8 +377,11 @@ def main():
     matches   = fetch_league_matches()
     # FPL vrací VŠECHNY naplánované zápasy sezóny – statistiky počítáme jen z odehraných,
     # jinak budoucí kola vypadají jako prohry 0:0.
-    played    = [m for m in matches if m.get("finished")]
-    print(f"   Zápasů celkem: {len(matches)}, odehraných: {len(played)}")
+    # POZOR: zápasy v H2H lize nemají vlastní příznak "finished" – odehranost určujeme
+    # podle oficiálně uzavřených kol v FPL kalendáři (bootstrap events).
+    finished_gws = {e["id"] for e in bootstrap.get("events", []) if e.get("finished")}
+    played    = [m for m in matches if m.get("event") in finished_gws or m.get("finished")]
+    print(f"   Zápasů celkem: {len(matches)}, odehraných: {len(played)} (uzavřená kola: {sorted(finished_gws) or '—'})")
     standings = compute_standings(played)
     h2h       = compute_h2h(played)
     records   = compute_records(played)
