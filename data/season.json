@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-26T13:43:06.390936+00:00",
+    "updated_at": "2026-08-26T14:32:06.283767+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -2565,12 +2565,6 @@
       "element_type": 2,
       "total_points": 7
     },
-    "131": {
-      "web_name": "Baleba",
-      "team": 5,
-      "element_type": 3,
-      "total_points": 0
-    },
     "132": {
       "web_name": "Howell",
       "team": 5,
@@ -2642,6 +2636,12 @@
       "team": 5,
       "element_type": 3,
       "total_points": 1
+    },
+    "614": {
+      "web_name": "Hadjam",
+      "team": 5,
+      "element_type": 2,
+      "total_points": 0
     },
     "40": {
       "web_name": "Rogers",
@@ -4521,6 +4521,12 @@
       "element_type": 3,
       "total_points": 2
     },
+    "131": {
+      "web_name": "Baleba",
+      "team": 16,
+      "element_type": 3,
+      "total_points": 0
+    },
     "162": {
       "web_name": "Andrey Santos",
       "team": 16,
@@ -5425,6 +5431,12 @@
       "web_name": "Methalie",
       "team": 20,
       "element_type": 2,
+      "total_points": 0
+    },
+    "613": {
+      "web_name": "Ahoka",
+      "team": 20,
+      "element_type": 3,
       "total_points": 0
     }
   }
