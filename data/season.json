@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-27T13:12:26.071676+00:00",
+    "updated_at": "2026-08-27T23:16:47.174114+00:00",
     "current_gw": 1,
     "season": "2026/27",
     "league_id": 199256,
@@ -2289,6 +2289,12 @@
       "element_type": 4,
       "total_points": 1
     },
+    "615": {
+      "web_name": "Di Gregorio",
+      "team": 3,
+      "element_type": 1,
+      "total_points": 0
+    },
     "82": {
       "web_name": "Kelleher",
       "team": 4,
@@ -4513,6 +4519,12 @@
       "web_name": "Rulli",
       "team": 15,
       "element_type": 1,
+      "total_points": 0
+    },
+    "616": {
+      "web_name": "Bouaddi",
+      "team": 15,
+      "element_type": 3,
       "total_points": 0
     },
     "43": {
