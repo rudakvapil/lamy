@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-29T20:14:34.730818+00:00",
+    "updated_at": "2026-08-29T22:51:51.466416+00:00",
     "current_gw": 2,
     "season": "2026/27",
     "league_id": 199256,
@@ -2360,7 +2360,7 @@
       "web_name": "Tavernier",
       "team": 3,
       "element_type": 3,
-      "total_points": 13
+      "total_points": 11
     },
     "69": {
       "web_name": "Scott",
