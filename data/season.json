@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-29T22:51:51.466416+00:00",
+    "updated_at": "2026-08-30T00:49:47.808686+00:00",
     "current_gw": 2,
     "season": "2026/27",
     "league_id": 199256,
@@ -5042,7 +5042,7 @@
       "web_name": "Wissa",
       "team": 17,
       "element_type": 4,
-      "total_points": 11
+      "total_points": 12
     },
     "465": {
       "web_name": "Osula",
