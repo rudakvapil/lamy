@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-30T18:52:33.103284+00:00",
+    "updated_at": "2026-08-30T21:41:49.870457+00:00",
     "current_gw": 2,
     "season": "2026/27",
     "league_id": 199256,
@@ -873,7 +873,7 @@
         "name": "Ballard",
         "appearances": 4,
         "pos": 2,
-        "total_points": 6
+        "total_points": 8
       },
       {
         "id": 542,
@@ -1011,12 +1011,12 @@
         ]
       },
       {
-        "id": 397,
-        "name": "Semenyo",
-        "total_points": 7,
+        "id": 532,
+        "name": "Ballard",
+        "total_points": 8,
         "owners": [
-          "Jaroslav Bureš",
-          "Marek Palán"
+          "Martin Válek",
+          "Lukáš Kapinus"
         ]
       }
     ],
@@ -1126,7 +1126,7 @@
         "chips": {},
         "gw_points": {
           "1": 58,
-          "2": 14
+          "2": 74
         },
         "cap_history": [
           {
@@ -1139,18 +1139,18 @@
             "gw": 2,
             "player_id": 165,
             "player": "João Pedro",
-            "gw_total": 14
+            "gw_total": 74
           }
         ],
         "best_gw": [
+          2,
+          74
+        ],
+        "worst_gw": [
           1,
           58
         ],
-        "worst_gw": [
-          2,
-          14
-        ],
-        "bench_points": 13,
+        "bench_points": 15,
         "hits_cost": 8,
         "transfers": 3
       },
@@ -1227,7 +1227,7 @@
         "chips": {},
         "gw_points": {
           "1": 59,
-          "2": 21
+          "2": 94
         },
         "cap_history": [
           {
@@ -1240,18 +1240,18 @@
             "gw": 2,
             "player_id": 426,
             "player": "B.Fernandes",
-            "gw_total": 21
+            "gw_total": 94
           }
         ],
         "best_gw": [
+          2,
+          94
+        ],
+        "worst_gw": [
           1,
           59
         ],
-        "worst_gw": [
-          2,
-          21
-        ],
-        "bench_points": 13,
+        "bench_points": 26,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1333,7 +1333,7 @@
         "chips": {},
         "gw_points": {
           "1": 57,
-          "2": 34
+          "2": 83
         },
         "cap_history": [
           {
@@ -1346,18 +1346,18 @@
             "gw": 2,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 34
+            "gw_total": 83
           }
         ],
         "best_gw": [
+          2,
+          83
+        ],
+        "worst_gw": [
           1,
           57
         ],
-        "worst_gw": [
-          2,
-          34
-        ],
-        "bench_points": 16,
+        "bench_points": 31,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1439,7 +1439,7 @@
         "chips": {},
         "gw_points": {
           "1": 49,
-          "2": 25
+          "2": 85
         },
         "cap_history": [
           {
@@ -1452,18 +1452,18 @@
             "gw": 2,
             "player_id": 426,
             "player": "B.Fernandes",
-            "gw_total": 25
+            "gw_total": 85
           }
         ],
         "best_gw": [
+          2,
+          85
+        ],
+        "worst_gw": [
           1,
           49
         ],
-        "worst_gw": [
-          2,
-          25
-        ],
-        "bench_points": 8,
+        "bench_points": 14,
         "hits_cost": 0,
         "transfers": 1
       },
@@ -1545,7 +1545,7 @@
         "chips": {},
         "gw_points": {
           "1": 52,
-          "2": 20
+          "2": 96
         },
         "cap_history": [
           {
@@ -1558,18 +1558,18 @@
             "gw": 2,
             "player_id": 426,
             "player": "B.Fernandes",
-            "gw_total": 20
+            "gw_total": 96
           }
         ],
         "best_gw": [
+          2,
+          96
+        ],
+        "worst_gw": [
           1,
           52
         ],
-        "worst_gw": [
-          2,
-          20
-        ],
-        "bench_points": 8,
+        "bench_points": 25,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1666,7 +1666,7 @@
         "chips": {},
         "gw_points": {
           "1": 71,
-          "2": 14
+          "2": 61
         },
         "cap_history": [
           {
@@ -1679,7 +1679,7 @@
             "gw": 2,
             "player_id": 427,
             "player": "Mbeumo",
-            "gw_total": 14
+            "gw_total": 61
           }
         ],
         "best_gw": [
@@ -1688,9 +1688,9 @@
         ],
         "worst_gw": [
           2,
-          14
+          61
         ],
-        "bench_points": 13,
+        "bench_points": 19,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -1767,7 +1767,7 @@
         "chips": {},
         "gw_points": {
           "1": 55,
-          "2": 48
+          "2": 78
         },
         "cap_history": [
           {
@@ -1780,18 +1780,18 @@
             "gw": 2,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 48
+            "gw_total": 78
           }
         ],
         "best_gw": [
+          2,
+          78
+        ],
+        "worst_gw": [
           1,
           55
         ],
-        "worst_gw": [
-          2,
-          48
-        ],
-        "bench_points": 15,
+        "bench_points": 23,
         "hits_cost": 0,
         "transfers": 1
       },
@@ -1880,7 +1880,7 @@
         },
         "gw_points": {
           "1": 49,
-          "2": 22
+          "2": 76
         },
         "cap_history": [
           {
@@ -1893,16 +1893,16 @@
             "gw": 2,
             "player_id": 427,
             "player": "Mbeumo",
-            "gw_total": 22
+            "gw_total": 76
           }
         ],
         "best_gw": [
-          1,
-          49
+          2,
+          76
         ],
         "worst_gw": [
-          2,
-          22
+          1,
+          49
         ],
         "bench_points": 20,
         "hits_cost": 0,
@@ -5527,13 +5527,13 @@
       "web_name": "Ballard",
       "team": 20,
       "element_type": 2,
-      "total_points": 6
+      "total_points": 8
     },
     "533": {
       "web_name": "Mukiele",
       "team": 20,
       "element_type": 2,
-      "total_points": 11
+      "total_points": 9
     },
     "534": {
       "web_name": "Hume",
@@ -5581,7 +5581,7 @@
       "web_name": "Meunier",
       "team": 20,
       "element_type": 2,
-      "total_points": 8
+      "total_points": 7
     },
     "542": {
       "web_name": "E.Le Fée",
@@ -5599,7 +5599,7 @@
       "web_name": "Xhaka",
       "team": 20,
       "element_type": 3,
-      "total_points": 12
+      "total_points": 15
     },
     "545": {
       "web_name": "Sadiki",
