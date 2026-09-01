@@ -1,47 +1,23 @@
 {
   "meta": {
-    "updated_at": "2026-09-01T12:09:54.734809+00:00",
+    "updated_at": "2026-09-01T17:00:57.691259+00:00",
     "current_gw": 2,
     "season": "2026/27",
     "league_id": 199256,
     "total_matches": 144,
-    "next_deadline": "2026-08-28T17:30:00Z"
+    "next_deadline": "2026-09-04T17:30:00Z"
   },
   "standings": [
-    {
-      "name": "Marek Palán",
-      "team": "Eskimo brothers",
-      "short": "MP",
-      "entry": 1034876,
-      "pts": 3,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "fpl_total": 71,
-      "results": [
-        {
-          "gw": 1,
-          "result": "W",
-          "fpl": 71,
-          "opp_entry": 1436706,
-          "opp_fpl": 49,
-          "opp_name": "Lukáš Kapinus"
-        }
-      ],
-      "form": [
-        "W"
-      ]
-    },
     {
       "name": "Libor Pechoč",
       "team": "Četnické humoresky",
       "short": "LP",
       "entry": 1277021,
-      "pts": 3,
-      "w": 1,
+      "pts": 6,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "fpl_total": 59,
+      "fpl_total": 170,
       "results": [
         {
           "gw": 1,
@@ -50,33 +26,117 @@
           "opp_entry": 394522,
           "opp_fpl": 57,
           "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 111,
+          "opp_entry": 5884187,
+          "opp_fpl": 80,
+          "opp_name": "Martin Holub"
         }
       ],
       "form": [
+        "W",
         "W"
       ]
     },
     {
-      "name": "Martin Holub",
-      "team": "Real Mordor ******",
-      "short": "MH",
-      "entry": 5884187,
+      "name": "Martin Válek",
+      "team": "Fusswaffe",
+      "short": "MV",
+      "entry": 394522,
       "pts": 3,
       "w": 1,
       "d": 0,
-      "l": 0,
-      "fpl_total": 58,
+      "l": 1,
+      "fpl_total": 159,
       "results": [
         {
           "gw": 1,
+          "result": "L",
+          "fpl": 57,
+          "opp_entry": 1277021,
+          "opp_fpl": 59,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 2,
           "result": "W",
-          "fpl": 58,
-          "opp_entry": 161243,
-          "opp_fpl": 49,
-          "opp_name": "Jaroslav Bureš"
+          "fpl": 102,
+          "opp_entry": 1034876,
+          "opp_fpl": 61,
+          "opp_name": "Marek Palán"
         }
       ],
       "form": [
+        "L",
+        "W"
+      ]
+    },
+    {
+      "name": "Rudolf Kvapil",
+      "team": "EREKCE ZE STRACHU",
+      "short": "RK",
+      "entry": 125278,
+      "pts": 3,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "fpl_total": 159,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 52,
+          "opp_entry": 1287745,
+          "opp_fpl": 55,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 107,
+          "opp_entry": 1436706,
+          "opp_fpl": 89,
+          "opp_name": "Lukáš Kapinus"
+        }
+      ],
+      "form": [
+        "L",
+        "W"
+      ]
+    },
+    {
+      "name": "Jaroslav Bureš",
+      "team": "Yobagoya",
+      "short": "JB",
+      "entry": 161243,
+      "pts": 3,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "fpl_total": 145,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 49,
+          "opp_entry": 5884187,
+          "opp_fpl": 58,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 96,
+          "opp_entry": 1287745,
+          "opp_fpl": 89,
+          "opp_name": "Michal Krautwurm"
+        }
+      ],
+      "form": [
+        "L",
         "W"
       ]
     },
@@ -88,8 +148,8 @@
       "pts": 3,
       "w": 1,
       "d": 0,
-      "l": 0,
-      "fpl_total": 55,
+      "l": 1,
+      "fpl_total": 144,
       "results": [
         {
           "gw": 1,
@@ -98,81 +158,84 @@
           "opp_entry": 125278,
           "opp_fpl": 52,
           "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 89,
+          "opp_entry": 161243,
+          "opp_fpl": 96,
+          "opp_name": "Jaroslav Bureš"
         }
       ],
       "form": [
-        "W"
+        "W",
+        "L"
       ]
     },
     {
-      "name": "Martin Válek",
-      "team": "Fusswaffe",
-      "short": "MV",
-      "entry": 394522,
-      "pts": 0,
-      "w": 0,
+      "name": "Martin Holub",
+      "team": "Real Mordor ******",
+      "short": "MH",
+      "entry": 5884187,
+      "pts": 3,
+      "w": 1,
       "d": 0,
       "l": 1,
-      "fpl_total": 57,
+      "fpl_total": 138,
       "results": [
         {
           "gw": 1,
+          "result": "W",
+          "fpl": 58,
+          "opp_entry": 161243,
+          "opp_fpl": 49,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 2,
           "result": "L",
-          "fpl": 57,
+          "fpl": 80,
           "opp_entry": 1277021,
-          "opp_fpl": 59,
+          "opp_fpl": 111,
           "opp_name": "Libor Pechoč"
         }
       ],
       "form": [
+        "W",
         "L"
       ]
     },
     {
-      "name": "Rudolf Kvapil",
-      "team": "EREKCE ZE STRACHU",
-      "short": "RK",
-      "entry": 125278,
-      "pts": 0,
-      "w": 0,
+      "name": "Marek Palán",
+      "team": "Eskimo brothers",
+      "short": "MP",
+      "entry": 1034876,
+      "pts": 3,
+      "w": 1,
       "d": 0,
       "l": 1,
-      "fpl_total": 52,
+      "fpl_total": 132,
       "results": [
         {
           "gw": 1,
-          "result": "L",
-          "fpl": 52,
-          "opp_entry": 1287745,
-          "opp_fpl": 55,
-          "opp_name": "Michal Krautwurm"
-        }
-      ],
-      "form": [
-        "L"
-      ]
-    },
-    {
-      "name": "Jaroslav Bureš",
-      "team": "Yobagoya",
-      "short": "JB",
-      "entry": 161243,
-      "pts": 0,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "fpl_total": 49,
-      "results": [
+          "result": "W",
+          "fpl": 71,
+          "opp_entry": 1436706,
+          "opp_fpl": 49,
+          "opp_name": "Lukáš Kapinus"
+        },
         {
-          "gw": 1,
+          "gw": 2,
           "result": "L",
-          "fpl": 49,
-          "opp_entry": 5884187,
-          "opp_fpl": 58,
-          "opp_name": "Martin Holub"
+          "fpl": 61,
+          "opp_entry": 394522,
+          "opp_fpl": 102,
+          "opp_name": "Martin Válek"
         }
       ],
       "form": [
+        "W",
         "L"
       ]
     },
@@ -184,8 +247,8 @@
       "pts": 0,
       "w": 0,
       "d": 0,
-      "l": 1,
-      "fpl_total": 49,
+      "l": 2,
+      "fpl_total": 138,
       "results": [
         {
           "gw": 1,
@@ -194,9 +257,18 @@
           "opp_entry": 1034876,
           "opp_fpl": 71,
           "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 89,
+          "opp_entry": 125278,
+          "opp_fpl": 107,
+          "opp_name": "Rudolf Kvapil"
         }
       ],
       "form": [
+        "L",
         "L"
       ]
     }
@@ -205,7 +277,7 @@
     "5884187": {
       "1277021": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "394522": {
@@ -241,7 +313,7 @@
     },
     "1277021": {
       "5884187": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -298,7 +370,7 @@
         "d": 0
       },
       "1034876": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -340,7 +412,7 @@
         "d": 0
       },
       "1287745": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -382,7 +454,7 @@
         "d": 0
       },
       "1436706": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       }
@@ -400,7 +472,7 @@
       },
       "394522": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "161243": {
@@ -442,7 +514,7 @@
       },
       "161243": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "125278": {
@@ -484,7 +556,7 @@
       },
       "125278": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "1034876": {
@@ -502,6 +574,62 @@
   "records": {
     "top10": [
       {
+        "pts": 111,
+        "name": "Libor Pechoč",
+        "team": "Četnické humoresky",
+        "entry": 1277021,
+        "gw": 2,
+        "opp": "Martin Holub"
+      },
+      {
+        "pts": 107,
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU",
+        "entry": 125278,
+        "gw": 2,
+        "opp": "Lukáš Kapinus"
+      },
+      {
+        "pts": 102,
+        "name": "Martin Válek",
+        "team": "Fusswaffe",
+        "entry": 394522,
+        "gw": 2,
+        "opp": "Marek Palán"
+      },
+      {
+        "pts": 96,
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
+        "entry": 161243,
+        "gw": 2,
+        "opp": "Michal Krautwurm"
+      },
+      {
+        "pts": 89,
+        "name": "Michal Krautwurm",
+        "team": "Krampus",
+        "entry": 1287745,
+        "gw": 2,
+        "opp": "Jaroslav Bureš"
+      },
+      {
+        "pts": 89,
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo",
+        "entry": 1436706,
+        "gw": 2,
+        "opp": "Rudolf Kvapil"
+      },
+      {
+        "pts": 80,
+        "name": "Martin Holub",
+        "team": "Real Mordor ******",
+        "entry": 5884187,
+        "gw": 2,
+        "opp": "Libor Pechoč"
+      },
+      {
         "pts": 71,
         "name": "Marek Palán",
         "team": "Eskimo brothers",
@@ -510,60 +638,20 @@
         "opp": "Lukáš Kapinus"
       },
       {
+        "pts": 61,
+        "name": "Marek Palán",
+        "team": "Eskimo brothers",
+        "entry": 1034876,
+        "gw": 2,
+        "opp": "Martin Válek"
+      },
+      {
         "pts": 59,
         "name": "Libor Pechoč",
         "team": "Četnické humoresky",
         "entry": 1277021,
         "gw": 1,
         "opp": "Martin Válek"
-      },
-      {
-        "pts": 58,
-        "name": "Martin Holub",
-        "team": "Real Mordor ******",
-        "entry": 5884187,
-        "gw": 1,
-        "opp": "Jaroslav Bureš"
-      },
-      {
-        "pts": 57,
-        "name": "Martin Válek",
-        "team": "Fusswaffe",
-        "entry": 394522,
-        "gw": 1,
-        "opp": "Libor Pechoč"
-      },
-      {
-        "pts": 55,
-        "name": "Michal Krautwurm",
-        "team": "Krampus",
-        "entry": 1287745,
-        "gw": 1,
-        "opp": "Rudolf Kvapil"
-      },
-      {
-        "pts": 52,
-        "name": "Rudolf Kvapil",
-        "team": "EREKCE ZE STRACHU",
-        "entry": 125278,
-        "gw": 1,
-        "opp": "Michal Krautwurm"
-      },
-      {
-        "pts": 49,
-        "name": "Jaroslav Bureš",
-        "team": "Yobagoya",
-        "entry": 161243,
-        "gw": 1,
-        "opp": "Martin Holub"
-      },
-      {
-        "pts": 49,
-        "name": "Lukáš Kapinus",
-        "team": "1. FC Lukasovo",
-        "entry": 1436706,
-        "gw": 1,
-        "opp": "Marek Palán"
       }
     ],
     "bottom5": [
@@ -611,51 +699,51 @@
   },
   "series": [
     {
-      "entry": 1034876,
-      "name": "Marek Palán",
-      "best_w": 1,
-      "best_l": 0,
-      "current": "1× W"
-    },
-    {
       "entry": 1277021,
       "name": "Libor Pechoč",
-      "best_w": 1,
+      "best_w": 2,
       "best_l": 0,
+      "current": "2× W"
+    },
+    {
+      "entry": 394522,
+      "name": "Martin Válek",
+      "best_w": 1,
+      "best_l": 1,
       "current": "1× W"
     },
     {
-      "entry": 5884187,
-      "name": "Martin Holub",
+      "entry": 125278,
+      "name": "Rudolf Kvapil",
       "best_w": 1,
-      "best_l": 0,
+      "best_l": 1,
+      "current": "1× W"
+    },
+    {
+      "entry": 161243,
+      "name": "Jaroslav Bureš",
+      "best_w": 1,
+      "best_l": 1,
       "current": "1× W"
     },
     {
       "entry": 1287745,
       "name": "Michal Krautwurm",
       "best_w": 1,
-      "best_l": 0,
-      "current": "1× W"
-    },
-    {
-      "entry": 394522,
-      "name": "Martin Válek",
-      "best_w": 0,
       "best_l": 1,
       "current": "1× L"
     },
     {
-      "entry": 125278,
-      "name": "Rudolf Kvapil",
-      "best_w": 0,
+      "entry": 5884187,
+      "name": "Martin Holub",
+      "best_w": 1,
       "best_l": 1,
       "current": "1× L"
     },
     {
-      "entry": 161243,
-      "name": "Jaroslav Bureš",
-      "best_w": 0,
+      "entry": 1034876,
+      "name": "Marek Palán",
+      "best_w": 1,
       "best_l": 1,
       "current": "1× L"
     },
@@ -663,8 +751,8 @@
       "entry": 1436706,
       "name": "Lukáš Kapinus",
       "best_w": 0,
-      "best_l": 1,
-      "current": "1× L"
+      "best_l": 2,
+      "current": "2× L"
     }
   ],
   "playoff": {
@@ -673,14 +761,14 @@
     "playout_sf": [
       {
         "higher": {
-          "name": "Martin Válek",
-          "team": "Fusswaffe",
-          "short": "MV",
-          "entry": 394522,
-          "league_pts": 0,
+          "name": "Michal Krautwurm",
+          "team": "Krampus",
+          "short": "MK",
+          "entry": 1287745,
+          "league_pts": 3,
           "gw37_fpl": 0,
-          "naskok": 0,
-          "virtual": 0
+          "naskok": 3,
+          "virtual": 3
         },
         "lower": {
           "name": "Lukáš Kapinus",
@@ -692,86 +780,86 @@
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 1436706,
-        "loser": 394522
+        "winner": 1287745,
+        "loser": 1436706
       },
       {
         "higher": {
-          "name": "Rudolf Kvapil",
-          "team": "EREKCE ZE STRACHU",
-          "short": "RK",
-          "entry": 125278,
-          "league_pts": 0,
+          "name": "Martin Holub",
+          "team": "Real Mordor ******",
+          "short": "MH",
+          "entry": 5884187,
+          "league_pts": 3,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
         "lower": {
-          "name": "Jaroslav Bureš",
-          "team": "Yobagoya",
-          "short": "JB",
-          "entry": 161243,
-          "league_pts": 0,
+          "name": "Marek Palán",
+          "team": "Eskimo brothers",
+          "short": "MP",
+          "entry": 1034876,
+          "league_pts": 3,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 161243,
-        "loser": 125278
+        "winner": 1034876,
+        "loser": 5884187
       }
     ]
   },
   "next_fixtures": [
     {
-      "gw": 2,
+      "gw": 3,
       "home": {
+        "entry": 394522,
+        "name": "Martin Válek",
+        "team": "Fusswaffe"
+      },
+      "away": {
         "entry": 161243,
         "name": "Jaroslav Bureš",
         "team": "Yobagoya"
-      },
-      "away": {
-        "entry": 1287745,
-        "name": "Michal Krautwurm",
-        "team": "Krampus"
       }
     },
     {
-      "gw": 2,
+      "gw": 3,
+      "home": {
+        "entry": 1436706,
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo"
+      },
+      "away": {
+        "entry": 5884187,
+        "name": "Martin Holub",
+        "team": "Real Mordor ******"
+      }
+    },
+    {
+      "gw": 3,
+      "home": {
+        "entry": 1287745,
+        "name": "Michal Krautwurm",
+        "team": "Krampus"
+      },
+      "away": {
+        "entry": 1277021,
+        "name": "Libor Pechoč",
+        "team": "Četnické humoresky"
+      }
+    },
+    {
+      "gw": 3,
       "home": {
         "entry": 125278,
         "name": "Rudolf Kvapil",
         "team": "EREKCE ZE STRACHU"
       },
       "away": {
-        "entry": 1436706,
-        "name": "Lukáš Kapinus",
-        "team": "1. FC Lukasovo"
-      }
-    },
-    {
-      "gw": 2,
-      "home": {
         "entry": 1034876,
         "name": "Marek Palán",
         "team": "Eskimo brothers"
-      },
-      "away": {
-        "entry": 394522,
-        "name": "Martin Válek",
-        "team": "Fusswaffe"
-      }
-    },
-    {
-      "gw": 2,
-      "home": {
-        "entry": 1277021,
-        "name": "Libor Pechoč",
-        "team": "Četnické humoresky"
-      },
-      "away": {
-        "entry": 5884187,
-        "name": "Martin Holub",
-        "team": "Real Mordor ******"
       }
     }
   ],
@@ -3267,12 +3355,6 @@
       "element_type": 1,
       "total_points": 0
     },
-    "201": {
-      "web_name": "Muñoz",
-      "team": 8,
-      "element_type": 2,
-      "total_points": 0
-    },
     "202": {
       "web_name": "Richards",
       "team": 8,
@@ -4335,6 +4417,12 @@
       "element_type": 1,
       "total_points": 0
     },
+    "629": {
+      "web_name": "Zetterer",
+      "team": 13,
+      "element_type": 1,
+      "total_points": 0
+    },
     "350": {
       "web_name": "A.Becker",
       "team": 14,
@@ -4545,6 +4633,12 @@
       "element_type": 2,
       "total_points": 1
     },
+    "627": {
+      "web_name": "Barcola",
+      "team": 14,
+      "element_type": 3,
+      "total_points": 0
+    },
     "238": {
       "web_name": "Grealish",
       "team": 15,
@@ -4724,6 +4818,12 @@
       "team": 15,
       "element_type": 2,
       "total_points": 1
+    },
+    "628": {
+      "web_name": "Allan",
+      "team": 15,
+      "element_type": 3,
+      "total_points": 0
     },
     "43": {
       "web_name": "Tielemans",
@@ -5102,6 +5202,12 @@
       "team": 18,
       "element_type": 4,
       "total_points": 1
+    },
+    "201": {
+      "web_name": "Muñoz",
+      "team": 18,
+      "element_type": 2,
+      "total_points": 0
     },
     "467": {
       "web_name": "Sels",
