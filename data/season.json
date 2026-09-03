@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-03T11:47:15.583690+00:00",
+    "updated_at": "2026-09-03T15:19:33.270040+00:00",
     "current_gw": 2,
     "season": "2026/27",
     "league_id": 199256,
@@ -2919,6 +2919,12 @@
     },
     "639": {
       "web_name": "Andrés",
+      "team": 5,
+      "element_type": 3,
+      "total_points": 0
+    },
+    "652": {
+      "web_name": "Azeez",
       "team": 5,
       "element_type": 3,
       "total_points": 0
