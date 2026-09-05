@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-05T20:46:08.723830+00:00",
+    "updated_at": "2026-09-05T22:24:22.937965+00:00",
     "current_gw": 3,
     "season": "2026/27",
     "league_id": 199256,
@@ -2733,7 +2733,7 @@
       "web_name": "Schuster",
       "team": 4,
       "element_type": 2,
-      "total_points": 2
+      "total_points": 4
     },
     "94": {
       "web_name": "Schade",
@@ -2751,7 +2751,7 @@
       "web_name": "Damsgaard",
       "team": 4,
       "element_type": 3,
-      "total_points": 11
+      "total_points": 12
     },
     "97": {
       "web_name": "Jensen",
@@ -2763,7 +2763,7 @@
       "web_name": "Janelt",
       "team": 4,
       "element_type": 3,
-      "total_points": 19
+      "total_points": 21
     },
     "99": {
       "web_name": "Milambo",
