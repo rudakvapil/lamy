@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-04T23:28:38.240934+00:00",
+    "updated_at": "2026-09-05T01:36:59.135003+00:00",
     "current_gw": 3,
     "season": "2026/27",
     "league_id": 199256,
@@ -4275,7 +4275,7 @@
       "web_name": "O'Shea",
       "team": 12,
       "element_type": 2,
-      "total_points": 5
+      "total_points": 7
     },
     "305": {
       "web_name": "Davis",
@@ -4773,7 +4773,7 @@
       "web_name": "Mac Allister",
       "team": 14,
       "element_type": 3,
-      "total_points": 7
+      "total_points": 5
     },
     "373": {
       "web_name": "C.Jones",
@@ -4845,7 +4845,7 @@
       "web_name": "Araujo",
       "team": 14,
       "element_type": 2,
-      "total_points": 7
+      "total_points": 9
     },
     "627": {
       "web_name": "Barcola",
