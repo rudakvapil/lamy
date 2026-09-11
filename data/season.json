@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-11T11:53:15.542852+00:00",
+    "updated_at": "2026-09-11T15:20:42.593491+00:00",
     "current_gw": 3,
     "season": "2026/27",
     "league_id": 199256,
@@ -3520,6 +3520,12 @@
       "web_name": "Gboho",
       "team": 7,
       "element_type": 3,
+      "total_points": 0
+    },
+    "656": {
+      "web_name": "Mfuni",
+      "team": 7,
+      "element_type": 2,
       "total_points": 0
     },
     "42": {
