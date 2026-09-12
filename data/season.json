@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-12T19:44:57.021728+00:00",
+    "updated_at": "2026-09-12T21:44:52.279981+00:00",
     "current_gw": 4,
     "season": "2026/27",
     "league_id": 199256,
@@ -949,7 +949,7 @@
         "name": "Calafiori",
         "appearances": 30,
         "pos": 2,
-        "total_points": 23
+        "total_points": 28
       },
       {
         "id": 411,
@@ -977,7 +977,7 @@
         "name": "Tzolis",
         "appearances": 17,
         "pos": 3,
-        "total_points": 12
+        "total_points": 14
       },
       {
         "id": 427,
@@ -1019,7 +1019,7 @@
         "name": "Raya",
         "appearances": 8,
         "pos": 1,
-        "total_points": 16
+        "total_points": 29
       },
       {
         "id": 397,
@@ -1054,7 +1054,7 @@
         "name": "Ballard",
         "appearances": 6,
         "pos": 2,
-        "total_points": 13
+        "total_points": 12
       },
       {
         "id": 398,
@@ -1080,6 +1080,15 @@
     ],
     "differentials": [
       {
+        "id": 12,
+        "name": "Saka",
+        "total_points": 30,
+        "owners": [
+          "Michal Krautwurm",
+          "Rudolf Kvapil"
+        ]
+      },
+      {
         "id": 367,
         "name": "Gakpo",
         "total_points": 29,
@@ -1089,9 +1098,18 @@
         ]
       },
       {
+        "id": 1,
+        "name": "Raya",
+        "total_points": 29,
+        "owners": [
+          "Martin Válek",
+          "Libor Pechoč"
+        ]
+      },
+      {
         "id": 15,
         "name": "Ødegaard",
-        "total_points": 28,
+        "total_points": 27,
         "owners": [
           "Martin Holub",
           "Rudolf Kvapil"
@@ -1131,15 +1149,6 @@
         ]
       },
       {
-        "id": 12,
-        "name": "Saka",
-        "total_points": 23,
-        "owners": [
-          "Michal Krautwurm",
-          "Rudolf Kvapil"
-        ]
-      },
-      {
         "id": 391,
         "name": "Gvardiol",
         "total_points": 22,
@@ -1171,14 +1180,6 @@
         "owners": [
           "Michal Krautwurm",
           "Marek Palán"
-        ]
-      },
-      {
-        "id": 112,
-        "name": "Van Hecke",
-        "total_points": 18,
-        "owners": [
-          "Lukáš Kapinus"
         ]
       }
     ],
@@ -2328,7 +2329,7 @@
       "web_name": "Raya",
       "team": 1,
       "element_type": 1,
-      "total_points": 16
+      "total_points": 29
     },
     "2": {
       "web_name": "Arrizabalaga",
@@ -2346,13 +2347,13 @@
       "web_name": "Gabriel",
       "team": 1,
       "element_type": 2,
-      "total_points": 16
+      "total_points": 24
     },
     "5": {
       "web_name": "J.Timber",
       "team": 1,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "6": {
       "web_name": "Saliba",
@@ -2370,7 +2371,7 @@
       "web_name": "Calafiori",
       "team": 1,
       "element_type": 2,
-      "total_points": 23
+      "total_points": 28
     },
     "9": {
       "web_name": "Hincapie",
@@ -2394,25 +2395,25 @@
       "web_name": "Saka",
       "team": 1,
       "element_type": 3,
-      "total_points": 23
+      "total_points": 30
     },
     "13": {
       "web_name": "Rice",
       "team": 1,
       "element_type": 3,
-      "total_points": 16
+      "total_points": 19
     },
     "14": {
       "web_name": "Eze",
       "team": 1,
       "element_type": 3,
-      "total_points": 2
+      "total_points": 3
     },
     "15": {
       "web_name": "Ødegaard",
       "team": 1,
       "element_type": 3,
-      "total_points": 28
+      "total_points": 27
     },
     "16": {
       "web_name": "Madueke",
@@ -2424,7 +2425,7 @@
       "web_name": "Merino",
       "team": 1,
       "element_type": 3,
-      "total_points": 2
+      "total_points": 3
     },
     "18": {
       "web_name": "Martinelli",
@@ -2436,7 +2437,7 @@
       "web_name": "Zubimendi",
       "team": 1,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "20": {
       "web_name": "Dowman",
@@ -2484,19 +2485,19 @@
       "web_name": "Konsa",
       "team": 1,
       "element_type": 2,
-      "total_points": 6
+      "total_points": 11
     },
     "452": {
       "web_name": "Bruno G.",
       "team": 1,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 9
     },
     "557": {
       "web_name": "Tzolis",
       "team": 1,
       "element_type": 3,
-      "total_points": 12
+      "total_points": 14
     },
     "29": {
       "web_name": "M.Bizot",
@@ -4044,7 +4045,7 @@
       "web_name": "Leno",
       "team": 10,
       "element_type": 1,
-      "total_points": 14
+      "total_points": 15
     },
     "251": {
       "web_name": "Lecomte",
@@ -6108,13 +6109,13 @@
       "web_name": "Ballard",
       "team": 20,
       "element_type": 2,
-      "total_points": 13
+      "total_points": 12
     },
     "533": {
       "web_name": "Mukiele",
       "team": 20,
       "element_type": 2,
-      "total_points": 14
+      "total_points": 13
     },
     "534": {
       "web_name": "Hume",
@@ -6132,7 +6133,7 @@
       "web_name": "Reinildo",
       "team": 20,
       "element_type": 2,
-      "total_points": 9
+      "total_points": 7
     },
     "537": {
       "web_name": "Seelt",
@@ -6162,13 +6163,13 @@
       "web_name": "Meunier",
       "team": 20,
       "element_type": 2,
-      "total_points": 10
+      "total_points": 11
     },
     "542": {
       "web_name": "E.Le Fée",
       "team": 20,
       "element_type": 3,
-      "total_points": 14
+      "total_points": 13
     },
     "543": {
       "web_name": "Diarra",
@@ -6180,13 +6181,13 @@
       "web_name": "Xhaka",
       "team": 20,
       "element_type": 3,
-      "total_points": 19
+      "total_points": 21
     },
     "545": {
       "web_name": "Sadiki",
       "team": 20,
       "element_type": 3,
-      "total_points": 7
+      "total_points": 8
     },
     "546": {
       "web_name": "Adingra",
@@ -6222,7 +6223,7 @@
       "web_name": "N.Angulo",
       "team": 20,
       "element_type": 3,
-      "total_points": 11
+      "total_points": 12
     },
     "552": {
       "web_name": "Brobbey",
@@ -6234,7 +6235,7 @@
       "web_name": "Isidor",
       "team": 20,
       "element_type": 4,
-      "total_points": 13
+      "total_points": 14
     },
     "612": {
       "web_name": "Methalie",
@@ -6252,7 +6253,7 @@
       "web_name": "Fofana",
       "team": 20,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "651": {
       "web_name": "J.Angulo",
