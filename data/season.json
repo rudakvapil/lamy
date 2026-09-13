@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-13T19:01:46.801851+00:00",
+    "updated_at": "2026-09-13T21:51:09.857947+00:00",
     "current_gw": 4,
     "season": "2026/27",
     "league_id": 199256,
@@ -956,7 +956,7 @@
         "name": "Haaland",
         "appearances": 28,
         "pos": 4,
-        "total_points": 32
+        "total_points": 33
       },
       {
         "id": 368,
@@ -5251,7 +5251,7 @@
       "web_name": "Haaland",
       "team": 15,
       "element_type": 4,
-      "total_points": 32
+      "total_points": 33
     },
     "481": {
       "web_name": "Anderson",
