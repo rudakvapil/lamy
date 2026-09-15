@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-15T06:50:50.660917+00:00",
+    "updated_at": "2026-09-15T12:17:19.396351+00:00",
     "current_gw": 4,
     "season": "2026/27",
     "league_id": 199256,
@@ -1676,13 +1676,13 @@
             "gws": 2
           },
           {
-            "id": 115,
-            "name": "De Cuyper",
+            "id": 175,
+            "name": "van Ewijk",
             "gws": 2
           },
           {
-            "id": 454,
-            "name": "Elanga",
+            "id": 115,
+            "name": "De Cuyper",
             "gws": 2
           },
           {
@@ -1691,8 +1691,8 @@
             "gws": 1
           },
           {
-            "id": 175,
-            "name": "van Ewijk",
+            "id": 454,
+            "name": "Elanga",
             "gws": 1
           },
           {
