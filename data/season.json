@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-18T21:18:54.604881+00:00",
+    "updated_at": "2026-09-18T23:41:18.647823+00:00",
     "current_gw": 5,
     "season": "2026/27",
     "league_id": 199256,
@@ -1375,7 +1375,7 @@
           "2": 88,
           "3": 57,
           "4": 87,
-          "5": 0
+          "5": 4
         },
         "cap_history": [
           {
@@ -1406,7 +1406,7 @@
             "gw": 5,
             "player_id": 165,
             "player": "João Pedro",
-            "gw_total": 0
+            "gw_total": 4
           }
         ],
         "best_gw": [
@@ -1415,7 +1415,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          4
         ],
         "bench_points": 39,
         "hits_cost": 28,
@@ -1666,7 +1666,7 @@
           "2": 102,
           "3": 40,
           "4": 93,
-          "5": 0
+          "5": 7
         },
         "cap_history": [
           {
@@ -1697,7 +1697,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 7
           }
         ],
         "best_gw": [
@@ -1706,7 +1706,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          7
         ],
         "bench_points": 56,
         "hits_cost": 4,
@@ -1815,7 +1815,7 @@
           "2": 96,
           "3": 52,
           "4": 87,
-          "5": 0
+          "5": 2
         },
         "cap_history": [
           {
@@ -1846,7 +1846,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -1855,7 +1855,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          2
         ],
         "bench_points": 20,
         "hits_cost": 4,
@@ -1965,7 +1965,7 @@
           "2": 107,
           "3": 54,
           "4": 86,
-          "5": 0
+          "5": 2
         },
         "cap_history": [
           {
@@ -1996,7 +1996,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -2005,7 +2005,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          2
         ],
         "bench_points": 54,
         "hits_cost": 0,
@@ -2114,7 +2114,7 @@
           "2": 61,
           "3": 43,
           "4": 63,
-          "5": 0
+          "5": 4
         },
         "cap_history": [
           {
@@ -2145,7 +2145,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 4
           }
         ],
         "best_gw": [
@@ -2154,7 +2154,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          4
         ],
         "bench_points": 56,
         "hits_cost": 0,
@@ -2258,7 +2258,7 @@
           "2": 89,
           "3": 54,
           "4": 71,
-          "5": 0
+          "5": 4
         },
         "cap_history": [
           {
@@ -2289,7 +2289,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 4
           }
         ],
         "best_gw": [
@@ -2298,7 +2298,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          4
         ],
         "bench_points": 50,
         "hits_cost": 0,
@@ -2408,7 +2408,7 @@
           "2": 89,
           "3": 51,
           "4": 76,
-          "5": 0
+          "5": 4
         },
         "cap_history": [
           {
@@ -2439,7 +2439,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 4
           }
         ],
         "best_gw": [
@@ -2448,7 +2448,7 @@
         ],
         "worst_gw": [
           5,
-          0
+          4
         ],
         "bench_points": 50,
         "hits_cost": 0,
@@ -3177,6 +3177,18 @@
       "element_type": 3,
       "total_points": 0
     },
+    "660": {
+      "web_name": "Fredrick",
+      "team": 4,
+      "element_type": 2,
+      "total_points": 0
+    },
+    "661": {
+      "web_name": "Balcombe",
+      "team": 4,
+      "element_type": 1,
+      "total_points": 0
+    },
     "109": {
       "web_name": "Verbruggen",
       "team": 5,
@@ -3596,6 +3608,12 @@
       "team": 6,
       "element_type": 2,
       "total_points": 5
+    },
+    "662": {
+      "web_name": "Nicoll-Jazuli",
+      "team": 6,
+      "element_type": 3,
+      "total_points": 1
     },
     "91": {
       "web_name": "Pinnock",
