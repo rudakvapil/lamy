@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-20T07:10:49.224034+00:00",
+    "updated_at": "2026-09-20T12:40:47.545762+00:00",
     "current_gw": 5,
     "season": "2026/27",
     "league_id": 199256,
@@ -4519,7 +4519,7 @@
       "web_name": "McBurnie",
       "team": 11,
       "element_type": 4,
-      "total_points": 14
+      "total_points": 13
     },
     "296": {
       "web_name": "Akintola",
