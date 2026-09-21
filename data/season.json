@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updated_at": "2026-09-21T07:22:38.954265+00:00",
+    "updated_at": "2026-09-21T14:36:28.018573+00:00",
     "current_gw": 5,
     "season": "2026/27",
     "league_id": 199256,
     "total_matches": 144,
-    "next_deadline": "2026-09-18T17:30:00Z"
+    "next_deadline": "2026-10-10T10:00:00Z"
   },
   "standings": [
     {
@@ -16,8 +16,8 @@
       "pts": 9,
       "w": 3,
       "d": 0,
-      "l": 1,
-      "fpl_total": 310,
+      "l": 2,
+      "fpl_total": 355,
       "results": [
         {
           "gw": 1,
@@ -50,13 +50,22 @@
           "opp_entry": 1436706,
           "opp_fpl": 76,
           "opp_name": "Lukáš Kapinus"
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 45,
+          "opp_entry": 1034876,
+          "opp_fpl": 51,
+          "opp_name": "Marek Palán"
         }
       ],
       "form": [
         "W",
         "W",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     {
@@ -67,8 +76,8 @@
       "pts": 9,
       "w": 3,
       "d": 0,
-      "l": 1,
-      "fpl_total": 299,
+      "l": 2,
+      "fpl_total": 354,
       "results": [
         {
           "gw": 1,
@@ -101,64 +110,22 @@
           "opp_entry": 161243,
           "opp_fpl": 83,
           "opp_name": "Jaroslav Bureš"
-        }
-      ],
-      "form": [
-        "L",
-        "W",
-        "W",
-        "W"
-      ]
-    },
-    {
-      "name": "Michal Krautwurm",
-      "team": "Krampus",
-      "short": "MK",
-      "entry": 1287745,
-      "pts": 9,
-      "w": 3,
-      "d": 0,
-      "l": 1,
-      "fpl_total": 269,
-      "results": [
-        {
-          "gw": 1,
-          "result": "W",
-          "fpl": 55,
-          "opp_entry": 125278,
-          "opp_fpl": 52,
-          "opp_name": "Rudolf Kvapil"
         },
         {
-          "gw": 2,
+          "gw": 5,
           "result": "L",
-          "fpl": 89,
-          "opp_entry": 161243,
-          "opp_fpl": 96,
-          "opp_name": "Jaroslav Bureš"
-        },
-        {
-          "gw": 3,
-          "result": "W",
-          "fpl": 54,
-          "opp_entry": 1277021,
-          "opp_fpl": 50,
-          "opp_name": "Libor Pechoč"
-        },
-        {
-          "gw": 4,
-          "result": "W",
-          "fpl": 71,
-          "opp_entry": 1034876,
-          "opp_fpl": 63,
-          "opp_name": "Marek Palán"
+          "fpl": 55,
+          "opp_entry": 5884187,
+          "opp_fpl": 58,
+          "opp_name": "Martin Holub"
         }
       ],
       "form": [
-        "W",
         "L",
         "W",
-        "W"
+        "W",
+        "W",
+        "L"
       ]
     },
     {
@@ -166,11 +133,11 @@
       "team": "Fusswaffe",
       "short": "MV",
       "entry": 394522,
-      "pts": 6,
-      "w": 2,
+      "pts": 9,
+      "w": 3,
       "d": 0,
       "l": 2,
-      "fpl_total": 292,
+      "fpl_total": 341,
       "results": [
         {
           "gw": 1,
@@ -203,64 +170,22 @@
           "opp_entry": 5884187,
           "opp_fpl": 71,
           "opp_name": "Martin Holub"
-        }
-      ],
-      "form": [
-        "L",
-        "W",
-        "L",
-        "W"
-      ]
-    },
-    {
-      "name": "Jaroslav Bureš",
-      "team": "Yobagoya",
-      "short": "JB",
-      "entry": 161243,
-      "pts": 6,
-      "w": 2,
-      "d": 0,
-      "l": 2,
-      "fpl_total": 280,
-      "results": [
+        },
         {
-          "gw": 1,
-          "result": "L",
+          "gw": 5,
+          "result": "W",
           "fpl": 49,
-          "opp_entry": 5884187,
-          "opp_fpl": 58,
-          "opp_name": "Martin Holub"
-        },
-        {
-          "gw": 2,
-          "result": "W",
-          "fpl": 96,
           "opp_entry": 1287745,
-          "opp_fpl": 89,
+          "opp_fpl": 43,
           "opp_name": "Michal Krautwurm"
-        },
-        {
-          "gw": 3,
-          "result": "W",
-          "fpl": 52,
-          "opp_entry": 394522,
-          "opp_fpl": 40,
-          "opp_name": "Martin Válek"
-        },
-        {
-          "gw": 4,
-          "result": "L",
-          "fpl": 83,
-          "opp_entry": 125278,
-          "opp_fpl": 86,
-          "opp_name": "Rudolf Kvapil"
         }
       ],
       "form": [
         "L",
         "W",
+        "L",
         "W",
-        "L"
+        "W"
       ]
     },
     {
@@ -268,11 +193,11 @@
       "team": "Real Mordor ******",
       "short": "MH",
       "entry": 5884187,
-      "pts": 6,
-      "w": 2,
+      "pts": 9,
+      "w": 3,
       "d": 0,
       "l": 2,
-      "fpl_total": 262,
+      "fpl_total": 320,
       "results": [
         {
           "gw": 1,
@@ -305,12 +230,141 @@
           "opp_entry": 394522,
           "opp_fpl": 93,
           "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 58,
+          "opp_entry": 125278,
+          "opp_fpl": 55,
+          "opp_name": "Rudolf Kvapil"
         }
       ],
       "form": [
         "W",
         "L",
         "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "name": "Michal Krautwurm",
+      "team": "Krampus",
+      "short": "MK",
+      "entry": 1287745,
+      "pts": 9,
+      "w": 3,
+      "d": 0,
+      "l": 2,
+      "fpl_total": 312,
+      "results": [
+        {
+          "gw": 1,
+          "result": "W",
+          "fpl": 55,
+          "opp_entry": 125278,
+          "opp_fpl": 52,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 2,
+          "result": "L",
+          "fpl": 89,
+          "opp_entry": 161243,
+          "opp_fpl": 96,
+          "opp_name": "Jaroslav Bureš"
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 54,
+          "opp_entry": 1277021,
+          "opp_fpl": 50,
+          "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 4,
+          "result": "W",
+          "fpl": 71,
+          "opp_entry": 1034876,
+          "opp_fpl": 63,
+          "opp_name": "Marek Palán"
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 43,
+          "opp_entry": 394522,
+          "opp_fpl": 49,
+          "opp_name": "Martin Válek"
+        }
+      ],
+      "form": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "name": "Jaroslav Bureš",
+      "team": "Yobagoya",
+      "short": "JB",
+      "entry": 161243,
+      "pts": 6,
+      "w": 2,
+      "d": 0,
+      "l": 3,
+      "fpl_total": 317,
+      "results": [
+        {
+          "gw": 1,
+          "result": "L",
+          "fpl": 49,
+          "opp_entry": 5884187,
+          "opp_fpl": 58,
+          "opp_name": "Martin Holub"
+        },
+        {
+          "gw": 2,
+          "result": "W",
+          "fpl": 96,
+          "opp_entry": 1287745,
+          "opp_fpl": 89,
+          "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 3,
+          "result": "W",
+          "fpl": 52,
+          "opp_entry": 394522,
+          "opp_fpl": 40,
+          "opp_name": "Martin Válek"
+        },
+        {
+          "gw": 4,
+          "result": "L",
+          "fpl": 83,
+          "opp_entry": 125278,
+          "opp_fpl": 86,
+          "opp_name": "Rudolf Kvapil"
+        },
+        {
+          "gw": 5,
+          "result": "L",
+          "fpl": 37,
+          "opp_entry": 1436706,
+          "opp_fpl": 41,
+          "opp_name": "Lukáš Kapinus"
+        }
+      ],
+      "form": [
+        "L",
+        "W",
+        "W",
+        "L",
         "L"
       ]
     },
@@ -319,11 +373,11 @@
       "team": "Eskimo brothers",
       "short": "MP",
       "entry": 1034876,
-      "pts": 3,
-      "w": 1,
+      "pts": 6,
+      "w": 2,
       "d": 0,
       "l": 3,
-      "fpl_total": 238,
+      "fpl_total": 289,
       "results": [
         {
           "gw": 1,
@@ -356,13 +410,22 @@
           "opp_entry": 1287745,
           "opp_fpl": 71,
           "opp_name": "Michal Krautwurm"
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 51,
+          "opp_entry": 1277021,
+          "opp_fpl": 45,
+          "opp_name": "Libor Pechoč"
         }
       ],
       "form": [
         "W",
         "L",
         "L",
-        "L"
+        "L",
+        "W"
       ]
     },
     {
@@ -370,11 +433,11 @@
       "team": "1. FC Lukasovo",
       "short": "LK",
       "entry": 1436706,
-      "pts": 0,
-      "w": 0,
+      "pts": 3,
+      "w": 1,
       "d": 0,
       "l": 4,
-      "fpl_total": 265,
+      "fpl_total": 306,
       "results": [
         {
           "gw": 1,
@@ -407,13 +470,22 @@
           "opp_entry": 1277021,
           "opp_fpl": 90,
           "opp_name": "Libor Pechoč"
+        },
+        {
+          "gw": 5,
+          "result": "W",
+          "fpl": 41,
+          "opp_entry": 161243,
+          "opp_fpl": 37,
+          "opp_name": "Jaroslav Bureš"
         }
       ],
       "form": [
         "L",
         "L",
         "L",
-        "L"
+        "L",
+        "W"
       ]
     }
   ],
@@ -435,7 +507,7 @@
         "d": 0
       },
       "125278": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -478,7 +550,7 @@
       },
       "1034876": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "1287745": {
@@ -519,7 +591,7 @@
         "d": 0
       },
       "1287745": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -562,14 +634,14 @@
       },
       "1436706": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       }
     },
     "125278": {
       "5884187": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "1277021": {
@@ -610,7 +682,7 @@
         "d": 0
       },
       "1277021": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -653,7 +725,7 @@
       },
       "394522": {
         "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0
       },
       "161243": {
@@ -694,7 +766,7 @@
         "d": 0
       },
       "161243": {
-        "w": 0,
+        "w": 1,
         "l": 0,
         "d": 0
       },
@@ -800,6 +872,14 @@
     ],
     "bottom5": [
       {
+        "pts": 37,
+        "name": "Jaroslav Bureš",
+        "team": "Yobagoya",
+        "entry": 161243,
+        "gw": 5,
+        "opp": "Lukáš Kapinus"
+      },
+      {
         "pts": 40,
         "name": "Martin Válek",
         "team": "Fusswaffe",
@@ -808,36 +888,28 @@
         "opp": "Jaroslav Bureš"
       },
       {
+        "pts": 41,
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo",
+        "entry": 1436706,
+        "gw": 5,
+        "opp": "Jaroslav Bureš"
+      },
+      {
+        "pts": 43,
+        "name": "Michal Krautwurm",
+        "team": "Krampus",
+        "entry": 1287745,
+        "gw": 5,
+        "opp": "Martin Válek"
+      },
+      {
         "pts": 43,
         "name": "Marek Palán",
         "team": "Eskimo brothers",
         "entry": 1034876,
         "gw": 3,
         "opp": "Rudolf Kvapil"
-      },
-      {
-        "pts": 49,
-        "name": "Lukáš Kapinus",
-        "team": "1. FC Lukasovo",
-        "entry": 1436706,
-        "gw": 1,
-        "opp": "Marek Palán"
-      },
-      {
-        "pts": 49,
-        "name": "Jaroslav Bureš",
-        "team": "Yobagoya",
-        "entry": 161243,
-        "gw": 1,
-        "opp": "Martin Holub"
-      },
-      {
-        "pts": 50,
-        "name": "Libor Pechoč",
-        "team": "Četnické humoresky",
-        "entry": 1277021,
-        "gw": 3,
-        "opp": "Michal Krautwurm"
       }
     ]
   },
@@ -847,56 +919,56 @@
       "name": "Libor Pechoč",
       "best_w": 2,
       "best_l": 1,
-      "current": "1× W"
+      "current": "1× L"
     },
     {
       "entry": 125278,
       "name": "Rudolf Kvapil",
       "best_w": 3,
       "best_l": 1,
-      "current": "3× W"
-    },
-    {
-      "entry": 1287745,
-      "name": "Michal Krautwurm",
-      "best_w": 2,
-      "best_l": 1,
-      "current": "2× W"
+      "current": "1× L"
     },
     {
       "entry": 394522,
       "name": "Martin Válek",
-      "best_w": 1,
-      "best_l": 1,
-      "current": "1× W"
-    },
-    {
-      "entry": 161243,
-      "name": "Jaroslav Bureš",
       "best_w": 2,
       "best_l": 1,
-      "current": "1× L"
+      "current": "2× W"
     },
     {
       "entry": 5884187,
       "name": "Martin Holub",
       "best_w": 1,
       "best_l": 1,
+      "current": "1× W"
+    },
+    {
+      "entry": 1287745,
+      "name": "Michal Krautwurm",
+      "best_w": 2,
+      "best_l": 1,
       "current": "1× L"
+    },
+    {
+      "entry": 161243,
+      "name": "Jaroslav Bureš",
+      "best_w": 2,
+      "best_l": 2,
+      "current": "2× L"
     },
     {
       "entry": 1034876,
       "name": "Marek Palán",
       "best_w": 1,
       "best_l": 3,
-      "current": "3× L"
+      "current": "1× W"
     },
     {
       "entry": 1436706,
       "name": "Lukáš Kapinus",
-      "best_w": 0,
+      "best_w": 1,
       "best_l": 4,
-      "current": "4× L"
+      "current": "1× W"
     }
   ],
   "playoff": {
@@ -905,11 +977,11 @@
     "playout_sf": [
       {
         "higher": {
-          "name": "Jaroslav Bureš",
-          "team": "Yobagoya",
-          "short": "JB",
-          "entry": 161243,
-          "league_pts": 6,
+          "name": "Michal Krautwurm",
+          "team": "Krampus",
+          "short": "MK",
+          "entry": 1287745,
+          "league_pts": 9,
           "gw37_fpl": 0,
           "naskok": 6,
           "virtual": 6
@@ -919,103 +991,96 @@
           "team": "1. FC Lukasovo",
           "short": "LK",
           "entry": 1436706,
-          "league_pts": 0,
+          "league_pts": 3,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 161243,
+        "winner": 1287745,
         "loser": 1436706
       },
       {
         "higher": {
-          "name": "Martin Holub",
-          "team": "Real Mordor ******",
-          "short": "MH",
-          "entry": 5884187,
+          "name": "Jaroslav Bureš",
+          "team": "Yobagoya",
+          "short": "JB",
+          "entry": 161243,
           "league_pts": 6,
           "gw37_fpl": 0,
-          "naskok": 3,
-          "virtual": 3
+          "naskok": 0,
+          "virtual": 0
         },
         "lower": {
           "name": "Marek Palán",
           "team": "Eskimo brothers",
           "short": "MP",
           "entry": 1034876,
-          "league_pts": 3,
+          "league_pts": 6,
           "gw37_fpl": 0,
           "naskok": 0,
           "virtual": 0
         },
-        "winner": 5884187,
-        "loser": 1034876
+        "winner": 1034876,
+        "loser": 161243
       }
     ]
   },
   "next_fixtures": [
     {
-      "gw": 5,
+      "gw": 6,
       "home": {
-        "entry": 1436706,
-        "name": "Lukáš Kapinus",
-        "team": "1. FC Lukasovo"
-      },
-      "away": {
         "entry": 161243,
         "name": "Jaroslav Bureš",
         "team": "Yobagoya"
-      }
-    },
-    {
-      "gw": 5,
-      "home": {
-        "entry": 1287745,
-        "name": "Michal Krautwurm",
-        "team": "Krampus"
       },
       "away": {
-        "entry": 394522,
-        "name": "Martin Válek",
-        "team": "Fusswaffe"
-      }
-    },
-    {
-      "gw": 5,
-      "home": {
-        "entry": 125278,
-        "name": "Rudolf Kvapil",
-        "team": "EREKCE ZE STRACHU"
-      },
-      "away": {
-        "entry": 5884187,
-        "name": "Martin Holub",
-        "team": "Real Mordor ******"
-      }
-    },
-    {
-      "gw": 5,
-      "home": {
         "entry": 1034876,
         "name": "Marek Palán",
         "team": "Eskimo brothers"
-      },
-      "away": {
+      }
+    },
+    {
+      "gw": 6,
+      "home": {
         "entry": 1277021,
         "name": "Libor Pechoč",
         "team": "Četnické humoresky"
+      },
+      "away": {
+        "entry": 125278,
+        "name": "Rudolf Kvapil",
+        "team": "EREKCE ZE STRACHU"
+      }
+    },
+    {
+      "gw": 6,
+      "home": {
+        "entry": 5884187,
+        "name": "Martin Holub",
+        "team": "Real Mordor ******"
+      },
+      "away": {
+        "entry": 1287745,
+        "name": "Michal Krautwurm",
+        "team": "Krampus"
+      }
+    },
+    {
+      "gw": 6,
+      "home": {
+        "entry": 394522,
+        "name": "Martin Válek",
+        "team": "Fusswaffe"
+      },
+      "away": {
+        "entry": 1436706,
+        "name": "Lukáš Kapinus",
+        "team": "1. FC Lukasovo"
       }
     }
   ],
   "picks_stats": {
     "top_players_liga": [
-      {
-        "id": 165,
-        "name": "João Pedro",
-        "appearances": 40,
-        "pos": 4,
-        "total_points": 33
-      },
       {
         "id": 8,
         "name": "Calafiori",
@@ -1029,6 +1094,13 @@
         "appearances": 36,
         "pos": 4,
         "total_points": 39
+      },
+      {
+        "id": 165,
+        "name": "João Pedro",
+        "appearances": 32,
+        "pos": 4,
+        "total_points": 33
       },
       {
         "id": 368,
@@ -1087,6 +1159,20 @@
         "total_points": 10
       },
       {
+        "id": 124,
+        "name": "Groß",
+        "appearances": 10,
+        "pos": 3,
+        "total_points": 47
+      },
+      {
+        "id": 115,
+        "name": "De Cuyper",
+        "appearances": 10,
+        "pos": 2,
+        "total_points": 38
+      },
+      {
         "id": 1,
         "name": "Raya",
         "appearances": 9,
@@ -1108,13 +1194,6 @@
         "total_points": 33
       },
       {
-        "id": 115,
-        "name": "De Cuyper",
-        "appearances": 8,
-        "pos": 2,
-        "total_points": 38
-      },
-      {
         "id": 391,
         "name": "Gvardiol",
         "appearances": 8,
@@ -1127,13 +1206,6 @@
         "appearances": 8,
         "pos": 3,
         "total_points": 28
-      },
-      {
-        "id": 124,
-        "name": "Groß",
-        "appearances": 7,
-        "pos": 3,
-        "total_points": 47
       },
       {
         "id": 423,
@@ -1152,27 +1224,11 @@
     ],
     "differentials": [
       {
-        "id": 124,
-        "name": "Groß",
-        "total_points": 47,
-        "owners": [
-          "Martin Válek"
-        ]
-      },
-      {
         "id": 330,
         "name": "Bogle",
         "total_points": 42,
         "owners": [
           "Libor Pechoč"
-        ]
-      },
-      {
-        "id": 115,
-        "name": "De Cuyper",
-        "total_points": 38,
-        "owners": [
-          "Martin Holub"
         ]
       },
       {
@@ -1242,11 +1298,28 @@
         ]
       },
       {
+        "id": 480,
+        "name": "Gibbs-White",
+        "total_points": 28,
+        "owners": [
+          "Lukáš Kapinus",
+          "Jaroslav Bureš"
+        ]
+      },
+      {
         "id": 453,
         "name": "Barnes",
         "total_points": 28,
         "owners": [
           "Jaroslav Bureš"
+        ]
+      },
+      {
+        "id": 334,
+        "name": "Muharemović",
+        "total_points": 27,
+        "owners": [
+          "Rudolf Kvapil"
         ]
       }
     ],
@@ -1298,7 +1371,7 @@
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 5
+            "gws": 4
           },
           {
             "id": 115,
@@ -1346,13 +1419,13 @@
             "gws": 2
           },
           {
-            "id": 40,
-            "name": "Rogers",
+            "id": 124,
+            "name": "Groß",
             "gws": 2
           },
           {
-            "id": 367,
-            "name": "Gakpo",
+            "id": 40,
+            "name": "Rogers",
             "gws": 2
           }
         ],
@@ -1374,7 +1447,7 @@
           "2": 88,
           "3": 57,
           "4": 87,
-          "5": 36
+          "5": 58
         },
         "cap_history": [
           {
@@ -1405,7 +1478,7 @@
             "gw": 5,
             "player_id": 165,
             "player": "João Pedro",
-            "gw_total": 36
+            "gw_total": 58
           }
         ],
         "best_gw": [
@@ -1413,10 +1486,10 @@
           88
         ],
         "worst_gw": [
-          5,
-          36
+          3,
+          57
         ],
-        "bench_points": 63,
+        "bench_points": 49,
         "hits_cost": 28,
         "transfers": 10
       },
@@ -1455,7 +1528,7 @@
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 5
+            "gws": 4
           },
           {
             "id": 418,
@@ -1473,18 +1546,18 @@
             "gws": 3
           },
           {
+            "id": 124,
+            "name": "Groß",
+            "gws": 3
+          },
+          {
             "id": 346,
             "name": "Calvert-Lewin",
             "gws": 2
           },
           {
-            "id": 124,
-            "name": "Groß",
-            "gws": 2
-          },
-          {
-            "id": 473,
-            "name": "Aina",
+            "id": 115,
+            "name": "De Cuyper",
             "gws": 2
           },
           {
@@ -1493,8 +1566,8 @@
             "gws": 2
           },
           {
-            "id": 115,
-            "name": "De Cuyper",
+            "id": 473,
+            "name": "Aina",
             "gws": 1
           }
         ],
@@ -1518,7 +1591,7 @@
           "2": 111,
           "3": 50,
           "4": 90,
-          "5": 25
+          "5": 45
         },
         "cap_history": [
           {
@@ -1549,7 +1622,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 25
+            "gw_total": 45
           }
         ],
         "best_gw": [
@@ -1558,9 +1631,9 @@
         ],
         "worst_gw": [
           5,
-          25
+          45
         ],
-        "bench_points": 70,
+        "bench_points": 50,
         "hits_cost": 0,
         "transfers": 4
       },
@@ -1574,11 +1647,6 @@
           {
             "id": 426,
             "name": "B.Fernandes",
-            "gws": 5
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
             "gws": 5
           },
           {
@@ -1599,6 +1667,11 @@
           {
             "id": 368,
             "name": "Szoboszlai",
+            "gws": 4
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 4
           },
           {
@@ -1665,7 +1738,7 @@
           "2": 102,
           "3": 40,
           "4": 93,
-          "5": 51
+          "5": 53
         },
         "cap_history": [
           {
@@ -1696,7 +1769,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 51
+            "gw_total": 53
           }
         ],
         "best_gw": [
@@ -1707,7 +1780,7 @@
           3,
           40
         ],
-        "bench_points": 60,
+        "bench_points": 58,
         "hits_cost": 4,
         "transfers": 5
       },
@@ -1734,11 +1807,6 @@
             "gws": 5
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 5
-          },
-          {
             "id": 368,
             "name": "Szoboszlai",
             "gws": 4
@@ -1746,6 +1814,11 @@
           {
             "id": 397,
             "name": "Semenyo",
+            "gws": 4
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 4
           },
           {
@@ -1774,6 +1847,11 @@
             "gws": 2
           },
           {
+            "id": 305,
+            "name": "Davis",
+            "gws": 2
+          },
+          {
             "id": 40,
             "name": "Rogers",
             "gws": 2
@@ -1781,11 +1859,6 @@
           {
             "id": 469,
             "name": "N.Williams",
-            "gws": 1
-          },
-          {
-            "id": 454,
-            "name": "Elanga",
             "gws": 1
           }
         ],
@@ -1814,7 +1887,7 @@
           "2": 96,
           "3": 52,
           "4": 87,
-          "5": 35
+          "5": 37
         },
         "cap_history": [
           {
@@ -1845,7 +1918,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 35
+            "gw_total": 37
           }
         ],
         "best_gw": [
@@ -1854,9 +1927,9 @@
         ],
         "worst_gw": [
           5,
-          35
+          37
         ],
-        "bench_points": 29,
+        "bench_points": 27,
         "hits_cost": 4,
         "transfers": 4
       },
@@ -1870,11 +1943,6 @@
           {
             "id": 368,
             "name": "Szoboszlai",
-            "gws": 5
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
             "gws": 5
           },
           {
@@ -1898,6 +1966,11 @@
             "gws": 4
           },
           {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 4
+          },
+          {
             "id": 334,
             "name": "Muharemović",
             "gws": 3
@@ -1918,6 +1991,11 @@
             "gws": 3
           },
           {
+            "id": 124,
+            "name": "Groß",
+            "gws": 2
+          },
+          {
             "id": 40,
             "name": "Rogers",
             "gws": 2
@@ -1925,11 +2003,6 @@
           {
             "id": 502,
             "name": "Robertson",
-            "gws": 1
-          },
-          {
-            "id": 124,
-            "name": "Groß",
             "gws": 1
           },
           {
@@ -1964,7 +2037,7 @@
           "2": 107,
           "3": 54,
           "4": 86,
-          "5": 41
+          "5": 55
         },
         "cap_history": [
           {
@@ -1995,7 +2068,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 41
+            "gw_total": 55
           }
         ],
         "best_gw": [
@@ -2003,10 +2076,10 @@
           107
         ],
         "worst_gw": [
-          5,
-          41
+          1,
+          52
         ],
-        "bench_points": 72,
+        "bench_points": 58,
         "hits_cost": 0,
         "transfers": 2
       },
@@ -2030,7 +2103,7 @@
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 5
+            "gws": 4
           },
           {
             "id": 8,
@@ -2113,7 +2186,7 @@
           "2": 61,
           "3": 43,
           "4": 63,
-          "5": 45
+          "5": 51
         },
         "cap_history": [
           {
@@ -2144,7 +2217,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 45
+            "gw_total": 51
           }
         ],
         "best_gw": [
@@ -2155,7 +2228,7 @@
           3,
           43
         ],
-        "bench_points": 79,
+        "bench_points": 73,
         "hits_cost": 0,
         "transfers": 0
       },
@@ -2177,14 +2250,14 @@
             "gws": 5
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 5
-          },
-          {
             "id": 411,
             "name": "Haaland",
             "gws": 5
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 4
           },
           {
             "id": 412,
@@ -2257,7 +2330,7 @@
           "2": 89,
           "3": 54,
           "4": 71,
-          "5": 37
+          "5": 43
         },
         "cap_history": [
           {
@@ -2288,7 +2361,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 37
+            "gw_total": 43
           }
         ],
         "best_gw": [
@@ -2297,9 +2370,9 @@
         ],
         "worst_gw": [
           5,
-          37
+          43
         ],
-        "bench_points": 67,
+        "bench_points": 61,
         "hits_cost": 0,
         "transfers": 1
       },
@@ -2321,13 +2394,13 @@
             "gws": 5
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 5
-          },
-          {
             "id": 480,
             "name": "Gibbs-White",
+            "gws": 4
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 4
           },
           {
@@ -2407,7 +2480,7 @@
           "2": 89,
           "3": 51,
           "4": 76,
-          "5": 32
+          "5": 41
         },
         "cap_history": [
           {
@@ -2438,7 +2511,7 @@
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 32
+            "gw_total": 41
           }
         ],
         "best_gw": [
@@ -2447,9 +2520,9 @@
         ],
         "worst_gw": [
           5,
-          32
+          41
         ],
-        "bench_points": 70,
+        "bench_points": 61,
         "hits_cost": 0,
         "transfers": 1
       }
