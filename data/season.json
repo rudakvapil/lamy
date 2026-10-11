@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-11T09:22:19.884345+00:00",
+    "updated_at": "2026-10-11T15:59:34.690122+00:00",
     "current_gw": 6,
     "season": "2026/27",
     "league_id": 199256,
@@ -1093,7 +1093,7 @@
         "name": "Haaland",
         "appearances": 44,
         "pos": 4,
-        "total_points": 39
+        "total_points": 40
       },
       {
         "id": 165,
@@ -1205,7 +1205,7 @@
         "name": "Semenyo",
         "appearances": 9,
         "pos": 3,
-        "total_points": 33
+        "total_points": 34
       },
       {
         "id": 12,
@@ -1234,7 +1234,7 @@
       {
         "id": 399,
         "name": "Cherki",
-        "total_points": 34,
+        "total_points": 35,
         "owners": [
           "Martin Válek"
         ]
@@ -1262,6 +1262,14 @@
         "owners": [
           "Lukáš Kapinus",
           "Rudolf Kvapil"
+        ]
+      },
+      {
+        "id": 236,
+        "name": "Dewsbury-Hall",
+        "total_points": 33,
+        "owners": [
+          "Marek Palán"
         ]
       },
       {
@@ -1308,20 +1316,12 @@
         ]
       },
       {
-        "id": 334,
-        "name": "Muharemović",
-        "total_points": 29,
+        "id": 480,
+        "name": "Gibbs-White",
+        "total_points": 30,
         "owners": [
-          "Rudolf Kvapil"
-        ]
-      },
-      {
-        "id": 453,
-        "name": "Barnes",
-        "total_points": 28,
-        "owners": [
-          "Jaroslav Bureš",
-          "Libor Pechoč"
+          "Lukáš Kapinus",
+          "Jaroslav Bureš"
         ]
       }
     ],
@@ -4041,25 +4041,25 @@
       "web_name": "Benitez",
       "team": 8,
       "element_type": 1,
-      "total_points": 8
+      "total_points": 11
     },
     "202": {
       "web_name": "Richards",
       "team": 8,
       "element_type": 2,
-      "total_points": 14
+      "total_points": 18
     },
     "203": {
       "web_name": "Canvot",
       "team": 8,
       "element_type": 2,
-      "total_points": 10
+      "total_points": 14
     },
     "204": {
       "web_name": "Mitchell",
       "team": 8,
       "element_type": 2,
-      "total_points": 24
+      "total_points": 28
     },
     "205": {
       "web_name": "Sosa",
@@ -4083,19 +4083,19 @@
       "web_name": "Sarr",
       "team": 8,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "210": {
       "web_name": "Wharton",
       "team": 8,
       "element_type": 3,
-      "total_points": 12
+      "total_points": 20
     },
     "211": {
       "web_name": "Yeremy",
       "team": 8,
       "element_type": 3,
-      "total_points": 14
+      "total_points": 23
     },
     "212": {
       "web_name": "Hughes",
@@ -4107,13 +4107,13 @@
       "web_name": "Lerma",
       "team": 8,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 9
     },
     "214": {
       "web_name": "Kamada",
       "team": 8,
       "element_type": 3,
-      "total_points": 21
+      "total_points": 29
     },
     "215": {
       "web_name": "Devenny",
@@ -4161,7 +4161,7 @@
       "web_name": "Strand Larsen",
       "team": 8,
       "element_type": 4,
-      "total_points": 14
+      "total_points": 19
     },
     "223": {
       "web_name": "Mateta",
@@ -4173,7 +4173,7 @@
       "web_name": "Nketiah",
       "team": 8,
       "element_type": 4,
-      "total_points": 8
+      "total_points": 9
     },
     "225": {
       "web_name": "Uche",
@@ -4185,7 +4185,7 @@
       "web_name": "McNeil",
       "team": 8,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "555": {
       "web_name": "Matthews",
@@ -4203,7 +4203,7 @@
       "web_name": "Khalaili",
       "team": 8,
       "element_type": 2,
-      "total_points": 19
+      "total_points": 21
     },
     "595": {
       "web_name": "Gozo",
@@ -4215,7 +4215,7 @@
       "web_name": "Ahanor",
       "team": 8,
       "element_type": 2,
-      "total_points": 3
+      "total_points": 4
     },
     "643": {
       "web_name": "Chilwell",
@@ -4227,7 +4227,7 @@
       "web_name": "Timber",
       "team": 8,
       "element_type": 3,
-      "total_points": 9
+      "total_points": 16
     },
     "647": {
       "web_name": "Osorio",
@@ -4245,13 +4245,13 @@
       "web_name": "Johnson",
       "team": 9,
       "element_type": 3,
-      "total_points": 9
+      "total_points": 11
     },
     "226": {
       "web_name": "Pickford",
       "team": 9,
       "element_type": 1,
-      "total_points": 25
+      "total_points": 26
     },
     "227": {
       "web_name": "Travers",
@@ -4269,25 +4269,25 @@
       "web_name": "Tarkowski",
       "team": 9,
       "element_type": 2,
-      "total_points": 43
+      "total_points": 46
     },
     "230": {
       "web_name": "Branthwaite",
       "team": 9,
       "element_type": 2,
-      "total_points": 27
+      "total_points": 30
     },
     "231": {
       "web_name": "Keane",
       "team": 9,
       "element_type": 2,
-      "total_points": 0
+      "total_points": 1
     },
     "232": {
       "web_name": "O'Brien",
       "team": 9,
       "element_type": 2,
-      "total_points": 2
+      "total_points": 3
     },
     "233": {
       "web_name": "Mykolenko",
@@ -4311,43 +4311,43 @@
       "web_name": "Dewsbury-Hall",
       "team": 9,
       "element_type": 3,
-      "total_points": 20
+      "total_points": 33
     },
     "238": {
       "web_name": "Grealish",
       "team": 9,
       "element_type": 3,
-      "total_points": 6
+      "total_points": 8
     },
     "239": {
       "web_name": "Garner",
       "team": 9,
       "element_type": 3,
-      "total_points": 11
+      "total_points": 15
     },
     "242": {
       "web_name": "George",
       "team": 9,
       "element_type": 3,
-      "total_points": 19
+      "total_points": 20
     },
     "243": {
       "web_name": "Alcaraz",
       "team": 9,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "244": {
       "web_name": "Armstrong",
       "team": 9,
       "element_type": 3,
-      "total_points": 16
+      "total_points": 18
     },
     "245": {
       "web_name": "Dibling",
       "team": 9,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "246": {
       "web_name": "Röhl",
@@ -4359,7 +4359,7 @@
       "web_name": "Hackney",
       "team": 9,
       "element_type": 3,
-      "total_points": 10
+      "total_points": 11
     },
     "248": {
       "web_name": "Beto",
@@ -4371,13 +4371,13 @@
       "web_name": "Barry",
       "team": 9,
       "element_type": 4,
-      "total_points": 20
+      "total_points": 26
     },
     "649": {
       "web_name": "Maitland-Niles",
       "team": 9,
       "element_type": 2,
-      "total_points": 21
+      "total_points": 25
     },
     "654": {
       "web_name": "Graham",
@@ -4557,7 +4557,7 @@
       "web_name": "Iroegbunam",
       "team": 11,
       "element_type": 3,
-      "total_points": 2
+      "total_points": 3
     },
     "273": {
       "web_name": "Phillips",
@@ -4587,7 +4587,7 @@
       "web_name": "Egan",
       "team": 11,
       "element_type": 2,
-      "total_points": 26
+      "total_points": 27
     },
     "278": {
       "web_name": "Hughes",
@@ -4599,13 +4599,13 @@
       "web_name": "Ajayi",
       "team": 11,
       "element_type": 2,
-      "total_points": 27
+      "total_points": 28
     },
     "280": {
       "web_name": "Coyle",
       "team": 11,
       "element_type": 2,
-      "total_points": 14
+      "total_points": 15
     },
     "281": {
       "web_name": "Drameh",
@@ -4617,7 +4617,7 @@
       "web_name": "Giles",
       "team": 11,
       "element_type": 2,
-      "total_points": 24
+      "total_points": 26
     },
     "283": {
       "web_name": "Jacob",
@@ -4641,7 +4641,7 @@
       "web_name": "Belloumi",
       "team": 11,
       "element_type": 3,
-      "total_points": 31
+      "total_points": 37
     },
     "287": {
       "web_name": "Millar",
@@ -4659,13 +4659,13 @@
       "web_name": "Crooks",
       "team": 11,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "290": {
       "web_name": "Slater",
       "team": 11,
       "element_type": 3,
-      "total_points": 15
+      "total_points": 17
     },
     "291": {
       "web_name": "Matazo",
@@ -4695,7 +4695,7 @@
       "web_name": "McBurnie",
       "team": 11,
       "element_type": 4,
-      "total_points": 13
+      "total_points": 14
     },
     "296": {
       "web_name": "Akintola",
@@ -4725,7 +4725,7 @@
       "web_name": "Gelhardt",
       "team": 11,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 9
     },
     "556": {
       "web_name": "Targett",
@@ -4737,13 +4737,13 @@
       "web_name": "Morita",
       "team": 11,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "572": {
       "web_name": "Tzolakis",
       "team": 11,
       "element_type": 1,
-      "total_points": 34
+      "total_points": 36
     },
     "574": {
       "web_name": "Hjertø-Dahl",
@@ -4755,7 +4755,7 @@
       "web_name": "Stroud",
       "team": 11,
       "element_type": 3,
-      "total_points": 7
+      "total_points": 11
     },
     "585": {
       "web_name": "Herrington",
@@ -4767,7 +4767,7 @@
       "web_name": "Mendy",
       "team": 11,
       "element_type": 2,
-      "total_points": 25
+      "total_points": 28
     },
     "589": {
       "web_name": "Gourna-Douath",
@@ -4791,7 +4791,7 @@
       "web_name": "Vaz",
       "team": 11,
       "element_type": 4,
-      "total_points": 2
+      "total_points": 3
     },
     "638": {
       "web_name": "Norton-Cuffy",
@@ -4803,7 +4803,7 @@
       "web_name": "Thomas",
       "team": 11,
       "element_type": 3,
-      "total_points": 4
+      "total_points": 11
     },
     "645": {
       "web_name": "Mouzakitis",
@@ -5217,7 +5217,7 @@
       "web_name": "A.Becker",
       "team": 14,
       "element_type": 1,
-      "total_points": 27
+      "total_points": 28
     },
     "351": {
       "web_name": "Mamardashvili",
@@ -5253,7 +5253,7 @@
       "web_name": "Virgil",
       "team": 14,
       "element_type": 2,
-      "total_points": 25
+      "total_points": 26
     },
     "357": {
       "web_name": "Frimpong",
@@ -5265,7 +5265,7 @@
       "web_name": "Kerkez",
       "team": 14,
       "element_type": 2,
-      "total_points": 13
+      "total_points": 14
     },
     "359": {
       "web_name": "Gomez",
@@ -5289,7 +5289,7 @@
       "web_name": "Jacquet",
       "team": 14,
       "element_type": 2,
-      "total_points": 24
+      "total_points": 25
     },
     "363": {
       "web_name": "Leoni",
@@ -5313,7 +5313,7 @@
       "web_name": "Wirtz",
       "team": 14,
       "element_type": 3,
-      "total_points": 18
+      "total_points": 19
     },
     "367": {
       "web_name": "Gakpo",
@@ -5343,13 +5343,13 @@
       "web_name": "Gravenberch",
       "team": 14,
       "element_type": 3,
-      "total_points": 9
+      "total_points": 13
     },
     "372": {
       "web_name": "Mac Allister",
       "team": 14,
       "element_type": 3,
-      "total_points": 11
+      "total_points": 12
     },
     "373": {
       "web_name": "C.Jones",
@@ -5379,7 +5379,7 @@
       "web_name": "Munoz",
       "team": 14,
       "element_type": 3,
-      "total_points": 15
+      "total_points": 16
     },
     "378": {
       "web_name": "McConnell",
@@ -5403,7 +5403,7 @@
       "web_name": "Koumas",
       "team": 14,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "382": {
       "web_name": "Danns",
@@ -5427,25 +5427,25 @@
       "web_name": "Barcola",
       "team": 14,
       "element_type": 3,
-      "total_points": 7
+      "total_points": 11
     },
     "155": {
       "web_name": "Enzo",
       "team": 15,
       "element_type": 3,
-      "total_points": 13
+      "total_points": 14
     },
     "237": {
       "web_name": "Ndiaye",
       "team": 15,
       "element_type": 3,
-      "total_points": 22
+      "total_points": 23
     },
     "384": {
       "web_name": "Donnarumma",
       "team": 15,
       "element_type": 1,
-      "total_points": 19
+      "total_points": 20
     },
     "386": {
       "web_name": "Bettinelli",
@@ -5457,25 +5457,25 @@
       "web_name": "O'Reilly",
       "team": 15,
       "element_type": 2,
-      "total_points": 6
+      "total_points": 8
     },
     "388": {
       "web_name": "Guéhi",
       "team": 15,
       "element_type": 2,
-      "total_points": 30
+      "total_points": 31
     },
     "389": {
       "web_name": "Matheus N.",
       "team": 15,
       "element_type": 2,
-      "total_points": 11
+      "total_points": 13
     },
     "390": {
       "web_name": "Rúben",
       "team": 15,
       "element_type": 2,
-      "total_points": 17
+      "total_points": 18
     },
     "391": {
       "web_name": "Gvardiol",
@@ -5517,7 +5517,7 @@
       "web_name": "Semenyo",
       "team": 15,
       "element_type": 3,
-      "total_points": 33
+      "total_points": 34
     },
     "398": {
       "web_name": "Foden",
@@ -5529,7 +5529,7 @@
       "web_name": "Cherki",
       "team": 15,
       "element_type": 3,
-      "total_points": 34
+      "total_points": 35
     },
     "400": {
       "web_name": "Doku",
@@ -5583,13 +5583,13 @@
       "web_name": "Haaland",
       "team": 15,
       "element_type": 4,
-      "total_points": 39
+      "total_points": 40
     },
     "481": {
       "web_name": "Anderson",
       "team": 15,
       "element_type": 3,
-      "total_points": 15
+      "total_points": 17
     },
     "587": {
       "web_name": "Rulli",
@@ -6039,19 +6039,19 @@
       "web_name": "Delap",
       "team": 18,
       "element_type": 4,
-      "total_points": 9
+      "total_points": 11
     },
     "201": {
       "web_name": "Muñoz",
       "team": 18,
       "element_type": 2,
-      "total_points": 5
+      "total_points": 6
     },
     "467": {
       "web_name": "Sels",
       "team": 18,
       "element_type": 1,
-      "total_points": 14
+      "total_points": 16
     },
     "468": {
       "web_name": "John",
@@ -6063,7 +6063,7 @@
       "web_name": "N.Williams",
       "team": 18,
       "element_type": 2,
-      "total_points": 19
+      "total_points": 20
     },
     "470": {
       "web_name": "Morato",
@@ -6081,7 +6081,7 @@
       "web_name": "Murillo",
       "team": 18,
       "element_type": 2,
-      "total_points": 23
+      "total_points": 25
     },
     "473": {
       "web_name": "Aina",
@@ -6129,19 +6129,19 @@
       "web_name": "Gibbs-White",
       "team": 18,
       "element_type": 3,
-      "total_points": 28
+      "total_points": 30
     },
     "482": {
       "web_name": "Hudson-Odoi",
       "team": 18,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "483": {
       "web_name": "Ndoye",
       "team": 18,
       "element_type": 3,
-      "total_points": 15
+      "total_points": 22
     },
     "484": {
       "web_name": "Hutchinson",
@@ -6159,7 +6159,7 @@
       "web_name": "McAtee",
       "team": 18,
       "element_type": 3,
-      "total_points": 12
+      "total_points": 16
     },
     "487": {
       "web_name": "Dominguez",
@@ -6171,7 +6171,7 @@
       "web_name": "I.Sangaré",
       "team": 18,
       "element_type": 3,
-      "total_points": 4
+      "total_points": 5
     },
     "489": {
       "web_name": "Yates",
@@ -6183,7 +6183,7 @@
       "web_name": "Wood",
       "team": 18,
       "element_type": 4,
-      "total_points": 4
+      "total_points": 5
     },
     "491": {
       "web_name": "Igor Jesus",
@@ -6195,19 +6195,19 @@
       "web_name": "Kalimuendo",
       "team": 18,
       "element_type": 4,
-      "total_points": 1
+      "total_points": 2
     },
     "558": {
       "web_name": "Schlager",
       "team": 18,
       "element_type": 3,
-      "total_points": 13
+      "total_points": 15
     },
     "581": {
       "web_name": "Diomande",
       "team": 18,
       "element_type": 2,
-      "total_points": 7
+      "total_points": 8
     },
     "590": {
       "web_name": "Benda",
