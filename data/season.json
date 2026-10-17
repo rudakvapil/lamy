@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-17T21:05:37.567834+00:00",
+    "updated_at": "2026-10-17T23:33:32.553674+00:00",
     "current_gw": 7,
     "season": "2026/27",
     "league_id": 199256,
@@ -2949,7 +2949,7 @@
       "web_name": "Mings",
       "team": 2,
       "element_type": 2,
-      "total_points": 17
+      "total_points": 18
     },
     "34": {
       "web_name": "Pau",
@@ -2973,7 +2973,7 @@
       "web_name": "Lindelöf",
       "team": 2,
       "element_type": 2,
-      "total_points": 21
+      "total_points": 20
     },
     "38": {
       "web_name": "A.García",
