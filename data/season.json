@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-18T19:45:17.308333+00:00",
+    "updated_at": "2026-10-18T21:58:53.695057+00:00",
     "current_gw": 7,
     "season": "2026/27",
     "league_id": 199256,
@@ -3513,7 +3513,7 @@
       "web_name": "Boscagli",
       "team": 5,
       "element_type": 2,
-      "total_points": 35
+      "total_points": 34
     },
     "115": {
       "web_name": "De Cuyper",
