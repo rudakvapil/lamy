@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-20T08:56:04.743940+00:00",
+    "updated_at": "2026-10-20T13:57:14.044601+00:00",
     "current_gw": 7,
     "season": "2026/27",
     "league_id": 199256,
@@ -1281,7 +1281,7 @@
       {
         "id": 15,
         "name": "Ødegaard",
-        "appearances": 8,
+        "appearances": 9,
         "pos": 3,
         "total_points": 33
       }
@@ -1345,10 +1345,27 @@
         ]
       },
       {
+        "id": 236,
+        "name": "Dewsbury-Hall",
+        "total_points": 35,
+        "owners": [
+          "Marek Palán"
+        ]
+      },
+      {
         "id": 334,
         "name": "Muharemović",
         "total_points": 34,
         "owners": [
+          "Rudolf Kvapil"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Ødegaard",
+        "total_points": 33,
+        "owners": [
+          "Martin Holub",
           "Rudolf Kvapil"
         ]
       },
@@ -1361,28 +1378,12 @@
         ]
       },
       {
-        "id": 15,
-        "name": "Ødegaard",
-        "total_points": 33,
-        "owners": [
-          "Rudolf Kvapil"
-        ]
-      },
-      {
         "id": 453,
         "name": "Barnes",
         "total_points": 32,
         "owners": [
           "Jaroslav Bureš",
           "Libor Pechoč"
-        ]
-      },
-      {
-        "id": 112,
-        "name": "Van Hecke",
-        "total_points": 31,
-        "owners": [
-          "Lukáš Kapinus"
         ]
       }
     ],
@@ -1459,7 +1460,7 @@
           {
             "id": 15,
             "name": "Ødegaard",
-            "gws": 5
+            "gws": 6
           },
           {
             "id": 391,
@@ -1529,7 +1530,7 @@
           "4": 87,
           "5": 58,
           "6": 89,
-          "7": 76
+          "7": 79
         },
         "cap_history": [
           {
@@ -1572,7 +1573,7 @@
             "gw": 7,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 76
+            "gw_total": 79
           }
         ],
         "best_gw": [
@@ -1583,7 +1584,7 @@
           3,
           57
         ],
-        "bench_points": 60,
+        "bench_points": 57,
         "hits_cost": 28,
         "transfers": 12
       },
@@ -1779,8 +1780,8 @@
             "gws": 6
           },
           {
-            "id": 399,
-            "name": "Cherki",
+            "id": 87,
+            "name": "Ajer",
             "gws": 5
           },
           {
@@ -1799,8 +1800,8 @@
             "gws": 4
           },
           {
-            "id": 87,
-            "name": "Ajer",
+            "id": 399,
+            "name": "Cherki",
             "gws": 4
           },
           {
@@ -1859,7 +1860,7 @@
           "4": 93,
           "5": 53,
           "6": 60,
-          "7": 70
+          "7": 73
         },
         "cap_history": [
           {
@@ -1902,7 +1903,7 @@
             "gw": 7,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 70
+            "gw_total": 73
           }
         ],
         "best_gw": [
@@ -1913,7 +1914,7 @@
           3,
           40
         ],
-        "bench_points": 77,
+        "bench_points": 74,
         "hits_cost": 4,
         "transfers": 7
       },
@@ -2023,7 +2024,7 @@
           "4": 87,
           "5": 37,
           "6": 66,
-          "7": 69
+          "7": 70
         },
         "cap_history": [
           {
@@ -2066,7 +2067,7 @@
             "gw": 7,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 69
+            "gw_total": 70
           }
         ],
         "best_gw": [
@@ -2077,7 +2078,7 @@
           5,
           37
         ],
-        "bench_points": 34,
+        "bench_points": 33,
         "hits_cost": 4,
         "transfers": 5
       },
@@ -2255,7 +2256,7 @@
           {
             "id": 236,
             "name": "Dewsbury-Hall",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 165,
@@ -2360,7 +2361,7 @@
           "4": 63,
           "5": 51,
           "6": 83,
-          "7": 65
+          "7": 67
         },
         "cap_history": [
           {
@@ -2403,7 +2404,7 @@
             "gw": 7,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 65
+            "gw_total": 67
           }
         ],
         "best_gw": [
@@ -2414,7 +2415,7 @@
           3,
           43
         ],
-        "bench_points": 116,
+        "bench_points": 114,
         "hits_cost": 0,
         "transfers": 4
       },
