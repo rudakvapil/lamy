@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-10-23T18:00:17.014531+00:00",
-    "current_gw": 7,
+    "updated_at": "2026-10-23T21:00:30.650894+00:00",
+    "current_gw": 8,
     "season": "2026/27",
     "league_id": 199256,
     "total_matches": 144,
@@ -1212,148 +1212,148 @@
       {
         "id": 8,
         "name": "Calafiori",
-        "appearances": 47,
+        "appearances": 62,
         "pos": 2,
         "total_points": 44
       },
       {
         "id": 411,
         "name": "Haaland",
-        "appearances": 45,
+        "appearances": 60,
         "pos": 4,
         "total_points": 58
       },
       {
         "id": 165,
         "name": "João Pedro",
-        "appearances": 41,
+        "appearances": 56,
         "pos": 4,
         "total_points": 47
       },
       {
         "id": 40,
         "name": "Rogers",
-        "appearances": 29,
+        "appearances": 39,
         "pos": 3,
         "total_points": 40
       },
       {
         "id": 496,
         "name": "Kinsky",
-        "appearances": 27,
+        "appearances": 34,
         "pos": 1,
         "total_points": 23
       },
       {
-        "id": 368,
-        "name": "Szoboszlai",
-        "appearances": 26,
-        "pos": 3,
-        "total_points": 21
-      },
-      {
         "id": 124,
         "name": "Groß",
-        "appearances": 22,
+        "appearances": 29,
         "pos": 3,
         "total_points": 58
       },
       {
+        "id": 368,
+        "name": "Szoboszlai",
+        "appearances": 27,
+        "pos": 3,
+        "total_points": 21
+      },
+      {
+        "id": 427,
+        "name": "Mbeumo",
+        "appearances": 26,
+        "pos": 3,
+        "total_points": 41
+      },
+      {
         "id": 115,
         "name": "De Cuyper",
-        "appearances": 20,
+        "appearances": 25,
         "pos": 2,
         "total_points": 59
       },
       {
         "id": 426,
         "name": "B.Fernandes",
-        "appearances": 19,
+        "appearances": 23,
         "pos": 3,
-        "total_points": 33
-      },
-      {
-        "id": 427,
-        "name": "Mbeumo",
-        "appearances": 17,
-        "pos": 3,
-        "total_points": 41
-      },
-      {
-        "id": 346,
-        "name": "Calvert-Lewin",
-        "appearances": 16,
-        "pos": 4,
         "total_points": 33
       },
       {
         "id": 31,
         "name": "Konsa",
-        "appearances": 15,
+        "appearances": 22,
         "pos": 2,
         "total_points": 25
       },
       {
-        "id": 391,
-        "name": "Gvardiol",
-        "appearances": 14,
-        "pos": 2,
-        "total_points": 41
-      },
-      {
         "id": 557,
         "name": "Tzolis",
-        "appearances": 14,
+        "appearances": 19,
         "pos": 3,
         "total_points": 16
       },
       {
+        "id": 391,
+        "name": "Gvardiol",
+        "appearances": 19,
+        "pos": 2,
+        "total_points": 41
+      },
+      {
         "id": 154,
         "name": "Palmer",
-        "appearances": 12,
+        "appearances": 17,
         "pos": 3,
         "total_points": 38
       },
       {
-        "id": 12,
-        "name": "Saka",
-        "appearances": 11,
-        "pos": 3,
-        "total_points": 37
+        "id": 346,
+        "name": "Calvert-Lewin",
+        "appearances": 17,
+        "pos": 4,
+        "total_points": 33
       },
       {
         "id": 1,
         "name": "Raya",
-        "appearances": 10,
+        "appearances": 14,
         "pos": 1,
         "total_points": 42
       },
       {
-        "id": 397,
-        "name": "Semenyo",
-        "appearances": 9,
+        "id": 12,
+        "name": "Saka",
+        "appearances": 12,
         "pos": 3,
         "total_points": 37
       },
       {
-        "id": 464,
-        "name": "Wissa",
-        "appearances": 8,
-        "pos": 4,
-        "total_points": 18
+        "id": 418,
+        "name": "Maguire",
+        "appearances": 10,
+        "pos": 2,
+        "total_points": 16
       },
       {
         "id": 15,
         "name": "Ødegaard",
-        "appearances": 7,
+        "appearances": 10,
         "pos": 3,
         "total_points": 33
+      },
+      {
+        "id": 464,
+        "name": "Wissa",
+        "appearances": 10,
+        "pos": 4,
+        "total_points": 18
       }
     ],
     "differentials": [
       {
-        "id": 1,
-        "name": "Raya",
+        "id": 68,
+        "name": "Tavernier",
         "total_points": 42,
         "owners": [
           "Libor Pechoč"
@@ -1368,14 +1368,6 @@
         ]
       },
       {
-        "id": 427,
-        "name": "Mbeumo",
-        "total_points": 41,
-        "owners": [
-          "Rudolf Kvapil"
-        ]
-      },
-      {
         "id": 94,
         "name": "Schade",
         "total_points": 40,
@@ -1384,19 +1376,11 @@
         ]
       },
       {
-        "id": 109,
-        "name": "Verbruggen",
-        "total_points": 38,
-        "owners": [
-          "Lukáš Kapinus"
-        ]
-      },
-      {
-        "id": 397,
-        "name": "Semenyo",
+        "id": 12,
+        "name": "Saka",
         "total_points": 37,
         "owners": [
-          "Libor Pechoč"
+          "Marek Palán"
         ]
       },
       {
@@ -1409,16 +1393,16 @@
         ]
       },
       {
-        "id": 236,
-        "name": "Dewsbury-Hall",
-        "total_points": 35,
+        "id": 334,
+        "name": "Muharemović",
+        "total_points": 34,
         "owners": [
-          "Marek Palán"
+          "Rudolf Kvapil"
         ]
       },
       {
-        "id": 334,
-        "name": "Muharemović",
+        "id": 156,
+        "name": "Neto",
         "total_points": 34,
         "owners": [
           "Rudolf Kvapil"
@@ -1429,16 +1413,7 @@
         "name": "Ødegaard",
         "total_points": 33,
         "owners": [
-          "Martin Holub",
           "Rudolf Kvapil"
-        ]
-      },
-      {
-        "id": 346,
-        "name": "Calvert-Lewin",
-        "total_points": 33,
-        "owners": [
-          "Martin Válek"
         ]
       },
       {
@@ -1449,18 +1424,42 @@
           "Jaroslav Bureš",
           "Libor Pechoč"
         ]
+      },
+      {
+        "id": 480,
+        "name": "Gibbs-White",
+        "total_points": 32,
+        "owners": [
+          "Jaroslav Bureš"
+        ]
+      },
+      {
+        "id": 173,
+        "name": "Thomas",
+        "total_points": 31,
+        "owners": [
+          "Lukáš Kapinus"
+        ]
+      },
+      {
+        "id": 87,
+        "name": "Ajer",
+        "total_points": 30,
+        "owners": [
+          "Martin Válek"
+        ]
       }
     ],
     "top_captains_liga": [
       {
         "id": 411,
         "name": "Haaland",
-        "times": 27
+        "times": 37
       },
       {
         "id": 165,
         "name": "João Pedro",
-        "times": 7
+        "times": 11
       },
       {
         "id": 426,
@@ -1478,13 +1477,13 @@
         "times": 3
       },
       {
-        "id": 40,
-        "name": "Rogers",
-        "times": 1
-      },
-      {
         "id": 154,
         "name": "Palmer",
+        "times": 2
+      },
+      {
+        "id": 40,
+        "name": "Rogers",
         "times": 1
       },
       {
@@ -1497,98 +1496,125 @@
       "5884187": {
         "top_players": [
           {
-            "id": 496,
-            "name": "Kinsky",
-            "gws": 4
-          },
-          {
-            "id": 115,
-            "name": "De Cuyper",
-            "gws": 4
-          },
-          {
             "id": 8,
             "name": "Calafiori",
-            "gws": 4
-          },
-          {
-            "id": 391,
-            "name": "Gvardiol",
-            "gws": 4
-          },
-          {
-            "id": 40,
-            "name": "Rogers",
-            "gws": 4
-          },
-          {
-            "id": 154,
-            "name": "Palmer",
-            "gws": 4
-          },
-          {
-            "id": 15,
-            "name": "Ødegaard",
-            "gws": 4
+            "gws": 8
           },
           {
             "id": 411,
             "name": "Haaland",
-            "gws": 4
+            "gws": 8
+          },
+          {
+            "id": 496,
+            "name": "Kinsky",
+            "gws": 7
           },
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 3
+            "gws": 7
+          },
+          {
+            "id": 115,
+            "name": "De Cuyper",
+            "gws": 7
+          },
+          {
+            "id": 15,
+            "name": "Ødegaard",
+            "gws": 6
+          },
+          {
+            "id": 391,
+            "name": "Gvardiol",
+            "gws": 6
+          },
+          {
+            "id": 154,
+            "name": "Palmer",
+            "gws": 6
           },
           {
             "id": 124,
             "name": "Groß",
+            "gws": 5
+          },
+          {
+            "id": 40,
+            "name": "Rogers",
+            "gws": 5
+          },
+          {
+            "id": 565,
+            "name": "M.Sangaré",
             "gws": 3
           },
           {
-            "id": 367,
-            "name": "Gakpo",
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 3
+          },
+          {
+            "id": 557,
+            "name": "Tzolis",
+            "gws": 3
+          },
+          {
+            "id": 418,
+            "name": "Maguire",
             "gws": 2
           },
           {
-            "id": 379,
-            "name": "Isak",
+            "id": 427,
+            "name": "Mbeumo",
             "gws": 2
-          },
-          {
-            "id": 173,
-            "name": "Thomas",
-            "gws": 1
-          },
-          {
-            "id": 138,
-            "name": "Kostoulas",
-            "gws": 1
           }
         ],
         "top_captains": [
           {
             "id": 165,
             "name": "João Pedro",
-            "times": 3
+            "times": 5
           },
           {
             "id": 411,
             "name": "Haaland",
-            "times": 1
+            "times": 3
           }
         ],
         "chips": {
           "7": "3xc"
         },
         "gw_points": {
+          "1": 58,
+          "2": 88,
+          "3": 57,
           "4": 87,
           "5": 58,
           "6": 89,
-          "7": 79
+          "7": 79,
+          "8": 0
         },
         "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 58
+          },
+          {
+            "gw": 2,
+            "player_id": 165,
+            "player": "João Pedro",
+            "gw_total": 88
+          },
+          {
+            "gw": 3,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 57
+          },
           {
             "gw": 4,
             "player_id": 165,
@@ -1612,6 +1638,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 79
+          },
+          {
+            "gw": 8,
+            "player_id": 165,
+            "player": "João Pedro",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -1619,33 +1651,38 @@
           89
         ],
         "worst_gw": [
-          5,
-          58
+          8,
+          0
         ],
-        "bench_points": 37,
-        "hits_cost": 16,
-        "transfers": 7
+        "bench_points": 57,
+        "hits_cost": 28,
+        "transfers": 13
       },
       "1277021": {
         "top_players": [
           {
             "id": 1,
             "name": "Raya",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 8,
             "name": "Calafiori",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 411,
             "name": "Haaland",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 165,
             "name": "João Pedro",
+            "gws": 7
+          },
+          {
+            "id": 124,
+            "name": "Groß",
             "gws": 6
           },
           {
@@ -1664,14 +1701,9 @@
             "gws": 5
           },
           {
-            "id": 124,
-            "name": "Groß",
-            "gws": 5
-          },
-          {
             "id": 115,
             "name": "De Cuyper",
-            "gws": 4
+            "gws": 5
           },
           {
             "id": 418,
@@ -1689,26 +1721,26 @@
             "gws": 3
           },
           {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 2
-          },
-          {
-            "id": 464,
-            "name": "Wissa",
-            "gws": 2
-          },
-          {
             "id": 391,
             "name": "Gvardiol",
-            "gws": 2
+            "gws": 3
+          },
+          {
+            "id": 453,
+            "name": "Barnes",
+            "gws": 3
+          },
+          {
+            "id": 94,
+            "name": "Schade",
+            "gws": 3
           }
         ],
         "top_captains": [
           {
             "id": 411,
             "name": "Haaland",
-            "times": 5
+            "times": 6
           },
           {
             "id": 426,
@@ -1732,7 +1764,8 @@
           "4": 90,
           "5": 45,
           "6": 71,
-          "7": 59
+          "7": 59,
+          "8": 0
         },
         "cap_history": [
           {
@@ -1776,6 +1809,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 59
+          },
+          {
+            "gw": 8,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -1783,73 +1822,78 @@
           111
         ],
         "worst_gw": [
-          5,
-          45
+          8,
+          0
         ],
         "bench_points": 65,
         "hits_cost": 0,
-        "transfers": 5
+        "transfers": 6
       },
       "394522": {
         "top_players": [
           {
             "id": 8,
             "name": "Calafiori",
-            "gws": 6
-          },
-          {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 6
+            "gws": 8
           },
           {
             "id": 411,
             "name": "Haaland",
-            "gws": 6
-          },
-          {
-            "id": 426,
-            "name": "B.Fernandes",
-            "gws": 5
+            "gws": 8
           },
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 5
+            "gws": 7
           },
           {
-            "id": 124,
-            "name": "Groß",
-            "gws": 5
+            "id": 346,
+            "name": "Calvert-Lewin",
+            "gws": 7
+          },
+          {
+            "id": 426,
+            "name": "B.Fernandes",
+            "gws": 6
           },
           {
             "id": 87,
             "name": "Ajer",
-            "gws": 4
+            "gws": 6
+          },
+          {
+            "id": 124,
+            "name": "Groß",
+            "gws": 6
           },
           {
             "id": 399,
             "name": "Cherki",
-            "gws": 4
+            "gws": 5
           },
           {
             "id": 31,
             "name": "Konsa",
-            "gws": 4
+            "gws": 5
           },
           {
             "id": 1,
             "name": "Raya",
-            "gws": 3
+            "gws": 4
           },
           {
             "id": 368,
             "name": "Szoboszlai",
-            "gws": 3
+            "gws": 4
           },
           {
             "id": 496,
             "name": "Kinsky",
+            "gws": 4
+          },
+          {
+            "id": 532,
+            "name": "Ballard",
             "gws": 3
           },
           {
@@ -1858,21 +1902,16 @@
             "gws": 3
           },
           {
-            "id": 532,
-            "name": "Ballard",
-            "gws": 2
-          },
-          {
             "id": 650,
             "name": "Affengruber",
-            "gws": 2
+            "gws": 3
           }
         ],
         "top_captains": [
           {
             "id": 411,
             "name": "Haaland",
-            "times": 3
+            "times": 5
           },
           {
             "id": 426,
@@ -1893,11 +1932,13 @@
         "chips": {},
         "gw_points": {
           "1": 57,
+          "2": 102,
           "3": 40,
           "4": 93,
           "5": 53,
           "6": 60,
-          "7": 73
+          "7": 73,
+          "8": 0
         },
         "cap_history": [
           {
@@ -1905,6 +1946,12 @@
             "player_id": 426,
             "player": "B.Fernandes",
             "gw_total": 57
+          },
+          {
+            "gw": 2,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 102
           },
           {
             "gw": 3,
@@ -1935,35 +1982,46 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 73
+          },
+          {
+            "gw": 8,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
-          4,
-          93
+          2,
+          102
         ],
         "worst_gw": [
-          3,
-          40
+          8,
+          0
         ],
-        "bench_points": 56,
+        "bench_points": 74,
         "hits_cost": 4,
-        "transfers": 7
+        "transfers": 8
       },
       "161243": {
         "top_players": [
+          {
+            "id": 8,
+            "name": "Calafiori",
+            "gws": 8
+          },
+          {
+            "id": 411,
+            "name": "Haaland",
+            "gws": 8
+          },
           {
             "id": 496,
             "name": "Kinsky",
             "gws": 7
           },
           {
-            "id": 8,
-            "name": "Calafiori",
-            "gws": 7
-          },
-          {
-            "id": 411,
-            "name": "Haaland",
+            "id": 165,
+            "name": "João Pedro",
             "gws": 7
           },
           {
@@ -1972,9 +2030,9 @@
             "gws": 6
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 6
+            "id": 40,
+            "name": "Rogers",
+            "gws": 5
           },
           {
             "id": 368,
@@ -1992,8 +2050,18 @@
             "gws": 4
           },
           {
-            "id": 40,
-            "name": "Rogers",
+            "id": 31,
+            "name": "Konsa",
+            "gws": 4
+          },
+          {
+            "id": 453,
+            "name": "Barnes",
+            "gws": 4
+          },
+          {
+            "id": 464,
+            "name": "Wissa",
             "gws": 4
           },
           {
@@ -2007,31 +2075,16 @@
             "gws": 3
           },
           {
-            "id": 31,
-            "name": "Konsa",
+            "id": 391,
+            "name": "Gvardiol",
             "gws": 3
-          },
-          {
-            "id": 453,
-            "name": "Barnes",
-            "gws": 3
-          },
-          {
-            "id": 464,
-            "name": "Wissa",
-            "gws": 3
-          },
-          {
-            "id": 542,
-            "name": "E.Le Fée",
-            "gws": 2
           }
         ],
         "top_captains": [
           {
             "id": 411,
             "name": "Haaland",
-            "times": 4
+            "times": 5
           },
           {
             "id": 426,
@@ -2055,7 +2108,8 @@
           "4": 87,
           "5": 37,
           "6": 66,
-          "7": 70
+          "7": 70,
+          "8": 0
         },
         "cap_history": [
           {
@@ -2099,6 +2153,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 70
+          },
+          {
+            "gw": 8,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -2106,48 +2166,53 @@
           96
         ],
         "worst_gw": [
-          5,
-          37
+          8,
+          0
         ],
         "bench_points": 33,
         "hits_cost": 4,
-        "transfers": 5
+        "transfers": 6
       },
       "125278": {
         "top_players": [
           {
             "id": 8,
             "name": "Calafiori",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 496,
             "name": "Kinsky",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 427,
             "name": "Mbeumo",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 411,
             "name": "Haaland",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 334,
             "name": "Muharemović",
-            "gws": 5
+            "gws": 6
           },
           {
             "id": 368,
             "name": "Szoboszlai",
+            "gws": 5
+          },
+          {
+            "id": 40,
+            "name": "Rogers",
             "gws": 5
           },
           {
@@ -2166,8 +2231,13 @@
             "gws": 4
           },
           {
-            "id": 40,
-            "name": "Rogers",
+            "id": 15,
+            "name": "Ødegaard",
+            "gws": 4
+          },
+          {
+            "id": 391,
+            "name": "Gvardiol",
             "gws": 4
           },
           {
@@ -2179,23 +2249,13 @@
             "id": 426,
             "name": "B.Fernandes",
             "gws": 3
-          },
-          {
-            "id": 15,
-            "name": "Ødegaard",
-            "gws": 3
-          },
-          {
-            "id": 391,
-            "name": "Gvardiol",
-            "gws": 3
           }
         ],
         "top_captains": [
           {
             "id": 411,
             "name": "Haaland",
-            "times": 4
+            "times": 5
           },
           {
             "id": 426,
@@ -2224,7 +2284,8 @@
           "4": 86,
           "5": 55,
           "6": 71,
-          "7": 65
+          "7": 65,
+          "8": 0
         },
         "cap_history": [
           {
@@ -2268,6 +2329,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 65
+          },
+          {
+            "gw": 8,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -2275,43 +2342,58 @@
           107
         ],
         "worst_gw": [
-          1,
-          52
+          8,
+          0
         ],
         "bench_points": 75,
         "hits_cost": 0,
-        "transfers": 4
+        "transfers": 5
       },
       "1034876": {
         "top_players": [
           {
             "id": 236,
             "name": "Dewsbury-Hall",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 5
+            "gws": 7
           },
           {
             "id": 8,
             "name": "Calafiori",
-            "gws": 4
+            "gws": 6
           },
           {
             "id": 40,
             "name": "Rogers",
-            "gws": 4
+            "gws": 6
           },
           {
             "id": 427,
             "name": "Mbeumo",
-            "gws": 4
+            "gws": 5
           },
           {
             "id": 397,
             "name": "Semenyo",
+            "gws": 5
+          },
+          {
+            "id": 411,
+            "name": "Haaland",
+            "gws": 5
+          },
+          {
+            "id": 449,
+            "name": "Hall",
+            "gws": 4
+          },
+          {
+            "id": 31,
+            "name": "Konsa",
             "gws": 4
           },
           {
@@ -2330,37 +2412,27 @@
             "gws": 3
           },
           {
-            "id": 411,
-            "name": "Haaland",
+            "id": 28,
+            "name": "Martinez",
             "gws": 3
           },
           {
-            "id": 496,
-            "name": "Kinsky",
-            "gws": 2
+            "id": 115,
+            "name": "De Cuyper",
+            "gws": 3
           },
           {
-            "id": 200,
-            "name": "Lacroix",
-            "gws": 2
-          },
-          {
-            "id": 82,
-            "name": "Kelleher",
-            "gws": 2
-          },
-          {
-            "id": 356,
-            "name": "Virgil",
-            "gws": 2
-          },
-          {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 2
+            "id": 12,
+            "name": "Saka",
+            "gws": 3
           }
         ],
         "top_captains": [
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "times": 3
+          },
           {
             "id": 427,
             "name": "Mbeumo",
@@ -2372,24 +2444,23 @@
             "times": 2
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "times": 1
-          },
-          {
             "id": 12,
             "name": "Saka",
             "times": 1
           }
         ],
-        "chips": {},
+        "chips": {
+          "4": "wildcard"
+        },
         "gw_points": {
           "1": 71,
           "2": 61,
           "3": 43,
+          "4": 63,
           "5": 51,
           "6": 83,
-          "7": 67
+          "7": 67,
+          "8": 0
         },
         "cap_history": [
           {
@@ -2411,6 +2482,12 @@
             "gw_total": 43
           },
           {
+            "gw": 4,
+            "player_id": 165,
+            "player": "João Pedro",
+            "gw_total": 63
+          },
+          {
             "gw": 5,
             "player_id": 411,
             "player": "Haaland",
@@ -2427,6 +2504,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 67
+          },
+          {
+            "gw": 8,
+            "player_id": 165,
+            "player": "João Pedro",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -2434,34 +2517,34 @@
           83
         ],
         "worst_gw": [
-          3,
-          43
+          8,
+          0
         ],
-        "bench_points": 102,
+        "bench_points": 114,
         "hits_cost": 0,
-        "transfers": 4
+        "transfers": 5
       },
       "1287745": {
         "top_players": [
           {
             "id": 8,
             "name": "Calafiori",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 40,
             "name": "Rogers",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 411,
             "name": "Haaland",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 6
+            "gws": 7
           },
           {
             "id": 368,
@@ -2471,21 +2554,36 @@
           {
             "id": 496,
             "name": "Kinsky",
-            "gws": 4
+            "gws": 5
           },
           {
             "id": 449,
             "name": "Hall",
-            "gws": 4
+            "gws": 5
           },
           {
             "id": 154,
             "name": "Palmer",
+            "gws": 5
+          },
+          {
+            "id": 427,
+            "name": "Mbeumo",
+            "gws": 4
+          },
+          {
+            "id": 31,
+            "name": "Konsa",
             "gws": 4
           },
           {
             "id": 12,
             "name": "Saka",
+            "gws": 4
+          },
+          {
+            "id": 464,
+            "name": "Wissa",
             "gws": 4
           },
           {
@@ -2499,23 +2597,8 @@
             "gws": 3
           },
           {
-            "id": 427,
-            "name": "Mbeumo",
-            "gws": 3
-          },
-          {
             "id": 398,
             "name": "Foden",
-            "gws": 3
-          },
-          {
-            "id": 366,
-            "name": "Wirtz",
-            "gws": 3
-          },
-          {
-            "id": 31,
-            "name": "Konsa",
             "gws": 3
           }
         ],
@@ -2523,7 +2606,7 @@
           {
             "id": 411,
             "name": "Haaland",
-            "times": 5
+            "times": 6
           },
           {
             "id": 154,
@@ -2546,7 +2629,8 @@
           "4": 71,
           "5": 43,
           "6": 74,
-          "7": 67
+          "7": 67,
+          "8": 0
         },
         "cap_history": [
           {
@@ -2590,6 +2674,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 67
+          },
+          {
+            "gw": 8,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -2597,38 +2687,73 @@
           89
         ],
         "worst_gw": [
-          5,
-          43
+          8,
+          0
         ],
         "bench_points": 76,
         "hits_cost": 0,
-        "transfers": 2
+        "transfers": 3
       },
       "1436706": {
         "top_players": [
           {
             "id": 8,
             "name": "Calafiori",
-            "gws": 5
+            "gws": 8
           },
           {
             "id": 411,
             "name": "Haaland",
-            "gws": 5
+            "gws": 8
           },
           {
             "id": 427,
             "name": "Mbeumo",
-            "gws": 4
+            "gws": 7
           },
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 4
+            "gws": 7
+          },
+          {
+            "id": 480,
+            "name": "Gibbs-White",
+            "gws": 5
           },
           {
             "id": 542,
             "name": "E.Le Fée",
+            "gws": 5
+          },
+          {
+            "id": 31,
+            "name": "Konsa",
+            "gws": 5
+          },
+          {
+            "id": 154,
+            "name": "Palmer",
+            "gws": 5
+          },
+          {
+            "id": 40,
+            "name": "Rogers",
+            "gws": 5
+          },
+          {
+            "id": 173,
+            "name": "Thomas",
+            "gws": 4
+          },
+          {
+            "id": 469,
+            "name": "N.Williams",
+            "gws": 3
+          },
+          {
+            "id": 398,
+            "name": "Foden",
             "gws": 3
           },
           {
@@ -2637,48 +2762,13 @@
             "gws": 3
           },
           {
-            "id": 480,
-            "name": "Gibbs-White",
-            "gws": 3
-          },
-          {
-            "id": 31,
-            "name": "Konsa",
-            "gws": 3
-          },
-          {
-            "id": 40,
-            "name": "Rogers",
-            "gws": 3
-          },
-          {
-            "id": 154,
-            "name": "Palmer",
-            "gws": 3
-          },
-          {
-            "id": 532,
-            "name": "Ballard",
-            "gws": 2
-          },
-          {
-            "id": 398,
-            "name": "Foden",
-            "gws": 2
-          },
-          {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 2
-          },
-          {
-            "id": 469,
-            "name": "N.Williams",
-            "gws": 2
-          },
-          {
             "id": 112,
             "name": "Van Hecke",
+            "gws": 3
+          },
+          {
+            "id": 412,
+            "name": "Lammens",
             "gws": 2
           }
         ],
@@ -2686,11 +2776,16 @@
           {
             "id": 411,
             "name": "Haaland",
-            "times": 3
+            "times": 5
           },
           {
             "id": 427,
             "name": "Mbeumo",
+            "times": 1
+          },
+          {
+            "id": 154,
+            "name": "Palmer",
             "times": 1
           },
           {
@@ -2699,15 +2794,27 @@
             "times": 1
           }
         ],
-        "chips": {},
+        "chips": {
+          "1": "bboost",
+          "4": "wildcard"
+        },
         "gw_points": {
+          "1": 49,
           "2": 89,
           "3": 51,
+          "4": 76,
           "5": 41,
           "6": 75,
-          "7": 72
+          "7": 72,
+          "8": 0
         },
         "cap_history": [
+          {
+            "gw": 1,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 49
+          },
           {
             "gw": 2,
             "player_id": 427,
@@ -2719,6 +2826,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 51
+          },
+          {
+            "gw": 4,
+            "player_id": 154,
+            "player": "Palmer",
+            "gw_total": 76
           },
           {
             "gw": 5,
@@ -2737,6 +2850,12 @@
             "player_id": 411,
             "player": "Haaland",
             "gw_total": 72
+          },
+          {
+            "gw": 8,
+            "player_id": 411,
+            "player": "Haaland",
+            "gw_total": 0
           }
         ],
         "best_gw": [
@@ -2744,12 +2863,12 @@
           89
         ],
         "worst_gw": [
-          5,
-          41
+          8,
+          0
         ],
-        "bench_points": 72,
+        "bench_points": 82,
         "hits_cost": 0,
-        "transfers": 3
+        "transfers": 4
       }
     }
   },
@@ -4936,7 +5055,7 @@
       "web_name": "Diop",
       "team": 12,
       "element_type": 2,
-      "total_points": 17
+      "total_points": 18
     },
     "267": {
       "web_name": "Lukić",
@@ -4948,7 +5067,7 @@
       "web_name": "Walton",
       "team": 12,
       "element_type": 1,
-      "total_points": 6
+      "total_points": 9
     },
     "301": {
       "web_name": "Palmer",
@@ -4972,13 +5091,13 @@
       "web_name": "O'Shea",
       "team": 12,
       "element_type": 2,
-      "total_points": 24
+      "total_points": 26
     },
     "305": {
       "web_name": "Davis",
       "team": 12,
       "element_type": 2,
-      "total_points": 26
+      "total_points": 28
     },
     "306": {
       "web_name": "Greaves",
@@ -5008,7 +5127,7 @@
       "web_name": "Matusiwa",
       "team": 12,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "311": {
       "web_name": "Burns",
@@ -5026,7 +5145,7 @@
       "web_name": "Clarke",
       "team": 12,
       "element_type": 3,
-      "total_points": 16
+      "total_points": 17
     },
     "314": {
       "web_name": "Ogbene",
@@ -5038,13 +5157,13 @@
       "web_name": "Fatawu",
       "team": 12,
       "element_type": 3,
-      "total_points": 12
+      "total_points": 14
     },
     "316": {
       "web_name": "Emersonn",
       "team": 12,
       "element_type": 4,
-      "total_points": 30
+      "total_points": 31
     },
     "317": {
       "web_name": "Hirst",
@@ -5056,7 +5175,7 @@
       "web_name": "Philogene",
       "team": 12,
       "element_type": 3,
-      "total_points": 4
+      "total_points": 6
     },
     "319": {
       "web_name": "Szmodics",
@@ -5068,7 +5187,7 @@
       "web_name": "Akpom",
       "team": 12,
       "element_type": 4,
-      "total_points": 9
+      "total_points": 10
     },
     "321": {
       "web_name": "Walle Egeli",
@@ -5104,7 +5223,7 @@
       "web_name": "Maeda",
       "team": 12,
       "element_type": 3,
-      "total_points": 17
+      "total_points": 18
     },
     "564": {
       "web_name": "Scherpen",
@@ -5116,19 +5235,19 @@
       "web_name": "Florentino",
       "team": 12,
       "element_type": 3,
-      "total_points": 6
+      "total_points": 8
     },
     "591": {
       "web_name": "Enciso",
       "team": 12,
       "element_type": 3,
-      "total_points": 19
+      "total_points": 29
     },
     "592": {
       "web_name": "Ouattara",
       "team": 12,
       "element_type": 2,
-      "total_points": 19
+      "total_points": 21
     },
     "602": {
       "web_name": "Humphreys",
@@ -5140,13 +5259,13 @@
       "web_name": "Palacios",
       "team": 12,
       "element_type": 3,
-      "total_points": 16
+      "total_points": 20
     },
     "640": {
       "web_name": "Flemming",
       "team": 12,
       "element_type": 4,
-      "total_points": 12
+      "total_points": 13
     },
     "260": {
       "web_name": "Wilson",
@@ -6160,19 +6279,19 @@
       "web_name": "Delap",
       "team": 18,
       "element_type": 4,
-      "total_points": 13
+      "total_points": 15
     },
     "201": {
       "web_name": "Muñoz",
       "team": 18,
       "element_type": 2,
-      "total_points": 8
+      "total_points": 15
     },
     "467": {
       "web_name": "Sels",
       "team": 18,
       "element_type": 1,
-      "total_points": 18
+      "total_points": 20
     },
     "468": {
       "web_name": "John",
@@ -6184,7 +6303,7 @@
       "web_name": "N.Williams",
       "team": 18,
       "element_type": 2,
-      "total_points": 23
+      "total_points": 31
     },
     "470": {
       "web_name": "Morato",
@@ -6196,13 +6315,13 @@
       "web_name": "Milenković",
       "team": 18,
       "element_type": 2,
-      "total_points": 12
+      "total_points": 14
     },
     "472": {
       "web_name": "Murillo",
       "team": 18,
       "element_type": 2,
-      "total_points": 27
+      "total_points": 28
     },
     "473": {
       "web_name": "Aina",
@@ -6214,7 +6333,7 @@
       "web_name": "Jair Cunha",
       "team": 18,
       "element_type": 2,
-      "total_points": 13
+      "total_points": 15
     },
     "475": {
       "web_name": "Savona",
@@ -6238,7 +6357,7 @@
       "web_name": "Netz",
       "team": 18,
       "element_type": 2,
-      "total_points": 3
+      "total_points": 4
     },
     "479": {
       "web_name": "Bindon",
@@ -6250,19 +6369,19 @@
       "web_name": "Gibbs-White",
       "team": 18,
       "element_type": 3,
-      "total_points": 30
+      "total_points": 32
     },
     "482": {
       "web_name": "Hudson-Odoi",
       "team": 18,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "483": {
       "web_name": "Ndoye",
       "team": 18,
       "element_type": 3,
-      "total_points": 25
+      "total_points": 27
     },
     "484": {
       "web_name": "Hutchinson",
@@ -6280,7 +6399,7 @@
       "web_name": "McAtee",
       "team": 18,
       "element_type": 3,
-      "total_points": 18
+      "total_points": 23
     },
     "487": {
       "web_name": "Dominguez",
@@ -6304,7 +6423,7 @@
       "web_name": "Wood",
       "team": 18,
       "element_type": 4,
-      "total_points": 6
+      "total_points": 7
     },
     "491": {
       "web_name": "Igor Jesus",
@@ -6322,7 +6441,7 @@
       "web_name": "Schlager",
       "team": 18,
       "element_type": 3,
-      "total_points": 19
+      "total_points": 23
     },
     "581": {
       "web_name": "Diomande",
