@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-23T21:00:30.650894+00:00",
+    "updated_at": "2026-10-24T00:05:51.679858+00:00",
     "current_gw": 8,
     "season": "2026/27",
     "league_id": 199256,
@@ -1825,7 +1825,7 @@
           8,
           0
         ],
-        "bench_points": 65,
+        "bench_points": 67,
         "hits_cost": 0,
         "transfers": 6
       },
@@ -2109,7 +2109,7 @@
           "5": 37,
           "6": 66,
           "7": 70,
-          "8": 0
+          "8": 2
         },
         "cap_history": [
           {
@@ -2158,7 +2158,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -2167,9 +2167,9 @@
         ],
         "worst_gw": [
           8,
-          0
+          2
         ],
-        "bench_points": 33,
+        "bench_points": 35,
         "hits_cost": 4,
         "transfers": 6
       },
@@ -2520,7 +2520,7 @@
           8,
           0
         ],
-        "bench_points": 114,
+        "bench_points": 116,
         "hits_cost": 0,
         "transfers": 5
       },
