@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-25T17:55:19.184292+00:00",
+    "updated_at": "2026-10-25T20:04:00.460670+00:00",
     "current_gw": 8,
     "season": "2026/27",
     "league_id": 199256,
@@ -1368,6 +1368,14 @@
         ]
       },
       {
+        "id": 334,
+        "name": "Muharemović",
+        "total_points": 43,
+        "owners": [
+          "Rudolf Kvapil"
+        ]
+      },
+      {
         "id": 94,
         "name": "Schade",
         "total_points": 42,
@@ -1382,14 +1390,6 @@
         "owners": [
           "Jaroslav Bureš",
           "Libor Pechoč"
-        ]
-      },
-      {
-        "id": 334,
-        "name": "Muharemović",
-        "total_points": 40,
-        "owners": [
-          "Rudolf Kvapil"
         ]
       },
       {
@@ -5301,7 +5301,7 @@
       "web_name": "Bogle",
       "team": 13,
       "element_type": 2,
-      "total_points": 53
+      "total_points": 50
     },
     "331": {
       "web_name": "Gudmundsson",
@@ -5325,19 +5325,19 @@
       "web_name": "Muharemović",
       "team": 13,
       "element_type": 2,
-      "total_points": 40
+      "total_points": 43
     },
     "335": {
       "web_name": "Stach",
       "team": 13,
       "element_type": 3,
-      "total_points": 31
+      "total_points": 32
     },
     "336": {
       "web_name": "Okafor",
       "team": 13,
       "element_type": 3,
-      "total_points": 22
+      "total_points": 23
     },
     "337": {
       "web_name": "Aaronson",
@@ -5355,7 +5355,7 @@
       "web_name": "Longstaff",
       "team": 13,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "341": {
       "web_name": "Gnonto",
@@ -5397,7 +5397,7 @@
       "web_name": "Nmecha",
       "team": 13,
       "element_type": 4,
-      "total_points": 9
+      "total_points": 10
     },
     "348": {
       "web_name": "Piroe",
@@ -6711,7 +6711,7 @@
       "web_name": "Roefs",
       "team": 20,
       "element_type": 1,
-      "total_points": 21
+      "total_points": 23
     },
     "530": {
       "web_name": "Patterson",
@@ -6771,7 +6771,7 @@
       "web_name": "O'Nien",
       "team": 20,
       "element_type": 2,
-      "total_points": 10
+      "total_points": 11
     },
     "540": {
       "web_name": "Masuaku",
@@ -6795,7 +6795,7 @@
       "web_name": "Diarra",
       "team": 20,
       "element_type": 3,
-      "total_points": 6
+      "total_points": 7
     },
     "544": {
       "web_name": "Xhaka",
@@ -6831,7 +6831,7 @@
       "web_name": "Talbi",
       "team": 20,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     },
     "550": {
       "web_name": "Jocelin.T",
@@ -6885,7 +6885,7 @@
       "web_name": "Tutierov",
       "team": 20,
       "element_type": 3,
-      "total_points": 1
+      "total_points": 2
     }
   }
 }
