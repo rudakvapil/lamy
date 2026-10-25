@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-25T20:04:00.460670+00:00",
+    "updated_at": "2026-10-25T22:52:09.290421+00:00",
     "current_gw": 8,
     "season": "2026/27",
     "league_id": 199256,
@@ -4803,7 +4803,7 @@
       "web_name": "Iroegbunam",
       "team": 11,
       "element_type": 3,
-      "total_points": 11
+      "total_points": 13
     },
     "273": {
       "web_name": "Phillips",
@@ -5001,7 +5001,7 @@
       "web_name": "Stroud",
       "team": 11,
       "element_type": 3,
-      "total_points": 13
+      "total_points": 15
     },
     "585": {
       "web_name": "Herrington",
@@ -5535,7 +5535,7 @@
       "web_name": "Jacquet",
       "team": 14,
       "element_type": 2,
-      "total_points": 36
+      "total_points": 38
     },
     "363": {
       "web_name": "Leoni",
@@ -6231,13 +6231,13 @@
       "web_name": "Horníček",
       "team": 17,
       "element_type": 1,
-      "total_points": 25
+      "total_points": 24
     },
     "593": {
       "web_name": "Dedić",
       "team": 17,
       "element_type": 2,
-      "total_points": 23
+      "total_points": 24
     },
     "609": {
       "web_name": "Shahar",
