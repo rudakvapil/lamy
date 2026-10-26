@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-26T05:30:12.450755+00:00",
+    "updated_at": "2026-10-26T11:39:39.513379+00:00",
     "current_gw": 8,
     "season": "2026/27",
     "league_id": 199256,
@@ -1226,7 +1226,7 @@
       {
         "id": 165,
         "name": "João Pedro",
-        "appearances": 56,
+        "appearances": 48,
         "pos": 4,
         "total_points": 47
       },
@@ -1247,9 +1247,16 @@
       {
         "id": 124,
         "name": "Groß",
-        "appearances": 29,
+        "appearances": 30,
         "pos": 3,
         "total_points": 58
+      },
+      {
+        "id": 115,
+        "name": "De Cuyper",
+        "appearances": 27,
+        "pos": 2,
+        "total_points": 60
       },
       {
         "id": 368,
@@ -1264,13 +1271,6 @@
         "appearances": 26,
         "pos": 3,
         "total_points": 43
-      },
-      {
-        "id": 115,
-        "name": "De Cuyper",
-        "appearances": 25,
-        "pos": 2,
-        "total_points": 60
       },
       {
         "id": 426,
@@ -1301,18 +1301,18 @@
         "total_points": 42
       },
       {
+        "id": 346,
+        "name": "Calvert-Lewin",
+        "appearances": 18,
+        "pos": 4,
+        "total_points": 35
+      },
+      {
         "id": 154,
         "name": "Palmer",
         "appearances": 17,
         "pos": 3,
         "total_points": 37
-      },
-      {
-        "id": 346,
-        "name": "Calvert-Lewin",
-        "appearances": 17,
-        "pos": 4,
-        "total_points": 35
       },
       {
         "id": 1,
@@ -1322,9 +1322,16 @@
         "total_points": 49
       },
       {
+        "id": 15,
+        "name": "Ødegaard",
+        "appearances": 11,
+        "pos": 3,
+        "total_points": 36
+      },
+      {
         "id": 12,
         "name": "Saka",
-        "appearances": 12,
+        "appearances": 11,
         "pos": 3,
         "total_points": 37
       },
@@ -1334,13 +1341,6 @@
         "appearances": 10,
         "pos": 2,
         "total_points": 16
-      },
-      {
-        "id": 15,
-        "name": "Ødegaard",
-        "appearances": 10,
-        "pos": 3,
-        "total_points": 36
       },
       {
         "id": 464,
@@ -1402,6 +1402,14 @@
         ]
       },
       {
+        "id": 112,
+        "name": "Van Hecke",
+        "total_points": 38,
+        "owners": [
+          "Lukáš Kapinus"
+        ]
+      },
+      {
         "id": 156,
         "name": "Neto",
         "total_points": 37,
@@ -1410,8 +1418,8 @@
         ]
       },
       {
-        "id": 12,
-        "name": "Saka",
+        "id": 236,
+        "name": "Dewsbury-Hall",
         "total_points": 37,
         "owners": [
           "Marek Palán"
@@ -1422,7 +1430,16 @@
         "name": "Ødegaard",
         "total_points": 36,
         "owners": [
+          "Martin Holub",
           "Rudolf Kvapil"
+        ]
+      },
+      {
+        "id": 346,
+        "name": "Calvert-Lewin",
+        "total_points": 35,
+        "owners": [
+          "Martin Válek"
         ]
       },
       {
@@ -1431,22 +1448,6 @@
         "total_points": 32,
         "owners": [
           "Martin Válek"
-        ]
-      },
-      {
-        "id": 480,
-        "name": "Gibbs-White",
-        "total_points": 32,
-        "owners": [
-          "Jaroslav Bureš"
-        ]
-      },
-      {
-        "id": 173,
-        "name": "Thomas",
-        "total_points": 32,
-        "owners": [
-          "Lukáš Kapinus"
         ]
       }
     ],
@@ -1511,11 +1512,6 @@
             "gws": 7
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 7
-          },
-          {
             "id": 115,
             "name": "De Cuyper",
             "gws": 7
@@ -1523,6 +1519,11 @@
           {
             "id": 15,
             "name": "Ødegaard",
+            "gws": 7
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 6
           },
           {
@@ -1594,7 +1595,7 @@
           "5": 58,
           "6": 89,
           "7": 79,
-          "8": 17
+          "8": 31
         },
         "cap_history": [
           {
@@ -1643,7 +1644,7 @@
             "gw": 8,
             "player_id": 165,
             "player": "João Pedro",
-            "gw_total": 17
+            "gw_total": 31
           }
         ],
         "best_gw": [
@@ -1652,9 +1653,9 @@
         ],
         "worst_gw": [
           8,
-          17
+          31
         ],
-        "bench_points": 61,
+        "bench_points": 62,
         "hits_cost": 28,
         "transfers": 13
       },
@@ -1678,7 +1679,7 @@
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 7
+            "gws": 6
           },
           {
             "id": 124,
@@ -1765,7 +1766,7 @@
           "5": 45,
           "6": 71,
           "7": 59,
-          "8": 26
+          "8": 49
         },
         "cap_history": [
           {
@@ -1814,7 +1815,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 26
+            "gw_total": 49
           }
         ],
         "best_gw": [
@@ -1822,10 +1823,10 @@
           111
         ],
         "worst_gw": [
-          8,
-          26
+          5,
+          45
         ],
-        "bench_points": 78,
+        "bench_points": 80,
         "hits_cost": 0,
         "transfers": 6
       },
@@ -1837,23 +1838,23 @@
             "gws": 8
           },
           {
+            "id": 346,
+            "name": "Calvert-Lewin",
+            "gws": 8
+          },
+          {
             "id": 411,
             "name": "Haaland",
             "gws": 8
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 7
-          },
-          {
-            "id": 346,
-            "name": "Calvert-Lewin",
-            "gws": 7
-          },
-          {
             "id": 426,
             "name": "B.Fernandes",
+            "gws": 6
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 6
           },
           {
@@ -1938,7 +1939,7 @@
           "5": 53,
           "6": 60,
           "7": 73,
-          "8": 48
+          "8": 53
         },
         "cap_history": [
           {
@@ -1987,7 +1988,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 48
+            "gw_total": 53
           }
         ],
         "best_gw": [
@@ -1998,7 +1999,7 @@
           3,
           40
         ],
-        "bench_points": 76,
+        "bench_points": 78,
         "hits_cost": 4,
         "transfers": 8
       },
@@ -2020,14 +2021,19 @@
             "gws": 7
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 7
-          },
-          {
             "id": 426,
             "name": "B.Fernandes",
             "gws": 6
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 6
+          },
+          {
+            "id": 115,
+            "name": "De Cuyper",
+            "gws": 5
           },
           {
             "id": 40,
@@ -2042,11 +2048,6 @@
           {
             "id": 397,
             "name": "Semenyo",
-            "gws": 4
-          },
-          {
-            "id": 115,
-            "name": "De Cuyper",
             "gws": 4
           },
           {
@@ -2109,7 +2110,7 @@
           "5": 37,
           "6": 66,
           "7": 70,
-          "8": 36
+          "8": 45
         },
         "cap_history": [
           {
@@ -2158,7 +2159,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 36
+            "gw_total": 45
           }
         ],
         "best_gw": [
@@ -2166,10 +2167,10 @@
           96
         ],
         "worst_gw": [
-          8,
-          36
+          5,
+          37
         ],
-        "bench_points": 44,
+        "bench_points": 45,
         "hits_cost": 4,
         "transfers": 6
       },
@@ -2196,18 +2197,23 @@
             "gws": 7
           },
           {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 7
-          },
-          {
             "id": 334,
             "name": "Muharemović",
             "gws": 6
           },
           {
+            "id": 165,
+            "name": "João Pedro",
+            "gws": 6
+          },
+          {
             "id": 368,
             "name": "Szoboszlai",
+            "gws": 5
+          },
+          {
+            "id": 124,
+            "name": "Groß",
             "gws": 5
           },
           {
@@ -2223,11 +2229,6 @@
           {
             "id": 346,
             "name": "Calvert-Lewin",
-            "gws": 4
-          },
-          {
-            "id": 124,
-            "name": "Groß",
             "gws": 4
           },
           {
@@ -2285,7 +2286,7 @@
           "5": 55,
           "6": 71,
           "7": 65,
-          "8": 36
+          "8": 47
         },
         "cap_history": [
           {
@@ -2334,7 +2335,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 36
+            "gw_total": 47
           }
         ],
         "best_gw": [
@@ -2343,9 +2344,9 @@
         ],
         "worst_gw": [
           8,
-          36
+          47
         ],
-        "bench_points": 75,
+        "bench_points": 78,
         "hits_cost": 0,
         "transfers": 5
       },
@@ -2354,12 +2355,7 @@
           {
             "id": 236,
             "name": "Dewsbury-Hall",
-            "gws": 7
-          },
-          {
-            "id": 165,
-            "name": "João Pedro",
-            "gws": 7
+            "gws": 8
           },
           {
             "id": 8,
@@ -2369,6 +2365,11 @@
           {
             "id": 40,
             "name": "Rogers",
+            "gws": 6
+          },
+          {
+            "id": 165,
+            "name": "João Pedro",
             "gws": 6
           },
           {
@@ -2417,13 +2418,13 @@
             "gws": 3
           },
           {
-            "id": 115,
-            "name": "De Cuyper",
+            "id": 249,
+            "name": "Barry",
             "gws": 3
           },
           {
-            "id": 12,
-            "name": "Saka",
+            "id": 115,
+            "name": "De Cuyper",
             "gws": 3
           }
         ],
@@ -2460,7 +2461,7 @@
           "5": 51,
           "6": 83,
           "7": 67,
-          "8": 25
+          "8": 35
         },
         "cap_history": [
           {
@@ -2509,7 +2510,7 @@
             "gw": 8,
             "player_id": 165,
             "player": "João Pedro",
-            "gw_total": 25
+            "gw_total": 35
           }
         ],
         "best_gw": [
@@ -2518,9 +2519,9 @@
         ],
         "worst_gw": [
           8,
-          25
+          35
         ],
-        "bench_points": 129,
+        "bench_points": 125,
         "hits_cost": 0,
         "transfers": 5
       },
@@ -2544,7 +2545,7 @@
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 7
+            "gws": 6
           },
           {
             "id": 368,
@@ -2587,6 +2588,11 @@
             "gws": 4
           },
           {
+            "id": 115,
+            "name": "De Cuyper",
+            "gws": 4
+          },
+          {
             "id": 412,
             "name": "Lammens",
             "gws": 3
@@ -2594,11 +2600,6 @@
           {
             "id": 391,
             "name": "Gvardiol",
-            "gws": 3
-          },
-          {
-            "id": 398,
-            "name": "Foden",
             "gws": 3
           }
         ],
@@ -2630,7 +2631,7 @@
           "5": 43,
           "6": 74,
           "7": 67,
-          "8": 41
+          "8": 49
         },
         "cap_history": [
           {
@@ -2679,7 +2680,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 41
+            "gw_total": 49
           }
         ],
         "best_gw": [
@@ -2687,10 +2688,10 @@
           89
         ],
         "worst_gw": [
-          8,
-          41
+          5,
+          43
         ],
-        "bench_points": 77,
+        "bench_points": 79,
         "hits_cost": 0,
         "transfers": 3
       },
@@ -2714,7 +2715,7 @@
           {
             "id": 165,
             "name": "João Pedro",
-            "gws": 7
+            "gws": 6
           },
           {
             "id": 480,
@@ -2742,6 +2743,11 @@
             "gws": 5
           },
           {
+            "id": 112,
+            "name": "Van Hecke",
+            "gws": 4
+          },
+          {
             "id": 173,
             "name": "Thomas",
             "gws": 4
@@ -2759,11 +2765,6 @@
           {
             "id": 109,
             "name": "Verbruggen",
-            "gws": 3
-          },
-          {
-            "id": 112,
-            "name": "Van Hecke",
             "gws": 3
           },
           {
@@ -2806,7 +2807,7 @@
           "5": 41,
           "6": 75,
           "7": 72,
-          "8": 40
+          "8": 51
         },
         "cap_history": [
           {
@@ -2855,7 +2856,7 @@
             "gw": 8,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 40
+            "gw_total": 51
           }
         ],
         "best_gw": [
@@ -2863,10 +2864,10 @@
           89
         ],
         "worst_gw": [
-          8,
-          40
+          5,
+          41
         ],
-        "bench_points": 89,
+        "bench_points": 85,
         "hits_cost": 0,
         "transfers": 4
       }
