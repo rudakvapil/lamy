@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-01T22:29:40.670597+00:00",
+    "updated_at": "2026-11-02T01:56:02.829002+00:00",
     "current_gw": 9,
     "season": "2026/27",
     "league_id": 199256,
@@ -1285,7 +1285,7 @@
         "name": "Calafiori",
         "appearances": 63,
         "pos": 2,
-        "total_points": 53
+        "total_points": 51
       },
       {
         "id": 165,
@@ -1449,19 +1449,19 @@
         ]
       },
       {
-        "id": 8,
-        "name": "Calafiori",
-        "total_points": 53,
-        "owners": [
-          "Jaroslav Bureš"
-        ]
-      },
-      {
         "id": 112,
         "name": "Van Hecke",
         "total_points": 53,
         "owners": [
           "Lukáš Kapinus"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Calafiori",
+        "total_points": 51,
+        "owners": [
+          "Jaroslav Bureš"
         ]
       },
       {
@@ -3050,7 +3050,7 @@
       "web_name": "Calafiori",
       "team": 1,
       "element_type": 2,
-      "total_points": 53
+      "total_points": 51
     },
     "9": {
       "web_name": "Hincapie",
