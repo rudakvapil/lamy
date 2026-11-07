@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-07T19:06:55.086554+00:00",
+    "updated_at": "2026-11-07T23:09:27.168168+00:00",
     "current_gw": 10,
     "season": "2026/27",
     "league_id": 199256,
@@ -1731,7 +1731,7 @@
           "7": 79,
           "8": 31,
           "9": 63,
-          "10": 0
+          "10": 24
         },
         "cap_history": [
           {
@@ -1792,7 +1792,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 24
           }
         ],
         "best_gw": [
@@ -1801,9 +1801,9 @@
         ],
         "worst_gw": [
           10,
-          0
+          24
         ],
-        "bench_points": 70,
+        "bench_points": 72,
         "hits_cost": 36,
         "transfers": 18
       },
@@ -1916,7 +1916,7 @@
           "7": 59,
           "8": 49,
           "9": 51,
-          "10": 0
+          "10": 20
         },
         "cap_history": [
           {
@@ -1977,7 +1977,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 20
           }
         ],
         "best_gw": [
@@ -1986,9 +1986,9 @@
         ],
         "worst_gw": [
           10,
-          0
+          20
         ],
-        "bench_points": 97,
+        "bench_points": 101,
         "hits_cost": 4,
         "transfers": 9
       },
@@ -2103,7 +2103,7 @@
           "7": 73,
           "8": 53,
           "9": 48,
-          "10": 0
+          "10": 31
         },
         "cap_history": [
           {
@@ -2164,7 +2164,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 31
           }
         ],
         "best_gw": [
@@ -2173,9 +2173,9 @@
         ],
         "worst_gw": [
           10,
-          0
+          31
         ],
-        "bench_points": 90,
+        "bench_points": 94,
         "hits_cost": 4,
         "transfers": 10
       },
@@ -2288,7 +2288,7 @@
           "7": 70,
           "8": 45,
           "9": 60,
-          "10": 0
+          "10": 20
         },
         "cap_history": [
           {
@@ -2349,7 +2349,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 20
           }
         ],
         "best_gw": [
@@ -2358,9 +2358,9 @@
         ],
         "worst_gw": [
           10,
-          0
+          20
         ],
-        "bench_points": 62,
+        "bench_points": 64,
         "hits_cost": 8,
         "transfers": 10
       },
@@ -2478,7 +2478,7 @@
           "7": 65,
           "8": 47,
           "9": 46,
-          "10": 0
+          "10": 23
         },
         "cap_history": [
           {
@@ -2539,7 +2539,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 23
           }
         ],
         "best_gw": [
@@ -2548,9 +2548,9 @@
         ],
         "worst_gw": [
           10,
-          0
+          23
         ],
-        "bench_points": 96,
+        "bench_points": 106,
         "hits_cost": 0,
         "transfers": 7
       },
@@ -2672,7 +2672,7 @@
           "7": 67,
           "8": 35,
           "9": 65,
-          "10": 9
+          "10": 42
         },
         "cap_history": [
           {
@@ -2733,7 +2733,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 9
+            "gw_total": 42
           }
         ],
         "best_gw": [
@@ -2741,8 +2741,8 @@
           83
         ],
         "worst_gw": [
-          10,
-          9
+          8,
+          35
         ],
         "bench_points": 164,
         "hits_cost": 0,
@@ -2857,7 +2857,7 @@
           "7": 67,
           "8": 49,
           "9": 69,
-          "10": 0
+          "10": 24
         },
         "cap_history": [
           {
@@ -2918,7 +2918,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 24
           }
         ],
         "best_gw": [
@@ -2927,7 +2927,7 @@
         ],
         "worst_gw": [
           10,
-          0
+          24
         ],
         "bench_points": 96,
         "hits_cost": 0,
@@ -3047,7 +3047,7 @@
           "7": 72,
           "8": 51,
           "9": 75,
-          "10": 16
+          "10": 34
         },
         "cap_history": [
           {
@@ -3108,7 +3108,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 16
+            "gw_total": 34
           }
         ],
         "best_gw": [
@@ -3117,9 +3117,9 @@
         ],
         "worst_gw": [
           10,
-          16
+          34
         ],
-        "bench_points": 111,
+        "bench_points": 117,
         "hits_cost": 4,
         "transfers": 9
       }
@@ -5572,7 +5572,7 @@
       "web_name": "Justin",
       "team": 13,
       "element_type": 2,
-      "total_points": 49
+      "total_points": 51
     },
     "333": {
       "web_name": "Bornauw",
@@ -6028,7 +6028,7 @@
       "web_name": "Foden",
       "team": 15,
       "element_type": 3,
-      "total_points": 20
+      "total_points": 21
     },
     "399": {
       "web_name": "Cherki",
@@ -6586,7 +6586,7 @@
       "web_name": "Murillo",
       "team": 18,
       "element_type": 2,
-      "total_points": 33
+      "total_points": 35
     },
     "473": {
       "web_name": "Aina",
@@ -6622,7 +6622,7 @@
       "web_name": "Netz",
       "team": 18,
       "element_type": 2,
-      "total_points": 5
+      "total_points": 4
     },
     "479": {
       "web_name": "Bindon",
@@ -6634,7 +6634,7 @@
       "web_name": "Gibbs-White",
       "team": 18,
       "element_type": 3,
-      "total_points": 36
+      "total_points": 39
     },
     "482": {
       "web_name": "Hudson-Odoi",
@@ -6676,7 +6676,7 @@
       "web_name": "I.Sangaré",
       "team": 18,
       "element_type": 3,
-      "total_points": 6
+      "total_points": 7
     },
     "489": {
       "web_name": "Yates",
@@ -6706,7 +6706,7 @@
       "web_name": "Schlager",
       "team": 18,
       "element_type": 3,
-      "total_points": 29
+      "total_points": 31
     },
     "581": {
       "web_name": "Diomande",
@@ -6959,6 +6959,12 @@
       "team": 19,
       "element_type": 3,
       "total_points": 2
+    },
+    "671": {
+      "web_name": "Gunter",
+      "team": 19,
+      "element_type": 1,
+      "total_points": 0
     },
     "501": {
       "web_name": "Danso",
