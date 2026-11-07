@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-06T21:49:15.002187+00:00",
+    "updated_at": "2026-11-07T01:21:21.722529+00:00",
     "current_gw": 10,
     "season": "2026/27",
     "league_id": 199256,
@@ -2550,7 +2550,7 @@
           10,
           0
         ],
-        "bench_points": 95,
+        "bench_points": 96,
         "hits_cost": 0,
         "transfers": 7
       },
@@ -2672,7 +2672,7 @@
           "7": 67,
           "8": 35,
           "9": 65,
-          "10": 0
+          "10": 9
         },
         "cap_history": [
           {
@@ -2733,7 +2733,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 9
           }
         ],
         "best_gw": [
@@ -2742,9 +2742,9 @@
         ],
         "worst_gw": [
           10,
-          0
+          9
         ],
-        "bench_points": 148,
+        "bench_points": 164,
         "hits_cost": 0,
         "transfers": 7
       },
@@ -3047,7 +3047,7 @@
           "7": 72,
           "8": 51,
           "9": 75,
-          "10": 0
+          "10": 16
         },
         "cap_history": [
           {
@@ -3108,7 +3108,7 @@
             "gw": 10,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 16
           }
         ],
         "best_gw": [
@@ -3117,7 +3117,7 @@
         ],
         "worst_gw": [
           10,
-          0
+          16
         ],
         "bench_points": 111,
         "hits_cost": 4,
@@ -4402,7 +4402,7 @@
       "web_name": "Grimes",
       "team": 7,
       "element_type": 3,
-      "total_points": 18
+      "total_points": 19
     },
     "185": {
       "web_name": "Sakamoto",
@@ -4438,7 +4438,7 @@
       "web_name": "Tchaouna",
       "team": 7,
       "element_type": 3,
-      "total_points": 5
+      "total_points": 6
     },
     "191": {
       "web_name": "Borges Rodrigues",
@@ -4492,19 +4492,19 @@
       "web_name": "Yirenkyi",
       "team": 7,
       "element_type": 3,
-      "total_points": 20
+      "total_points": 19
     },
     "584": {
       "web_name": "Hamer",
       "team": 7,
       "element_type": 3,
-      "total_points": 5
+      "total_points": 6
     },
     "599": {
       "web_name": "Cherif",
       "team": 7,
       "element_type": 4,
-      "total_points": 17
+      "total_points": 18
     },
     "623": {
       "web_name": "Bentley",
@@ -4780,13 +4780,13 @@
       "web_name": "Branthwaite",
       "team": 9,
       "element_type": 2,
-      "total_points": 44
+      "total_points": 43
     },
     "231": {
       "web_name": "Keane",
       "team": 9,
       "element_type": 2,
-      "total_points": 2
+      "total_points": 3
     },
     "232": {
       "web_name": "O'Brien",
@@ -4798,7 +4798,7 @@
       "web_name": "Mykolenko",
       "team": 9,
       "element_type": 2,
-      "total_points": 41
+      "total_points": 42
     },
     "234": {
       "web_name": "Patterson",
@@ -4840,7 +4840,7 @@
       "web_name": "Alcaraz",
       "team": 9,
       "element_type": 3,
-      "total_points": 3
+      "total_points": 4
     },
     "244": {
       "web_name": "Armstrong",
