@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-21T23:36:53.842034+00:00",
+    "updated_at": "2026-11-22T03:42:24.885048+00:00",
     "current_gw": 11,
     "season": "2026/27",
     "league_id": 199256,
@@ -3317,7 +3317,7 @@
       "web_name": "Rice",
       "team": 1,
       "element_type": 3,
-      "total_points": 51
+      "total_points": 53
     },
     "14": {
       "web_name": "Eze",
