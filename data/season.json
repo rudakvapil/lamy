@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-22T20:00:27.267990+00:00",
+    "updated_at": "2026-11-23T00:36:35.238181+00:00",
     "current_gw": 11,
     "season": "2026/27",
     "league_id": 199256,
@@ -1788,7 +1788,7 @@
           "8": 31,
           "9": 63,
           "10": 60,
-          "11": 25
+          "11": 30
         },
         "cap_history": [
           {
@@ -1855,7 +1855,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 25
+            "gw_total": 30
           }
         ],
         "best_gw": [
@@ -1864,9 +1864,9 @@
         ],
         "worst_gw": [
           11,
-          25
+          30
         ],
-        "bench_points": 85,
+        "bench_points": 86,
         "hits_cost": 36,
         "transfers": 19
       },
@@ -1980,7 +1980,7 @@
           "8": 49,
           "9": 51,
           "10": 60,
-          "11": 23
+          "11": 33
         },
         "cap_history": [
           {
@@ -2047,7 +2047,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 23
+            "gw_total": 33
           }
         ],
         "best_gw": [
@@ -2056,7 +2056,7 @@
         ],
         "worst_gw": [
           11,
-          23
+          33
         ],
         "bench_points": 109,
         "hits_cost": 4,
@@ -2176,7 +2176,7 @@
           "8": 53,
           "9": 48,
           "10": 59,
-          "11": 37
+          "11": 56
         },
         "cap_history": [
           {
@@ -2243,7 +2243,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 37
+            "gw_total": 56
           }
         ],
         "best_gw": [
@@ -2251,8 +2251,8 @@
           102
         ],
         "worst_gw": [
-          11,
-          37
+          3,
+          40
         ],
         "bench_points": 105,
         "hits_cost": 4,
@@ -2368,7 +2368,7 @@
           "8": 45,
           "9": 60,
           "10": 63,
-          "11": 40
+          "11": 45
         },
         "cap_history": [
           {
@@ -2435,7 +2435,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 40
+            "gw_total": 45
           }
         ],
         "best_gw": [
@@ -2566,7 +2566,7 @@
           "8": 47,
           "9": 46,
           "10": 60,
-          "11": 44
+          "11": 55
         },
         "cap_history": [
           {
@@ -2633,7 +2633,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 44
+            "gw_total": 55
           }
         ],
         "best_gw": [
@@ -2641,8 +2641,8 @@
           107
         ],
         "worst_gw": [
-          11,
-          44
+          9,
+          46
         ],
         "bench_points": 107,
         "hits_cost": 0,
@@ -2767,7 +2767,7 @@
           "8": 35,
           "9": 65,
           "10": 64,
-          "11": 29
+          "11": 34
         },
         "cap_history": [
           {
@@ -2834,7 +2834,7 @@
             "gw": 11,
             "player_id": 166,
             "player": "N.Jackson",
-            "gw_total": 29
+            "gw_total": 34
           }
         ],
         "best_gw": [
@@ -2843,7 +2843,7 @@
         ],
         "worst_gw": [
           11,
-          29
+          34
         ],
         "bench_points": 181,
         "hits_cost": 0,
@@ -2959,7 +2959,7 @@
           "8": 49,
           "9": 69,
           "10": 72,
-          "11": 34
+          "11": 39
         },
         "cap_history": [
           {
@@ -3026,7 +3026,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 34
+            "gw_total": 39
           }
         ],
         "best_gw": [
@@ -3035,9 +3035,9 @@
         ],
         "worst_gw": [
           11,
-          34
+          39
         ],
-        "bench_points": 112,
+        "bench_points": 113,
         "hits_cost": 0,
         "transfers": 8
       },
@@ -3156,7 +3156,7 @@
           "8": 51,
           "9": 75,
           "10": 67,
-          "11": 43
+          "11": 48
         },
         "cap_history": [
           {
@@ -3223,7 +3223,7 @@
             "gw": 11,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 43
+            "gw_total": 48
           }
         ],
         "best_gw": [
@@ -3234,7 +3234,7 @@
           5,
           41
         ],
-        "bench_points": 130,
+        "bench_points": 133,
         "hits_cost": 4,
         "transfers": 9
       }
