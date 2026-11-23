@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-23T08:21:40.671768+00:00",
+    "updated_at": "2026-11-23T20:39:04.941785+00:00",
     "current_gw": 11,
     "season": "2026/27",
     "league_id": 199256,
@@ -1597,7 +1597,7 @@
       {
         "id": 236,
         "name": "Dewsbury-Hall",
-        "total_points": 50,
+        "total_points": 51,
         "owners": [
           "Marek Palán"
         ]
@@ -3815,7 +3815,7 @@
       "web_name": "Kelleher",
       "team": 4,
       "element_type": 1,
-      "total_points": 35
+      "total_points": 36
     },
     "83": {
       "web_name": "Valdimarsson",
@@ -3833,25 +3833,25 @@
       "web_name": "Van den Berg",
       "team": 4,
       "element_type": 2,
-      "total_points": 14
+      "total_points": 15
     },
     "86": {
       "web_name": "Lewis-Potter",
       "team": 4,
       "element_type": 3,
-      "total_points": 39
+      "total_points": 53
     },
     "87": {
       "web_name": "Ajer",
       "team": 4,
       "element_type": 2,
-      "total_points": 42
+      "total_points": 43
     },
     "88": {
       "web_name": "Kayode",
       "team": 4,
       "element_type": 2,
-      "total_points": 34
+      "total_points": 35
     },
     "89": {
       "web_name": "Henry",
@@ -3887,13 +3887,13 @@
       "web_name": "O.Dango",
       "team": 4,
       "element_type": 3,
-      "total_points": 26
+      "total_points": 27
     },
     "96": {
       "web_name": "Damsgaard",
       "team": 4,
       "element_type": 3,
-      "total_points": 19
+      "total_points": 21
     },
     "97": {
       "web_name": "Jensen",
@@ -3905,7 +3905,7 @@
       "web_name": "Janelt",
       "team": 4,
       "element_type": 3,
-      "total_points": 37
+      "total_points": 38
     },
     "99": {
       "web_name": "Milambo",
@@ -3923,7 +3923,7 @@
       "web_name": "Yarmoliuk",
       "team": 4,
       "element_type": 3,
-      "total_points": 16
+      "total_points": 17
     },
     "103": {
       "web_name": "Dasilva",
@@ -3935,7 +3935,7 @@
       "web_name": "Anthony",
       "team": 4,
       "element_type": 3,
-      "total_points": 27
+      "total_points": 33
     },
     "106": {
       "web_name": "Thiago",
@@ -3953,7 +3953,7 @@
       "web_name": "Wilson",
       "team": 4,
       "element_type": 4,
-      "total_points": 6
+      "total_points": 8
     },
     "565": {
       "web_name": "M.Sangaré",
@@ -4919,7 +4919,7 @@
       "web_name": "Mykolenko",
       "team": 9,
       "element_type": 2,
-      "total_points": 42
+      "total_points": 41
     },
     "234": {
       "web_name": "Patterson",
@@ -4937,7 +4937,7 @@
       "web_name": "Dewsbury-Hall",
       "team": 9,
       "element_type": 3,
-      "total_points": 50
+      "total_points": 51
     },
     "238": {
       "web_name": "Grealish",
@@ -4949,13 +4949,13 @@
       "web_name": "Garner",
       "team": 9,
       "element_type": 3,
-      "total_points": 25
+      "total_points": 26
     },
     "242": {
       "web_name": "George",
       "team": 9,
       "element_type": 3,
-      "total_points": 30
+      "total_points": 31
     },
     "243": {
       "web_name": "Alcaraz",
@@ -4967,7 +4967,7 @@
       "web_name": "Armstrong",
       "team": 9,
       "element_type": 3,
-      "total_points": 28
+      "total_points": 29
     },
     "245": {
       "web_name": "Dibling",
@@ -4979,7 +4979,7 @@
       "web_name": "Röhl",
       "team": 9,
       "element_type": 3,
-      "total_points": 15
+      "total_points": 16
     },
     "247": {
       "web_name": "Hackney",
@@ -4997,7 +4997,7 @@
       "web_name": "Barry",
       "team": 9,
       "element_type": 4,
-      "total_points": 55
+      "total_points": 56
     },
     "649": {
       "web_name": "Maitland-Niles",
@@ -6911,7 +6911,7 @@
       "web_name": "Pedro Porro",
       "team": 19,
       "element_type": 2,
-      "total_points": 28
+      "total_points": 27
     },
     "500": {
       "web_name": "Romero",
@@ -7085,7 +7085,7 @@
       "web_name": "Williams-Barnett",
       "team": 19,
       "element_type": 3,
-      "total_points": 14
+      "total_points": 15
     },
     "671": {
       "web_name": "Gunter",
