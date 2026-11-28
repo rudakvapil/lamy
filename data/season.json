@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-27T23:01:32.198947+00:00",
+    "updated_at": "2026-11-28T05:10:43.484295+00:00",
     "current_gw": 12,
     "season": "2026/27",
     "league_id": 199256,
@@ -1859,7 +1859,7 @@
           "9": 63,
           "10": 60,
           "11": 30,
-          "12": 0
+          "12": 2
         },
         "cap_history": [
           {
@@ -1932,7 +1932,7 @@
             "gw": 12,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -1941,7 +1941,7 @@
         ],
         "worst_gw": [
           12,
-          0
+          2
         ],
         "bench_points": 86,
         "hits_cost": 36,
@@ -2063,7 +2063,7 @@
           "9": 51,
           "10": 60,
           "11": 33,
-          "12": 0
+          "12": 2
         },
         "cap_history": [
           {
@@ -2136,7 +2136,7 @@
             "gw": 12,
             "player_id": 379,
             "player": "Isak",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -2145,7 +2145,7 @@
         ],
         "worst_gw": [
           12,
-          0
+          2
         ],
         "bench_points": 110,
         "hits_cost": 8,
@@ -2271,7 +2271,7 @@
           "9": 48,
           "10": 59,
           "11": 56,
-          "12": 0
+          "12": 6
         },
         "cap_history": [
           {
@@ -2344,7 +2344,7 @@
             "gw": 12,
             "player_id": 40,
             "player": "Rogers",
-            "gw_total": 0
+            "gw_total": 6
           }
         ],
         "best_gw": [
@@ -2353,7 +2353,7 @@
         ],
         "worst_gw": [
           12,
-          0
+          6
         ],
         "bench_points": 107,
         "hits_cost": 4,
@@ -2475,7 +2475,7 @@
           "9": 60,
           "10": 63,
           "11": 45,
-          "12": 0
+          "12": 2
         },
         "cap_history": [
           {
@@ -2548,7 +2548,7 @@
             "gw": 12,
             "player_id": 166,
             "player": "N.Jackson",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -2557,7 +2557,7 @@
         ],
         "worst_gw": [
           12,
-          0
+          2
         ],
         "bench_points": 72,
         "hits_cost": 8,
@@ -2680,7 +2680,7 @@
           "9": 46,
           "10": 60,
           "11": 55,
-          "12": 0
+          "12": 2
         },
         "cap_history": [
           {
@@ -2753,7 +2753,7 @@
             "gw": 12,
             "player_id": 411,
             "player": "Haaland",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -2762,9 +2762,9 @@
         ],
         "worst_gw": [
           12,
-          0
+          2
         ],
-        "bench_points": 107,
+        "bench_points": 116,
         "hits_cost": 0,
         "transfers": 9
       },
@@ -2888,7 +2888,7 @@
           "9": 65,
           "10": 64,
           "11": 36,
-          "12": 0
+          "12": 2
         },
         "cap_history": [
           {
@@ -2961,7 +2961,7 @@
             "gw": 12,
             "player_id": 166,
             "player": "N.Jackson",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -2970,7 +2970,7 @@
         ],
         "worst_gw": [
           12,
-          0
+          2
         ],
         "bench_points": 183,
         "hits_cost": 0,
@@ -3092,7 +3092,7 @@
           "9": 69,
           "10": 72,
           "11": 39,
-          "12": 0
+          "12": 4
         },
         "cap_history": [
           {
@@ -3165,7 +3165,7 @@
             "gw": 12,
             "player_id": 79,
             "player": "Evanilson",
-            "gw_total": 0
+            "gw_total": 4
           }
         ],
         "best_gw": [
@@ -3174,7 +3174,7 @@
         ],
         "worst_gw": [
           12,
-          0
+          4
         ],
         "bench_points": 113,
         "hits_cost": 0,
@@ -3301,7 +3301,7 @@
           "9": 75,
           "10": 67,
           "11": 48,
-          "12": 0
+          "12": 2
         },
         "cap_history": [
           {
@@ -3374,7 +3374,7 @@
             "gw": 12,
             "player_id": 346,
             "player": "Calvert-Lewin",
-            "gw_total": 0
+            "gw_total": 2
           }
         ],
         "best_gw": [
@@ -3383,9 +3383,9 @@
         ],
         "worst_gw": [
           12,
-          0
+          2
         ],
-        "bench_points": 135,
+        "bench_points": 137,
         "hits_cost": 4,
         "transfers": 11
       }
